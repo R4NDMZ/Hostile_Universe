@@ -1,0 +1,1339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Blueprints>
+        <!-- COMPONENT DEFINITIONS      -->
+        <!-- TIER: 2   [  TI  AGE]      -->
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>TitaniumPlateEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_TitaniumPlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\titaniumPlate.dds</Icon>
+            <Prerequisites>
+                <Item Amount="210" TypeId="Ingot" SubtypeId="Titanium" />
+            </Prerequisites>
+            <Result Amount="14" TypeId="Component" SubtypeId="TitaniumPlate" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>TitaniumPlateProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_TitaniumPlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\titaniumPlate.dds</Icon>
+            <Prerequisites>
+                <Item Amount="180" TypeId="Ingot" SubtypeId="Titanium" />
+            </Prerequisites>
+            <Result Amount="18" TypeId="Component" SubtypeId="TitaniumPlate" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>TitaniumPlateProficientExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_TitaniumPlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\titaniumPlate.dds</Icon>
+            <Prerequisites>
+                <Item Amount="25" TypeId="Ingot" SubtypeId="Titanium" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="TitaniumPlate" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>TitaniumPlateElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_TitaniumPlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\titaniumPlate.dds</Icon>
+            <Prerequisites>
+                <Item Amount="150" TypeId="Ingot" SubtypeId="Titanium" />
+            </Prerequisites>
+            <Result Amount="35" TypeId="Component" SubtypeId="TitaniumPlate" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>TitaniumPlateEliteExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_TitaniumPlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\titaniumPlate.dds</Icon>
+            <Prerequisites>
+                <Item Amount="15" TypeId="Ingot" SubtypeId="Titanium" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="TitaniumPlate" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>TitaniumInteriorPlateEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_TitaniumInteriorPlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\interior_plate_component4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="30" TypeId="Ingot" SubtypeId="Titanium" />
+            </Prerequisites>
+            <Result Amount="20" TypeId="Component" SubtypeId="TitaniumInteriorPlate" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>TitaniumInteriorPlateProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_TitaniumInteriorPlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\interior_plate_component4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="25" TypeId="Ingot" SubtypeId="Titanium" />
+            </Prerequisites>
+            <Result Amount="25" TypeId="Component" SubtypeId="TitaniumInteriorPlate" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>TitaniumInteriorPlateProficientExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_TitaniumInteriorPlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\interior_plate_component4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="10" TypeId="Ingot" SubtypeId="Titanium" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="TitaniumInteriorPlate" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>TitaniumInteriorPlateElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_TitaniumInteriorPlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\interior_plate_component4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="20" TypeId="Ingot" SubtypeId="Titanium" />
+            </Prerequisites>
+            <Result Amount="40" TypeId="Component" SubtypeId="TitaniumInteriorPlate" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>TitaniumInteriorPlateEliteExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_TitaniumInteriorPlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\interior_plate_component4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="5" TypeId="Ingot" SubtypeId="Titanium" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="TitaniumInteriorPlate" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientConstructionComponentEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientConstruction}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\construction_components_component4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="160" TypeId="Ingot" SubtypeId="Titanium" />
+                <Item Amount="25" TypeId="Component" SubtypeId="EnhancedConstruction" />
+            </Prerequisites>
+            <Result Amount="25" TypeId="Component" SubtypeId="ProficientConstruction" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientConstructionComponentProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientConstruction}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\construction_components_component4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="120.0" TypeId="Ingot" SubtypeId="Titanium" />
+                <Item Amount="20.0" TypeId="Component" SubtypeId="EnhancedConstruction" />
+            </Prerequisites>
+            <Result Amount="40" TypeId="Component" SubtypeId="ProficientConstruction" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientConstructionComponentProficientExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientConstruction}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\construction_components_component4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="12.0" TypeId="Ingot" SubtypeId="Titanium" />
+                <Item Amount="2" TypeId="Component" SubtypeId="EnhancedConstruction" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="ProficientConstruction" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientConstructionComponentElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientConstruction}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\construction_components_component4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="80.0" TypeId="Ingot" SubtypeId="Titanium" />
+                <Item Amount="50" TypeId="Component" SubtypeId="EnhancedConstruction" />
+            </Prerequisites>
+            <Result Amount="50" TypeId="Component" SubtypeId="ProficientConstruction" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientConstructionComponentEliteExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientConstruction}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\construction_components_component4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="8.0" TypeId="Ingot" SubtypeId="Titanium" />
+                <Item Amount="1" TypeId="Component" SubtypeId="EnhancedConstruction" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="ProficientConstruction" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientGirderComponentEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientGirder}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\girder_component4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="45" TypeId="Ingot" SubtypeId="Titanium" />
+                <Item Amount="40" TypeId="Ingot" SubtypeId="KobAld" />
+                <Item Amount="25" TypeId="Component" SubtypeId="EnhancedGirder" />
+            </Prerequisites>
+            <Result Amount="25" TypeId="Component" SubtypeId="ProficientGirder" />
+            <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientGirderComponentProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientGirder}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\girder_component4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="32.5" TypeId="Ingot" SubtypeId="Titanium" />
+                <Item Amount="30" TypeId="Ingot" SubtypeId="KobAld" />
+                <Item Amount="30" TypeId="Component" SubtypeId="EnhancedGirder" />
+            </Prerequisites>
+            <Result Amount="30" TypeId="Component" SubtypeId="ProficientGirder" />
+            <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientGirderComponentProficientExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientGirder}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\girder_component4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="6" TypeId="Ingot" SubtypeId="Titanium" />
+                <Item Amount="6" TypeId="Ingot" SubtypeId="KobAld" />
+                <Item Amount="2" TypeId="Component" SubtypeId="EnhancedGirder" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="ProficientGirder" />
+            <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientGirderComponentElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientGirder}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\girder_component4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="20" TypeId="Ingot" SubtypeId="Titanium" />
+                <Item Amount="20" TypeId="Ingot" SubtypeId="KobAld" />
+                <Item Amount="45" TypeId="Component" SubtypeId="EnhancedGirder" />
+            </Prerequisites>
+            <Result Amount="45" TypeId="Component" SubtypeId="ProficientGirder" />
+            <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientGirderComponentEliteExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientGirder}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\girder_component4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="2" TypeId="Ingot" SubtypeId="Titanium" />
+                <Item Amount="2" TypeId="Ingot" SubtypeId="KobAld" />
+                <Item Amount="2" TypeId="Component" SubtypeId="EnhancedGirder" />
+            </Prerequisites>
+            <Result Amount="2" TypeId="Component" SubtypeId="ProficientGirder" />
+            <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SmallTitaniumTubeEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_SmallTitaniumTube}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\small_tube_component4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="40" TypeId="Ingot" SubtypeId="Titanium" />
+            </Prerequisites>
+            <Result Amount="25" TypeId="Component" SubtypeId="SmallTitaniumTube" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SmallTitaniumTubeProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_SmallTitaniumTube}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\small_tube_component4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="30" TypeId="Ingot" SubtypeId="Titanium" />
+            </Prerequisites>
+            <Result Amount="30" TypeId="Component" SubtypeId="SmallTitaniumTube" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SmallTitaniumTubeProficientExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_SmallTitaniumTube}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\small_tube_component4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="5" TypeId="Ingot" SubtypeId="Titanium" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="SmallTitaniumTube" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SmallTitaniumTubeElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_SmallTitaniumTube}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\small_tube_component4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="25" TypeId="Ingot" SubtypeId="Titanium" />
+            </Prerequisites>
+            <Result Amount="50" TypeId="Component" SubtypeId="SmallTitaniumTube" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SmallTitaniumTubeEliteExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_SmallTitaniumTube}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\small_tube_component4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="2" TypeId="Ingot" SubtypeId="Titanium" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="SmallTitaniumTube" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientMotorComponentEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientMotor}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\motor_component4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="10" TypeId="Ingot" SubtypeId="Titanium" />
+                <Item Amount="25" TypeId="Ingot" SubtypeId="Gold" />
+                <Item Amount="5" TypeId="Component" SubtypeId="EnhancedMotor" />
+            </Prerequisites>
+            <Result Amount="5" TypeId="Component" SubtypeId="ProficientMotor" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientMotorComponentProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientMotor}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\motor_component4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="9.125" TypeId="Ingot" SubtypeId="Titanium" />
+                <Item Amount="22.25" TypeId="Ingot" SubtypeId="Gold" />
+                <Item Amount="7" TypeId="Component" SubtypeId="EnhancedMotor" />
+            </Prerequisites>
+            <Result Amount="7" TypeId="Component" SubtypeId="ProficientMotor" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientMotorComponentProficientExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientMotor}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\motor_component4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="4.6" TypeId="Ingot" SubtypeId="Titanium" />
+                <Item Amount="11.5" TypeId="Ingot" SubtypeId="Gold" />
+                <Item Amount="2" TypeId="Component" SubtypeId="EnhancedMotor" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="ProficientMotor" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientMotorComponentElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientMotor}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\motor_component4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="8.6125" TypeId="Ingot" SubtypeId="Titanium" />
+                <Item Amount="20.125" TypeId="Ingot" SubtypeId="Gold" />
+                <Item Amount="9" TypeId="Component" SubtypeId="EnhancedMotor" />
+            </Prerequisites>
+            <Result Amount="9" TypeId="Component" SubtypeId="ProficientMotor" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientMotorComponentEliteExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientMotor}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\motor_component4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="7" TypeId="Ingot" SubtypeId="Titanium" />
+                <Item Amount="11.5" TypeId="Ingot" SubtypeId="Gold" />
+                <Item Amount="1" TypeId="Component" SubtypeId="EnhancedMotor" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="ProficientMotor" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientCircuitEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientCircuit}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\circuit4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="9.5" TypeId="Ingot" SubtypeId="Titanium" />
+                <Item Amount="6.65" TypeId="Ingot" SubtypeId="Gold" />
+                <Item Amount="5" TypeId="Component" SubtypeId="EnhancedCircuit" />
+            </Prerequisites>
+            <Result Amount="5" TypeId="Component" SubtypeId="ProficientCircuit" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientCircuitProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientCircuit}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\circuit4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="7.4" TypeId="Ingot" SubtypeId="Titanium" />
+                <Item Amount="6.25" TypeId="Ingot" SubtypeId="Gold" />
+                <Item Amount="10" TypeId="Component" SubtypeId="EnhancedCircuit" />
+            </Prerequisites>
+            <Result Amount="6" TypeId="Component" SubtypeId="ProficientCircuit" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientCircuitProficientExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientCircuit}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\circuit4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="7.4" TypeId="Ingot" SubtypeId="Titanium" />
+                <Item Amount="6.25" TypeId="Ingot" SubtypeId="Gold" />
+                <Item Amount="2" TypeId="Component" SubtypeId="EnhancedCircuit" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="ProficientCircuit" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientCircuitElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientCircuit}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\circuit4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="7.0" TypeId="Ingot" SubtypeId="Titanium" />
+                <Item Amount="5.0" TypeId="Ingot" SubtypeId="Gold" />
+                <Item Amount="10" TypeId="Component" SubtypeId="EnhancedCircuit" />
+            </Prerequisites>
+            <Result Amount="10" TypeId="Component" SubtypeId="ProficientCircuit" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientCircuitEliteExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientCircuit}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\circuit4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="7.0" TypeId="Ingot" SubtypeId="Titanium" />
+                <Item Amount="5.0" TypeId="Ingot" SubtypeId="Gold" />
+                <Item Amount="1" TypeId="Component" SubtypeId="EnhancedCircuit" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="ProficientCircuit" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientDisplayEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientDisplay}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\display_component4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="5.25" TypeId="Ingot" SubtypeId="Titanium" />
+                <Item Amount="7.75" TypeId="Ingot" SubtypeId="GoldWire" />
+                <Item Amount="8" TypeId="Component" SubtypeId="ProficientBulletproofGlass" />
+                <Item Amount="7" TypeId="Component" SubtypeId="RubberSheet" />
+            </Prerequisites>
+            <Result Amount="3" TypeId="Component" SubtypeId="ProficientDisplay" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientDisplayProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientDisplay}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\display_component4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="4.0" TypeId="Ingot" SubtypeId="Titanium" />
+                <Item Amount="7.25" TypeId="Ingot" SubtypeId="GoldWire" />
+                <Item Amount="7" TypeId="Component" SubtypeId="ProficientBulletproofGlass" />
+                <Item Amount="6" TypeId="Component" SubtypeId="RubberSheet" />
+            </Prerequisites>
+            <Result Amount="5" TypeId="Component" SubtypeId="ProficientDisplay" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientDisplayProficientExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientDisplay}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\display_component4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="4.0" TypeId="Ingot" SubtypeId="Titanium" />
+                <Item Amount="7.25" TypeId="Ingot" SubtypeId="GoldWire" />
+                <Item Amount="7" TypeId="Component" SubtypeId="ProficientBulletproofGlass" />
+                <Item Amount="6" TypeId="Component" SubtypeId="RubberSheet" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="ProficientDisplay" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientDisplayElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientDisplay}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\display_component4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="3.15" TypeId="Ingot" SubtypeId="Titanium" />
+                <Item Amount="6.5" TypeId="Ingot" SubtypeId="GoldWire" />
+                <Item Amount="7" TypeId="Component" SubtypeId="ProficientBulletproofGlass" />
+                <Item Amount="5" TypeId="Component" SubtypeId="RubberSheet" />
+            </Prerequisites>
+            <Result Amount="7" TypeId="Component" SubtypeId="ProficientDisplay" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientDisplayEliteExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientDisplay}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\display_component4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="3.15" TypeId="Ingot" SubtypeId="Titanium" />
+                <Item Amount="6.5" TypeId="Ingot" SubtypeId="GoldWire" />
+                <Item Amount="7" TypeId="Component" SubtypeId="ProficientBulletproofGlass" />
+                <Item Amount="5" TypeId="Component" SubtypeId="RubberSheet" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="ProficientDisplay" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>RubberSheetProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_RubberSheet}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\rubberSheet.dds</Icon>
+            <Prerequisites>
+                <Item Amount="3.5" TypeId="Ingot" SubtypeId="Rubber" />
+                <Item Amount="2" TypeId="Component" SubtypeId="SiliconSheet" />
+                <Item Amount="2" TypeId="Component" SubtypeId="PlasticSheet" />
+            </Prerequisites>
+            <Result Amount="2" TypeId="Component" SubtypeId="RubberSheet" />
+            <BaseProductionTimeInSeconds>2.5</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>RubberSheetElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_RubberSheet}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\rubberSheet.dds</Icon>
+            <Prerequisites>
+                <Item Amount="3" TypeId="Ingot" SubtypeId="Rubber" />
+                <Item Amount="1" TypeId="Component" SubtypeId="SiliconSheet" />
+                <Item Amount="1" TypeId="Component" SubtypeId="PlasticSheet" />
+            </Prerequisites>
+            <Result Amount="3" TypeId="Component" SubtypeId="RubberSheet" />
+            <BaseProductionTimeInSeconds>2.5</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientBulletproofGlassComponentProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientBulletproofGlass}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\bulletproof_glass_component4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="5.5" TypeId="Ingot" SubtypeId="ProficientBulletproofGlass" />
+                <Item Amount="1" TypeId="Component" SubtypeId="RubberSheet" />
+            </Prerequisites>
+            <Result Amount="3" TypeId="Component" SubtypeId="ProficientBulletproofGlass" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientBulletproofGlassComponentElite</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_BulletproofGlass</DisplayName>
+            <Icon>Textures\GUI\Icons\component\bulletproof_glass_component4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="4" TypeId="Ingot" SubtypeId="ProficientBulletproofGlass" />
+                <Item Amount="1" TypeId="Component" SubtypeId="RubberSheet" />
+            </Prerequisites>
+            <Result Amount="4" TypeId="Component" SubtypeId="ProficientBulletproofGlass" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>GoldPlateProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_GoldPlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\goldPlate.dds</Icon>
+            <Prerequisites>
+                <Item Amount="150" TypeId="Ingot" SubtypeId="Gold" />
+            </Prerequisites>
+            <Result Amount="20" TypeId="Component" SubtypeId="GoldPlate" />
+            <BaseProductionTimeInSeconds>0.75</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>GoldPlateElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_GoldPlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\goldPlate.dds</Icon>
+            <Prerequisites>
+                <Item Amount="120" TypeId="Ingot" SubtypeId="Gold" />
+            </Prerequisites>
+            <Result Amount="40" TypeId="Component" SubtypeId="GoldPlate" />
+            <BaseProductionTimeInSeconds>0.75</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>KobAlTitePlateProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_KobAlTitePlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\kobAlTitePlate.dds</Icon>
+            <Prerequisites>
+                <Item Amount="195" TypeId="Ingot" SubtypeId="KobAlTite" />
+            </Prerequisites>
+            <Result Amount="20" TypeId="Component" SubtypeId="KobAlTitePlate" />
+            <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>KobAlTitePlateElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_KobAlTitePlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\kobAlTitePlate.dds</Icon>
+            <Prerequisites>
+                <Item Amount="180" TypeId="Ingot" SubtypeId="KobAlTite" />
+            </Prerequisites>
+            <Result Amount="30" TypeId="Component" SubtypeId="KobAlTitePlate" />
+            <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SmallKobAlTiteTubeProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_SmallKobAlTiteTube}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\smallKobAlTiteTube.dds</Icon>
+            <Prerequisites>
+                <Item Amount="40" TypeId="Ingot" SubtypeId="KobAlTite" />
+            </Prerequisites>
+            <Result Amount="25" TypeId="Component" SubtypeId="SmallKobAlTiteTube" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SmallKobAlTiteTubeElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_SmallKobAlTiteTube}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\smallKobAlTiteTube.dds</Icon>
+            <Prerequisites>
+                <Item Amount="35" TypeId="Ingot" SubtypeId="KobAlTite" />
+            </Prerequisites>
+            <Result Amount="35" TypeId="Component" SubtypeId="SmallKobAlTiteTube" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>LargeTitaniumTubeProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_LargeTitaniumTube}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\largeTitaniumTube.dds</Icon>
+            <Prerequisites>
+                <Item Amount="120" TypeId="Ingot" SubtypeId="Titanium" />
+            </Prerequisites>
+            <Result Amount="8" TypeId="Component" SubtypeId="LargeTitaniumTube" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>LargeTitaniumTubeElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_LargeTitaniumTube}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\largeTitaniumTube.dds</Icon>
+            <Prerequisites>
+                <Item Amount="100" TypeId="Ingot" SubtypeId="Titanium" />
+            </Prerequisites>
+            <Result Amount="10" TypeId="Component" SubtypeId="LargeTitaniumTube" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>LargeKobAlTiteTubeProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_LargeKobAlTiteTube}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\largeKobAlTiteTube.dds</Icon>
+            <Prerequisites>
+                <Item Amount="150" TypeId="Ingot" SubtypeId="KobAlTite" />
+            </Prerequisites>
+            <Result Amount="7" TypeId="Component" SubtypeId="LargeKobAlTiteTube" />
+            <BaseProductionTimeInSeconds>5.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>LargeKobAlTiteTubeElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_LargeKobAlTiteTube}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\largeKobAlTiteTube.dds</Icon>
+            <Prerequisites>
+                <Item Amount="130" TypeId="Ingot" SubtypeId="KobAlTite" />
+            </Prerequisites>
+            <Result Amount="10" TypeId="Component" SubtypeId="LargeKobAlTiteTube" />
+            <BaseProductionTimeInSeconds>5.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientMetalGridProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientMetalGrid}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\metal_grid_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="30.225" TypeId="Ingot" SubtypeId="Titanium" />
+                <Item Amount="17.125" TypeId="Ingot" SubtypeId="KobAlTite" />
+                <Item Amount="8" TypeId="Component" SubtypeId="EnhancedMetalGrid" />
+            </Prerequisites>
+            <Result Amount="8" TypeId="Component" SubtypeId="ProficientMetalGrid" />
+            <BaseProductionTimeInSeconds>4.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientMetalGridElite</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_MetalGrid</DisplayName>
+            <Icon>Textures\GUI\Icons\component\metal_grid_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="25.75" TypeId="Ingot" SubtypeId="Titanium" />
+                <Item Amount="15" TypeId="Ingot" SubtypeId="KobAlTite" />
+                <Item Amount="10" TypeId="Component" SubtypeId="EnhancedMetalGrid" />
+            </Prerequisites>
+            <Result Amount="10" TypeId="Component" SubtypeId="ProficientMetalGrid" />
+            <BaseProductionTimeInSeconds>4.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>TitaniumWireProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Ingot_TitaniumWire}</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\titaniumWire.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Component" SubtypeId="TitaniumPlate" />
+            </Prerequisites>
+            <Result Amount="12.25" TypeId="Ingot" SubtypeId="TitaniumWire" />
+            <BaseProductionTimeInSeconds>2.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>TitaniumWireElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Ingot_TitaniumWire}</DisplayName>
+            <Icon>Textures\GUI\Icons\Ingot\titaniumWire.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Component" SubtypeId="TitaniumPlate" />
+            </Prerequisites>
+            <Result Amount="15" TypeId="Ingot" SubtypeId="TitaniumWire" />
+            <BaseProductionTimeInSeconds>2.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>GoldWireProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Ingot_GoldWire}</DisplayName>
+            <Icon>Textures\GUI\Icons\Ingot\goldWire.dds</Icon>
+            <Prerequisites>
+                <Item Amount="2" TypeId="Component" SubtypeId="RubberSheet" />
+                <Item Amount="1" TypeId="Component" SubtypeId="GoldPlate" />
+            </Prerequisites>
+            <Result Amount="12.125" TypeId="Ingot" SubtypeId="GoldWire" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>GoldWireElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Ingot_GoldWire}</DisplayName>
+            <Icon>Textures\GUI\Icons\Ingot\goldWire.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Component" SubtypeId="RubberSheet" />
+                <Item Amount="1" TypeId="Component" SubtypeId="GoldPlate" />
+            </Prerequisites>
+            <Result Amount="17.625" TypeId="Ingot" SubtypeId="GoldWire" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientWheelProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientWheel}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\siTyre4x.dds</Icon>
+            <Prerequisites>
+               <Item Amount="9" TypeId="Component" SubtypeId="RubberSheet" />
+               <Item Amount="25" TypeId="Ingot" SubtypeId="TitaniumWire" />
+            </Prerequisites>
+            <Result Amount="4" TypeId="Component" SubtypeId="ProficientSiTyre" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientWheelElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientWheel}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\siTyre4x.dds</Icon>
+            <Prerequisites>
+               <Item Amount="8" TypeId="Component" SubtypeId="RubberSheet" />
+               <Item Amount="20" TypeId="Ingot" SubtypeId="TitaniumWire" />
+            </Prerequisites>
+            <Result Amount="8" TypeId="Component" SubtypeId="ProficientSiTyre" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientReinforcedWheelProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientReinforcedWheel}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\tyre4x.dds</Icon>
+            <Prerequisites>
+               <Item Amount="10" TypeId="Component" SubtypeId="RubberSheet" />
+               <Item Amount="1" TypeId="Component" SubtypeId="ProficientSiTyre" />
+               <Item Amount="5" TypeId="Component" SubtypeId="SmallKobAlTiteTube" />
+            </Prerequisites>
+            <Result Amount="4" TypeId="Component" SubtypeId="ProficientTyre" />
+            <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientReinforcedWheelElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientReinforcedWheel}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\tyre4x.dds</Icon>
+            <Prerequisites>
+               <Item Amount="10" TypeId="Component" SubtypeId="RubberSheet" />
+               <Item Amount="1" TypeId="Component" SubtypeId="ProficientSiTyre" />
+               <Item Amount="2" TypeId="Component" SubtypeId="SmallKobAlTiteTube" />
+            </Prerequisites>
+            <Result Amount="8" TypeId="Component" SubtypeId="ProficientTyre" />
+            <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientLEDProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientLED}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\LEDComponent4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="2.575" TypeId="Ingot" SubtypeId="GoldWire" />
+                <Item Amount="2" TypeId="Component" SubtypeId="TitaniumPlate" />
+                <Item Amount="3" TypeId="Component" SubtypeId="ProficientBulletproofGlass" />
+                <Item Amount="3" TypeId="Component" SubtypeId="RubberSheet" />
+                <Item Amount="2" TypeId="Component" SubtypeId="ProficientHeatsink" />
+            </Prerequisites>
+            <Result Amount="6" TypeId="Component" SubtypeId="ProficientLED" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientLEDElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientLED}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\LEDComponent4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1.125" TypeId="Ingot" SubtypeId="GoldWire" />
+                <Item Amount="1" TypeId="Component" SubtypeId="TitaniumPlate" />
+                <Item Amount="2" TypeId="Component" SubtypeId="ProficientBulletproofGlass" />
+                <Item Amount="2" TypeId="Component" SubtypeId="RubberSheet" />
+                <Item Amount="1" TypeId="Component" SubtypeId="ProficientHeatsink" />
+            </Prerequisites>
+            <Result Amount="8" TypeId="Component" SubtypeId="ProficientLED" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientCPUProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientCPU}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\circuit4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1.8" TypeId="Ingot" SubtypeId="GoldWire" />
+                <Item Amount="2" TypeId="Component" SubtypeId="RubberSheet" />
+                <Item Amount="2" TypeId="Component" SubtypeId="KobAlTitePlate" />
+                <Item Amount="5" TypeId="Component" SubtypeId="ProficientCircuit" />
+                <Item Amount="2" TypeId="Component" SubtypeId="ProficientLED" />
+            </Prerequisites>
+            <Result Amount="3" TypeId="Component" SubtypeId="ProficientCPU" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientCPUElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientCPU}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\circuit4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1.6" TypeId="Ingot" SubtypeId="GoldWire" />
+                <Item Amount="1" TypeId="Component" SubtypeId="RubberSheet" />
+                <Item Amount="1" TypeId="Component" SubtypeId="KobAlTitePlate" />
+                <Item Amount="4" TypeId="Component" SubtypeId="ProficientCircuit" />
+                <Item Amount="2" TypeId="Component" SubtypeId="ProficientLED" />
+            </Prerequisites>
+            <Result Amount="4" TypeId="Component" SubtypeId="ProficientCPU" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientComputerProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientComputer}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\computer_component4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="7.265" TypeId="Ingot" SubtypeId="GoldWire" />
+                <Item Amount="2" TypeId="Component" SubtypeId="KobAlTitePlate" />
+                <Item Amount="6" TypeId="Component" SubtypeId="ProficientCPU" />
+                <Item Amount="2" TypeId="Component" SubtypeId="ProficientDisplay" />
+            </Prerequisites>
+            <Result Amount="3" TypeId="Component" SubtypeId="ProficientComputer" />
+            <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientComputerElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientComputer}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\computer_component4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="5.125" TypeId="Ingot" SubtypeId="GoldWire" />
+                <Item Amount="1" TypeId="Component" SubtypeId="KobAlTitePlate" />
+                <Item Amount="5" TypeId="Component" SubtypeId="ProficientCPU" />
+                <Item Amount="2" TypeId="Component" SubtypeId="ProficientDisplay" />
+            </Prerequisites>
+            <Result Amount="5" TypeId="Component" SubtypeId="ProficientComputer" />
+            <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientHeatsinkProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientHeatsink}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\heatsink4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="58" TypeId="Ingot" SubtypeId="TitaniumWire" />
+                <Item Amount="2" TypeId="Ingot" SubtypeId="SuperconductorAlloy" />
+                <Item Amount="4" TypeId="Component" SubtypeId="KobAlTitePlate" />
+            </Prerequisites>
+            <Result Amount="2" TypeId="Component" SubtypeId="ProficientHeatsink" />
+            <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientHeatsinkElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientHeatsink}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\heatsink4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="55" TypeId="Ingot" SubtypeId="TitaniumWire" />
+                <Item Amount="2" TypeId="Ingot" SubtypeId="SuperconductorAlloy" />
+                <Item Amount="3" TypeId="Component" SubtypeId="KobAlTitePlate" />
+            </Prerequisites>
+            <Result Amount="3" TypeId="Component" SubtypeId="ProficientHeatsink" />
+            <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>GoldenSolarCellProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_GoldSolarCell}</DisplayName>
+            <Icon>Textures\GUI\Icons\GoldSolarCellComponent.dds</Icon>
+            <Prerequisites>
+                <Item Amount="3.125" TypeId="Ingot" SubtypeId="GoldWire" />
+                <Item Amount="5" TypeId="Component" SubtypeId="TitaniumPlate" />
+                <Item Amount="7" TypeId="Component" SubtypeId="ProficientBulletproofGlass" />
+                <Item Amount="4" TypeId="Component" SubtypeId="RubberSheet" />
+                <Item Amount="6" TypeId="Component" SubtypeId="GaAsSolarCell" />
+            </Prerequisites>
+            <Result Amount="6" TypeId="Component" SubtypeId="SolarCellGold" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>GoldenSolarCellElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_GoldSolarCell}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\GaAsSolarCellComponent.dds</Icon>
+            <Prerequisites>
+                <Item Amount="2.525" TypeId="Ingot" SubtypeId="GoldWire" />
+                <Item Amount="3" TypeId="Component" SubtypeId="TitaniumPlate" />
+                <Item Amount="6" TypeId="Component" SubtypeId="ProficientBulletproofGlass" />
+                <Item Amount="3" TypeId="Component" SubtypeId="RubberSheet" />
+                <Item Amount="8" TypeId="Component" SubtypeId="GaAsSolarCell" />
+            </Prerequisites>
+            <Result Amount="8" TypeId="Component" SubtypeId="SolarCellGold" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SuperconductivePowerCellProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_SuperconductivePowerCell}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\BatteryComponent4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="7" TypeId="Ingot" SubtypeId="GoldWire" />
+                <Item Amount="4" TypeId="Ingot" SubtypeId="SuperconductorAlloy" />
+                <Item Amount="4" TypeId="Component" SubtypeId="KobAlTitePlate" />
+            </Prerequisites>
+            <Result Amount="2" TypeId="Component" SubtypeId="LiFeKobPowerCell" />
+            <BaseProductionTimeInSeconds>7</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SuperconductivePowerCellElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_SuperconductivePowerCell}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\BatteryComponent4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="6.5" TypeId="Ingot" SubtypeId="GoldWire" />
+                <Item Amount="4" TypeId="Ingot" SubtypeId="SuperconductorAlloy" />
+                <Item Amount="4" TypeId="Component" SubtypeId="KobAlTitePlate" />
+            </Prerequisites>
+            <Result Amount="3" TypeId="Component" SubtypeId="LiFeKobPowerCell" />
+            <BaseProductionTimeInSeconds>7</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientDetectorComponentProficent</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientDetectorComponents}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\detector_components_component4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="4.8" TypeId="Ingot" SubtypeId="KobAlTite" />
+                <Item Amount="13.5" TypeId="Ingot" SubtypeId="SuperconductorAlloy" />
+                <Item Amount="4" TypeId="Component" SubtypeId="ProficientHeatsink" />
+                <Item Amount="2" TypeId="Component" SubtypeId="ProficientLED" />
+                <Item Amount="5" TypeId="Component" SubtypeId="ProficientCPU" />
+            </Prerequisites>
+            <Result Amount="2" TypeId="Component" SubtypeId="ProficientDetector" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientDetectorComponentElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientDetectorComponents}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\detector_components_component4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="4.5" TypeId="Ingot" SubtypeId="KobAlTite" />
+                <Item Amount="12.7" TypeId="Ingot" SubtypeId="SuperconductorAlloy" />
+                <Item Amount="3" TypeId="Component" SubtypeId="ProficientHeatsink" />
+                <Item Amount="2" TypeId="Component" SubtypeId="ProficientLED" />
+                <Item Amount="4" TypeId="Component" SubtypeId="ProficientCPU" />
+            </Prerequisites>
+            <Result Amount="3" TypeId="Component" SubtypeId="ProficientDetector" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientMedicalComponentProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientMedicalComponents}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\medical_components_component4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="18.925" TypeId="Ingot" SubtypeId="GoldWire" />
+                <Item Amount="7" TypeId="Component" SubtypeId="ProficientCPU" />
+                <Item Amount="4" TypeId="Component" SubtypeId="ProficientHeatsink" />
+                <Item Amount="3" TypeId="Component" SubtypeId="RubberSheet" />
+                <Item Amount="1" TypeId="Component" SubtypeId="TitaniumPlate" />
+                <Item Amount="3" TypeId="Component" SubtypeId="SmallKobAlTiteTube" />
+                <Item Amount="3" TypeId="Component" SubtypeId="Medical" />
+            </Prerequisites>
+            <Result Amount="3" TypeId="Component" SubtypeId="ProficientMedical" />
+            <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ProficientMedicalComponentElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ProficientMedicalComponents}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\medical_components_component4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="16.525" TypeId="Ingot" SubtypeId="GoldWire" />
+                <Item Amount="5" TypeId="Component" SubtypeId="ProficientCPU" />
+                <Item Amount="3" TypeId="Component" SubtypeId="ProficientHeatsink" />
+                <Item Amount="1" TypeId="Component" SubtypeId="RubberSheet" />
+                <Item Amount="1" TypeId="Component" SubtypeId="TitaniumPlate" />
+                <Item Amount="2" TypeId="Component" SubtypeId="SmallKobAlTiteTube" />
+                <Item Amount="5" TypeId="Component" SubtypeId="Medical" />
+            </Prerequisites>
+            <Result Amount="5" TypeId="Component" SubtypeId="ProficientMedical" />
+            <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+        <!-- TIER: 2                                                    -->
+        <!-- TECH-COMPONENT DEFINITIONS                                 -->
+        <!-- PURGE RELEVANT SECTION FROM:   2696554070/Blueprints.sbc   -->
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>Tech8x</SubtypeId>
+            </Id>
+            <DisplayName>Exotic Tech</DisplayName>
+            <Icon>Textures\tech8x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="32" TypeId="Ingot" SubtypeId="GoldWire" />
+                <Item Amount="8" TypeId="Component" SubtypeId="ProficientDetector" />
+                <Item Amount="8" TypeId="Component" SubtypeId="ProficientMedicalComponent" />
+                <Item Amount="12" TypeId="Component" SubtypeId="LiFeKitPowerCell" />
+                <Item Amount="8" TypeId="Component" SubtypeId="ProficientHeatsink" />
+                <Item Amount="16" TypeId="Component" SubtypeId="ProficientComputer" />
+                <Item Amount="8" TypeId="Component" SubtypeId="ProficientLED" />
+                <Item Amount="64" TypeId="Component" SubtypeId="ProficientGirder" />
+                <Item Amount="32" TypeId="Component" SubtypeId="ProficientMetalGrid" />
+                <Item Amount="64" TypeId="Component" SubtypeId="SmallKobAlTiteTube" />
+                <Item Amount="4" TypeId="Component" SubtypeId="Tech4x"/>
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Tech8x"/>
+            <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
+        </Blueprint>
+        <!-- TECH-COMPONENT DEFINITIONS                                 -->
+        <!-- COMPONENT DEFINITIONS                                      -->
+    </Blueprints>
+</Definitions>

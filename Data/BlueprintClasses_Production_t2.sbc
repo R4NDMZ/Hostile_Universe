@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlueprintClassEntries>
+        <!-- PRODUCTION BUILDING RECIPES                                                            -->
+        <!-- [ TIER: 2  ] ASTEROID BELTS                   
+             { Platinum, Titanium, Rubber, Uranium, Gold                                         } !-->
+
+        <Entry Class="GeneralComponentProcessorProficient" BlueprintSubtypeId="TitaniumPlateProficientExp" />
+        <Entry Class="GeneralComponentProcessorProficient" BlueprintSubtypeId="TitaniumInteriorPlateProficientExp" />
+        <Entry Class="GeneralComponentProcessorProficient" BlueprintSubtypeId="ProficientConstructionComponentProficientExp" />
+        <Entry Class="GeneralComponentProcessorProficient" BlueprintSubtypeId="ProficientGirderComponentProficientExp" />
+        <Entry Class="GeneralComponentProcessorProficient" BlueprintSubtypeId="SmallTitaniumTubeProficientExp" />
+        <Entry Class="GeneralComponentProcessorProficient" BlueprintSubtypeId="ProficientMotorComponentProficientExp" />
+        <Entry Class="GeneralComponentProcessorProficient" BlueprintSubtypeId="ProficientCircuitProficientExp" />
+        <Entry Class="GeneralComponentProcessorProficient" BlueprintSubtypeId="ProficientDisplayProficientExp" />
+
+        <Entry Class="GeneralComponentProcessorProficient4" BlueprintSubtypeId="TitaniumPlateEliteExp" />
+        <Entry Class="GeneralComponentProcessorProficient4" BlueprintSubtypeId="TitaniumInteriorPlateEliteExp" />
+        <Entry Class="GeneralComponentProcessorProficient4" BlueprintSubtypeId="ProficientConstructionComponentEliteExp" />
+        <Entry Class="GeneralComponentProcessorProficient4" BlueprintSubtypeId="ProficientGirderComponentEliteExp" />
+        <Entry Class="GeneralComponentProcessorProficient4" BlueprintSubtypeId="SmallTitaniumTubeEliteExp" />
+        <Entry Class="GeneralComponentProcessorProficient4" BlueprintSubtypeId="ProficientMotorComponentEliteExp" />
+        <Entry Class="GeneralComponentProcessorProficient4" BlueprintSubtypeId="ProficientCircuitEliteExp" />
+        <Entry Class="GeneralComponentProcessorProficient4" BlueprintSubtypeId="ProficientDisplayEliteExp" />
+
+        <Entry Class="ExtrudedComponentProcessorProficientPrimitive" BlueprintSubtypeId="TitaniumPlateEnhanced" />
+        <Entry Class="ExtrudedComponentProcessorProficientPrimitive" BlueprintSubtypeId="ProficientConstructionComponentEnhanced" />
+        <Entry Class="ExtrudedComponentProcessorProficientPrimitive" BlueprintSubtypeId="SmallTitaniumTubeEnhanced" />
+        <Entry Class="ExtrudedComponentProcessorProficientPrimitive" BlueprintSubtypeId="LargeTitaniumTubeEnhanced" />
+
+        <Entry Class="ExtrudedComponentProcessorProficient" BlueprintSubtypeId="TitaniumPlateProficient" />
+        <Entry Class="ExtrudedComponentProcessorProficient" BlueprintSubtypeId="PolyethyleneSheetProficient" />
+        <Entry Class="ExtrudedComponentProcessorProficient" BlueprintSubtypeId="KobAlTitePlateProficient" />
+        <Entry Class="ExtrudedComponentProcessorProficient" BlueprintSubtypeId="TitaniumInteriorPlateProficient" />
+        <Entry Class="ExtrudedComponentProcessorProficient" BlueprintSubtypeId="ProficientConstructionComponentProficient" />
+        <Entry Class="ExtrudedComponentProcessorProficient" BlueprintSubtypeId="ProficientGirderComponentProficient" />
+        <Entry Class="ExtrudedComponentProcessorProficient" BlueprintSubtypeId="SmallTitaniumTubeProficient" />
+        <Entry Class="ExtrudedComponentProcessorProficient" BlueprintSubtypeId="SmallKobAlTiteTubeProficient" />
+        <Entry Class="ExtrudedComponentProcessorProficient" BlueprintSubtypeId="LargeTitaniumTubeProficient" />
+        <Entry Class="ExtrudedComponentProcessorProficient" BlueprintSubtypeId="LargeKobAlTiteTubeProficient" />
+        <Entry Class="ExtrudedComponentProcessorProficient" BlueprintSubtypeId="ProficientMetalGridProficient" />
+        <Entry Class="ExtrudedComponentProcessorProficient" BlueprintSubtypeId="GoldWireProficient" />
+
+        <Entry Class="ExtrudedComponentProcessorProficient4" BlueprintSubtypeId="TitaniumPlateElite" />
+        <Entry Class="ExtrudedComponentProcessorProficient4" BlueprintSubtypeId="PolyethyleneSheetElite" />
+        <Entry Class="ExtrudedComponentProcessorProficient4" BlueprintSubtypeId="KobAlTitePlateElite" />
+        <Entry Class="ExtrudedComponentProcessorProficient4" BlueprintSubtypeId="TitaniumInteriorPlateElite" />
+        <Entry Class="ExtrudedComponentProcessorProficient4" BlueprintSubtypeId="ProficientConstructionComponentElite" />
+        <Entry Class="ExtrudedComponentProcessorProficient4" BlueprintSubtypeId="ProficientGirderComponentElite" />
+        <Entry Class="ExtrudedComponentProcessorProficient4" BlueprintSubtypeId="SmallTitaniumTubeElite" />
+        <Entry Class="ExtrudedComponentProcessorProficient4" BlueprintSubtypeId="SmallKobAlTiteTubeElite" />
+        <Entry Class="ExtrudedComponentProcessorProficient4" BlueprintSubtypeId="LargeTitaniumTubeElite" />
+        <Entry Class="ExtrudedComponentProcessorProficient4" BlueprintSubtypeId="LargeKobAlTiteTubeElite" />
+        <Entry Class="ExtrudedComponentProcessorProficient4" BlueprintSubtypeId="ProficientMetalGridElite" />
+        <Entry Class="ExtrudedComponentProcessorProficient4" BlueprintSubtypeId="GoldWireElite" />
+
+        <Entry Class="BasicRefinementProcessorProficient" BlueprintSubtypeId="BasicStoneRefinementProficient" />
+        <Entry Class="BasicRefinementProcessorProficient" BlueprintSubtypeId="BasicIronRefinementProficient" />
+        <Entry Class="BasicRefinementProcessorProficient" BlueprintSubtypeId="BasicSiliconRefinementProficient" />
+        <Entry Class="BasicRefinementProcessorProficient" BlueprintSubtypeId="BasicCopperRefinementProficient" />
+        <Entry Class="BasicRefinementProcessorProficient" BlueprintSubtypeId="BasicNickelRefinementProficient" />
+        <Entry Class="BasicRefinementProcessorProficient" BlueprintSubtypeId="BasicCobaltRefinementProficient" />
+        <Entry Class="BasicRefinementProcessorProficient" BlueprintSubtypeId="BasicSulfurRefinementProficient" />
+        <Entry Class="BasicRefinementProcessorProficient" BlueprintSubtypeId="BasicShaleRefinementProficient" />
+        <Entry Class="BasicRefinementProcessorProficient" BlueprintSubtypeId="BasicSilverRefinementProficient" />
+        <Entry Class="BasicRefinementProcessorProficient" BlueprintSubtypeId="BasicMagnesiumRefinementProficient" />
+        <Entry Class="BasicRefinementProcessorProficient" BlueprintSubtypeId="BasicAluminiumRefinementProficient" />
+        <Entry Class="BasicRefinementProcessorProficient" BlueprintSubtypeId="BasicLithiumRefinementProficient" />
+        <Entry Class="BasicRefinementProcessorProficient" BlueprintSubtypeId="BasicGoldRefinementProficient" />
+        <Entry Class="BasicRefinementProcessorProficient" BlueprintSubtypeId="BasicTitaniumRefinementProficient" />
+
+        <Entry Class="AlloyProcessorProficient" BlueprintSubtypeId="KoboldProficient" />        
+        <Entry Class="AlloyProcessorProficient" BlueprintSubtypeId="BatteryAlloyProficient" />
+        <Entry Class="AlloyProcessorProficient" BlueprintSubtypeId="GlassProficient" />
+        <Entry Class="AlloyProcessorProficient" BlueprintSubtypeId="KobAldProficient" />        
+        <Entry Class="AlloyProcessorProficient" BlueprintSubtypeId="LiFeKobAlloyProficient" />
+        <Entry Class="AlloyProcessorProficient" BlueprintSubtypeId="BulletproofGlassProficient" />
+        <Entry Class="AlloyProcessorProficient" BlueprintSubtypeId="BrassProficient" />
+        <Entry Class="AlloyProcessorProficient" BlueprintSubtypeId="GunpowderProficient" />
+        <Entry Class="AlloyProcessorProficient" BlueprintSubtypeId="PlasticProficient" />
+        <Entry Class="AlloyProcessorProficient" BlueprintSubtypeId="KobAlTiteProficient" />
+        <Entry Class="AlloyProcessorProficient" BlueprintSubtypeId="ProficientBulletproofGlassProficient" />
+        <Entry Class="AlloyProcessorProficient" BlueprintSubtypeId="SuperconductorAlloyProficient" />
+        <Entry Class="AlloyProcessorProficient" BlueprintSubtypeId="RubberProficient" />
+        <Entry Class="AlloyProcessorProficient" BlueprintSubtypeId="ElectrumProficient" />
+
+        <Entry Class="AdvancedComponentProcessorProficientPrimitive" BlueprintSubtypeId="ProficientCircuitEnhanced" />
+        <Entry Class="AdvancedComponentProcessorProficientPrimitive" BlueprintSubtypeId="ProficientMotorEnhanced" />
+
+        <Entry Class="AdvancedComponentProcessorProficient" BlueprintSubtypeId="ArmoredGlassComponentProficient" />
+        <Entry Class="AdvancedComponentProcessorProficient" BlueprintSubtypeId="ProficientDisplayProficient" />
+        <Entry Class="AdvancedComponentProcessorProficient" BlueprintSubtypeId="ProficientLEDProficient" />
+        <Entry Class="AdvancedComponentProcessorProficient" BlueprintSubtypeId="ProficientCircuitProficient" />
+        <Entry Class="AdvancedComponentProcessorProficient" BlueprintSubtypeId="ProficientCPUProficient" />
+        <Entry Class="AdvancedComponentProcessorProficient" BlueprintSubtypeId="ProficientComputerProficient" />
+        <Entry Class="AdvancedComponentProcessorProficient" BlueprintSubtypeId="ProficientMotorProficient" />
+        <Entry Class="AdvancedComponentProcessorProficient" BlueprintSubtypeId="ProficientHeatsinkProficient" />
+        <Entry Class="AdvancedComponentProcessorProficient" BlueprintSubtypeId="GoldenSolarCellProficient" />
+        <Entry Class="AdvancedComponentProcessorProficient" BlueprintSubtypeId="SuperconductivePowerCellProficient" />
+        <Entry Class="AdvancedComponentProcessorProficient" BlueprintSubtypeId="ProficientRadioCommunicationComponentProficient" />
+        <Entry Class="AdvancedComponentProcessorProficient" BlueprintSubtypeId="ProficientDetectorComponentProficient" />
+        <Entry Class="AdvancedComponentProcessorProficient" BlueprintSubtypeId="MedicalComponentProficient" />
+        <Entry Class="AdvancedComponentProcessorProficient" BlueprintSubtypeId="SuperconductorComponentProficient" />
+        <Entry Class="AdvancedComponentProcessorProficient" BlueprintSubtypeId="Tech8xProficient" />
+
+        <Entry Class="AdvancedComponentProcessorProficient4" BlueprintSubtypeId="ArmoredGlassComponentElite" />
+        <Entry Class="AdvancedComponentProcessorProficient4" BlueprintSubtypeId="ProficientDisplayElite" />
+        <Entry Class="AdvancedComponentProcessorProficient4" BlueprintSubtypeId="ProficientLEDElite" />
+        <Entry Class="AdvancedComponentProcessorProficient4" BlueprintSubtypeId="ProficientCircuitElite" />
+        <Entry Class="AdvancedComponentProcessorProficient4" BlueprintSubtypeId="ProficientCPUElite" />
+        <Entry Class="AdvancedComponentProcessorProficient4" BlueprintSubtypeId="ProficientComputerElite" />
+        <Entry Class="AdvancedComponentProcessorProficient4" BlueprintSubtypeId="ProficientMotorElite" />
+        <Entry Class="AdvancedComponentProcessorProficient4" BlueprintSubtypeId="ProficientHeatsinkElite" />
+        <Entry Class="AdvancedComponentProcessorProficient4" BlueprintSubtypeId="GoldenSolarCellElite" />
+        <Entry Class="AdvancedComponentProcessorProficient4" BlueprintSubtypeId="SuperconductivePowerCellElite" />
+        <Entry Class="AdvancedComponentProcessorProficient4" BlueprintSubtypeId="ProficientRadioCommunicationComponentElite" />
+        <Entry Class="AdvancedComponentProcessorProficient4" BlueprintSubtypeId="ProficientDetectorComponentElite" />
+        <Entry Class="AdvancedComponentProcessorProficient4" BlueprintSubtypeId="MedicalComponentElite" />
+        <Entry Class="AdvancedComponentProcessorProficient4" BlueprintSubtypeId="SuperconductorComponentElite" />
+        <Entry Class="AdvancedComponentProcessorProficient4" BlueprintSubtypeId="Tech8xElite" />
+
+        <Entry Class="RefinementProcessorProficient" BlueprintSubtypeId="StoneRefinementProficient" />
+        <Entry Class="RefinementProcessorProficient" BlueprintSubtypeId="IronRefinementProficient" />
+        <Entry Class="RefinementProcessorProficient" BlueprintSubtypeId="SiliconRefinementProficient" />
+        <Entry Class="RefinementProcessorProficient" BlueprintSubtypeId="CopperRefinementProficient" />
+        <Entry Class="RefinementProcessorProficient" BlueprintSubtypeId="NickelRefinementProficient" />
+        <Entry Class="RefinementProcessorProficient" BlueprintSubtypeId="CobaltRefinementProficient" />
+        <Entry Class="RefinementProcessorProficient" BlueprintSubtypeId="ShaleRefinementProficient" />
+        <Entry Class="RefinementProcessorProficient" BlueprintSubtypeId="NitreRefinementProficient" />
+        <Entry Class="RefinementProcessorProficient" BlueprintSubtypeId="SilverRefinementProficient" />
+        <Entry Class="RefinementProcessorProficient" BlueprintSubtypeId="MagnesiumRefinementProficient" />
+        <Entry Class="RefinementProcessorProficient" BlueprintSubtypeId="AluminiumRefinementProficient" />
+        <Entry Class="RefinementProcessorProficient" BlueprintSubtypeId="LithiumRefinementProficient" />
+        <Entry Class="RefinementProcessorProficient" BlueprintSubtypeId="SulfurRefinementProficient" />
+        <Entry Class="RefinementProcessorProficient" BlueprintSubtypeId="TitaniumRefinementProficient" />
+        <Entry Class="RefinementProcessorProficient" BlueprintSubtypeId="GoldRefinementProficient" />
+        <Entry Class="RefinementProcessorProficient" BlueprintSubtypeId="PlatinumRefinementProficient" />
+        <Entry Class="RefinementProcessorProficient" BlueprintSubtypeId="UraniumRefinementProficient" />
+        <!-- PRODUCTION BUILDING RECIPES                                                            -->
+    </BlueprintClassEntries>
+</Definitions>

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_WindTurbineDefinition">
+            <Id>
+                <TypeId>WindTurbine</TypeId>
+                <SubtypeId>LargeBlockWindTurbine</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_WindTurbine</DisplayName>
+            <Description>Description_WindTurbine</Description>
+            <Icon>Textures\GUI\Icons\Cubes\MA_Windmill.dds</Icon>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <PlaceDecals>false</PlaceDecals>
+            <ResearchGroup>Tier00Basics</ResearchGroup>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="3" z="3" />
+            <Center x="1" y="0" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\MA_Windmill\MA_Windmill.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="10" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="Girder" Count="30" />
+                <Component Subtype="Circuit" Count="8" />
+                <Component Subtype="Motor" Count="4" />
+                <Component Subtype="InteriorPlate" Count="30" />
+            </Components>
+            <CriticalComponent Subtype="Circuit" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\MA_Windmill\MA_Windmill_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\MA_Windmill\MA_Windmill_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MA_Windmill\MA_Windmill_BS3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="1.20" StartY="1.20" EndX="1.80" EndY="1.80" />
+				<MountPoint Side="Top" StartX="1.20" StartY="1.20" EndX="1.80" EndY="1.80" />
+			</MountPoints>
+            <BlockPairName>WindTurbine</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <DamageEffectId>214</DamageEffectId>
+            <ActionSound>ArcBlockWindTurbine</ActionSound>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>0.3</MaxPowerOutput>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <IsAirTight>false</IsAirTight>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                </DynamicMode>
+            </VoxelPlacement>
+            <RaycasterSize>20</RaycasterSize>
+            <RaycastersCount>9</RaycastersCount>
+            <MinRaycasterClearance>0.3</MinRaycasterClearance>
+            <OptimalGroundClearance>25</OptimalGroundClearance>
+            <RaycastersToFullEfficiency>7</RaycastersToFullEfficiency>
+            <OptimalWindSpeed>80</OptimalWindSpeed>
+            <TurbineSpinUpSpeed>3</TurbineSpinUpSpeed>
+            <TurbineSpinDownSpeed>0.3</TurbineSpinDownSpeed>
+            <TurbineRotationSpeed>7</TurbineRotationSpeed>
+            <PCU>55</PCU>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+        </Definition>
+	
+		<Definition xsi:type="MyObjectBuilder_WindTurbineDefinition">
+            <Id>
+                <TypeId>WindTurbine</TypeId>
+                <SubtypeId>LargeBlockWindTurbine2x</SubtypeId>
+            </Id>
+            <DisplayName>Enhanced Wind Turbine</DisplayName>
+            <GuiVisible>false</GuiVisible>
+            <Description>Description_WindTurbine</Description>
+            <Icon>Textures\GUI\Icons\Cubes\MA_Windmill2x.dds</Icon>
+            <CubeSize>Large</CubeSize>
+            <PlaceDecals>false</PlaceDecals>
+            <ResearchGroup>Tier00Basics</ResearchGroup>
+            <ResearchCost>5</ResearchCost>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="3" z="3"/>
+            <Center x="1" y="0" z="1"/>
+            <ModelOffset x="0" y="0" z="0"/>
+            <Model>Models\Cubes\Large\MA_Windmill\MA_Windmill.mwm</Model>
+            <Components>
+                <Component Subtype="AluminiumInteriorPlate" Count="30" />
+                <Component Subtype="EnhancedConstruction" Count="25" />
+                <Component Subtype="EnhancedGirder" Count="40" />
+                <Component Subtype="Tech2x" Count="2" />
+                <Component Subtype="EnhancedCircuit" Count="20" />
+                <Component Subtype="EnhancedMotor" Count="15" />
+                <Component Subtype="AluminiumInteriorPlate" Count="45" />
+            </Components>
+            <CriticalComponent Subtype="Tech2x" Index="0"/>
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\MA_Windmill\MA_Windmill_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\MA_Windmill\MA_Windmill_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MA_Windmill\MA_Windmill_BS3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="1.20" StartY="1.20" EndX="1.80" EndY="1.80" />
+				<MountPoint Side="Top" StartX="1.20" StartY="1.20" EndX="1.80" EndY="1.80" />
+			</MountPoints>
+            <BlockPairName>WindTurbine2x</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>30</BuildTimeSeconds>
+            <DamageEffectId>214</DamageEffectId>
+            <ActionSound>ArcBlockWindTurbine</ActionSound>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>0.6</MaxPowerOutput>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <IsAirTight>false</IsAirTight>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                </DynamicMode>
+            </VoxelPlacement>
+            <RaycasterSize>20</RaycasterSize>
+            <RaycastersCount>9</RaycastersCount>
+            <MinRaycasterClearance>0.3</MinRaycasterClearance>
+            <OptimalGroundClearance>25</OptimalGroundClearance>
+            <RaycastersToFullEfficiency>7</RaycastersToFullEfficiency>
+            <OptimalWindSpeed>80</OptimalWindSpeed>
+            <TurbineSpinUpSpeed>3</TurbineSpinUpSpeed>
+            <TurbineSpinDownSpeed>0.3</TurbineSpinDownSpeed>
+            <TurbineRotationSpeed>7</TurbineRotationSpeed>
+            <PCU>55</PCU>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_WindTurbineDefinition">
+            <Id>
+                <TypeId>WindTurbine</TypeId>
+                <SubtypeId>LargeBlockWindTurbine4x</SubtypeId>
+            </Id>
+            <DisplayName>Proficient Wind Turbine</DisplayName>
+            <GuiVisible>false</GuiVisible>
+            <Description>Description_WindTurbine</Description>
+            <Icon>Textures\GUI\Icons\Cubes\MA_Windmill4x.dds</Icon>
+            <CubeSize>Large</CubeSize>
+            <PlaceDecals>false</PlaceDecals>
+            <ResearchGroup>Tier00Basics</ResearchGroup>
+            <ResearchCost>5</ResearchCost>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="3" z="3"/>
+            <Center x="1" y="0" z="1"/>
+            <ModelOffset x="0" y="0" z="0"/>
+            <Model>Models\Cubes\Large\MA_Windmill\MA_Windmill.mwm</Model>
+            <Components>
+                <Component Subtype="TitaniumInteriorPlate" Count="50" />
+                <Component Subtype="ProficientConstruction" Count="45" />
+                <Component Subtype="ProficientGirder" Count="60" />
+                <Component Subtype="Tech4x" Count="8" />
+                <Component Subtype="ProficientCircuit" Count="40" />
+                <Component Subtype="ProficientMotor" Count="25" />
+                <Component Subtype="TitaniumInteriorPlate" Count="55" />
+            </Components>
+            <CriticalComponent Subtype="Tech4x" Index="0"/>
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\MA_Windmill\MA_Windmill_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\MA_Windmill\MA_Windmill_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MA_Windmill\MA_Windmill_BS3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="1.20" StartY="1.20" EndX="1.80" EndY="1.80" />
+				<MountPoint Side="Top" StartX="1.20" StartY="1.20" EndX="1.80" EndY="1.80" />
+			</MountPoints>
+            <BlockPairName>WindTurbine4x</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>45</BuildTimeSeconds>
+            <DamageEffectId>214</DamageEffectId>
+            <ActionSound>ArcBlockWindTurbine</ActionSound>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>1.0</MaxPowerOutput>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <IsAirTight>false</IsAirTight>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                </DynamicMode>
+            </VoxelPlacement>
+            <RaycasterSize>20</RaycasterSize>
+            <RaycastersCount>9</RaycastersCount>
+            <MinRaycasterClearance>0.3</MinRaycasterClearance>
+            <OptimalGroundClearance>25</OptimalGroundClearance>
+            <RaycastersToFullEfficiency>7</RaycastersToFullEfficiency>
+            <OptimalWindSpeed>80</OptimalWindSpeed>
+            <TurbineSpinUpSpeed>3</TurbineSpinUpSpeed>
+            <TurbineSpinDownSpeed>0.3</TurbineSpinDownSpeed>
+            <TurbineRotationSpeed>7</TurbineRotationSpeed>
+            <PCU>55</PCU>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_WindTurbineDefinition">
+            <Id>
+                <TypeId>WindTurbine</TypeId>
+                <SubtypeId>LargeBlockWindTurbine8x</SubtypeId>
+            </Id>
+            <DisplayName>Elite Wind Turbine</DisplayName>
+            <GuiVisible>false</GuiVisible>
+            <Description>Description_WindTurbine</Description>
+            <Icon>Textures\GUI\Icons\Cubes\MA_Windmill8x.dds</Icon>
+            <CubeSize>Large</CubeSize>
+            <PlaceDecals>false</PlaceDecals>
+            <ResearchGroup>Tier00Basics</ResearchGroup>
+            <ResearchCost>5</ResearchCost>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="3" z="3"/>
+            <Center x="1" y="0" z="1"/>
+            <ModelOffset x="0" y="0" z="0"/>
+            <Model>Models\Cubes\Large\MA_Windmill\MA_Windmill.mwm</Model>
+            <Components>
+                <Component Subtype="CompositeInteriorPlate" Count="100" />
+                <Component Subtype="EliteConstruction" Count="90" />
+                <Component Subtype="EliteGirder" Count="120" />
+                <Component Subtype="Tech8x" Count="32" />
+                <Component Subtype="EliteCircuit" Count="65" />
+                <Component Subtype="EliteMotor" Count="55" />
+                <Component Subtype="CompositeInteriorPlate" Count="110" />
+            </Components>
+            <CriticalComponent Subtype="Tech8x" Index="0"/>
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\MA_Windmill\MA_Windmill_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\MA_Windmill\MA_Windmill_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MA_Windmill\MA_Windmill_BS3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="1.20" StartY="1.20" EndX="1.80" EndY="1.80" />
+				<MountPoint Side="Top" StartX="1.20" StartY="1.20" EndX="1.80" EndY="1.80" />
+			</MountPoints>
+            <BlockPairName>WindTurbine8x</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>68</BuildTimeSeconds>
+            <DamageEffectId>214</DamageEffectId>
+            <ActionSound>ArcBlockWindTurbine</ActionSound>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>3.0</MaxPowerOutput>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <IsAirTight>false</IsAirTight>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                </DynamicMode>
+            </VoxelPlacement>
+            <RaycasterSize>20</RaycasterSize>
+            <RaycastersCount>9</RaycastersCount>
+            <MinRaycasterClearance>0.3</MinRaycasterClearance>
+            <OptimalGroundClearance>25</OptimalGroundClearance>
+            <RaycastersToFullEfficiency>7</RaycastersToFullEfficiency>
+            <OptimalWindSpeed>80</OptimalWindSpeed>
+            <TurbineSpinUpSpeed>3</TurbineSpinUpSpeed>
+            <TurbineSpinDownSpeed>0.3</TurbineSpinDownSpeed>
+            <TurbineRotationSpeed>7</TurbineRotationSpeed>
+            <PCU>55</PCU>
+        </Definition>
+	</CubeBlocks>
+</Definitions>

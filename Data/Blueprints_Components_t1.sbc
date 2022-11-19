@@ -1,0 +1,1921 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Blueprints>
+        <!-- COMPONENT DEFINITIONS      -->
+        <!-- TIER: 1   [  AL  AGE]      -->
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>AluminiumPlateBasic</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_AluminiumPlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\aluminiumPlate.dds</Icon>
+            <Prerequisites>
+                <Item Amount="210" TypeId="Ingot" SubtypeId="Aluminium" />
+            </Prerequisites>
+            <Result Amount="9" TypeId="Component" SubtypeId="AluminiumPlate" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>AluminiumPlateEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_AluminiumPlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\aluminiumPlate.dds</Icon>
+            <Prerequisites>
+                <Item Amount="210" TypeId="Ingot" SubtypeId="Aluminium" />
+            </Prerequisites>
+            <Result Amount="14" TypeId="Component" SubtypeId="AluminiumPlate" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>AluminiumPlateEnhancedExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_AluminiumPlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\aluminiumPlate.dds</Icon>
+            <Prerequisites>
+                <Item Amount="30" TypeId="Ingot" SubtypeId="Aluminium" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="AluminiumPlate" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>AluminiumPlateProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_AluminiumPlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\aluminiumPlate.dds</Icon>
+            <Prerequisites>
+                <Item Amount="180" TypeId="Ingot" SubtypeId="Aluminium" />
+            </Prerequisites>
+            <Result Amount="18" TypeId="Component" SubtypeId="AluminiumPlate" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>AluminiumPlateProficientExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_AluminiumPlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\aluminiumPlate.dds</Icon>
+            <Prerequisites>
+                <Item Amount="25" TypeId="Ingot" SubtypeId="Aluminium" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="AluminiumPlate" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>AluminiumPlateElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_AluminiumPlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\aluminiumPlate.dds</Icon>
+            <Prerequisites>
+                <Item Amount="150" TypeId="Ingot" SubtypeId="Aluminium" />
+            </Prerequisites>
+            <Result Amount="35" TypeId="Component" SubtypeId="AluminiumPlate" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>AluminiumPlateEliteExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_AluminiumPlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\aluminiumPlate.dds</Icon>
+            <Prerequisites>
+                <Item Amount="15" TypeId="Ingot" SubtypeId="Aluminium" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="AluminiumPlate" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>AluminiumInteriorPlateBasic</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_AluminiumInteriorPlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\interior_plate_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="50" TypeId="Ingot" SubtypeId="Aluminium" />
+            </Prerequisites>
+            <Result Amount="15" TypeId="Component" SubtypeId="AluminiumInteriorPlate" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>AluminiumInteriorPlateEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_AluminiumInteriorPlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\interior_plate_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="30" TypeId="Ingot" SubtypeId="Aluminium" />
+            </Prerequisites>
+            <Result Amount="20" TypeId="Component" SubtypeId="AluminiumInteriorPlate" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>AluminiumInteriorPlateEnhancedExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_AluminiumInteriorPlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\interior_plate_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="15" TypeId="Ingot" SubtypeId="Aluminium" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="AluminiumInteriorPlate" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>AluminiumInteriorPlateProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_AluminiumInteriorPlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\interior_plate_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="25" TypeId="Ingot" SubtypeId="Aluminium" />
+            </Prerequisites>
+            <Result Amount="25" TypeId="Component" SubtypeId="AluminiumInteriorPlate" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>AluminiumInteriorPlateProficientExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_AluminiumInteriorPlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\interior_plate_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="10" TypeId="Ingot" SubtypeId="Aluminium" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="AluminiumInteriorPlate" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>AluminiumInteriorPlateElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_AluminiumInteriorPlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\interior_plate_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="20" TypeId="Ingot" SubtypeId="Aluminium" />
+            </Prerequisites>
+            <Result Amount="40" TypeId="Component" SubtypeId="AluminiumInteriorPlate" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>AluminiumInteriorPlateEliteExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_AluminiumInteriorPlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\interior_plate_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="5" TypeId="Ingot" SubtypeId="Aluminium" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="AluminiumInteriorPlate" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedConstructionComponentBasic</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedConstruction}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\construction_components_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="200" TypeId="Ingot" SubtypeId="Aluminium" />
+                <Item Amount="30" TypeId="Component" SubtypeId="Construction" />
+            </Prerequisites>
+            <Result Amount="20" TypeId="Component" SubtypeId="EnhancedConstruction" />
+            <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedConstructionComponentEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedConstruction}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\construction_components_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="160" TypeId="Ingot" SubtypeId="Aluminium" />
+                <Item Amount="25" TypeId="Component" SubtypeId="Construction" />
+            </Prerequisites>
+            <Result Amount="25" TypeId="Component" SubtypeId="EnhancedConstruction" />
+            <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedConstructionComponentEnhancedExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedConstruction}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\construction_components_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="16.0" TypeId="Ingot" SubtypeId="Aluminium" />
+                <Item Amount="2" TypeId="Component" SubtypeId="Construction" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="EnhancedConstruction" />
+            <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedConstructionComponentProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedConstruction}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\construction_components_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="120.0" TypeId="Ingot" SubtypeId="Aluminium" />
+                <Item Amount="20.0" TypeId="Component" SubtypeId="Construction" />
+            </Prerequisites>
+            <Result Amount="40" TypeId="Component" SubtypeId="EnhancedConstruction" />
+            <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedConstructionComponentProficientExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedConstruction}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\construction_components_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="12.0" TypeId="Ingot" SubtypeId="Aluminium" />
+                <Item Amount="2" TypeId="Component" SubtypeId="Construction" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="EnhancedConstruction" />
+            <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedConstructionComponentElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedConstruction}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\construction_components_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="80.0" TypeId="Ingot" SubtypeId="Aluminium" />
+                <Item Amount="50" TypeId="Component" SubtypeId="Construction" />
+            </Prerequisites>
+            <Result Amount="50" TypeId="Component" SubtypeId="EnhancedConstruction" />
+            <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedConstructionComponentEliteExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedConstruction}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\construction_components_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="8.0" TypeId="Ingot" SubtypeId="Aluminium" />
+                <Item Amount="1" TypeId="Component" SubtypeId="Construction" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="EnhancedConstruction" />
+            <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedGirderComponentBasic</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedGirder}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\girder_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="60" TypeId="Ingot" SubtypeId="Aluminium" />
+                <Item Amount="50" TypeId="Ingot" SubtypeId="Kobold" />
+                <Item Amount="25" TypeId="Component" SubtypeId="Girder" />
+            </Prerequisites>
+            <Result Amount="15" TypeId="Component" SubtypeId="EnhancedGirder" />
+            <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedGirderComponentEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedGirder}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\girder_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="45" TypeId="Ingot" SubtypeId="Aluminium" />
+                <Item Amount="40" TypeId="Ingot" SubtypeId="Kobold" />
+                <Item Amount="25" TypeId="Component" SubtypeId="Girder" />
+            </Prerequisites>
+            <Result Amount="25" TypeId="Component" SubtypeId="EnhancedGirder" />
+            <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedGirderComponentEnhancedExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedGirder}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\girder_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="10" TypeId="Ingot" SubtypeId="Aluminium" />
+                <Item Amount="10" TypeId="Ingot" SubtypeId="Kobold" />
+                <Item Amount="2" TypeId="Component" SubtypeId="Girder" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="EnhancedGirder" />
+            <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedGirderComponentProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedGirder}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\girder_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="32.5" TypeId="Ingot" SubtypeId="Aluminium" />
+                <Item Amount="30" TypeId="Ingot" SubtypeId="Kobold" />
+                <Item Amount="30" TypeId="Component" SubtypeId="Girder" />
+            </Prerequisites>
+            <Result Amount="30" TypeId="Component" SubtypeId="EnhancedGirder" />
+            <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedGirderComponentProficientExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedGirder}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\girder_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="6" TypeId="Ingot" SubtypeId="Aluminium" />
+                <Item Amount="6" TypeId="Ingot" SubtypeId="Kobold" />
+                <Item Amount="2" TypeId="Component" SubtypeId="Girder" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="EnhancedGirder" />
+            <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedGirderComponentElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedGirder}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\girder_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="20" TypeId="Ingot" SubtypeId="Aluminium" />
+                <Item Amount="20" TypeId="Ingot" SubtypeId="Kobold" />
+                <Item Amount="45" TypeId="Component" SubtypeId="Girder" />
+            </Prerequisites>
+            <Result Amount="45" TypeId="Component" SubtypeId="EnhancedGirder" />
+            <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedGirderComponentEliteExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedGirder}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\girder_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="2" TypeId="Ingot" SubtypeId="Aluminium" />
+                <Item Amount="2" TypeId="Ingot" SubtypeId="Kobold" />
+                <Item Amount="2" TypeId="Component" SubtypeId="Girder" />
+            </Prerequisites>
+            <Result Amount="2" TypeId="Component" SubtypeId="EnhancedGirder" />
+            <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SmallAluminiumTubeBasic</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_SmallAluminiumTube}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\small_tube_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="50" TypeId="Ingot" SubtypeId="Aluminium" />
+            </Prerequisites>
+            <Result Amount="15" TypeId="Component" SubtypeId="SmallAluminiumTube" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SmallAluminiumTubeEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_SmallAluminiumTube}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\small_tube_componentx2.dds</Icon>
+            <Prerequisites>
+                <Item Amount="40" TypeId="Ingot" SubtypeId="Aluminium" />
+            </Prerequisites>
+            <Result Amount="25" TypeId="Component" SubtypeId="SmallAluminiumTube" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SmallAluminiumTubeEnhancedExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_SmallAluminiumTube}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\small_tube_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="10" TypeId="Ingot" SubtypeId="Aluminium" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="SmallAluminiumTube" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SmallAluminiumTubeProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_SmallAluminiumTube}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\small_tube_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="30" TypeId="Ingot" SubtypeId="Aluminium" />
+            </Prerequisites>
+            <Result Amount="30" TypeId="Component" SubtypeId="SmallAluminiumTube" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SmallAluminiumTubeProficientExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_SmallAluminiumTube}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\small_tube_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="5" TypeId="Ingot" SubtypeId="Aluminium" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="SmallAluminiumTube" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SmallAluminiumTubeElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_SmallAluminiumTube}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\small_tube_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="25" TypeId="Ingot" SubtypeId="Aluminium" />
+            </Prerequisites>
+            <Result Amount="50" TypeId="Component" SubtypeId="SmallAluminiumTube" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SmallAluminiumTubeEliteExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_SmallAluminiumTube}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\small_tube_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="2" TypeId="Ingot" SubtypeId="Aluminium" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="SmallAluminiumTube" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedMotorComponentBasic</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedMotor}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\motor_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="10.5" TypeId="Ingot" SubtypeId="Aluminium" />
+                <Item Amount="25.2" TypeId="Ingot" SubtypeId="Silver" />
+                <Item Amount="3" TypeId="Component" SubtypeId="Motor" />
+            </Prerequisites>
+            <Result Amount="3" TypeId="Component" SubtypeId="EnhancedMotor" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedMotorComponentEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedMotor}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\motor_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="10" TypeId="Ingot" SubtypeId="Aluminium" />
+                <Item Amount="25" TypeId="Ingot" SubtypeId="Silver" />
+                <Item Amount="5" TypeId="Component" SubtypeId="Motor" />
+            </Prerequisites>
+            <Result Amount="5" TypeId="Component" SubtypeId="EnhancedMotor" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedMotorComponentEnhancedExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedMotor}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\motor_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="5" TypeId="Ingot" SubtypeId="Aluminium" />
+                <Item Amount="12.5" TypeId="Ingot" SubtypeId="Silver" />
+                <Item Amount="2" TypeId="Component" SubtypeId="Motor" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="EnhancedMotor" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedMotorComponentProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedMotor}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\motor_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="9.125" TypeId="Ingot" SubtypeId="Aluminium" />
+                <Item Amount="22.25" TypeId="Ingot" SubtypeId="Silver" />
+                <Item Amount="7" TypeId="Component" SubtypeId="Motor" />
+            </Prerequisites>
+            <Result Amount="7" TypeId="Component" SubtypeId="EnhancedMotor" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedMotorComponentProficientExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedMotor}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\motor_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="4.6" TypeId="Ingot" SubtypeId="Aluminium" />
+                <Item Amount="11.5" TypeId="Ingot" SubtypeId="Silver" />
+                <Item Amount="2" TypeId="Component" SubtypeId="Motor" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="EnhancedMotor" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedMotorComponentElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedMotor}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\motor_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="8.6125" TypeId="Ingot" SubtypeId="Aluminium" />
+                <Item Amount="20.125" TypeId="Ingot" SubtypeId="Silver" />
+                <Item Amount="9" TypeId="Component" SubtypeId="Motor" />
+            </Prerequisites>
+            <Result Amount="9" TypeId="Component" SubtypeId="EnhancedMotor" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedMotorComponentEliteExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedMotor}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\motor_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="7" TypeId="Ingot" SubtypeId="Aluminium" />
+                <Item Amount="11.5" TypeId="Ingot" SubtypeId="Silver" />
+                <Item Amount="1" TypeId="Component" SubtypeId="Motor" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="EnhancedMotor" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedCircuitBasic</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedCircuit}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\circuit2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="11" TypeId="Ingot" SubtypeId="Aluminium" />
+                <Item Amount="8" TypeId="Ingot" SubtypeId="Silver" />
+                <Item Amount="7" TypeId="Component" SubtypeId="Circuit" />
+            </Prerequisites>
+            <Result Amount="5" TypeId="Component" SubtypeId="EnhancedCircuit" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedCircuitEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedCircuit}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\circuit2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="9.5" TypeId="Ingot" SubtypeId="Aluminium" />
+                <Item Amount="6.65" TypeId="Ingot" SubtypeId="Silver" />
+                <Item Amount="5" TypeId="Component" SubtypeId="Circuit" />
+            </Prerequisites>
+            <Result Amount="5" TypeId="Component" SubtypeId="EnhancedCircuit" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedCircuitEnhancedExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedCircuit}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\circuit2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="9.5" TypeId="Ingot" SubtypeId="Aluminium" />
+                <Item Amount="6.65" TypeId="Ingot" SubtypeId="Silver" />
+                <Item Amount="2" TypeId="Component" SubtypeId="Circuit" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="EnhancedCircuit" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedCircuitProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedCircuit}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\circuit2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="7.4" TypeId="Ingot" SubtypeId="Aluminium" />
+                <Item Amount="6.25" TypeId="Ingot" SubtypeId="Silver" />
+                <Item Amount="10" TypeId="Component" SubtypeId="Circuit" />
+            </Prerequisites>
+            <Result Amount="6" TypeId="Component" SubtypeId="EnhancedCircuit" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedCircuitProficientExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedCircuit}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\circuit2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="7.4" TypeId="Ingot" SubtypeId="Aluminium" />
+                <Item Amount="6.25" TypeId="Ingot" SubtypeId="Silver" />
+                <Item Amount="2" TypeId="Component" SubtypeId="Circuit" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="EnhancedCircuit" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedCircuitElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedCircuit}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\circuit2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="7.0" TypeId="Ingot" SubtypeId="Aluminium" />
+                <Item Amount="5.0" TypeId="Ingot" SubtypeId="Silver" />
+                <Item Amount="10" TypeId="Component" SubtypeId="Circuit" />
+            </Prerequisites>
+            <Result Amount="10" TypeId="Component" SubtypeId="EnhancedCircuit" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedCircuitEliteExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedCircuit}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\circuit2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="7.0" TypeId="Ingot" SubtypeId="Aluminium" />
+                <Item Amount="5.0" TypeId="Ingot" SubtypeId="Silver" />
+                <Item Amount="1" TypeId="Component" SubtypeId="Circuit" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="EnhancedCircuit" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedDisplayBasic</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedDisplay}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\display_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="5.5" TypeId="Ingot" SubtypeId="Aluminium" />
+                <Item Amount="8.0" TypeId="Ingot" SubtypeId="SilverWire" />
+                <Item Amount="9" TypeId="Component" SubtypeId="BulletproofGlass" />
+                <Item Amount="8" TypeId="Component" SubtypeId="PlasticSheet" />
+            </Prerequisites>
+            <Result Amount="2" TypeId="Component" SubtypeId="EnhancedDisplay" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedDisplayEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedDisplay}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\display_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="5.25" TypeId="Ingot" SubtypeId="Aluminium" />
+                <Item Amount="7.75" TypeId="Ingot" SubtypeId="SilverWire" />
+                <Item Amount="8" TypeId="Component" SubtypeId="BulletproofGlass" />
+                <Item Amount="7" TypeId="Component" SubtypeId="PlasticSheet" />
+            </Prerequisites>
+            <Result Amount="3" TypeId="Component" SubtypeId="EnhancedDisplay" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedDisplayEnhancedExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedDisplay}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\display_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="5.25" TypeId="Ingot" SubtypeId="Aluminium" />
+                <Item Amount="7.75" TypeId="Ingot" SubtypeId="SilverWire" />
+                <Item Amount="8" TypeId="Component" SubtypeId="BulletproofGlass" />
+                <Item Amount="7" TypeId="Component" SubtypeId="PlasticSheet" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="EnhancedDisplay" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedDisplayProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedDisplay}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\display_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="4.0" TypeId="Ingot" SubtypeId="Aluminium" />
+                <Item Amount="7.25" TypeId="Ingot" SubtypeId="SilverWire" />
+                <Item Amount="7" TypeId="Component" SubtypeId="BulletproofGlass" />
+                <Item Amount="6" TypeId="Component" SubtypeId="PlasticSheet" />
+            </Prerequisites>
+            <Result Amount="5" TypeId="Component" SubtypeId="EnhancedDisplay" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedDisplayProficientExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedDisplay}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\display_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="4.0" TypeId="Ingot" SubtypeId="Aluminium" />
+                <Item Amount="7.25" TypeId="Ingot" SubtypeId="SilverWire" />
+                <Item Amount="7" TypeId="Component" SubtypeId="BulletproofGlass" />
+                <Item Amount="6" TypeId="Component" SubtypeId="PlasticSheet" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="EnhancedDisplay" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedDisplayElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedDisplay}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\display_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="3.15" TypeId="Ingot" SubtypeId="Aluminium" />
+                <Item Amount="6.5" TypeId="Ingot" SubtypeId="SilverWire" />
+                <Item Amount="7" TypeId="Component" SubtypeId="BulletproofGlass" />
+                <Item Amount="5" TypeId="Component" SubtypeId="PlasticSheet" />
+            </Prerequisites>
+            <Result Amount="7" TypeId="Component" SubtypeId="EnhancedDisplay" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedDisplayEliteExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedDisplay}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\display_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="3.15" TypeId="Ingot" SubtypeId="Aluminium" />
+                <Item Amount="6.5" TypeId="Ingot" SubtypeId="SilverWire" />
+                <Item Amount="7" TypeId="Component" SubtypeId="BulletproofGlass" />
+                <Item Amount="5" TypeId="Component" SubtypeId="PlasticSheet" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="EnhancedDisplay" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>PlasticSheetEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_PlasticSheet}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\plasticSheet.dds</Icon>
+            <Prerequisites>
+                <Item Amount="4.5" TypeId="Ingot" SubtypeId="Plastic" />
+                <Item Amount="3" TypeId="Component" SubtypeId="SiliconSheet" />
+            </Prerequisites>
+            <Result Amount="2" TypeId="Component" SubtypeId="PlasticSheet" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>PlasticSheetProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_PlasticSheet}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\plasticSheet.dds</Icon>
+            <Prerequisites>
+                <Item Amount="3.5" TypeId="Ingot" SubtypeId="Plastic" />
+                <Item Amount="2" TypeId="Component" SubtypeId="SiliconSheet" />
+            </Prerequisites>
+            <Result Amount="2" TypeId="Component" SubtypeId="PlasticSheet" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>PlasticSheetElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_PlasticSheet}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\plasticSheet.dds</Icon>
+            <Prerequisites>
+                <Item Amount="3" TypeId="Ingot" SubtypeId="Plastic" />
+                <Item Amount="1" TypeId="Component" SubtypeId="SiliconSheet" />
+            </Prerequisites>
+            <Result Amount="3" TypeId="Component" SubtypeId="PlasticSheet" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>BulletproofGlassComponentEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_BulletproofGlass</DisplayName>
+            <Icon>Textures\GUI\Icons\component\bulletproof_glass_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="7" TypeId="Ingot" SubtypeId="BulletproofGlass" />
+                <Item Amount="1" TypeId="Component" SubtypeId="PlasticSheet" />
+            </Prerequisites>
+            <Result Amount="2" TypeId="Component" SubtypeId="BulletproofGlass" />
+            <BaseProductionTimeInSeconds>2.5</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>BulletproofGlassComponentProficient</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_BulletproofGlass</DisplayName>
+            <Icon>Textures\GUI\Icons\component\bulletproof_glass_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="5.5" TypeId="Ingot" SubtypeId="BulletproofGlass" />
+                <Item Amount="1" TypeId="Component" SubtypeId="PlasticSheet" />
+            </Prerequisites>
+            <Result Amount="3" TypeId="Component" SubtypeId="BulletproofGlass" />
+            <BaseProductionTimeInSeconds>2.5</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>BulletproofGlassComponentElite</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_BulletproofGlass</DisplayName>
+            <Icon>Textures\GUI\Icons\component\bulletproof_glass_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="4" TypeId="Ingot" SubtypeId="BulletproofGlass" />
+                <Item Amount="1" TypeId="Component" SubtypeId="PlasticSheet" />
+            </Prerequisites>
+            <Result Amount="4" TypeId="Component" SubtypeId="BulletproofGlass" />
+            <BaseProductionTimeInSeconds>2.5</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SilverPlateEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_SilverPlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\silverPlate.dds</Icon>
+            <Prerequisites>
+                <Item Amount="150" TypeId="Ingot" SubtypeId="Silver" />
+            </Prerequisites>
+            <Result Amount="15" TypeId="Component" SubtypeId="SilverPlate" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SilverPlateProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_SilverPlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\silverPlate.dds</Icon>
+            <Prerequisites>
+                <Item Amount="150" TypeId="Ingot" SubtypeId="Silver" />
+            </Prerequisites>
+            <Result Amount="20" TypeId="Component" SubtypeId="SilverPlate" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SilverPlateElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_SilverPlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\silverPlate.dds</Icon>
+            <Prerequisites>
+                <Item Amount="120" TypeId="Ingot" SubtypeId="Silver" />
+            </Prerequisites>
+            <Result Amount="40" TypeId="Component" SubtypeId="SilverPlate" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>KobAldPlateEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_KobAldPlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\kobAldPlate.dds</Icon>
+            <Prerequisites>
+                <Item Amount="210" TypeId="Ingot" SubtypeId="KobAld" />
+            </Prerequisites>
+            <Result Amount="20" TypeId="Component" SubtypeId="KobAldPlate" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>KobAldPlateProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_KobAldPlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\kobAldPlate.dds</Icon>
+            <Prerequisites>
+                <Item Amount="195" TypeId="Ingot" SubtypeId="KobAld" />
+            </Prerequisites>
+            <Result Amount="20" TypeId="Component" SubtypeId="KobAldPlate" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>KobAldPlateElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_KobAldPlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\kobAldPlate.dds</Icon>
+            <Prerequisites>
+                <Item Amount="180" TypeId="Ingot" SubtypeId="KobAld" />
+            </Prerequisites>
+            <Result Amount="30" TypeId="Component" SubtypeId="KobAldPlate" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SmallKobAldTubeEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_SmallKobAldTube}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\smallKobAldTube.dds</Icon>
+            <Prerequisites>
+                <Item Amount="40" TypeId="Ingot" SubtypeId="KobAld" />
+            </Prerequisites>
+            <Result Amount="20" TypeId="Component" SubtypeId="SmallKobAldTube" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SmallKobAldTubeProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_SmallKobAldTube}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\smallKobAldTube.dds</Icon>
+            <Prerequisites>
+                <Item Amount="40" TypeId="Ingot" SubtypeId="KobAld" />
+            </Prerequisites>
+            <Result Amount="25" TypeId="Component" SubtypeId="SmallKobAldTube" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SmallKobAldTubeElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_SmallKobAldTube}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\smallKobAldTube.dds</Icon>
+            <Prerequisites>
+                <Item Amount="35" TypeId="Ingot" SubtypeId="KobAld" />
+            </Prerequisites>
+            <Result Amount="35" TypeId="Component" SubtypeId="SmallKobAldTube" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>LargeAluminiumTubeEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_LargeAluminiumTube}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\largeAluminiumTube.dds</Icon>
+            <Prerequisites>
+                <Item Amount="150" TypeId="Ingot" SubtypeId="Aluminium" />
+            </Prerequisites>
+            <Result Amount="6" TypeId="Component" SubtypeId="LargeAluminiumTube" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>LargeAluminiumTubeProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_LargeAluminiumTube}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\largeAluminiumTube.dds</Icon>
+            <Prerequisites>
+                <Item Amount="120" TypeId="Ingot" SubtypeId="Aluminium" />
+            </Prerequisites>
+            <Result Amount="8" TypeId="Component" SubtypeId="LargeAluminiumTube" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>LargeAluminiumTubeElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_LargeAluminiumTube}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\largeAluminiumTube.dds</Icon>
+            <Prerequisites>
+                <Item Amount="100" TypeId="Ingot" SubtypeId="Aluminium" />
+            </Prerequisites>
+            <Result Amount="10" TypeId="Component" SubtypeId="LargeAluminiumTube" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>LargeKobAldTubeEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_LargeKobAldTube}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\largeKobAldTube.dds</Icon>
+            <Prerequisites>
+                <Item Amount="150" TypeId="Ingot" SubtypeId="KobAld" />
+            </Prerequisites>
+            <Result Amount="5" TypeId="Component" SubtypeId="LargeKobAldTube" />
+            <BaseProductionTimeInSeconds>4.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>LargeKobAldTubeProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_LargeKobAldTube}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\largeKobAldTube.dds</Icon>
+            <Prerequisites>
+                <Item Amount="150" TypeId="Ingot" SubtypeId="KobAld" />
+            </Prerequisites>
+            <Result Amount="7" TypeId="Component" SubtypeId="LargeKobAldTube" />
+            <BaseProductionTimeInSeconds>4.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>LargeKobAldTubeElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_LargeKobAldTube}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\largeKobAldTube.dds</Icon>
+            <Prerequisites>
+                <Item Amount="130" TypeId="Ingot" SubtypeId="KobAld" />
+            </Prerequisites>
+            <Result Amount="10" TypeId="Component" SubtypeId="LargeKobAldTube" />
+            <BaseProductionTimeInSeconds>4.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedMetalGridEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedMetalGrid}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\metal_grid_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="35" TypeId="Ingot" SubtypeId="Aluminium" />
+                <Item Amount="20.5" TypeId="Ingot" SubtypeId="KobAld" />
+                <Item Amount="5" TypeId="Component" SubtypeId="MetalGrid" />
+            </Prerequisites>
+            <Result Amount="5" TypeId="Component" SubtypeId="EnhancedMetalGrid" />
+            <BaseProductionTimeInSeconds>3.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedMetalGridProficient</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_MetalGrid</DisplayName>
+            <Icon>Textures\GUI\Icons\component\metal_grid_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="30.225" TypeId="Ingot" SubtypeId="Aluminium" />
+                <Item Amount="17.125" TypeId="Ingot" SubtypeId="KobAld" />
+                <Item Amount="8" TypeId="Component" SubtypeId="MetalGrid" />
+            </Prerequisites>
+            <Result Amount="8" TypeId="Component" SubtypeId="EnhancedMetalGrid" />
+            <BaseProductionTimeInSeconds>3.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedMetalGridElite</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_MetalGrid</DisplayName>
+            <Icon>Textures\GUI\Icons\component\metal_grid_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="25.75" TypeId="Ingot" SubtypeId="Aluminium" />
+                <Item Amount="15" TypeId="Ingot" SubtypeId="KobAld" />
+                <Item Amount="10" TypeId="Component" SubtypeId="MetalGrid" />
+            </Prerequisites>
+            <Result Amount="10" TypeId="Component" SubtypeId="EnhancedMetalGrid" />
+            <BaseProductionTimeInSeconds>3.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>AluminiumWireEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Ingot_AluminiumWire}</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\aluminiumWire.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Component" SubtypeId="AluminiumPlate" />
+            </Prerequisites>
+            <Result Amount="10" TypeId="Ingot" SubtypeId="AluminiumWire" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>AluminiumWireProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Ingot_AluminiumWire}</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\aluminiumWire.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Component" SubtypeId="AluminiumPlate" />
+            </Prerequisites>
+            <Result Amount="12.25" TypeId="Ingot" SubtypeId="AluminiumWire" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>AluminiumWireElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Ingot_AluminiumWire}</DisplayName>
+            <Icon>Textures\GUI\Icons\Ingot\aluminiumWire.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Component" SubtypeId="AluminiumPlate" />
+            </Prerequisites>
+            <Result Amount="15" TypeId="Ingot" SubtypeId="AluminiumWire" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SilverWireEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Ingot_SilverWire}</DisplayName>
+            <Icon>Textures\GUI\Icons\Ingot\silverWire.dds</Icon>
+            <Prerequisites>
+                <Item Amount="8" TypeId="Component" SubtypeId="PlasticSheet" />
+                <Item Amount="2" TypeId="Component" SubtypeId="SilverPlate" />
+            </Prerequisites>
+            <Result Amount="10" TypeId="Ingot" SubtypeId="SilverWire" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SilverWireProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Ingot_SilverWire}</DisplayName>
+            <Icon>Textures\GUI\Icons\Ingot\silverWire.dds</Icon>
+            <Prerequisites>
+                <Item Amount="2" TypeId="Component" SubtypeId="PlasticSheet" />
+                <Item Amount="1" TypeId="Component" SubtypeId="SilverPlate" />
+            </Prerequisites>
+            <Result Amount="12.125" TypeId="Ingot" SubtypeId="SilverWire" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SilverWireElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Ingot_SilverWire}</DisplayName>
+            <Icon>Textures\GUI\Icons\Ingot\silverWire.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Component" SubtypeId="PlasticSheet" />
+                <Item Amount="1" TypeId="Component" SubtypeId="SilverPlate" />
+            </Prerequisites>
+            <Result Amount="17.625" TypeId="Ingot" SubtypeId="SilverWire" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedWheelEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedWheel}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\siTyre2x.dds</Icon>
+            <Prerequisites>
+               <Item Amount="10" TypeId="Component" SubtypeId="PlasticSheet" />
+               <Item Amount="30" TypeId="Ingot" SubtypeId="AluminiumWire" />
+            </Prerequisites>
+            <Result Amount="2" TypeId="Component" SubtypeId="EnhancedSiTyre" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedWheelProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedWheel}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\siTyre2x.dds</Icon>
+            <Prerequisites>
+               <Item Amount="9" TypeId="Component" SubtypeId="PlasticSheet" />
+               <Item Amount="25" TypeId="Ingot" SubtypeId="AluminiumWire" />
+            </Prerequisites>
+            <Result Amount="4" TypeId="Component" SubtypeId="EnhancedSiTyre" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedWheelElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedWheel}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\siTyre2x.dds</Icon>
+            <Prerequisites>
+               <Item Amount="8" TypeId="Component" SubtypeId="PlasticSheet" />
+               <Item Amount="20" TypeId="Ingot" SubtypeId="AluminiumWire" />
+            </Prerequisites>
+            <Result Amount="8" TypeId="Component" SubtypeId="EnhancedSiTyre" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedReinforcedWheelEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedReinforcedWheel}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\tyre2x.dds</Icon>
+            <Prerequisites>
+               <Item Amount="10" TypeId="Component" SubtypeId="PlasticSheet" />
+               <Item Amount="1" TypeId="Component" SubtypeId="EnhancedSiTyre" />
+               <Item Amount="5" TypeId="Component" SubtypeId="SmallKobAldTube" />
+            </Prerequisites>
+            <Result Amount="2" TypeId="Component" SubtypeId="EnhancedTyre" />
+            <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedReinforcedWheelProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedReinforcedWheel}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\tyre2x.dds</Icon>
+            <Prerequisites>
+               <Item Amount="10" TypeId="Component" SubtypeId="PlasticSheet" />
+               <Item Amount="1" TypeId="Component" SubtypeId="EnhancedSiTyre" />
+               <Item Amount="5" TypeId="Component" SubtypeId="SmallKobAldTube" />
+            </Prerequisites>
+            <Result Amount="4" TypeId="Component" SubtypeId="EnhancedTyre" />
+            <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedReinforcedWheelElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedReinforcedWheel}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\tyre2x.dds</Icon>
+            <Prerequisites>
+               <Item Amount="10" TypeId="Component" SubtypeId="PlasticSheet" />
+               <Item Amount="1" TypeId="Component" SubtypeId="EnhancedSiTyre" />
+               <Item Amount="2" TypeId="Component" SubtypeId="SmallKobAldTube" />
+            </Prerequisites>
+            <Result Amount="8" TypeId="Component" SubtypeId="EnhancedTyre" />
+            <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedLEDEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedLED}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\LEDComponent2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="5.315" TypeId="Ingot" SubtypeId="SilverWire" />
+                <Item Amount="3" TypeId="Component" SubtypeId="AluminiumPlate" />
+                <Item Amount="5" TypeId="Component" SubtypeId="BulletproofGlass" />
+                <Item Amount="5" TypeId="Component" SubtypeId="PlasticSheet" />
+                <Item Amount="3" TypeId="Component" SubtypeId="EnhancedHeatsink" />
+            </Prerequisites>
+            <Result Amount="3" TypeId="Component" SubtypeId="EnhancedLED" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedLEDProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedLED}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\LEDComponent2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="2.575" TypeId="Ingot" SubtypeId="SilverWire" />
+                <Item Amount="2" TypeId="Component" SubtypeId="AluminiumPlate" />
+                <Item Amount="3" TypeId="Component" SubtypeId="BulletproofGlass" />
+                <Item Amount="3" TypeId="Component" SubtypeId="PlasticSheet" />
+                <Item Amount="2" TypeId="Component" SubtypeId="EnhancedHeatsink" />
+            </Prerequisites>
+            <Result Amount="6" TypeId="Component" SubtypeId="EnhancedLED" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedLEDElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedLED}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\LEDComponent2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1.125" TypeId="Ingot" SubtypeId="SilverWire" />
+                <Item Amount="1" TypeId="Component" SubtypeId="AluminiumPlate" />
+                <Item Amount="2" TypeId="Component" SubtypeId="BulletproofGlass" />
+                <Item Amount="2" TypeId="Component" SubtypeId="PlasticSheet" />
+                <Item Amount="1" TypeId="Component" SubtypeId="EnhancedHeatsink" />
+            </Prerequisites>
+            <Result Amount="8" TypeId="Component" SubtypeId="EnhancedLED" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedCPUEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedCPU}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\circuit2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="2" TypeId="Ingot" SubtypeId="SilverWire" />
+                <Item Amount="3" TypeId="Component" SubtypeId="PlasticSheet" />
+                <Item Amount="3" TypeId="Component" SubtypeId="KobAldPlate" />
+                <Item Amount="7" TypeId="Component" SubtypeId="EnhancedCircuit" />
+                <Item Amount="3" TypeId="Component" SubtypeId="EnhancedLED" />
+            </Prerequisites>
+            <Result Amount="2" TypeId="Component" SubtypeId="EnhancedCPU" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedCPUProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedCPU}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\circuit2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1.8" TypeId="Ingot" SubtypeId="SilverWire" />
+                <Item Amount="2" TypeId="Component" SubtypeId="PlasticSheet" />
+                <Item Amount="2" TypeId="Component" SubtypeId="KobAldPlate" />
+                <Item Amount="5" TypeId="Component" SubtypeId="EnhancedCircuit" />
+                <Item Amount="2" TypeId="Component" SubtypeId="EnhancedLED" />
+            </Prerequisites>
+            <Result Amount="3" TypeId="Component" SubtypeId="EnhancedCPU" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedCPUElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedCPU}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\circuit2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1.6" TypeId="Ingot" SubtypeId="SilverWire" />
+                <Item Amount="1" TypeId="Component" SubtypeId="PlasticSheet" />
+                <Item Amount="1" TypeId="Component" SubtypeId="KobAldPlate" />
+                <Item Amount="4" TypeId="Component" SubtypeId="EnhancedCircuit" />
+                <Item Amount="2" TypeId="Component" SubtypeId="EnhancedLED" />
+            </Prerequisites>
+            <Result Amount="4" TypeId="Component" SubtypeId="EnhancedCPU" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedComputerEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedComputer}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\computer_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="9.825" TypeId="Ingot" SubtypeId="SilverWire" />
+                <Item Amount="2" TypeId="Component" SubtypeId="KobAldPlate" />
+                <Item Amount="7" TypeId="Component" SubtypeId="EnhancedCPU" />
+                <Item Amount="2" TypeId="Component" SubtypeId="EnhancedDisplay" />
+            </Prerequisites>
+            <Result Amount="2" TypeId="Component" SubtypeId="EnhancedComputer" />
+            <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedComputerProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedComputer}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\computer_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="7.265" TypeId="Ingot" SubtypeId="SilverWire" />
+                <Item Amount="2" TypeId="Component" SubtypeId="KobAldPlate" />
+                <Item Amount="6" TypeId="Component" SubtypeId="EnhancedCPU" />
+                <Item Amount="2" TypeId="Component" SubtypeId="EnhancedDisplay" />
+            </Prerequisites>
+            <Result Amount="3" TypeId="Component" SubtypeId="EnhancedComputer" />
+            <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedComputerElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedComputer}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\computer_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="5.125" TypeId="Ingot" SubtypeId="SilverWire" />
+                <Item Amount="1" TypeId="Component" SubtypeId="KobAldPlate" />
+                <Item Amount="5" TypeId="Component" SubtypeId="EnhancedCPU" />
+                <Item Amount="2" TypeId="Component" SubtypeId="EnhancedDisplay" />
+            </Prerequisites>
+            <Result Amount="5" TypeId="Component" SubtypeId="EnhancedComputer" />
+            <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedHeatsinkEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedHeatsink}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\heatsink2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="60" TypeId="Ingot" SubtypeId="SteelWire" />
+                <Item Amount="2" TypeId="Ingot" SubtypeId="LiFeKobAlloy" />
+                <Item Amount="5" TypeId="Component" SubtypeId="KobAldPlate" />                
+            </Prerequisites>
+            <Result Amount="2" TypeId="Component" SubtypeId="EnhancedHeatsink" />
+            <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedHeatsinkProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedHeatsink}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\heatsink2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="58" TypeId="Ingot" SubtypeId="SteelWire" />
+                <Item Amount="2" TypeId="Ingot" SubtypeId="LiFeKobAlloy" />
+                <Item Amount="4" TypeId="Component" SubtypeId="KobAldPlate" />
+            </Prerequisites>
+            <Result Amount="2" TypeId="Component" SubtypeId="EnhancedHeatsink" />
+            <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedHeatsinkElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_EnhancedHeatsink}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\heatsink2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="55" TypeId="Ingot" SubtypeId="SteelWire" />
+                <Item Amount="2" TypeId="Ingot" SubtypeId="LiFeKobAlloy" />
+                <Item Amount="3" TypeId="Component" SubtypeId="KobAldPlate" />
+            </Prerequisites>
+            <Result Amount="3" TypeId="Component" SubtypeId="EnhancedHeatsink" />
+            <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>GaAsSolarCellEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_GaAsSolarCell}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\GaAsSolarCellComponent.dds</Icon>
+            <Prerequisites>
+                <Item Amount="5" TypeId="Ingot" SubtypeId="Gallium" />
+                <Item Amount="3.65" TypeId="Ingot" SubtypeId="SilverWire" />
+                <Item Amount="6" TypeId="Component" SubtypeId="AluminiumPlate" />
+                <Item Amount="8" TypeId="Component" SubtypeId="BulletproofGlass" />
+                <Item Amount="4" TypeId="Component" SubtypeId="PlasticSheet" />
+            </Prerequisites>
+            <Result Amount="4" TypeId="Component" SubtypeId="GaAsSolarCell" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>GaAsSolarCellProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_GaAsSolarCell}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\GaAsSolarCellComponent.dds</Icon>
+            <Prerequisites>
+                <Item Amount="4" TypeId="Ingot" SubtypeId="Gallium" />
+                <Item Amount="3.125" TypeId="Ingot" SubtypeId="SilverWire" />
+                <Item Amount="5" TypeId="Component" SubtypeId="AluminiumPlate" />
+                <Item Amount="7" TypeId="Component" SubtypeId="BulletproofGlass" />
+                <Item Amount="4" TypeId="Component" SubtypeId="PlasticSheet" />
+            </Prerequisites>
+            <Result Amount="6" TypeId="Component" SubtypeId="GaAsSolarCell" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>GaAsSolarCellElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_GaAsSolarCell}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\GaAsSolarCellComponent.dds</Icon>
+            <Prerequisites>
+                <Item Amount="3" TypeId="Ingot" SubtypeId="Gallium" />
+                <Item Amount="2.525" TypeId="Ingot" SubtypeId="SilverWire" />
+                <Item Amount="3" TypeId="Component" SubtypeId="AluminiumPlate" />
+                <Item Amount="6" TypeId="Component" SubtypeId="BulletproofGlass" />
+                <Item Amount="3" TypeId="Component" SubtypeId="PlasticSheet" />
+            </Prerequisites>
+            <Result Amount="8" TypeId="Component" SubtypeId="GaAsSolarCell" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>LiFeKobPowerCellEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_LiFeKobPowerCell}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\BatteryComponent2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="8" TypeId="Ingot" SubtypeId="SilverWire" />
+                <Item Amount="4" TypeId="Ingot" SubtypeId="LiFeKobAlloy" />
+                <Item Amount="5" TypeId="Component" SubtypeId="KobAldPlate" />
+            </Prerequisites>
+            <Result Amount="2" TypeId="Component" SubtypeId="LiFeKobPowerCell" />
+            <BaseProductionTimeInSeconds>5.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>LiFeKobPowerCellProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_LiFeKobPowerCell}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\BatteryComponent2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="7" TypeId="Ingot" SubtypeId="SilverWire" />
+                <Item Amount="4" TypeId="Ingot" SubtypeId="LiFeKobAlloy" />
+                <Item Amount="4" TypeId="Component" SubtypeId="KobAldPlate" />
+            </Prerequisites>
+            <Result Amount="2" TypeId="Component" SubtypeId="LiFeKobPowerCell" />
+            <BaseProductionTimeInSeconds>5.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>LiFeKobPowerCellElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_LiFeKobPowerCell}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\BatteryComponent2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="6.5" TypeId="Ingot" SubtypeId="SilverWire" />
+                <Item Amount="4" TypeId="Ingot" SubtypeId="LiFeKobAlloy" />
+                <Item Amount="4" TypeId="Component" SubtypeId="KobAldPlate" />
+            </Prerequisites>
+            <Result Amount="3" TypeId="Component" SubtypeId="LiFeKobPowerCell" />
+            <BaseProductionTimeInSeconds>5.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedDetectorComponentEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_DetectorComponents</DisplayName>
+            <Icon>Textures\GUI\Icons\component\detector_components_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="5" TypeId="Ingot" SubtypeId="KobAld" />
+                <Item Amount="15" TypeId="Ingot" SubtypeId="LiFeKobAlloy" />
+                <Item Amount="4" TypeId="Component" SubtypeId="EnhancedHeatsink" />
+                <Item Amount="2" TypeId="Component" SubtypeId="EnhancedLED" />
+                <Item Amount="5" TypeId="Component" SubtypeId="EnhancedCPU" />
+            </Prerequisites>
+            <Result Amount="2" TypeId="Component" SubtypeId="EnhancedDetector" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedDetectorComponentProficent</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_DetectorComponents</DisplayName>
+            <Icon>Textures\GUI\Icons\component\detector_components_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="4.8" TypeId="Ingot" SubtypeId="KobAld" />
+                <Item Amount="13.5" TypeId="Ingot" SubtypeId="LiFeKobAlloy" />
+                <Item Amount="4" TypeId="Component" SubtypeId="EnhancedHeatsink" />
+                <Item Amount="2" TypeId="Component" SubtypeId="EnhancedLED" />
+                <Item Amount="5" TypeId="Component" SubtypeId="EnhancedCPU" />
+            </Prerequisites>
+            <Result Amount="2" TypeId="Component" SubtypeId="EnhancedDetector" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>EnhancedDetectorComponentElite</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_DetectorComponents</DisplayName>
+            <Icon>Textures\GUI\Icons\component\detector_components_component2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="4.5" TypeId="Ingot" SubtypeId="KobAld" />
+                <Item Amount="12.7" TypeId="Ingot" SubtypeId="LiFeKobAlloy" />
+                <Item Amount="3" TypeId="Component" SubtypeId="EnhancedHeatsink" />
+                <Item Amount="2" TypeId="Component" SubtypeId="EnhancedLED" />
+                <Item Amount="4" TypeId="Component" SubtypeId="EnhancedCPU" />
+            </Prerequisites>
+            <Result Amount="3" TypeId="Component" SubtypeId="EnhancedDetector" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>MedicalComponentEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_MedicalComponents</DisplayName>
+            <Icon>Textures\GUI\Icons\component\medical_components_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="20" TypeId="Ingot" SubtypeId="SilverWire" />
+                <Item Amount="8" TypeId="Component" SubtypeId="EnhancedCPU" />
+                <Item Amount="5" TypeId="Component" SubtypeId="EnhancedHeatsink" />
+                <Item Amount="4" TypeId="Component" SubtypeId="PlasticSheet" />
+                <Item Amount="1" TypeId="Component" SubtypeId="AluminiumPlate" />
+                <Item Amount="3" TypeId="Component" SubtypeId="SmallKobAldTube" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Medical" />
+            <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>MedicalComponentProficient</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_MedicalComponents</DisplayName>
+            <Icon>Textures\GUI\Icons\component\medical_components_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="18.925" TypeId="Ingot" SubtypeId="SilverWire" />
+                <Item Amount="7" TypeId="Component" SubtypeId="EnhancedCPU" />
+                <Item Amount="4" TypeId="Component" SubtypeId="EnhancedHeatsink" />
+                <Item Amount="3" TypeId="Component" SubtypeId="PlasticSheet" />
+                <Item Amount="1" TypeId="Component" SubtypeId="AluminiumPlate" />
+                <Item Amount="3" TypeId="Component" SubtypeId="SmallKobAldTube" />
+            </Prerequisites>
+            <Result Amount="3" TypeId="Component" SubtypeId="Medical" />
+            <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>MedicalComponentElite</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_MedicalComponents</DisplayName>
+            <Icon>Textures\GUI\Icons\component\medical_components_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="16.525" TypeId="Ingot" SubtypeId="SilverWire" />
+                <Item Amount="5" TypeId="Component" SubtypeId="EnhancedCPU" />
+                <Item Amount="3" TypeId="Component" SubtypeId="EnhancedHeatsink" />
+                <Item Amount="1" TypeId="Component" SubtypeId="PlasticSheet" />
+                <Item Amount="1" TypeId="Component" SubtypeId="AluminiumPlate" />
+                <Item Amount="2" TypeId="Component" SubtypeId="SmallKobAldTube" />
+            </Prerequisites>
+            <Result Amount="5" TypeId="Component" SubtypeId="Medical" />
+            <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+        <!-- TIER: 1                                                    -->
+        <!-- TECH-COMPONENT DEFINITIONS                                 -->
+        <!-- PURGE RELEVANT SECTION FROM:   2696554070/Blueprints.sbc   -->
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>Tech4x</SubtypeId>
+            </Id>
+            <DisplayName>Rare Tech</DisplayName>
+            <Icon>Textures\tech4x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="32" TypeId="Ingot" SubtypeId="SilverWire" />
+                <Item Amount="8" TypeId="Component" SubtypeId="EnhancedDetector" />
+                <Item Amount="8" TypeId="Component" SubtypeId="MedicalComponent" />
+                <Item Amount="12" TypeId="Component" SubtypeId="LiFeKoPowerCell" />
+                <Item Amount="8" TypeId="Component" SubtypeId="EnhancedHeatsink" />
+                <Item Amount="16" TypeId="Component" SubtypeId="EnhancedComputer" />
+                <Item Amount="8" TypeId="Component" SubtypeId="EnhancedLED" />
+                <Item Amount="64" TypeId="Component" SubtypeId="EnhancedGirder" />
+                <Item Amount="32" TypeId="Component" SubtypeId="EnhancedMetalGrid" />
+                <Item Amount="64" TypeId="Component" SubtypeId="SmallKobAldTube" />
+                <Item Amount="4" TypeId="Component" SubtypeId="Tech2x"/>
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Tech4x"/>
+            <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+        </Blueprint>
+        <!-- TECH-COMPONENT DEFINITIONS                                 -->
+        <!-- COMPONENT DEFINITIONS                                      -->
+    </Blueprints>
+</Definitions>

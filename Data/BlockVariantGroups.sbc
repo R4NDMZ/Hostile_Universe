@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+		<BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="OilRefineryGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\oilrefinery.dds</Icon>
+            <DisplayName>DisplayName_Block_Refinery</DisplayName>
+            <Description>Description_Refinery</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Refinery" Subtype="LargeOilRefinery" />
+				<Block Type="MyObjectBuilder_Refinery" Subtype="LargeOilRefinery2x" />
+				<Block Type="MyObjectBuilder_Refinery" Subtype="LargeOilRefinery4x" />
+				<Block Type="MyObjectBuilder_Refinery" Subtype="LargeOilRefinery8x" />
+				<Block Type="MyObjectBuilder_Refinery" Subtype="LargeOilRefineryAcient" />
+            </Blocks>
+        </BlockVariantGroup>
+
+		<BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WindTurbineGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\oilrefinery.dds</Icon>
+            <DisplayName>DisplayName_Block_Refinery</DisplayName>
+            <Description>Description_Refinery</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Refinery" Subtype="LargeBlockWindTurbine" />
+				<Block Type="MyObjectBuilder_Refinery" Subtype="LargeBlockWindTurbine2x" />
+				<Block Type="MyObjectBuilder_Refinery" Subtype="LargeBlockWindTurbine4x" />
+				<Block Type="MyObjectBuilder_Refinery" Subtype="LargeBlockWindTurbine8x" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        
+    </BlockVariantGroups>
+</Definitions>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <AmmoMagazines>
+
+        <AmmoMagazine>
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>RailGunHWammo</SubtypeId>
+            </Id>
+            <DisplayName>[WF]HandRailGunAmmo</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\Rifle_Ammo_SemiAuto.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.05</Y>
+                <Z>0.02</Z>
+            </Size>
+            <Mass>0.6</Mass>
+            <Volume>0.2</Volume>
+            <Model>Models\Weapons\Rifle_SemiAuto_Magazine_Warfare.mwm</Model>
+            <PhysicalMaterial>Ammo</PhysicalMaterial>
+            <Capacity>3</Capacity>
+            <AmmoDefinitionId Subtype="SmallCaliber_Blank" />
+
+            <MinimumOfferAmount>10</MinimumOfferAmount>
+            <MaximumOfferAmount>100</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>2000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+			<CanSpawnFromScreen>true</CanSpawnFromScreen>
+        </AmmoMagazine>
+        
+    </AmmoMagazines>
+</Definitions>

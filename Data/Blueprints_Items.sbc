@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Blueprints>
+    <!-- HAND-WEAPON DEFINITIONS    -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>WFRailGun</SubtypeId>
+      </Id>
+      <DisplayName>[WF] Type 42 Heavy Anti-Equipment Magnetic RailgunRailGun</DisplayName>
+        <Icon>Models\WF_HRG\GM.png</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="60" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Cobalt" />
+        <Item Amount="42" TypeId="Ingot" SubtypeId="Silver" />
+        <Item Amount="30" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Platinum" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="WFRailGunItem" />
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <!-- HAND-WEAPON DEFINITIONS            -->
+
+    <!-- HAND-WEAPON: AMMO DEFINITIONS      -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>RailGunHWammo</SubtypeId>
+      </Id>
+      <DisplayName>[WF]RailGunAmmo</DisplayName>
+        <Icon>Textures\GUI\Icons\ammo\Rifle_Ammo_Precise.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="22" TypeId="Ingot" SubtypeId="Cobalt" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="RailGunHWammo" />
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <!-- HAND-WEAPON: AMMO DEFINITIONS      -->
+    </Blueprints>
+</Definitions>

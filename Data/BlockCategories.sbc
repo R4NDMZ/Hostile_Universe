@@ -1,0 +1,58 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CategoryClasses>
+
+      <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_CharacterWeapons</DisplayName>
+      <Name>CharacterWeapons</Name>
+      <SearchBlocks>false</SearchBlocks>
+      <ItemIds>
+        <string>WFRailGunItem</string>
+      </ItemIds>
+    </Category>
+
+        <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+            <Id>
+                <TypeId>GuiBlockCategoryDefinition</TypeId>
+                <SubtypeId/>
+            </Id>
+            <DisplayName>Better Resources</DisplayName>
+            <Name>Better_Resources</Name>
+            <StrictSearch>true</StrictSearch>
+            <ItemIds>
+				<string>Refinery/LargeOilRefinery2x</string>
+				<string>Refinery/LargeOilRefinery4x</string>
+				<string>Refinery/LargeOilRefinery8x</string>
+				<string>Refinery/LargeOilRefineryAcient</string>
+            </ItemIds>
+        </Category>
+
+        <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
+      <Name>LargeBlocks</Name>
+      <ItemIds>
+        <string>GoldenSolarPanel/LargeBlockGoldenSolarPanel</string>
+      </ItemIds>
+    </Category>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_SmallBlocks</DisplayName>
+      <Name>SmallBlocks</Name>
+      <ItemIds>
+        <string>GoldenSolarPanel/SmallBlockGoldenSolarPanel</string>      
+      </ItemIds>       
+    </Category>
+    </CategoryClasses>
+</Definitions>

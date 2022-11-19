@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Blueprints>
+        
+        <!-- ORE TO INGOT DEFINITIONS -->
+        <!-- PURGE RELEVANT SECTION FROM:   2841960221/Blueprints.sbc -->
+        <!--                                2696554070/Blueprints.sbc -->
+        <!-- REFINERY RECIPES         -->
+        
+        <!-- REFINERY RECIPES         -->
+        <!-- BASIC-REFINERY RECIPES         -->
+        
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>BasicSulfurProcessorEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>Sulfur Powder</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\sulfur_powder.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Ore" SubtypeId="Sulfur" />
+            </Prerequisites>
+            <Results>
+                <Item Amount="0.2" TypeId="Ingot" SubtypeId="Stone" />
+                <Item Amount="0.6" TypeId="Ingot" SubtypeId="Sulfur" />
+                <Item Amount="0.2" TypeId="Ingot" SubtypeId="Organic" />
+            </Results>
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>BasicSulfurProcessorProficient</SubtypeId>
+            </Id>
+            <DisplayName>Sulfur Powder</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\sulfur_powder.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1.5" TypeId="Ore" SubtypeId="Sulfur" />
+            </Prerequisites>
+            <Results>
+                <Item Amount="0.1" TypeId="Ingot" SubtypeId="Stone" />
+                <Item Amount="1.15" TypeId="Ingot" SubtypeId="Sulfur" />
+                <Item Amount="0.35" TypeId="Ingot" SubtypeId="Organic" />
+            </Results>
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <!-- A STONE INGOT ITT H2 [hogyan?]          -->
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>BasicSulfurProcessorElite</SubtypeId>
+            </Id>
+            <DisplayName>Sulfur Powder</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\sulfur_powder.dds</Icon>
+            <Prerequisites>
+                <Item Amount="2" TypeId="Ore" SubtypeId="Sulfur" />
+            </Prerequisites>
+            <Results>
+                <!-- <Item Amount="0.5" TypeId="Ingot" SubtypeId="Stone" /> -->
+                <Item Amount="1.5" TypeId="Ingot" SubtypeId="Sulfur" />
+                <Item Amount="1.5" TypeId="Ingot" SubtypeId="Organic" />
+            </Results>
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <!-- BASIC-REFINERY RECIPES         -->
+        <!-- ALLOY        DEFINITIONS   -->
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>KobAldEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Alloy_KobAld}</DisplayName>
+            <Icon>Textures\GUI\Icons\Ingot\kobaldIngot.dds</Icon>
+            <Prerequisites>
+                <Item Amount="2.5" TypeId="Ingot" SubtypeId="Kobold" />
+                <Item Amount="3.5" TypeId="Ingot" SubtypeId="Aluminium" />
+            </Prerequisites>
+            <Result Amount="3" TypeId="Ingot" SubtypeId="KobAld" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>KobAldProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Alloy_KobAld}</DisplayName>
+            <Icon>Textures\GUI\Icons\Ingot\kobaldIngot.dds</Icon>
+            <Prerequisites>
+                <Item Amount="2" TypeId="Ingot" SubtypeId="Kobold" />
+                <Item Amount="2.5" TypeId="Ingot" SubtypeId="Aluminium" />
+            </Prerequisites>
+            <Result Amount="3.5" TypeId="Ingot" SubtypeId="KobAld" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>KobAldElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Alloy_KobAld}</DisplayName>
+            <Icon>Textures\GUI\Icons\Ingot\kobaldIngot.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1.8" TypeId="Ingot" SubtypeId="Kobold" />
+                <Item Amount="1.5" TypeId="Ingot" SubtypeId="Aluminium" />
+            </Prerequisites>
+            <Result Amount="4" TypeId="Ingot" SubtypeId="KobAld" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>LiFeCoAlloyEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Alloy_LiFeCoAlloy}</DisplayName>
+            <Icon>Textures\GUI\Icons\Ingot\liFeCoAlloyIngot.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1.5" TypeId="Ingot" SubtypeId="BatteryAlloy" />
+                <Item Amount="0.8" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Kobold" />
+                <Item Amount="3" TypeId="Ingot" SubtypeId="Lithium" />
+            </Prerequisites>
+            <Result Amount="2" TypeId="Ingot" SubtypeId="LiFeCoAlloy" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>LiFeCoAlloyProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Alloy_LiFeCoAlloy}</DisplayName>
+            <Icon>Textures\GUI\Icons\Ingot\liFeCoAlloyIngot.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1.5" TypeId="Ingot" SubtypeId="BatteryAlloy" />
+                <Item Amount="0.5" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="0.8" TypeId="Ingot" SubtypeId="Kobold" />
+                <Item Amount="3" TypeId="Ingot" SubtypeId="Lithium" />
+            </Prerequisites>
+            <Result Amount="2.5" TypeId="Ingot" SubtypeId="LiFeCoAlloy" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>LiFeCoAlloyElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Alloy_LiFeCoAlloy}</DisplayName>
+            <Icon>Textures\GUI\Icons\Ingot\liFeCoAlloyIngot.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Ingot" SubtypeId="BatteryAlloy" />
+                <Item Amount="0.3" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="0.7" TypeId="Ingot" SubtypeId="Kobold" />
+                <Item Amount="3" TypeId="Ingot" SubtypeId="Lithium" />
+            </Prerequisites>
+            <Result Amount="3" TypeId="Ingot" SubtypeId="LiFeCoAlloy" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>BrassBasic</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Alloy_Brass}</DisplayName>
+            <Icon>Textures\GUI\Icons\Ingot\brass_ingot.dds</Icon>
+            <Prerequisites>
+                <Item Amount="3" TypeId="Ingot" SubtypeId="Copper" />
+                <Item Amount="1.5" TypeId="Ingot" SubtypeId="Zinc" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Ingot" SubtypeId="Brass" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>BrassEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Alloy_BatteryAlloy}</DisplayName>
+            <Icon>Textures\GUI\Icons\Ingot\brass_ingot.dds</Icon>
+            <Prerequisites>
+                <Item Amount="3.5" TypeId="Ingot" SubtypeId="Copper" />
+                <Item Amount="1.5" TypeId="Ingot" SubtypeId="Zinc" />
+            </Prerequisites>
+            <Result Amount="1.5" TypeId="Ingot" SubtypeId="Brass" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>BrassProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Alloy_BatteryAlloy}</DisplayName>
+            <Icon>Textures\GUI\Icons\Ingot\brass_ingot.dds</Icon>
+            <Prerequisites>
+                <Item Amount="2.5" TypeId="Ingot" SubtypeId="Copper" />
+                <Item Amount="0.5" TypeId="Ingot" SubtypeId="Zinc" />
+            </Prerequisites>
+            <Result Amount="1.5" TypeId="Ingot" SubtypeId="Brass" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>GunpowderEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Alloy_Gunpowder}</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\gunpowder.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Stone" />
+                <Item Amount="1.5" TypeId="Ingot" SubtypeId="Carbon" />
+                <Item Amount="2" TypeId="Ingot" SubtypeId="Sulfur" />
+            </Prerequisites>
+            <Result Amount="2.5" TypeId="Ingot" SubtypeId="Gunpowder" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>GunpowderProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Alloy_Gunpowder}</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\gunpowder.dds</Icon>
+            <Prerequisites>
+                <Item Amount="0.5" TypeId="Ingot" SubtypeId="Stone" />
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Carbon" />
+                <Item Amount="1.5" TypeId="Ingot" SubtypeId="Sulfur" />
+            </Prerequisites>
+            <Result Amount="2.5" TypeId="Ingot" SubtypeId="Gunpowder" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>GunpowderElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Alloy_Gunpowder}</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\gunpowder.dds</Icon>
+            <Prerequisites>
+                <Item Amount="0.1" TypeId="Ingot" SubtypeId="Stone" />
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Carbon" />
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Sulfur" />
+            </Prerequisites>
+            <Result Amount="3" TypeId="Ingot" SubtypeId="Gunpowder" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>RubberEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Rubber}</DisplayName>
+            <Icon>Textures\GUI\Icons\Ingot\rubber_ingot.dds</Icon>
+            <Prerequisites>
+                <Item Amount="2.5" TypeId="Ingot" SubtypeId="Oil" />
+               <Item Amount="2" TypeId="Ingot" SubtypeId="Silicon" />
+               <Item Amount="1.5" TypeId="Ingot" SubtypeId="Carbon" />
+            </Prerequisites>
+            <Result Amount="2" TypeId="Ingot" SubtypeId="Rubber" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>RubberProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Rubber}</DisplayName>
+            <Icon>Textures\GUI\Icons\Ingot\rubber_ingot.dds</Icon>
+            <Prerequisites>
+                <Item Amount="3" TypeId="Ingot" SubtypeId="Oil" />
+               <Item Amount="1.8" TypeId="Ingot" SubtypeId="Silicon" />
+               <Item Amount="1.3" TypeId="Ingot" SubtypeId="Carbon" />
+            </Prerequisites>
+            <Result Amount="3" TypeId="Ingot" SubtypeId="Rubber" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>RubberElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Rubber}</DisplayName>
+            <Icon>Textures\GUI\Icons\Ingot\rubber_ingot.dds</Icon>
+            <Prerequisites>
+                <Item Amount="2" TypeId="Ingot" SubtypeId="Oil" />
+               <Item Amount="1.5" TypeId="Ingot" SubtypeId="Silicon" />
+               <Item Amount="1" TypeId="Ingot" SubtypeId="Carbon" />
+            </Prerequisites>
+            <Result Amount="5" TypeId="Ingot" SubtypeId="Rubber" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>KobAlTiteProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Alloy_KobAlTite}</DisplayName>
+            <Icon>Textures\GUI\Icons\Ingot\kobaltiteIngot.dds</Icon>
+            <Prerequisites>
+                <Item Amount="3" TypeId="Ingot" SubtypeId="KobAld" />
+                <Item Amount="2.5" TypeId="Ingot" SubtypeId="Titanium" />
+            </Prerequisites>
+            <Result Amount="2" TypeId="Ingot" SubtypeId="KobAlTite" />
+            <BaseProductionTimeInSeconds>7</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>KobAlTiteElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Alloy_KobAlTite}</DisplayName>
+            <Icon>Textures\GUI\Icons\Ingot\kobaltiteIngot.dds</Icon>
+            <Prerequisites>
+                <Item Amount="2.6" TypeId="Ingot" SubtypeId="KobAld" />
+                <Item Amount="2.2" TypeId="Ingot" SubtypeId="Titanium" />
+            </Prerequisites>
+            <Result Amount="3" TypeId="Ingot" SubtypeId="KobAlTite" />
+            <BaseProductionTimeInSeconds>7</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SuperconductorAlloyProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Alloy_Superconductor}</DisplayName>
+            <Icon>Textures\GUI\Icons\Ingot\superconductorAlloyIngot.dds</Icon>
+            <Prerequisites>
+                <Item Amount="3" TypeId="Ingot" SubtypeId="LiFeCoAlloy" />
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Silver" />
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Gold" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Ingot" SubtypeId="SuperconductorAlloy" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SuperconductorAlloyElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Alloy_Superconductor}</DisplayName>
+            <Icon>Textures\GUI\Icons\Ingot\superconductorAlloyIngot.dds</Icon>
+            <Prerequisites>
+                <Item Amount="2.5" TypeId="Ingot" SubtypeId="LiFeCoAlloy" />
+                <Item Amount="0.8" TypeId="Ingot" SubtypeId="Silver" />
+                <Item Amount="0.8" TypeId="Ingot" SubtypeId="Gold" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Ingot" SubtypeId="SuperconductorAlloy" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>PolyethyleneProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Alloy_Polyethylene}</DisplayName>
+            <Icon>Textures\GUI\Icons\Ingot\polyethyleneIngot.dds</Icon>
+            <Prerequisites>
+                <Item Amount="2" TypeId="Ingot" SubtypeId="Rubber" />
+                <Item Amount="4" TypeId="Ingot" SubtypeId="Plastic" />
+            </Prerequisites>
+            <Result Amount="3" TypeId="Ingot" SubtypeId="Polyethylene" />
+            <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>PolyethyleneElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Alloy_Polyethylene}</DisplayName>
+            <Icon>Textures\GUI\Icons\Ingot\polyethyleneIngot.dds</Icon>
+            <Prerequisites>
+                <Item Amount="2.5" TypeId="Ingot" SubtypeId="Rubber" />
+                <Item Amount="3.8" TypeId="Ingot" SubtypeId="Plastic" />
+            </Prerequisites>
+            <Result Amount="5" TypeId="Ingot" SubtypeId="Polyethylene" />
+            <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>CompositeAlloyProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Alloy_Composite}</DisplayName>
+            <Icon>Textures\GUI\Icons\Ingot\compositeIngot.dds</Icon>
+            <Prerequisites>
+                <Item Amount="7" TypeId="Ingot" SubtypeId="Titanium" />
+                <Item Amount="0.5" TypeId="Ingot" SubtypeId="Uranium" />
+            </Prerequisites>
+            <Result Amount="5" TypeId="Ingot" SubtypeId="Composite" />
+            <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>CompositeAlloyElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Alloy_Composite}</DisplayName>
+            <Icon>Textures\GUI\Icons\Ingot\compositeIngot.dds</Icon>
+            <Prerequisites>
+                <Item Amount="6.5" TypeId="Ingot" SubtypeId="Titanium" />
+                <Item Amount="0.4" TypeId="Ingot" SubtypeId="Uranium" />
+            </Prerequisites>
+            <Result Amount="5" TypeId="Ingot" SubtypeId="Composite" />
+            <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>KombositeElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Alloy_Kombosite}</DisplayName>
+            <Icon>Textures\GUI\Icons\Ingot\kombositeIngot.dds</Icon>
+            <Prerequisites>
+                <Item Amount="4" TypeId="Ingot" SubtypeId="KobAlTite" />
+                <Item Amount="2" TypeId="Ingot" SubtypeId="Titanium" />
+                <Item Amount="0.8" TypeId="Ingot" SubtypeId="DepletedUranium" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Ingot" SubtypeId="Composite" />
+            <BaseProductionTimeInSeconds>9</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>HDPEElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Alloy_HDPE}</DisplayName>
+            <Icon>Textures\GUI\Icons\Ingot\hdpeIngot.dds</Icon>
+            <Prerequisites>
+                <Item Amount="4" TypeId="Ingot" SubtypeId="Polyethylene" />
+                <Item Amount="0.8" TypeId="Ingot" SubtypeId="FineOils" />
+                <Item Amount="2" TypeId="Ingot" SubtypeId="Carbon" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Ingot" SubtypeId="HDPE" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+        <!-- ALLOY        DEFINITIONS   -->
+    </Blueprints>
+</Definitions>

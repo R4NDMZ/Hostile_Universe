@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Weapons>
+        
+        <Weapon>
+            <Id>
+                <TypeId>WeaponDefinition</TypeId>
+                <SubtypeId>WFRailGunWD</SubtypeId>
+            </Id>
+            <ProjectileAmmoData RateOfFire="120" ShootSoundName="" ShotsInBurst="1" />
+            <NoAmmoSoundName></NoAmmoSoundName>
+            <ReloadSoundName></ReloadSoundName>
+            <DeviateShotAngle>0.1</DeviateShotAngle>
+            <DeviateShotAngleAiming>2</DeviateShotAngleAiming>
+            <ReleaseTimeAfterFire>100</ReleaseTimeAfterFire>
+            <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
+            <UseDefaultMuzzleFlash>false</UseDefaultMuzzleFlash>
+            <DamageMultiplier>0.48</DamageMultiplier>
+            <RangeMultiplier>1.0</RangeMultiplier>
+            <UseRandomizedRange>false</UseRandomizedRange>		
+            <!--<Effects>
+                <Effect Action="Shoot" Dummy="muzzle_projectile" Particle="Muzzle_Flash" Loop="true" InstantStop="true"/>
+                <Effect Action="Shoot" Dummy="Shell_Casings" Particle="Shell_Casings" InstantStop="false"/>
+            </Effects>-->
+            <AmmoMagazines>
+                <AmmoMagazine Subtype="RailGunHWammo" />
+            </AmmoMagazines>
+            <ReloadTime>1480</ReloadTime>
+            <RecoilJetpackVertical>1</RecoilJetpackVertical>
+            <RecoilJetpackHorizontal>1</RecoilJetpackHorizontal>
+            <RecoilGroundVertical>1</RecoilGroundVertical>
+            <RecoilGroundHorizontal>1</RecoilGroundHorizontal>
+            <RecoilMultiplierDataNames>
+                <string>Standing</string>
+                <string>Walking</string>
+                <string>Running</string>
+                <string>Crouching</string>
+                <string>Aiming</string>
+            </RecoilMultiplierDataNames>
+            <RecoilMultiplierDataVerticals>
+                <float>1</float>
+                <float>1</float>
+                <float>1</float>
+                <float>.75</float>
+                <float>.3</float>
+            </RecoilMultiplierDataVerticals>
+            <RecoilMultiplierDataHorizontals>
+                <float>1</float>
+                <float>1</float>
+                <float>1</float>
+                <float>.75</float>
+                <float>.3</float>
+            </RecoilMultiplierDataHorizontals>
+            <RecoilResetTimeMilliseconds>150</RecoilResetTimeMilliseconds>
+            <ShootDirectionUpdateTime>180</ShootDirectionUpdateTime>
+            <EquipDuration>0.5</EquipDuration>
+            <ShakeOnActionPrimary>false</ShakeOnActionPrimary>
+            <ShakeOnActionSecondary>false</ShakeOnActionSecondary>
+            <ShakeOnActionTertiary>false</ShakeOnActionTertiary>
+        </Weapon>
+
+    </Weapons>
+</Definitions>

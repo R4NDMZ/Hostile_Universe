@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <!-- TIERED BLUEPRINT CLASSES                                                                   -->
+    <BlueprintClasses>
+        <!-- TIERED SURVIVAL-KIT CLASSES                                                            -->
+        <!-- [ HANDLES THE MOST BASIC COMPONENTS OF THE TIER ]
+             { "Simple" Stone Refinement, 
+               General Components (inefficient),
+               Bottles, Tools, Hand Weapons, 
+               Ammo                              }                                                 !-->
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>StoneProcessorSimpleBasic</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
+            <Description>Description_BlueprintClass_Ingots</Description>
+            <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\ingot\ingot_class.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\ingot\ingot_class_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>StoneProcessorSimpleEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
+            <Description>Description_BlueprintClass_Ingots</Description>
+            <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\ingot\ingot_class.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\ingot\ingot_class_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>StoneProcessorSimpleProficient</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
+            <Description>Description_BlueprintClass_Ingots</Description>
+            <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\ingot\ingot_class.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\ingot\ingot_class_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>StoneProcessorSimpleElite</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
+            <Description>Description_BlueprintClass_Ingots</Description>
+            <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\ingot\ingot_class.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\ingot\ingot_class_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>GeneralComponentProcessorBasic</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_BasicComponents</DisplayName>
+            <Description>Description_BlueprintClass_BasicComponents</Description>
+            <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>GeneralComponentProcessorBasic2</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_BasicComponents</DisplayName>
+            <Description>Description_BlueprintClass_BasicComponents</Description>
+            <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>GeneralComponentProcessorBasic3</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_BasicComponents</DisplayName>
+            <Description>Description_BlueprintClass_BasicComponents</Description>
+            <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>GeneralComponentProcessorBasic4</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_BasicComponents</DisplayName>
+            <Description>Description_BlueprintClass_BasicComponents</Description>
+            <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>GeneralComponentProcessorEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_BasicComponents</DisplayName>
+            <Description>Description_BlueprintClass_BasicComponents</Description>
+            <Icon>Textures\GUI\Icons\Buttons\component2x.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\Buttons\component2x.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\Buttons\component2x_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>GeneralComponentProcessorEnhanced3</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_BasicComponents</DisplayName>
+            <Description>Description_BlueprintClass_BasicComponents</Description>
+            <Icon>Textures\GUI\Icons\Buttons\component2x.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\Buttons\component2x.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\Buttons\component2x_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>GeneralComponentProcessorEnhanced4</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_BasicComponents</DisplayName>
+            <Description>Description_BlueprintClass_BasicComponents</Description>
+            <Icon>Textures\GUI\Icons\Buttons\component2x.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\Buttons\component2x.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\Buttons\component2x_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>GeneralComponentProcessorProficient</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_BasicComponents</DisplayName>
+            <Description>Description_BlueprintClass_BasicComponents</Description>
+            <Icon>Textures\GUI\Icons\Buttons\component4x.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\Buttons\component4x.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\Buttons\component4x_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>GeneralComponentProcessorProficient4</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_BasicComponents</DisplayName>
+            <Description>Description_BlueprintClass_BasicComponents</Description>
+            <Icon>Textures\GUI\Icons\Buttons\component4x.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\Buttons\component4x.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\Buttons\component4x_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>GeneralComponentProcessorElite</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_BasicComponents</DisplayName>
+            <Description>Description_BlueprintClass_BasicComponents</Description>
+            <Icon>Textures\GUI\Icons\Buttons\component8x.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\Buttons\component8x.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\Buttons\component8x_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+        </Class>
+        <!-- TIERED SURVIVAL-KIT CLASSES                                                            -->
+        <!-- TIERED ALLOY-SMELTER CLASSES                                                           -->
+        <!-- [   mcChemicalReactor it is   ]                                                        -->
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>AlloyProcessorBasic</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
+            <Description>DisplayName_BlueprintClass_Ingots</Description>
+            <Icon>Textures\GUI\Icons\Buttons\alloy.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\Buttons\alloy.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\Buttons\alloy_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>AlloyProcessorEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
+            <Description>DisplayName_BlueprintClass_Ingots</Description>
+            <Icon>Textures\GUI\Icons\Buttons\alloy2x.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\Buttons\alloy2x.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\Buttons\alloy2x_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>AlloyProcessorProficient</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
+            <Description>DisplayName_BlueprintClass_Ingots</Description>
+            <Icon>Textures\GUI\Icons\Buttons\alloy4x.dds</Icon>
+            <HighlightIcon>Textures\GUI\Buttons\alloy4x.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\Buttons\alloy4x_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>AlloyProcessorElite</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
+            <Description>DisplayName_BlueprintClass_Ingots</Description>
+            <Icon>Textures\GUI\Icons\Buttons\alloy8x.dds</Icon>
+            <HighlightIcon>Textures\GUI\Buttons\alloy8x.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\Buttons\alloy8x_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+        </Class>
+        <!-- TIERED ALLOY-SMELTER CLASSES                                                           -->
+        <!-- TIERED EXTRUDER CLASSES                                                                -->
+        <!-- [ REPLACES BASIC-ASSEMBLER      ]   
+             { General Components (efficient)}                                                     !-->
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>ExtrudedComponentProcessorBasic</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+            <Description>DisplayName_BlueprintClass_Components</Description>
+            <Icon>Textures\GUI\Icons\Buttons\extruded_component.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\Buttons\extruded_component.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\Buttons\extruded_component_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filterComponent.dds</OutputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>ExtrudedComponentProcessorBasic2</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+            <Description>DisplayName_BlueprintClass_Components</Description>
+            <Icon>Textures\GUI\Icons\Buttons\extruded_component.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\Buttons\extruded_component.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\Buttons\extruded_component_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filterComponent.dds</OutputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>ExtrudedComponentProcessorBasic3</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+            <Description>DisplayName_BlueprintClass_Components</Description>
+            <Icon>Textures\GUI\Icons\Buttons\extruded_component.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\Buttons\extruded_component.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\Buttons\extruded_component_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filterComponent.dds</OutputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>ExtrudedComponentProcessorBasic4</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+            <Description>DisplayName_BlueprintClass_Components</Description>
+            <Icon>Textures\GUI\Icons\Buttons\extruded_component.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\Buttons\extruded_component.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\Buttons\extruded_component_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filterComponent.dds</OutputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>ExtrudedComponentProcessorEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+            <Description>DisplayName_BlueprintClass_Components</Description>
+            <Icon>Textures\GUI\Icons\Buttons\extruded_component2x.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\Buttons\extruded_component2x.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\Buttons\extruded_component2x_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filterComponent.dds</OutputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>ExtrudedComponentProcessorEnhancedPrimitive</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+            <Description>DisplayName_BlueprintClass_Components</Description>
+            <Icon>Textures\GUI\Icons\Buttons\extruded_component2x.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\Buttons\extruded_component2x.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\Buttons\extruded_component2x_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filterComponent.dds</OutputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>ExtrudedComponentProcessorEnhanced3</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+            <Description>DisplayName_BlueprintClass_Components</Description>
+            <Icon>Textures\GUI\Icons\Buttons\extruded_component2x.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\Buttons\extruded_component2x.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\Buttons\extruded_component2x_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filterComponent.dds</OutputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>ExtrudedComponentProcessorEnhanced4</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+            <Description>DisplayName_BlueprintClass_Components</Description>
+            <Icon>Textures\GUI\Icons\Buttons\extruded_component2x.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\Buttons\extruded_component2x.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\Buttons\extruded_component2x_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filterComponent.dds</OutputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>ExtrudedComponentProcessorProficient</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+            <Description>DisplayName_BlueprintClass_Components</Description>
+            <Icon>Textures\GUI\Icons\Buttons\extruded_component4x.dds</Icon>
+            <HighlightIcon>Textures\GUI\Buttons\extruded_component4x.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\Buttons\extruded_component4x_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filterComponent.dds</OutputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>ExtrudedComponentProcessorProficientPrimitive</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+            <Description>DisplayName_BlueprintClass_Components</Description>
+            <Icon>Textures\GUI\Icons\Buttons\extruded_component4x.dds</Icon>
+            <HighlightIcon>Textures\GUI\Buttons\extruded_component4x.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\Buttons\extruded_component4x_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filterComponent.dds</OutputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>ExtrudedComponentProcessorProficient4</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+            <Description>DisplayName_BlueprintClass_Components</Description>
+            <Icon>Textures\GUI\Icons\Buttons\extruded_component4x.dds</Icon>
+            <HighlightIcon>Textures\GUI\Buttons\extruded_component4x.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\Buttons\extruded_component4x_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filterComponent.dds</OutputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>ExtrudedComponentProcessorElite</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+            <Description>DisplayName_BlueprintClass_Components</Description>
+            <Icon>Textures\GUI\Icons\Buttons\extruded_component8x.dds</Icon>
+            <HighlightIcon>Textures\GUI\Buttons\extruded_component8x.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\Buttons\extruded_component8x_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filterComponent.dds</OutputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>ExtrudedComponentProcessorElitePrimitive</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+            <Description>DisplayName_BlueprintClass_Components</Description>
+            <Icon>Textures\GUI\Icons\Buttons\extruded_component8x.dds</Icon>
+            <HighlightIcon>Textures\GUI\Buttons\extruded_component8x.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\Buttons\extruded_component8x_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filterComponent.dds</OutputConstraintIcon>
+        </Class>
+        <!-- TIERED EXTRUDER CLASSES                                                                -->
+        <!-- TIERED ASSEMBLER CLASSES                                                               -->
+        <!-- [ lö CircuitAssembler it is ]
+             { Advanced Components ,
+               Bottles, Tools, Weapons, 
+               Ammo                      }                                                         !-->
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>AdvancedComponentProcessorBasic</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+            <Description>Description_BlueprintClass_Components</Description>
+            <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filterComponent.dds</OutputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>AdvancedComponentProcessorBasic2</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+            <Description>Description_BlueprintClass_Components</Description>
+            <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filterComponent.dds</OutputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>AdvancedComponentProcessorBasic3</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+            <Description>Description_BlueprintClass_Components</Description>
+            <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filterComponent.dds</OutputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>AdvancedComponentProcessorBasic4</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+            <Description>Description_BlueprintClass_Components</Description>
+            <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filterComponent.dds</OutputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>AdvancedComponentProcessorEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+            <Description>Description_BlueprintClass_Components</Description>
+            <Icon>Textures\GUI\Icons\Buttons\component2x.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\Buttons\component2x.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\Buttons\component2x_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filterComponent.dds</OutputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>AdvancedComponentProcessorEnhancedPrimitive</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+            <Description>Description_BlueprintClass_Components</Description>
+            <Icon>Textures\GUI\Icons\Buttons\component2x.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\Buttons\component2x.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\Buttons\component2x_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filterComponent.dds</OutputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>AdvancedComponentProcessorEnhanced3</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+            <Description>Description_BlueprintClass_Components</Description>
+            <Icon>Textures\GUI\Icons\Buttons\component2x.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\Buttons\component2x.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\Buttons\component2x_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filterComponent.dds</OutputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>AdvancedComponentProcessorEnhanced4</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+            <Description>Description_BlueprintClass_Components</Description>
+            <Icon>Textures\GUI\Icons\Buttons\component2x.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\Buttons\component2x.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\Buttons\component2x_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filterComponent.dds</OutputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>AdvancedComponentProcessorProficient</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+            <Description>Description_BlueprintClass_Components</Description>
+            <Icon>Textures\GUI\Icons\Buttons\component4x.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\Buttons\component4x.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\Buttons\component4x_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filterComponent.dds</OutputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>AdvancedComponentProcessorProficientPrimitive</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+            <Description>Description_BlueprintClass_Components</Description>
+            <Icon>Textures\GUI\Icons\Buttons\component4x.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\Buttons\component4x.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\Buttons\component4x_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filterComponent.dds</OutputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>AdvancedComponentProcessorProficient4</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+            <Description>Description_BlueprintClass_Components</Description>
+            <Icon>Textures\GUI\Icons\Buttons\component4x.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\Buttons\component4x.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\Buttons\component4x_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filterComponent.dds</OutputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>AdvancedComponentProcessorElite</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+            <Description>Description_BlueprintClass_Components</Description>
+            <Icon>Textures\GUI\Icons\buttons\component8x.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\component8x.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\component8x_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filterComponent.dds</OutputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>AdvancedComponentProcessorPrimitive</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+            <Description>Description_BlueprintClass_Components</Description>
+            <Icon>Textures\GUI\Icons\buttons\component8x.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\component8x.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\component8x_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filterComponent.dds</OutputConstraintIcon>
+        </Class>
+        <!-- TIERED CIRCUIT-ASSEMBLER CLASSES   -->
+        <!-- TIERED BASIC-REFINERY   -->
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>BasicRefinementProcessorBasic</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_CommonMetals</DisplayName>
+            <Description>Description_BlueprintClass_CommonMetals</Description>
+            <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\large_block.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\large_block_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>BasicRefinementProcessorEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_CommonMetals</DisplayName>
+            <Description>Description_BlueprintClass_CommonMetals</Description>
+            <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\large_block.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\large_block_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>BasicRefinementProcessorProficient</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_CommonMetals</DisplayName>
+            <Description>Description_BlueprintClass_CommonMetals</Description>
+            <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\large_block.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\large_block_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>BasicRefinementProcessorElite</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_CommonMetals</DisplayName>
+            <Description>Description_BlueprintClass_CommonMetals</Description>
+            <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\large_block.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\large_block_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+        </Class>
+        <!-- TIERED BASIC-REFINERY                                                                  -->
+        <!-- TIERED REFINERY                                                                        -->
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>RefinementProcessorBasic</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
+            <Description>Description_BlueprintClass_Ingots</Description>
+            <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\ingot\ingot_class.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\ingot\ingot_class_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>RefinementProcessorEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
+            <Description>Description_BlueprintClass_Ingots</Description>
+            <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\ingot\ingot_class.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\ingot\ingot_class_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>RefinementProcessorProficient</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
+            <Description>Description_BlueprintClass_Ingots</Description>
+            <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\ingot\ingot_class.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\ingot\ingot_class_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>RefinementProcessorElite</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
+            <Description>Description_BlueprintClass_Ingots</Description>
+            <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\ingot\ingot_class.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\ingot\ingot_class_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+        </Class>
+        <!-- TIERED REFINERY                                                                        -->
+        <!-- TOOL CLASSES                                                                           -->
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>ToolProcessorBasic</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_BasicTools</DisplayName>
+            <Description>Description_BlueprintClass_BasicTools</Description>
+            <Icon>Textures\GUI\Icons\buttons\tool.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\tool.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\tool_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>ToolProcessorEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_BasicTools</DisplayName>
+            <Description>Description_BlueprintClass_BasicTools</Description>
+            <Icon>Textures\GUI\Icons\buttons\tool.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\tool2x.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\tool2x_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>ToolProcessorProficient</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_BasicTools</DisplayName>
+            <Description>Description_BlueprintClass_BasicTools</Description>
+            <Icon>Textures\GUI\Icons\buttons\tool.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\tool4x.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\tool4x_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>ToolProcessorElite</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_BasicTools</DisplayName>
+            <Description>Description_BlueprintClass_BasicTools</Description>
+            <Icon>Textures\GUI\Icons\buttons\tool.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\tool8x.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\tool8x_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>BottleProcessorBasic</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_BasicTools</DisplayName>
+            <Description>Description_BlueprintClass_BasicTools</Description>
+            <Icon>Textures\GUI\Icons\buttons\tool.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\tool8x.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\tool8x_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>BottleProcessorEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_BasicTools</DisplayName>
+            <Description>Description_BlueprintClass_BasicTools</Description>
+            <Icon>Textures\GUI\Icons\buttons\tool.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\tool8x.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\tool8x_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>BottleProcessorProficient</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_BasicTools</DisplayName>
+            <Description>Description_BlueprintClass_BasicTools</Description>
+            <Icon>Textures\GUI\Icons\buttons\tool.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\tool8x.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\tool8x_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+        </Class>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>BottleProcessorElite</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_BasicTools</DisplayName>
+            <Description>Description_BlueprintClass_BasicTools</Description>
+            <Icon>Textures\GUI\Icons\buttons\tool.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\tool8x.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\tool8x_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+        </Class>        
+        <!-- TOOL CLASSES                                                                           -->
+    </BlueprintClasses>
+
+    <BlueprintClassEntries>
+        <!-- TOOLS, HAND-GUNS, AMMO                                                                 -->
+        <Entry Class="ToolProcessorBasic" BlueprintSubtypeId="Welder" />
+        <Entry Class="ToolProcessorBasic" BlueprintSubtypeId="HandDrill" />
+        <Entry Class="ToolProcessorBasic" BlueprintSubtypeId="AngleGrinder" />
+
+        <Entry Class="ToolProcessorEnhanced" BlueprintSubtypeId="Welder" />
+        <Entry Class="ToolProcessorEnhanced" BlueprintSubtypeId="HandDrill" />
+        <Entry Class="ToolProcessorEnhanced" BlueprintSubtypeId="AngleGrinder" />
+        <Entry Class="ToolProcessorEnhanced" BlueprintSubtypeId="Welder2" />
+        <Entry Class="ToolProcessorEnhanced" BlueprintSubtypeId="HandDrill2" />
+        <Entry Class="ToolProcessorEnhanced" BlueprintSubtypeId="AngleGrinder2" />
+
+        <Entry Class="ToolProcessorProficient" BlueprintSubtypeId="Welder" />
+        <Entry Class="ToolProcessorProficient" BlueprintSubtypeId="HandDrill" />
+        <Entry Class="ToolProcessorProficient" BlueprintSubtypeId="AngleGrinder" />
+        <Entry Class="ToolProcessorProficient" BlueprintSubtypeId="Welder2" />
+        <Entry Class="ToolProcessorProficient" BlueprintSubtypeId="HandDrill2" />
+        <Entry Class="ToolProcessorProficient" BlueprintSubtypeId="AngleGrinder2" />
+        <Entry Class="ToolProcessorProficient" BlueprintSubtypeId="Welder3" />
+        <Entry Class="ToolProcessorProficient" BlueprintSubtypeId="HandDrill3" />
+        <Entry Class="ToolProcessorProficient" BlueprintSubtypeId="AngleGrinder3" />
+
+        <Entry Class="ToolProcessorElite" BlueprintSubtypeId="Welder" />
+        <Entry Class="ToolProcessorElite" BlueprintSubtypeId="HandDrill" />
+        <Entry Class="ToolProcessorElite" BlueprintSubtypeId="AngleGrinder" />
+        <Entry Class="ToolProcessorElite" BlueprintSubtypeId="Welder2" />
+        <Entry Class="ToolProcessorElite" BlueprintSubtypeId="HandDrill2" />
+        <Entry Class="ToolProcessorElite" BlueprintSubtypeId="AngleGrinder2" />
+        <Entry Class="ToolProcessorElite" BlueprintSubtypeId="Welder3" />
+        <Entry Class="ToolProcessorElite" BlueprintSubtypeId="HandDrill3" />
+        <Entry Class="ToolProcessorElite" BlueprintSubtypeId="AngleGrinder3" />
+        <Entry Class="ToolProcessorElite" BlueprintSubtypeId="Welder4" />
+        <Entry Class="ToolProcessorElite" BlueprintSubtypeId="HandDrill4" />
+        <Entry Class="ToolProcessorElite" BlueprintSubtypeId="AngleGrinder4" />
+
+        <Entry Class="HandWeaponProcessorBasic" BlueprintSubtypeId="SemiAutoPistol" />
+        <Entry Class="HandWeaponProcessorBasic" BlueprintSubtypeId="AutomaticRifle" />
+
+        <Entry Class="HandWeaponProcessorEnhanced" BlueprintSubtypeId="SemiAutoPistol" />
+        <Entry Class="HandWeaponProcessorEnhanced" BlueprintSubtypeId="FullAutoPistol" />
+        <Entry Class="HandWeaponProcessorEnhanced" BlueprintSubtypeId="AutomaticRifle" />
+        <Entry Class="HandWeaponProcessorEnhanced" BlueprintSubtypeId="RapidFireAutomaticRifle" />
+        <Entry Class="HandWeaponProcessorEnhanced" BlueprintSubtypeId="PreciseAutomaticRifle" />
+
+        <Entry Class="HandWeaponProcessorProficient" BlueprintSubtypeId="SemiAutoPistol" />
+        <Entry Class="HandWeaponProcessorProficient" BlueprintSubtypeId="FullAutoPistol" />
+        <Entry Class="HandWeaponProcessorProficient" BlueprintSubtypeId="EliteAutoPistol" />
+        <Entry Class="HandWeaponProcessorProficient" BlueprintSubtypeId="AutomaticRifle" />
+        <Entry Class="HandWeaponProcessorProficient" BlueprintSubtypeId="RapidFireAutomaticRifle" />
+        <Entry Class="HandWeaponProcessorProficient" BlueprintSubtypeId="PreciseAutomaticRifle" />
+        <Entry Class="HandWeaponProcessorProficient" BlueprintSubtypeId="UltimateAutomaticRifle" />
+        <Entry Class="HandWeaponProcessorProficient" BlueprintSubtypeId="BasicHandHeldLauncher" />
+
+        <Entry Class="HandWeaponProcessorElite" BlueprintSubtypeId="SemiAutoPistol" />
+        <Entry Class="HandWeaponProcessorElite" BlueprintSubtypeId="FullAutoPistol" />
+        <Entry Class="HandWeaponProcessorElite" BlueprintSubtypeId="EliteAutoPistol" />
+        <Entry Class="HandWeaponProcessorElite" BlueprintSubtypeId="AutomaticRifle" />
+        <Entry Class="HandWeaponProcessorElite" BlueprintSubtypeId="RapidFireAutomaticRifle" />
+        <Entry Class="HandWeaponProcessorElite" BlueprintSubtypeId="PreciseAutomaticRifle" />
+        <Entry Class="HandWeaponProcessorElite" BlueprintSubtypeId="UltimateAutomaticRifle" />
+        <Entry Class="HandWeaponProcessorElite" BlueprintSubtypeId="BasicHandHeldLauncher" />
+        <Entry Class="HandWeaponProcessorElite" BlueprintSubtypeId="AdvancedHandHeldLauncher" />
+        <Entry Class="HandWeaponProcessorElite" BlueprintSubtypeId="WFRailGun" />
+
+        <Entry Class="HandWeaponAmmunitionProcessorBasic" BlueprintSubtypeId="SemiAutoPistolMagazine" />
+        <Entry Class="HandWeaponAmmunitionProcessorBasic" BlueprintSubtypeId="AutomaticRifleGun_Mag_20rd" />
+
+        <Entry Class="HandWeaponAmmunitionProcessorEnhanced" BlueprintSubtypeId="SemiAutoPistolMagazine" />
+        <Entry Class="HandWeaponAmmunitionProcessorEnhanced" BlueprintSubtypeId="FullAutoPistolMagazine" />
+        <Entry Class="HandWeaponAmmunitionProcessorEnhanced" BlueprintSubtypeId="AutomaticRifleGun_Mag_20rd" />
+        <Entry Class="HandWeaponAmmunitionProcessorEnhanced" BlueprintSubtypeId="RapidFireAutomaticRifleGun_Mag_50rd" />
+        <Entry Class="HandWeaponAmmunitionProcessorEnhanced" BlueprintSubtypeId="PreciseAutomaticRifleGun_Mag_5rd" />
+
+        <Entry Class="HandWeaponAmmunitionProcessorProficient" BlueprintSubtypeId="SemiAutoPistolMagazine" />
+        <Entry Class="HandWeaponAmmunitionProcessorProficient" BlueprintSubtypeId="FullAutoPistolMagazine" />
+        <Entry Class="HandWeaponAmmunitionProcessorProficient" BlueprintSubtypeId="ElitePistolMagazine" />
+        <Entry Class="HandWeaponAmmunitionProcessorProficient" BlueprintSubtypeId="AutomaticRifleGun_Mag_20rd" />
+        <Entry Class="HandWeaponAmmunitionProcessorProficient" BlueprintSubtypeId="RapidFireAutomaticRifleGun_Mag_50rd" />
+        <Entry Class="HandWeaponAmmunitionProcessorProficient" BlueprintSubtypeId="PreciseAutomaticRifleGun_Mag_5rd" />
+        <Entry Class="HandWeaponAmmunitionProcessorProficient" BlueprintSubtypeId="UltimateAutomaticRifleGun_Mag_30rd" />
+
+        <Entry Class="HandWeaponAmmunitionProcessorElite" BlueprintSubtypeId="SemiAutoPistolMagazine" />
+        <Entry Class="HandWeaponAmmunitionProcessorElite" BlueprintSubtypeId="FullAutoPistolMagazine" />
+        <Entry Class="HandWeaponAmmunitionProcessorElite" BlueprintSubtypeId="ElitePistolMagazine" />
+        <Entry Class="HandWeaponAmmunitionProcessorElite" BlueprintSubtypeId="AutomaticRifleGun_Mag_20rd" />
+        <Entry Class="HandWeaponAmmunitionProcessorElite" BlueprintSubtypeId="RapidFireAutomaticRifleGun_Mag_50rd" />
+        <Entry Class="HandWeaponAmmunitionProcessorElite" BlueprintSubtypeId="PreciseAutomaticRifleGun_Mag_5rd" />
+        <Entry Class="HandWeaponAmmunitionProcessorElite" BlueprintSubtypeId="UltimateAutomaticRifleGun_Mag_30rd" />
+        <Entry Class="HandWeaponAmmunitionProcessorElite" BlueprintSubtypeId="RailGunHWammo" />
+        <!-- TOOLS, HAND-GUNS, AMMO                                                                 -->
+        <!-- BOTTLES, OXYGEN                                                                        -->
+        <Entry Class="BottleProcessorBasic" BlueprintSubtypeId="OxygenBottle" />
+        <Entry Class="BottleProcessorBasic" BlueprintSubtypeId="HydrogenBottle" />
+        
+        <Entry Class="BottleProcessorEnhanced" BlueprintSubtypeId="OxygenBottle" />
+        <Entry Class="BottleProcessorEnhanced" BlueprintSubtypeId="HydrogenBottle" />
+        <Entry Class="BottleProcessorEnhanced" BlueprintSubtypeId="AluminiumOxygenBottle" />
+        <Entry Class="BottleProcessorEnhanced" BlueprintSubtypeId="AluminiumHydrogenBottle" />
+
+        <Entry Class="BottleProcessorProficient" BlueprintSubtypeId="OxygenBottle" />
+        <Entry Class="BottleProcessorProficient" BlueprintSubtypeId="HydrogenBottle" />
+        <Entry Class="BottleProcessorProficient" BlueprintSubtypeId="AluminiumOxygenBottle" />
+        <Entry Class="BottleProcessorProficient" BlueprintSubtypeId="AluminiumHydrogenBottle" />
+        <Entry Class="BottleProcessorProficient" BlueprintSubtypeId="TitaniumOxygenBottle" />
+        <Entry Class="BottleProcessorProficient" BlueprintSubtypeId="TitaniumHydrogenBottle" />
+
+        <Entry Class="BottleProcessorElite" BlueprintSubtypeId="OxygenBottle" />
+        <Entry Class="BottleProcessorElite" BlueprintSubtypeId="HydrogenBottle" />
+        <Entry Class="BottleProcessorElite" BlueprintSubtypeId="AluminiumOxygenBottle" />
+        <Entry Class="BottleProcessorElite" BlueprintSubtypeId="AluminiumHydrogenBottle" />
+        <Entry Class="BottleProcessorElite" BlueprintSubtypeId="TitaniumOxygenBottle" />
+        <Entry Class="BottleProcessorElite" BlueprintSubtypeId="TitaniumHydrogenBottle" />
+        <Entry Class="BottleProcessorElite" BlueprintSubtypeId="CompositeOxygenBottle" />
+        <Entry Class="BottleProcessorElite" BlueprintSubtypeId="CompositeHydrogenBottle" />
+
+        <Entry Class="OxygenBottles" BlueprintSubtypeId="AluminiumOxygenBottleRefill" />
+        <Entry Class="OxygenBottles" BlueprintSubtypeId="TitaniumOxygenBottleRefill" />
+        <Entry Class="OxygenBottles" BlueprintSubtypeId="CompositeOxygenBottleRefill" />
+
+        <Entry Class="HydrogenBottles" BlueprintSubtypeId="AluminiumHydrogenBottleRefill" />
+        <Entry Class="HydrogenBottles" BlueprintSubtypeId="TitaniumHydrogenBottleRefill" />
+        <Entry Class="HydrogenBottles" BlueprintSubtypeId="CompositeHydrogenBottleRefill" />
+        <!-- BOTTLES, OXYGEN                                                                        -->
+    </BlueprintClassEntries>
+</Definitions>

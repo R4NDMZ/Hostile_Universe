@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Sounds>
+    
+	  
+	<Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>GM_RailGunFire</SubtypeId>
+      </Id>
+      <Volume>1</Volume>
+      <Category>SHOT</Category>
+      <MaxDistance>600</MaxDistance>
+
+
+      <PreventSynchronization>0</PreventSynchronization>
+      <SoundLimit>10</SoundLimit>
+	  <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\WEP\RAILGUN-001.wav</Start>
+		  <Start>Audio\WEP\RAILGUN-002.wav</Start>
+		  <Start>Audio\WEP\RAILGUN-003.wav</Start>
+		  <Start>Audio\WEP\RAILGUN-004.wav</Start>
+        </Wave>	
+      </Waves>
+    </Sound>
+	
+
+	 	
+  </Sounds>
+</Definitions>

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Components>
+        
+        
+        <Component>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>SolarCellBlack</SubtypeId>
+            </Id>
+            <DisplayName>Solar Cell Black </DisplayName>
+            <Icon>Textures\GUI\Icons\Component\BlackSolarCell.dds</Icon>
+            <Size>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>2</Mass>
+            <Volume>25</Volume>
+            <Model>Models\Components\BlackSolarCell.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>1</MaxIntegrity>
+            <DropProbability>0.1</DropProbability>
+            <Health>50</Health>
+        </Component>
+
+        <Component>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>SolarCellGold</SubtypeId>
+            </Id>
+            <DisplayName>Solar Cell Gold</DisplayName>
+            <Icon>Textures\GUI\Icons\Component\GoldSolarCell.dds</Icon>
+            <Size>
+                <X>2</X>
+                <Y>1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>4</Mass>
+            <Volume>25</Volume>
+            <Model>Models\Components\GoldSolarCell.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>1</MaxIntegrity>
+            <DropProbability>0.1</DropProbability>
+            <Health>30</Health>
+        </Component>
+    </Components>
+</Definitions>

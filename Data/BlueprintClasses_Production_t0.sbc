@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlueprintClassEntries>
+        <!-- PRODUCTION BUILDING RECIPES                                                            -->
+        <!-- [ TIER: 0  ] BASIC PLANETARY RESOURCES                   
+             { Stone, [Iron, Nickel, Silicon, Copper], Cobalt, Shale, [Oil, [Crude Fuel]],       }
+             { Magnesium, Aluminium                                                              } !-->
+
+        <Entry Class="StoneProcessorSimpleBasic" BlueprintSubtypeId="SimpleStoneRefinementBasic" />
+        <Entry Class="StoneProcessorSimpleEnhanced" BlueprintSubtypeId="SimpleStoneRefinementEnhanced" />
+        <Entry Class="StoneProcessorSimpleProficient" BlueprintSubtypeId="SimpleStoneRefinementProficient" />
+        <Entry Class="StoneProcessorSimpleElite" BlueprintSubtypeId="SimpleStoneRefinementElite" />
+
+        <Entry Class="GeneralComponentProcessorBasic" BlueprintSubtypeId="SteelPlateBasicExp" />
+        <Entry Class="GeneralComponentProcessorBasic" BlueprintSubtypeId="InteriorPlateBasicExp" />
+        <Entry Class="GeneralComponentProcessorBasic" BlueprintSubtypeId="ConstructionComponentBasicExp" />
+        <Entry Class="GeneralComponentProcessorBasic" BlueprintSubtypeId="GirderComponentBasicExp" />
+        <Entry Class="GeneralComponentProcessorBasic" BlueprintSubtypeId="SmallTubeBasicExp" />
+        <Entry Class="GeneralComponentProcessorBasic" BlueprintSubtypeId="MotorComponentBasicExp" />
+        <Entry Class="GeneralComponentProcessorBasic" BlueprintSubtypeId="CircuitBasicExp" />
+        <Entry Class="GeneralComponentProcessorBasic" BlueprintSubtypeId="DisplayBasicExp" />
+
+        <Entry Class="GeneralComponentProcessorBasic2" BlueprintSubtypeId="SteelPlateEnhancedExp" />
+        <Entry Class="GeneralComponentProcessorBasic2" BlueprintSubtypeId="InteriorPlateEnhancedExp" />
+        <Entry Class="GeneralComponentProcessorBasic2" BlueprintSubtypeId="ConstructionComponentEnhancedExp" />
+        <Entry Class="GeneralComponentProcessorBasic2" BlueprintSubtypeId="GirderComponentEnhancedExp" />
+        <Entry Class="GeneralComponentProcessorBasic2" BlueprintSubtypeId="SmallTubeEnhancedExp" />
+        <Entry Class="GeneralComponentProcessorBasic2" BlueprintSubtypeId="MotorComponentEnhancedExp" />
+        <Entry Class="GeneralComponentProcessorBasic2" BlueprintSubtypeId="CircuitEnhancedExp" />
+        <Entry Class="GeneralComponentProcessorBasic2" BlueprintSubtypeId="DisplayEnhancedExp" />
+
+        <Entry Class="GeneralComponentProcessorBasic3" BlueprintSubtypeId="SteelPlateProficientExp" />
+        <Entry Class="GeneralComponentProcessorBasic3" BlueprintSubtypeId="InteriorPlateProficientExp" />
+        <Entry Class="GeneralComponentProcessorBasic3" BlueprintSubtypeId="ConstructionComponentProficientExp" />
+        <Entry Class="GeneralComponentProcessorBasic3" BlueprintSubtypeId="GirderComponentProficientExp" />
+        <Entry Class="GeneralComponentProcessorBasic3" BlueprintSubtypeId="SmallTubeProficientExp" />
+        <Entry Class="GeneralComponentProcessorBasic3" BlueprintSubtypeId="MotorComponentProficientExp" />
+        <Entry Class="GeneralComponentProcessorBasic3" BlueprintSubtypeId="CircuitProficientExp" />
+        <Entry Class="GeneralComponentProcessorBasic3" BlueprintSubtypeId="DisplayProficientExp" />
+
+        <Entry Class="GeneralComponentProcessorBasic4" BlueprintSubtypeId="SteelPlateEliteExp" />
+        <Entry Class="GeneralComponentProcessorBasic4" BlueprintSubtypeId="InteriorPlateEliteExp" />
+        <Entry Class="GeneralComponentProcessorBasic4" BlueprintSubtypeId="ConstructionComponentEliteExp" />
+        <Entry Class="GeneralComponentProcessorBasic4" BlueprintSubtypeId="GirderComponentEliteExp" />
+        <Entry Class="GeneralComponentProcessorBasic4" BlueprintSubtypeId="SmallTubeEliteExp" />
+        <Entry Class="GeneralComponentProcessorBasic4" BlueprintSubtypeId="MotorComponentEliteExp" />
+        <Entry Class="GeneralComponentProcessorBasic4" BlueprintSubtypeId="CircuitEliteExp" />
+        <Entry Class="GeneralComponentProcessorBasic4" BlueprintSubtypeId="DisplayEliteExp" />
+
+        <Entry Class="AlloyProcessorBasic" BlueprintSubtypeId="KoboldBasic" />        
+        <Entry Class="AlloyProcessorBasic" BlueprintSubtypeId="BatteryAlloyBasic" />
+        <Entry Class="AlloyProcessorBasic" BlueprintSubtypeId="GlassBasic" />
+
+        <Entry Class="ExtrudedComponentProcessorBasic" BlueprintSubtypeId="SteelPlateBasic" />
+        <Entry Class="ExtrudedComponentProcessorBasic" BlueprintSubtypeId="SiliconSheetBasic" />
+        <Entry Class="ExtrudedComponentProcessorBasic" BlueprintSubtypeId="GlassComponentBasic" />
+        <Entry Class="ExtrudedComponentProcessorBasic" BlueprintSubtypeId="CopperPlateBasic" />
+        <Entry Class="ExtrudedComponentProcessorBasic" BlueprintSubtypeId="KoboldPlateBasic" />
+        <Entry Class="ExtrudedComponentProcessorBasic" BlueprintSubtypeId="InteriorPlateBasic" />
+        <Entry Class="ExtrudedComponentProcessorBasic" BlueprintSubtypeId="ConstructionComponentBasic" />
+        <Entry Class="ExtrudedComponentProcessorBasic" BlueprintSubtypeId="GirderComponentBasic" />
+        <Entry Class="ExtrudedComponentProcessorBasic" BlueprintSubtypeId="SmallTubeBasic" />
+        <Entry Class="ExtrudedComponentProcessorBasic" BlueprintSubtypeId="SmallKoboldTubeBasic" />
+        <Entry Class="ExtrudedComponentProcessorBasic" BlueprintSubtypeId="LargeTubeBasic" />
+        <Entry Class="ExtrudedComponentProcessorBasic" BlueprintSubtypeId="LargeKoboldTubeBasic" />
+        <Entry Class="ExtrudedComponentProcessorBasic" BlueprintSubtypeId="MetalGridBasic" />
+        <Entry Class="ExtrudedComponentProcessorBasic" BlueprintSubtypeId="SteelWireBasic" />
+        <Entry Class="ExtrudedComponentProcessorBasic" BlueprintSubtypeId="CopperWireBasic" />
+
+        <Entry Class="ExtrudedComponentProcessorBasic2" BlueprintSubtypeId="SteelPlateEnhanced" />
+        <Entry Class="ExtrudedComponentProcessorBasic2" BlueprintSubtypeId="SiliconSheetEnhanced" />
+        <Entry Class="ExtrudedComponentProcessorBasic2" BlueprintSubtypeId="GlassComponentEnhanced" />
+        <Entry Class="ExtrudedComponentProcessorBasic2" BlueprintSubtypeId="CopperPlateEnhanced" />
+        <Entry Class="ExtrudedComponentProcessorBasic2" BlueprintSubtypeId="KoboldPlateEnhanced" />
+        <Entry Class="ExtrudedComponentProcessorBasic2" BlueprintSubtypeId="InteriorPlateEnhanced" />
+        <Entry Class="ExtrudedComponentProcessorBasic2" BlueprintSubtypeId="ConstructionComponentEnhanced" />
+        <Entry Class="ExtrudedComponentProcessorBasic2" BlueprintSubtypeId="GirderComponentEnhanced" />
+        <Entry Class="ExtrudedComponentProcessorBasic2" BlueprintSubtypeId="SmallTubeEnhanced" />
+        <Entry Class="ExtrudedComponentProcessorBasic2" BlueprintSubtypeId="SmallKoboldTubeEnhanced" />
+        <Entry Class="ExtrudedComponentProcessorBasic2" BlueprintSubtypeId="LargeTubeEnhanced" />
+        <Entry Class="ExtrudedComponentProcessorBasic2" BlueprintSubtypeId="LargeKoboldTubeEnhanced" />
+        <Entry Class="ExtrudedComponentProcessorBasic2" BlueprintSubtypeId="MetalGridEnhanced" />
+        <Entry Class="ExtrudedComponentProcessorBasic2" BlueprintSubtypeId="SteelWireEnhanced" />
+        <Entry Class="ExtrudedComponentProcessorBasic2" BlueprintSubtypeId="CopperWireEnhanced" />
+
+        <Entry Class="ExtrudedComponentProcessorBasic3" BlueprintSubtypeId="SteelPlateProficient" />
+        <Entry Class="ExtrudedComponentProcessorBasic3" BlueprintSubtypeId="SiliconSheetProficient" />
+        <Entry Class="ExtrudedComponentProcessorBasic3" BlueprintSubtypeId="GlassComponentProficient" />
+        <Entry Class="ExtrudedComponentProcessorBasic3" BlueprintSubtypeId="CopperPlateProficient" />
+        <Entry Class="ExtrudedComponentProcessorBasic3" BlueprintSubtypeId="KoboldPlateProficient" />
+        <Entry Class="ExtrudedComponentProcessorBasic3" BlueprintSubtypeId="InteriorPlateProficient" />
+        <Entry Class="ExtrudedComponentProcessorBasic3" BlueprintSubtypeId="ConstructionComponentProficient" />
+        <Entry Class="ExtrudedComponentProcessorBasic3" BlueprintSubtypeId="GirderComponentProficient" />
+        <Entry Class="ExtrudedComponentProcessorBasic3" BlueprintSubtypeId="SmallTubeProficient" />
+        <Entry Class="ExtrudedComponentProcessorBasic3" BlueprintSubtypeId="SmallKoboldTubeProficient" />
+        <Entry Class="ExtrudedComponentProcessorBasic3" BlueprintSubtypeId="LargeTubeProficient" />
+        <Entry Class="ExtrudedComponentProcessorBasic3" BlueprintSubtypeId="LargeKoboldTubeProficient" />
+        <Entry Class="ExtrudedComponentProcessorBasic3" BlueprintSubtypeId="MetalGridProficient" />
+        <Entry Class="ExtrudedComponentProcessorBasic3" BlueprintSubtypeId="SteelWireProficient" />
+        <Entry Class="ExtrudedComponentProcessorBasic3" BlueprintSubtypeId="CopperWireProficient" />
+
+        <Entry Class="ExtrudedComponentProcessorBasic4" BlueprintSubtypeId="SteelPlateElite" />
+        <Entry Class="ExtrudedComponentProcessorBasic4" BlueprintSubtypeId="SiliconSheetElite" />
+        <Entry Class="ExtrudedComponentProcessorBasic4" BlueprintSubtypeId="GlassComponentElite" />
+        <Entry Class="ExtrudedComponentProcessorBasic4" BlueprintSubtypeId="CopperPlateElite" />
+        <Entry Class="ExtrudedComponentProcessorBasic4" BlueprintSubtypeId="KoboldPlateElite" />
+        <Entry Class="ExtrudedComponentProcessorBasic4" BlueprintSubtypeId="InteriorPlateElite" />
+        <Entry Class="ExtrudedComponentProcessorBasic4" BlueprintSubtypeId="ConstructionComponentElite" />
+        <Entry Class="ExtrudedComponentProcessorBasic4" BlueprintSubtypeId="GirderComponentElite" />
+        <Entry Class="ExtrudedComponentProcessorBasic4" BlueprintSubtypeId="SmallTubeElite" />
+        <Entry Class="ExtrudedComponentProcessorBasic4" BlueprintSubtypeId="SmallKoboldTubeElite" />
+        <Entry Class="ExtrudedComponentProcessorBasic4" BlueprintSubtypeId="LargeTubeElite" />
+        <Entry Class="ExtrudedComponentProcessorBasic4" BlueprintSubtypeId="LargeKoboldTubeElite" />
+        <Entry Class="ExtrudedComponentProcessorBasic4" BlueprintSubtypeId="MetalGridElite" />
+        <Entry Class="ExtrudedComponentProcessorBasic4" BlueprintSubtypeId="SteelWireElite" />
+        <Entry Class="ExtrudedComponentProcessorBasic4" BlueprintSubtypeId="CopperWireElite" />
+
+        <Entry Class="BasicRefinementProcessorBasic" BlueprintSubtypeId="BasicStoneRefinementBasic" />
+        <Entry Class="BasicRefinementProcessorBasic" BlueprintSubtypeId="BasicIronRefinementBasic" />
+        <Entry Class="BasicRefinementProcessorBasic" BlueprintSubtypeId="BasicSiliconRefinementBasic" />
+        <Entry Class="BasicRefinementProcessorBasic" BlueprintSubtypeId="BasicCopperRefinementBasic" />
+        <Entry Class="BasicRefinementProcessorBasic" BlueprintSubtypeId="BasicNickelRefinementBasic" />
+        <Entry Class="BasicRefinementProcessorBasic" BlueprintSubtypeId="BasicCobaltRefinementBasic" />
+        <Entry Class="BasicRefinementProcessorBasic" BlueprintSubtypeId="BasicShaleRefinementBasic" />
+        <Entry Class="BasicRefinementProcessorBasic" BlueprintSubtypeId="BasicNitreRefinementBasic" />
+
+        <Entry Class="AdvancedComponentProcessorBasic" BlueprintSubtypeId="WheelBasic" />
+        <Entry Class="AdvancedComponentProcessorBasic" BlueprintSubtypeId="ReinforcedWheelBasic" />
+        <Entry Class="AdvancedComponentProcessorBasic" BlueprintSubtypeId="DisplayBasic" />
+        <Entry Class="AdvancedComponentProcessorBasic" BlueprintSubtypeId="LEDBasic" />
+        <Entry Class="AdvancedComponentProcessorBasic" BlueprintSubtypeId="CircuitBasic" />
+        <Entry Class="AdvancedComponentProcessorBasic" BlueprintSubtypeId="CPUBasic" />
+        <Entry Class="AdvancedComponentProcessorBasic" BlueprintSubtypeId="ComputerBasic" />
+        <Entry Class="AdvancedComponentProcessorBasic" BlueprintSubtypeId="MotorComponentBasic" />
+        <Entry Class="AdvancedComponentProcessorBasic" BlueprintSubtypeId="HeatsinkBasic" />
+        <Entry Class="AdvancedComponentProcessorBasic" BlueprintSubtypeId="SolarCellBasic" />
+        <Entry Class="AdvancedComponentProcessorBasic" BlueprintSubtypeId="PowerCellBasic" />
+        <Entry Class="AdvancedComponentProcessorBasic" BlueprintSubtypeId="DetectorComponentBasic" />
+        <Entry Class="AdvancedComponentProcessorBasic" BlueprintSubtypeId="Tech2xBasic" />
+
+        <Entry Class="AdvancedComponentProcessorBasic2" BlueprintSubtypeId="WheelEnhanced" />
+        <Entry Class="AdvancedComponentProcessorBasic2" BlueprintSubtypeId="ReinforcedWheelEnhanced" />
+        <Entry Class="AdvancedComponentProcessorBasic2" BlueprintSubtypeId="DisplayEnhanced" />
+        <Entry Class="AdvancedComponentProcessorBasic2" BlueprintSubtypeId="LEDEnhanced" />
+        <Entry Class="AdvancedComponentProcessorBasic2" BlueprintSubtypeId="CircuitEnhanced" />
+        <Entry Class="AdvancedComponentProcessorBasic2" BlueprintSubtypeId="CPUEnhanced" />
+        <Entry Class="AdvancedComponentProcessorBasic2" BlueprintSubtypeId="ComputerEnhanced" />
+        <Entry Class="AdvancedComponentProcessorBasic2" BlueprintSubtypeId="MotorComponentEnhanced" />
+        <Entry Class="AdvancedComponentProcessorBasic2" BlueprintSubtypeId="HeatsinkEnhanced" />
+        <Entry Class="AdvancedComponentProcessorBasic2" BlueprintSubtypeId="SolarCellEnhanced" />
+        <Entry Class="AdvancedComponentProcessorBasic2" BlueprintSubtypeId="PowerCellEnhanced" />
+        <Entry Class="AdvancedComponentProcessorBasic2" BlueprintSubtypeId="DetectorComponentEnhanced" />
+        <Entry Class="AdvancedComponentProcessorBasic2" BlueprintSubtypeId="Tech2xEnhanced" />
+
+        <Entry Class="AdvancedComponentProcessorBasic3" BlueprintSubtypeId="WheelProficient" />
+        <Entry Class="AdvancedComponentProcessorBasic3" BlueprintSubtypeId="ReinforcedWheelProficient" />
+        <Entry Class="AdvancedComponentProcessorBasic3" BlueprintSubtypeId="DisplayProficient" />
+        <Entry Class="AdvancedComponentProcessorBasic3" BlueprintSubtypeId="LEDProficient" />
+        <Entry Class="AdvancedComponentProcessorBasic3" BlueprintSubtypeId="CircuitProficient" />
+        <Entry Class="AdvancedComponentProcessorBasic3" BlueprintSubtypeId="CPUProficient" />
+        <Entry Class="AdvancedComponentProcessorBasic3" BlueprintSubtypeId="ComputerProficient" />
+        <Entry Class="AdvancedComponentProcessorBasic3" BlueprintSubtypeId="MotorComponentProficient" />
+        <Entry Class="AdvancedComponentProcessorBasic3" BlueprintSubtypeId="HeatsinkProficient" />
+        <Entry Class="AdvancedComponentProcessorBasic3" BlueprintSubtypeId="SolarCellProficient" />
+        <Entry Class="AdvancedComponentProcessorBasic3" BlueprintSubtypeId="PowerCellProficient" />
+        <Entry Class="AdvancedComponentProcessorBasic3" BlueprintSubtypeId="DetectorComponentProficient" />
+        <Entry Class="AdvancedComponentProcessorBasic3" BlueprintSubtypeId="Tech2xProficient" />
+
+        <Entry Class="AdvancedComponentProcessorBasic4" BlueprintSubtypeId="WheelElite" />
+        <Entry Class="AdvancedComponentProcessorBasic4" BlueprintSubtypeId="ReinforcedWheelElite" />
+        <Entry Class="AdvancedComponentProcessorBasic4" BlueprintSubtypeId="DisplayElite" />
+        <Entry Class="AdvancedComponentProcessorBasic4" BlueprintSubtypeId="LEDElite" />
+        <Entry Class="AdvancedComponentProcessorBasic4" BlueprintSubtypeId="CircuitElite" />
+        <Entry Class="AdvancedComponentProcessorBasic4" BlueprintSubtypeId="CPUElite" />
+        <Entry Class="AdvancedComponentProcessorBasic4" BlueprintSubtypeId="ComputerElite" />
+        <Entry Class="AdvancedComponentProcessorBasic4" BlueprintSubtypeId="MotorComponentElite" />
+        <Entry Class="AdvancedComponentProcessorBasic4" BlueprintSubtypeId="HeatsinkElite" />
+        <Entry Class="AdvancedComponentProcessorBasic4" BlueprintSubtypeId="SolarCellElite" />
+        <Entry Class="AdvancedComponentProcessorBasic4" BlueprintSubtypeId="PowerCellElite" />
+        <Entry Class="AdvancedComponentProcessorBasic4" BlueprintSubtypeId="DetectorComponentElite" />
+        <Entry Class="AdvancedComponentProcessorBasic4" BlueprintSubtypeId="Tech2xElite" />
+
+        <Entry Class="RefinementProcessorBasic" BlueprintSubtypeId="StoneRefinementBasic" />
+        <Entry Class="RefinementProcessorBasic" BlueprintSubtypeId="IronRefinementBasic" />
+        <Entry Class="RefinementProcessorBasic" BlueprintSubtypeId="SiliconRefinementBasic" />
+        <Entry Class="RefinementProcessorBasic" BlueprintSubtypeId="CopperRefinementBasic" />
+        <Entry Class="RefinementProcessorBasic" BlueprintSubtypeId="NickelRefinementBasic" />
+        <Entry Class="RefinementProcessorBasic" BlueprintSubtypeId="CobaltRefinementBasic" />
+        <Entry Class="RefinementProcessorBasic" BlueprintSubtypeId="ShaleRefinementBasic" />
+        <Entry Class="RefinementProcessorBasic" BlueprintSubtypeId="NitreRefinementBasic" />
+        <Entry Class="RefinementProcessorBasic" BlueprintSubtypeId="MagnesiumRefinementBasic" />
+        <Entry Class="RefinementProcessorBasic" BlueprintSubtypeId="AluminiumRefinementBasic" />
+        <Entry Class="RefinementProcessorBasic" BlueprintSubtypeId="SilverRefinementBasic" />
+        <!-- PRODUCTION BUILDING RECIPES                                                            -->
+    </BlueprintClassEntries>
+</Definitions>

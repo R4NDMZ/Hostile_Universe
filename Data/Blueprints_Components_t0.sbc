@@ -1,0 +1,2275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Blueprints>
+        <!-- COMPONENT DEFINITIONS      -->
+        <!-- TIER: 0   [STONE AGE]      -->
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SteelPlateBasic</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_SteelPlate</DisplayName>
+            <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="180" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="10" TypeId="Component" SubtypeId="SteelPlate" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SteelPlateBasicExp</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_SteelPlate</DisplayName>
+            <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="30" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="SteelPlate" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SteelPlateEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_SteelPlate</DisplayName>
+            <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="180" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="15" TypeId="Component" SubtypeId="SteelPlate" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SteelPlateEnhancedExp</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_SteelPlate</DisplayName>
+            <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="25" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="SteelPlate" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SteelPlateProficient</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_SteelPlate</DisplayName>
+            <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="150" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="20" TypeId="Component" SubtypeId="SteelPlate" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SteelPlateProficientExp</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_SteelPlate</DisplayName>
+            <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="20" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="SteelPlate" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SteelPlateElite</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_SteelPlate</DisplayName>
+            <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="120" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="40" TypeId="Component" SubtypeId="SteelPlate" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SteelPlateEliteExp</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_SteelPlate</DisplayName>
+            <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="10" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="SteelPlate" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>InteriorPlateBasic</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_InteriorPlate</DisplayName>
+            <Icon>Textures\GUI\Icons\component\interior_plate_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="30" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="15" TypeId="Component" SubtypeId="InteriorPlate" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>InteriorPlateBasicExp</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_InteriorPlate</DisplayName>
+            <Icon>Textures\GUI\Icons\component\interior_plate_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="15" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="InteriorPlate" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>InteriorPlateEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_InteriorPlate</DisplayName>
+            <Icon>Textures\GUI\Icons\component\interior_plate_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="25" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="20" TypeId="Component" SubtypeId="InteriorPlate" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>InteriorPlateEnhancedExp</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_InteriorPlate</DisplayName>
+            <Icon>Textures\GUI\Icons\component\interior_plate_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="10" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="InteriorPlate" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>InteriorPlateProficient</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_InteriorPlate</DisplayName>
+            <Icon>Textures\GUI\Icons\component\interior_plate_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="20" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="25" TypeId="Component" SubtypeId="InteriorPlate" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>InteriorPlateProficientExp</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_InteriorPlate</DisplayName>
+            <Icon>Textures\GUI\Icons\component\interior_plate_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="5" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="InteriorPlate" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>InteriorPlateElite</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_InteriorPlate</DisplayName>
+            <Icon>Textures\GUI\Icons\component\interior_plate_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="15" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="40" TypeId="Component" SubtypeId="InteriorPlate" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>InteriorPlateEliteExp</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_InteriorPlate</DisplayName>
+            <Icon>Textures\GUI\Icons\component\interior_plate_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1.5" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="InteriorPlate" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ConstructionComponentBasic</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_ConstructionComponent</DisplayName>
+            <Icon>Textures\GUI\Icons\component\construction_components_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="150" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="30" TypeId="Ingot" SubtypeId="Silicon" />
+            </Prerequisites>
+            <Result Amount="20" TypeId="Component" SubtypeId="Construction" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ConstructionComponentBasicExp</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_ConstructionComponent</DisplayName>
+            <Icon>Textures\GUI\Icons\component\construction_components_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="15.0" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="3.0" TypeId="Ingot" SubtypeId="Silicon" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Construction" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ConstructionComponentEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_ConstructionComponent</DisplayName>
+            <Icon>Textures\GUI\Icons\component\construction_components_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="120.0" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="25.0" TypeId="Ingot" SubtypeId="Silicon" />
+            </Prerequisites>
+            <Result Amount="25" TypeId="Component" SubtypeId="Construction" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ConstructionComponentEnhancedExp</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_ConstructionComponent</DisplayName>
+            <Icon>Textures\GUI\Icons\component\construction_components_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="12.0" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="2.5" TypeId="Ingot" SubtypeId="Silicon" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Construction" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ConstructionComponentProficient</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_ConstructionComponent</DisplayName>
+            <Icon>Textures\GUI\Icons\component\construction_components_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="100.0" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="20.0" TypeId="Ingot" SubtypeId="Silicon" />
+            </Prerequisites>
+            <Result Amount="40" TypeId="Component" SubtypeId="Construction" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ConstructionComponentProficientExp</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_ConstructionComponent</DisplayName>
+            <Icon>Textures\GUI\Icons\component\construction_components_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="10.0" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="2.0" TypeId="Ingot" SubtypeId="Silicon" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Construction" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ConstructionComponentElite</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_ConstructionComponent</DisplayName>
+            <Icon>Textures\GUI\Icons\component\construction_components_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="80.0" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="15.0" TypeId="Ingot" SubtypeId="Silicon" />
+            </Prerequisites>
+            <Result Amount="50" TypeId="Component" SubtypeId="Construction" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ConstructionComponentEliteExp</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_ConstructionComponent</DisplayName>
+            <Icon>Textures\GUI\Icons\component\construction_components_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="8.0" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="1.5" TypeId="Ingot" SubtypeId="Silicon" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Construction" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>GirderComponentBasic</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Girder</DisplayName>
+            <Icon>Textures\GUI\Icons\component\girder_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="45" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="15" TypeId="Component" SubtypeId="Girder" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>GirderComponentBasicExp</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Girder</DisplayName>
+            <Icon>Textures\GUI\Icons\component\girder_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="10" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Girder" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>GirderComponentEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Girder</DisplayName>
+            <Icon>Textures\GUI\Icons\component\girder_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="40" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="25" TypeId="Component" SubtypeId="Girder" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>GirderComponentEnhancedExp</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Girder</DisplayName>
+            <Icon>Textures\GUI\Icons\component\girder_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="8" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Girder" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>GirderComponentProficient</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Girder</DisplayName>
+            <Icon>Textures\GUI\Icons\component\girder_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="30" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="30" TypeId="Component" SubtypeId="Girder" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>GirderComponentProficientExp</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Girder</DisplayName>
+            <Icon>Textures\GUI\Icons\component\girder_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="6" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Girder" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>GirderComponentElite</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Girder</DisplayName>
+            <Icon>Textures\GUI\Icons\component\girder_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="15" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="45" TypeId="Component" SubtypeId="Girder" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>GirderComponentEliteExp</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Girder</DisplayName>
+            <Icon>Textures\GUI\Icons\component\girder_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="2" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Girder" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SmallTubeBasic</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_SmallSteelTube</DisplayName>
+            <Icon>Textures\GUI\Icons\component\small_tube_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="50" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="15" TypeId="Component" SubtypeId="SmallTube" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SmallTubeBasicExp</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_SmallSteelTube</DisplayName>
+            <Icon>Textures\GUI\Icons\component\small_tube_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="12" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="SmallTube" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SmallTubeEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_SmallSteelTube</DisplayName>
+            <Icon>Textures\GUI\Icons\component\small_tube_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="40" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="25" TypeId="Component" SubtypeId="SmallTube" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SmallTubeEnhancedExp</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_SmallSteelTube</DisplayName>
+            <Icon>Textures\GUI\Icons\component\small_tube_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="10" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="SmallTube" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SmallTubeProficient</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_SmallSteelTube</DisplayName>
+            <Icon>Textures\GUI\Icons\component\small_tube_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="30" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="30" TypeId="Component" SubtypeId="SmallTube" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SmallTubeProficientExp</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_SmallSteelTube</DisplayName>
+            <Icon>Textures\GUI\Icons\component\small_tube_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="5" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="SmallTube" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SmallTubeElite</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_SmallSteelTube</DisplayName>
+            <Icon>Textures\GUI\Icons\component\small_tube_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="25" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="50" TypeId="Component" SubtypeId="SmallTube" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SmallTubeEliteExp</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_SmallSteelTube</DisplayName>
+            <Icon>Textures\GUI\Icons\component\small_tube_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="2" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="SmallTube" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>MotorComponentBasic</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Motor</DisplayName>
+            <Icon>Textures\GUI\Icons\component\motor_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="15" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="30" TypeId="Ingot" SubtypeId="Copper" />
+                <Item Amount="55" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="3" TypeId="Component" SubtypeId="Motor" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>MotorComponentBasicExp</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Motor</DisplayName>
+            <Icon>Textures\GUI\Icons\component\motor_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="7.5" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="15" TypeId="Ingot" SubtypeId="Copper" />
+                <Item Amount="25" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Motor" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>MotorComponentEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Motor</DisplayName>
+            <Icon>Textures\GUI\Icons\component\motor_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="14.5" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="28.5" TypeId="Ingot" SubtypeId="Copper" />
+                <Item Amount="53.0" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="5" TypeId="Component" SubtypeId="Motor" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>MotorComponentEnhancedExp</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Motor</DisplayName>
+            <Icon>Textures\GUI\Icons\component\motor_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="7.25" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="14.25" TypeId="Ingot" SubtypeId="Copper" />
+                <Item Amount="26.5" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Motor" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>MotorComponentProficient</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Motor</DisplayName>
+            <Icon>Textures\GUI\Icons\component\motor_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="14.15" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="25.8" TypeId="Ingot" SubtypeId="Copper" />
+                <Item Amount="50.125" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="7" TypeId="Component" SubtypeId="Motor" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>MotorComponentProficientExp</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Motor</DisplayName>
+            <Icon>Textures\GUI\Icons\component\motor_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="7.125" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="12.9" TypeId="Ingot" SubtypeId="Copper" />
+                <Item Amount="25.01" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Motor" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>MotorComponentElite</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Motor</DisplayName>
+            <Icon>Textures\GUI\Icons\component\motor_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="13.6125" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="22.5" TypeId="Ingot" SubtypeId="Copper" />
+                <Item Amount="45.25" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="9" TypeId="Component" SubtypeId="Motor" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>MotorComponentEliteExp</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Motor</DisplayName>
+            <Icon>Textures\GUI\Icons\component\motor_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="7" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="11.5" TypeId="Ingot" SubtypeId="Copper" />
+                <Item Amount="22.5" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Motor" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>CircuitBasic</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_Circuit}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\circuit.dds</Icon>
+            <Prerequisites>
+                <Item Amount="12" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="15" TypeId="Ingot" SubtypeId="Silicon" />
+                <Item Amount="10" TypeId="Ingot" SubtypeId="Copper" />
+            </Prerequisites>
+            <Result Amount="5" TypeId="Component" SubtypeId="Circuit" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>CircuitBasicExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_Circuit}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\circuit.dds</Icon>
+            <Prerequisites>
+                <Item Amount="6" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="7.5" TypeId="Ingot" SubtypeId="Silicon" />
+                <Item Amount="5" TypeId="Ingot" SubtypeId="Copper" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Circuit" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>CircuitEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_Circuit}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\circuit.dds</Icon>
+            <Prerequisites>
+                <Item Amount="11" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="14" TypeId="Ingot" SubtypeId="Silicon" />
+                <Item Amount="9.5" TypeId="Ingot" SubtypeId="Copper" />
+            </Prerequisites>
+            <Result Amount="5" TypeId="Component" SubtypeId="Circuit" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>CircuitEnhancedExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_Circuit}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\circuit.dds</Icon>
+            <Prerequisites>
+                <Item Amount="5.5" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="7" TypeId="Ingot" SubtypeId="Silicon" />
+                <Item Amount="5" TypeId="Ingot" SubtypeId="Copper" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Circuit" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>CircuitProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_Circuit}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\circuit.dds</Icon>
+            <Prerequisites>
+                <Item Amount="10" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="12.5" TypeId="Ingot" SubtypeId="Silicon" />
+                <Item Amount="9" TypeId="Ingot" SubtypeId="Copper" />
+            </Prerequisites>
+            <Result Amount="6" TypeId="Component" SubtypeId="Circuit" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>CircuitProficientExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_Circuit}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\circuit.dds</Icon>
+            <Prerequisites>
+                <Item Amount="5" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="6.5" TypeId="Ingot" SubtypeId="Silicon" />
+                <Item Amount="4.5" TypeId="Ingot" SubtypeId="Copper" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Circuit" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>CircuitElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_Circuit}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\circuit.dds</Icon>
+            <Prerequisites>
+                <Item Amount="9" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="12" TypeId="Ingot" SubtypeId="Silicon" />
+                <Item Amount="8" TypeId="Ingot" SubtypeId="Copper" />
+            </Prerequisites>
+            <Result Amount="10" TypeId="Component" SubtypeId="Circuit" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>CircuitEliteExp</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_Circuit}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\circuit.dds</Icon>
+            <Prerequisites>
+                <Item Amount="5" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="6" TypeId="Ingot" SubtypeId="Silicon" />
+                <Item Amount="4" TypeId="Ingot" SubtypeId="Copper" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Circuit" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>DisplayBasic</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Display</DisplayName>
+            <Icon>Textures\GUI\Icons\component\display_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="3" TypeId="Ingot" SubtypeId="Copper" />
+                <Item Amount="5" TypeId="Component" SubtypeId="Glass" />
+                <Item Amount="5" TypeId="Component" SubtypeId="SiliconSheet" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Display" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>DisplayBasicExp</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Display</DisplayName>
+            <Icon>Textures\GUI\Icons\component\display_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="0.1" TypeId="Ingot" SubtypeId="Kobold" />
+                <Item Amount="5" TypeId="Ingot" SubtypeId="Copper" />
+                <Item Amount="7" TypeId="Component" SubtypeId="Glass" />
+                <Item Amount="5" TypeId="Component" SubtypeId="SiliconSheet" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Display" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>DisplayEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Display</DisplayName>
+            <Icon>Textures\GUI\Icons\component\display_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="3" TypeId="Ingot" SubtypeId="Copper" />
+                <Item Amount="5" TypeId="Component" SubtypeId="Glass" />
+                <Item Amount="5" TypeId="Component" SubtypeId="SiliconSheet" />
+            </Prerequisites>
+            <Result Amount="2" TypeId="Component" SubtypeId="Display" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>DisplayEnhancedExp</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Display</DisplayName>
+            <Icon>Textures\GUI\Icons\component\display_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="5" TypeId="Ingot" SubtypeId="Copper" />
+                <Item Amount="7" TypeId="Component" SubtypeId="Glass" />
+                <Item Amount="5" TypeId="Component" SubtypeId="SiliconSheet" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Display" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>DisplayProficient</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Display</DisplayName>
+            <Icon>Textures\GUI\Icons\component\display_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="0.9" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="3" TypeId="Ingot" SubtypeId="Copper" />
+                <Item Amount="4" TypeId="Component" SubtypeId="Glass" />
+                <Item Amount="4" TypeId="Component" SubtypeId="SiliconSheet" />
+            </Prerequisites>
+            <Result Amount="2" TypeId="Component" SubtypeId="Display" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>DisplayProficientExp</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Display</DisplayName>
+            <Icon>Textures\GUI\Icons\component\display_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="0.95" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="4.5" TypeId="Ingot" SubtypeId="Coppee" />
+                <Item Amount="6" TypeId="Component" SubtypeId="Glass" />
+                <Item Amount="5" TypeId="Component" SubtypeId="SiliconSheet" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Display" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>DisplayElite</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Display</DisplayName>
+            <Icon>Textures\GUI\Icons\component\display_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="0.8" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="3" TypeId="Ingot" SubtypeId="Copper" />
+                <Item Amount="3" TypeId="Component" SubtypeId="Glass" />
+                <Item Amount="3" TypeId="Component" SubtypeId="SiliconSheet" />
+            </Prerequisites>
+            <Result Amount="3" TypeId="Component" SubtypeId="Display" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>DisplayEliteExp</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Display</DisplayName>
+            <Icon>Textures\GUI\Icons\component\display_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="0.9" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="4" TypeId="Ingot" SubtypeId="Copper" />
+                <Item Amount="6" TypeId="Component" SubtypeId="Glass" />
+                <Item Amount="4" TypeId="Component" SubtypeId="SiliconSheet" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Display" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SiliconSheetBasic</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_SiliconSheet}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\siliconSheet.dds</Icon>
+            <Prerequisites>
+                <Item Amount="5" TypeId="Ingot" SubtypeId="Silicon" />
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Nickel" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="SiliconSheet" />
+            <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SiliconSheetEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_SiliconSheet}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\siliconSheet.dds</Icon>
+            <Prerequisites>
+                <Item Amount="4.5" TypeId="Ingot" SubtypeId="Silicon" />
+                <Item Amount="0.8" TypeId="Ingot" SubtypeId="Nickel" />
+            </Prerequisites>
+            <Result Amount="2" TypeId="Component" SubtypeId="SiliconSheet" />
+            <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SiliconSheetProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_SiliconSheet}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\siliconSheet.dds</Icon>
+            <Prerequisites>
+                <Item Amount="3.5" TypeId="Ingot" SubtypeId="Silicon" />
+                <Item Amount="0.5" TypeId="Ingot" SubtypeId="Nickel" />
+            </Prerequisites>
+            <Result Amount="2" TypeId="Component" SubtypeId="SiliconSheet" />
+            <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SiliconSheetElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_SiliconSheet}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\siliconSheet.dds</Icon>
+            <Prerequisites>
+                <Item Amount="3" TypeId="Ingot" SubtypeId="Silicon" />
+                <Item Amount="0.1" TypeId="Ingot" SubtypeId="Nickel" />
+            </Prerequisites>
+            <Result Amount="3" TypeId="Component" SubtypeId="SiliconSheet" />
+            <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>GlassComponentBasic</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_Glass}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\glass.dds</Icon>
+            <Prerequisites>
+                <Item Amount="5" TypeId="Ingot" SubtypeId="Glass" />
+                <Item Amount="1" TypeId="Component" SubtypeId="SiliconSheet" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Glass" />
+            <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>GlassComponentEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_Glass}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\glass.dds</Icon>
+            <Prerequisites>
+                <Item Amount="4.5" TypeId="Ingot" SubtypeId="Glass" />
+                <Item Amount="1" TypeId="Component" SubtypeId="SiliconSheet" />
+            </Prerequisites>
+            <Result Amount="2" TypeId="Component" SubtypeId="Glass" />
+            <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>GlassComponentProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_Glass}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\glass.dds</Icon>
+            <Prerequisites>
+                <Item Amount="3.5" TypeId="Ingot" SubtypeId="Glass" />
+                <Item Amount="1" TypeId="Component" SubtypeId="SiliconSheet" />
+            </Prerequisites>
+            <Result Amount="3" TypeId="Component" SubtypeId="Glass" />
+            <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>GlassComponentElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_Glass}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\glass.dds</Icon>
+            <Prerequisites>
+                <Item Amount="3" TypeId="Ingot" SubtypeId="Glass" />
+                <Item Amount="1" TypeId="Component" SubtypeId="SiliconSheet" />
+            </Prerequisites>
+            <Result Amount="4" TypeId="Component" SubtypeId="Glass" />
+            <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>CopperPlateBasic</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_CopperPlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\copperPlate.dds</Icon>
+            <Prerequisites>
+                <Item Amount="180" TypeId="Ingot" SubtypeId="Copper" />
+            </Prerequisites>
+            <Result Amount="10" TypeId="Component" SubtypeId="CopperPlate" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>CopperPlateEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_CopperPlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\copperPlate.dds</Icon>
+            <Prerequisites>
+                <Item Amount="180" TypeId="Ingot" SubtypeId="Copper" />
+            </Prerequisites>
+            <Result Amount="15" TypeId="Component" SubtypeId="CopperPlate" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>CopperPlateProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_CopperPlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\copperPlate.dds</Icon>
+            <Prerequisites>
+                <Item Amount="150" TypeId="Ingot" SubtypeId="Copper" />
+            </Prerequisites>
+            <Result Amount="20" TypeId="Component" SubtypeId="CopperPlate" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>CopperPlateElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_CopperPlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\copperPlate.dds</Icon>
+            <Prerequisites>
+                <Item Amount="120" TypeId="Ingot" SubtypeId="Copper" />
+            </Prerequisites>
+            <Result Amount="40" TypeId="Component" SubtypeId="CopperPlate" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>KoboldPlateBasic</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_KoboldPlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\koboldPlate.dds</Icon>
+            <Prerequisites>
+                <Item Amount="180" TypeId="Ingot" SubtypeId="Kobold" />
+            </Prerequisites>
+            <Result Amount="10" TypeId="Component" SubtypeId="KoboldPlate" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>KoboldPlateEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_KoboldPlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\koboldPlate.dds</Icon>
+            <Prerequisites>
+                <Item Amount="180" TypeId="Ingot" SubtypeId="Kobold" />
+            </Prerequisites>
+            <Result Amount="15" TypeId="Component" SubtypeId="KoboldPlate" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>KoboldPlateProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_KoboldPlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\koboldPlate.dds</Icon>
+            <Prerequisites>
+                <Item Amount="150" TypeId="Ingot" SubtypeId="Kobold" />
+            </Prerequisites>
+            <Result Amount="20" TypeId="Component" SubtypeId="KoboldPlate" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>KoboldPlateElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_KoboldPlate}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\koboldPlate.dds</Icon>
+            <Prerequisites>
+                <Item Amount="120" TypeId="Ingot" SubtypeId="Kobold" />
+            </Prerequisites>
+            <Result Amount="40" TypeId="Component" SubtypeId="KoboldPlate" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SmallKoboldTubeBasic</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_SmallKoboldTube}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\smallKoboldTube.dds</Icon>
+            <Prerequisites>
+                <Item Amount="50" TypeId="Ingot" SubtypeId="Kobold" />
+            </Prerequisites>
+            <Result Amount="15" TypeId="Component" SubtypeId="SmallKoboldTube" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SmallKoboldTubeEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_SmallKoboldTube}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\smallKoboldTube.dds</Icon>
+            <Prerequisites>
+                <Item Amount="40" TypeId="Ingot" SubtypeId="Kobold" />
+            </Prerequisites>
+            <Result Amount="25" TypeId="Component" SubtypeId="SmallKoboldTube" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SmallKoboldTubeProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_SmallKoboldTube}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\smallKoboldTube.dds</Icon>
+            <Prerequisites>
+                <Item Amount="30" TypeId="Ingot" SubtypeId="Kobold" />
+            </Prerequisites>
+            <Result Amount="30" TypeId="Component" SubtypeId="SmallKoboldTube" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SmallKoboldTubeElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_SmallKoboldTube}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\smallKoboldTube.dds</Icon>
+            <Prerequisites>
+                <Item Amount="25" TypeId="Ingot" SubtypeId="Kobold" />
+            </Prerequisites>
+            <Result Amount="50" TypeId="Component" SubtypeId="SmallKoboldTube" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>LargeTubeBasic</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_LargeSteelTube</DisplayName>
+            <Icon>Textures\GUI\Icons\component\large_tube_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="150" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="5" TypeId="Component" SubtypeId="LargeTube" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>LargeTubeEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_LargeSteelTube</DisplayName>
+            <Icon>Textures\GUI\Icons\component\large_tube_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="150" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="6" TypeId="Component" SubtypeId="LargeTube" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>LargeTubeProficient</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_LargeSteelTube</DisplayName>
+            <Icon>Textures\GUI\Icons\component\large_tube_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="120" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="8" TypeId="Component" SubtypeId="LargeTube" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>LargeTubeElite</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_LargeSteelTube</DisplayName>
+            <Icon>Textures\GUI\Icons\component\large_tube_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="100" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="10" TypeId="Component" SubtypeId="LargeTube" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>LargeKoboldTubeBasic</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_LargeKoboldTube}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\largeKoboldTube.dds</Icon>
+            <Prerequisites>
+                <Item Amount="150" TypeId="Ingot" SubtypeId="Kobold" />
+            </Prerequisites>
+            <Result Amount="5" TypeId="Component" SubtypeId="LargeKoboldTube" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>LargeKoboldTubeEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_LargeKoboldTube}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\largeKoboldTube.dds</Icon>
+            <Prerequisites>
+                <Item Amount="150" TypeId="Ingot" SubtypeId="Kobold" />
+            </Prerequisites>
+            <Result Amount="6" TypeId="Component" SubtypeId="LargeKoboldTube" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>LargeKoboldTubeProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_LargeKoboldTube}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\largeKoboldTube.dds</Icon>
+            <Prerequisites>
+                <Item Amount="120" TypeId="Ingot" SubtypeId="Kobold" />
+            </Prerequisites>
+            <Result Amount="8" TypeId="Component" SubtypeId="LargeKoboldTube" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>LargeKoboldTubeElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_LargeKoboldTube}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\largeKoboldTube.dds</Icon>
+            <Prerequisites>
+                <Item Amount="100" TypeId="Ingot" SubtypeId="Kobold" />
+            </Prerequisites>
+            <Result Amount="10" TypeId="Component" SubtypeId="LargeKoboldTube" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>MetalGridBasic</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_MetalGrid</DisplayName>
+            <Icon>Textures\GUI\Icons\component\metal_grid_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="60" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="25" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="15" TypeId="Ingot" SubtypeId="Cobalt" />
+            </Prerequisites>
+            <Result Amount="5" TypeId="Component" SubtypeId="MetalGrid" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>MetalGridEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_MetalGrid</DisplayName>
+            <Icon>Textures\GUI\Icons\component\metal_grid_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="60" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="25" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="15" TypeId="Ingot" SubtypeId="Cobalt" />
+            </Prerequisites>
+            <Result Amount="7" TypeId="Component" SubtypeId="MetalGrid" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>MetalGridProficient</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_MetalGrid</DisplayName>
+            <Icon>Textures\GUI\Icons\component\metal_grid_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="50" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="22.5" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="14" TypeId="Ingot" SubtypeId="Cobalt" />
+            </Prerequisites>
+            <Result Amount="8" TypeId="Component" SubtypeId="MetalGrid" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>MetalGridElite</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_MetalGrid</DisplayName>
+            <Icon>Textures\GUI\Icons\component\metal_grid_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="50" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="22.5" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="12" TypeId="Ingot" SubtypeId="Cobalt" />
+            </Prerequisites>
+            <Result Amount="10" TypeId="Component" SubtypeId="MetalGrid" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SteelWireBasic</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Ingot_SteelWire}</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\steel_wire.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Component" SubtypeId="SteelPlate" />
+            </Prerequisites>
+            <Result Amount="10" TypeId="Ingot" SubtypeId="SteelWire" />
+            <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SteelWireEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Ingot_SteelWire}</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\steel_wire.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Component" SubtypeId="SteelPlate" />
+            </Prerequisites>
+            <Result Amount="12" TypeId="Ingot" SubtypeId="SteelWire" />
+            <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SteelWireProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Ingot_SteelWire}</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\steel_wire.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Component" SubtypeId="SteelPlate" />
+            </Prerequisites>
+            <Result Amount="15" TypeId="Ingot" SubtypeId="SteelWire" />
+            <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SteelWireElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Ingot_SteelWire}</DisplayName>
+            <Icon>Textures\GUI\Icons\Ingot\steel_wire.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Component" SubtypeId="SteelPlate" />
+            </Prerequisites>
+            <Result Amount="20" TypeId="Ingot" SubtypeId="SteelWire" />
+            <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>CopperWireBasic</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Ingot_CopperWire}</DisplayName>
+            <Icon>Textures\GUI\Icons\Ingot\copper_wire.dds</Icon>
+            <Prerequisites>
+                <Item Amount="4" TypeId="Component" SubtypeId="SiliconSheet" />
+                <Item Amount="2" TypeId="Component" SubtypeId="CopperPlate" />
+            </Prerequisites>
+            <Result Amount="10" TypeId="Ingot" SubtypeId="CopperWire" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>CopperWireEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Ingot_CopperWire}</DisplayName>
+            <Icon>Textures\GUI\Icons\Ingot\copper_wire.dds</Icon>
+            <Prerequisites>
+                <Item Amount="2" TypeId="Component" SubtypeId="SiliconSheet" />
+                <Item Amount="2" TypeId="Component" SubtypeId="CopperPlate" />
+            </Prerequisites>
+            <Result Amount="12" TypeId="Ingot" SubtypeId="CopperWire" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>CopperWireProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Ingot_CopperWire}</DisplayName>
+            <Icon>Textures\GUI\Icons\Ingot\copper_wire.dds</Icon>
+            <Prerequisites>
+                <Item Amount="2" TypeId="Component" SubtypeId="SiliconSheet" />
+                <Item Amount="1" TypeId="Component" SubtypeId="CopperPlate" />
+            </Prerequisites>
+            <Result Amount="15" TypeId="Ingot" SubtypeId="CopperWire" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>CopperWireElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Ingot_CopperWire}</DisplayName>
+            <Icon>Textures\GUI\Icons\Ingot\copper_wire.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Component" SubtypeId="SiliconSheet" />
+                <Item Amount="1" TypeId="Component" SubtypeId="CopperPlate" />
+            </Prerequisites>
+            <Result Amount="20" TypeId="Ingot" SubtypeId="CopperWire" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>WheelBasic</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_Wheel}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\siTyre.dds</Icon>
+            <Prerequisites>
+               <Item Amount="10" TypeId="Component" SubtypeId="SiliconSheet" />
+               <Item Amount="30" TypeId="Ingot" SubtypeId="SteelWire" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="SiTyre" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>WheelEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_Wheel}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\siTyre.dds</Icon>
+            <Prerequisites>
+               <Item Amount="10" TypeId="Component" SubtypeId="SiliconSheet" />
+               <Item Amount="30" TypeId="Ingot" SubtypeId="SteelWire" />
+            </Prerequisites>
+            <Result Amount="2" TypeId="Component" SubtypeId="SiTyre" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>WheelProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_Wheel}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\siTyre.dds</Icon>
+            <Prerequisites>
+               <Item Amount="9" TypeId="Component" SubtypeId="SiliconSheet" />
+               <Item Amount="25" TypeId="Ingot" SubtypeId="SteelWire" />
+            </Prerequisites>
+            <Result Amount="4" TypeId="Component" SubtypeId="SiTyre" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>WheelElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_Wheel}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\siTyre.dds</Icon>
+            <Prerequisites>
+               <Item Amount="8" TypeId="Component" SubtypeId="SiliconSheet" />
+               <Item Amount="20" TypeId="Ingot" SubtypeId="SteelWire" />
+            </Prerequisites>
+            <Result Amount="8" TypeId="Component" SubtypeId="SiTyre" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ReinforcedWheelBasic</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ReinforcedWheel}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\tyre.dds</Icon>
+            <Prerequisites>
+               <Item Amount="10" TypeId="Component" SubtypeId="SiliconSheet" />
+               <Item Amount="1" TypeId="Component" SubtypeId="SiTyre" />
+               <Item Amount="5" TypeId="Component" SubtypeId="SmallKoboldTube" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Tyre" />
+            <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ReinforcedWheelEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ReinforcedWheel}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\tyre.dds</Icon>
+            <Prerequisites>
+               <Item Amount="10" TypeId="Component" SubtypeId="SiliconSheet" />
+               <Item Amount="1" TypeId="Component" SubtypeId="SiTyre" />
+               <Item Amount="5" TypeId="Component" SubtypeId="SmallKoboldTube" />
+            </Prerequisites>
+            <Result Amount="2" TypeId="Component" SubtypeId="Tyre" />
+            <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ReinforcedWheelProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ReinforcedWheel}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\tyre.dds</Icon>
+            <Prerequisites>
+               <Item Amount="10" TypeId="Component" SubtypeId="SiliconSheet" />
+               <Item Amount="1" TypeId="Component" SubtypeId="SiTyre" />
+               <Item Amount="5" TypeId="Component" SubtypeId="SmallKoboldTube" />
+            </Prerequisites>
+            <Result Amount="4" TypeId="Component" SubtypeId="Tyre" />
+            <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ReinforcedWheelElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_ReinforcedWheel}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\tyre.dds</Icon>
+            <Prerequisites>
+               <Item Amount="10" TypeId="Component" SubtypeId="SiliconSheet" />
+               <Item Amount="1" TypeId="Component" SubtypeId="SiTyre" />
+               <Item Amount="2" TypeId="Component" SubtypeId="SmallKoboldTube" />
+            </Prerequisites>
+            <Result Amount="8" TypeId="Component" SubtypeId="Tyre" />
+            <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>LEDBasic</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_LED}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\LEDComponent.dds</Icon>
+            <Prerequisites>
+                <Item Amount="0.1" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="0.8" TypeId="Ingot" SubtypeId="CopperWire" />
+                <Item Amount="7" TypeId="Component" SubtypeId="Glass" />
+                <Item Amount="7" TypeId="Component" SubtypeId="SiliconSheet" />
+                <Item Amount="5" TypeId="Component" SubtypeId="Heatsink" />
+            </Prerequisites>
+            <Result Amount="3" TypeId="Component" SubtypeId="LED" />
+            <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>LEDEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_LED}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\LEDComponent.dds</Icon>
+            <Prerequisites>
+                <Item Amount="0.1" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="0.8" TypeId="Ingot" SubtypeId="CopperWire" />
+                <Item Amount="7" TypeId="Component" SubtypeId="Glass" />
+                <Item Amount="5" TypeId="Component" SubtypeId="SiliconSheet" />
+                <Item Amount="3" TypeId="Component" SubtypeId="Heatsink" />
+            </Prerequisites>
+            <Result Amount="5" TypeId="Component" SubtypeId="LED" />
+            <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>LEDProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_LED}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\LEDComponent.dds</Icon>
+            <Prerequisites>
+                <Item Amount="0.1" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="0.6" TypeId="Ingot" SubtypeId="CopperWire" />
+                <Item Amount="5" TypeId="Component" SubtypeId="Glass" />
+                <Item Amount="5" TypeId="Component" SubtypeId="SiliconSheet" />
+                <Item Amount="2" TypeId="Component" SubtypeId="Heatsink" />
+            </Prerequisites>
+            <Result Amount="7" TypeId="Component" SubtypeId="LED" />
+            <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>LEDElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_LED}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\LEDComponent.dds</Icon>
+            <Prerequisites>
+                <Item Amount="0.08" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="0.55" TypeId="Ingot" SubtypeId="CopperWire" />
+                <Item Amount="3" TypeId="Component" SubtypeId="Glass" />
+                <Item Amount="3" TypeId="Component" SubtypeId="SiliconSheet" />
+                <Item Amount="1" TypeId="Component" SubtypeId="Heatsink" />
+            </Prerequisites>
+            <Result Amount="10" TypeId="Component" SubtypeId="LED" />
+            <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>CPUBasic</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_CPU}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\circuit.dds</Icon>
+            <Prerequisites>
+                <Item Amount="2" TypeId="Ingot" SubtypeId="CopperWire" />
+                <Item Amount="4" TypeId="Component" SubtypeId="SiliconSheet" />
+                <Item Amount="3" TypeId="Component" SubtypeId="KoboldPlate" />
+                <Item Amount="8" TypeId="Component" SubtypeId="Circuit" />
+                <Item Amount="3" TypeId="Component" SubtypeId="LED" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="CPU" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>CPUEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_CPU}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\circuit.dds</Icon>
+            <Prerequisites>
+                <Item Amount="2" TypeId="Ingot" SubtypeId="CopperWire" />
+                <Item Amount="3" TypeId="Component" SubtypeId="SiliconSheet" />
+                <Item Amount="3" TypeId="Component" SubtypeId="KoboldPlate" />
+                <Item Amount="7" TypeId="Component" SubtypeId="Circuit" />
+                <Item Amount="3" TypeId="Component" SubtypeId="LED" />
+            </Prerequisites>
+            <Result Amount="2" TypeId="Component" SubtypeId="CPU" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>CPUProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_CPU}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\circuit.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1.8" TypeId="Ingot" SubtypeId="CopperWire" />
+                <Item Amount="2" TypeId="Component" SubtypeId="SiliconSheet" />
+                <Item Amount="2" TypeId="Component" SubtypeId="KoboldPlate" />
+                <Item Amount="5" TypeId="Component" SubtypeId="Circuit" />
+                <Item Amount="2" TypeId="Component" SubtypeId="LED" />
+            </Prerequisites>
+            <Result Amount="3" TypeId="Component" SubtypeId="CPU" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>CPUElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_CPU}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\circuit.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1.6" TypeId="Ingot" SubtypeId="CopperWire" />
+                <Item Amount="1" TypeId="Component" SubtypeId="SiliconSheet" />
+                <Item Amount="1" TypeId="Component" SubtypeId="KoboldPlate" />
+                <Item Amount="4" TypeId="Component" SubtypeId="Circuit" />
+                <Item Amount="2" TypeId="Component" SubtypeId="LED" />
+            </Prerequisites>
+            <Result Amount="4" TypeId="Component" SubtypeId="CPU" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ComputerBasic</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Computer</DisplayName>
+            <Icon>Textures\GUI\Icons\component\computer_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="8" TypeId="Ingot" SubtypeId="CopperWire" />
+                <Item Amount="2" TypeId="Component" SubtypeId="KoboldPlate" />
+                <Item Amount="6" TypeId="Component" SubtypeId="CPU" />
+                <Item Amount="2" TypeId="Component" SubtypeId="Display" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Computer" />
+            <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ComputerEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Computer</DisplayName>
+            <Icon>Textures\GUI\Icons\component\computer_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="8" TypeId="Ingot" SubtypeId="CopperWire" />
+                <Item Amount="2" TypeId="Component" SubtypeId="KoboldPlate" />
+                <Item Amount="6" TypeId="Component" SubtypeId="CPU" />
+                <Item Amount="2" TypeId="Component" SubtypeId="Display" />
+            </Prerequisites>
+            <Result Amount="2" TypeId="Component" SubtypeId="Computer" />
+            <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ComputerProficient</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Computer</DisplayName>
+            <Icon>Textures\GUI\Icons\component\computer_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="7.2" TypeId="Ingot" SubtypeId="CopperWire" />
+                <Item Amount="1" TypeId="Component" SubtypeId="KoboldPlate" />
+                <Item Amount="6" TypeId="Component" SubtypeId="CPU" />
+                <Item Amount="2" TypeId="Component" SubtypeId="Display" />
+            </Prerequisites>
+            <Result Amount="3" TypeId="Component" SubtypeId="Computer" />
+            <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ComputerElite</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Computer</DisplayName>
+            <Icon>Textures\GUI\Icons\component\computer_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="7" TypeId="Ingot" SubtypeId="CopperWire" />
+                <Item Amount="1" TypeId="Component" SubtypeId="KoboldPlate" />
+                <Item Amount="5" TypeId="Component" SubtypeId="CPU" />
+                <Item Amount="2" TypeId="Component" SubtypeId="Display" />
+            </Prerequisites>
+            <Result Amount="5" TypeId="Component" SubtypeId="Computer" />
+            <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>HeatsinkBasic</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_Heatsink}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\heatsink.dds</Icon>
+            <Prerequisites>
+                <Item Amount="40" TypeId="Ingot" SubtypeId="SteelWire" />
+                <Item Amount="3.85" TypeId="Ingot" SubtypeId="BatteryAlloy" />
+                <Item Amount="4" TypeId="Component" SubtypeId="KoboldPlate" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Heatsink" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>HeatsinkEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_Heatsink}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\heatsink.dds</Icon>
+            <Prerequisites>
+                <Item Amount="40" TypeId="Ingot" SubtypeId="SteelWire" />
+                <Item Amount="3" TypeId="Ingot" SubtypeId="BatteryAlloy" />
+                <Item Amount="4" TypeId="Component" SubtypeId="KoboldPlate" />                
+            </Prerequisites>
+            <Result Amount="2" TypeId="Component" SubtypeId="Heatsink" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>HeatsinkProficient</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_Heatsink}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\heatsink.dds</Icon>
+            <Prerequisites>
+                <Item Amount="38" TypeId="Ingot" SubtypeId="SteelWire" />
+                <Item Amount="2" TypeId="Ingot" SubtypeId="BatteryAlloy" />
+                <Item Amount="4" TypeId="Component" SubtypeId="KoboldPlate" />
+            </Prerequisites>
+            <Result Amount="2" TypeId="Component" SubtypeId="Heatsink" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>HeatsinkElite</SubtypeId>
+            </Id>
+            <DisplayName>{LOC:DisplayName_Component_Heatsink}</DisplayName>
+            <Icon>Textures\GUI\Icons\component\heatsink.dds</Icon>
+            <Prerequisites>
+                <Item Amount="35" TypeId="Ingot" SubtypeId="SteelWire" />
+                <Item Amount="2" TypeId="Ingot" SubtypeId="BatteryAlloy" />
+                <Item Amount="3" TypeId="Component" SubtypeId="KoboldPlate" />
+            </Prerequisites>
+            <Result Amount="3" TypeId="Component" SubtypeId="Heatsink" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SolarCellBasic</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_SolarCell</DisplayName>
+            <Icon>Textures\GUI\Icons\component\SolarCellComponent.dds</Icon>
+            <Prerequisites>
+                <Item Amount="5" TypeId="Ingot" SubtypeId="CopperWire" />
+                <Item Amount="15" TypeId="Component" SubtypeId="Glass" />
+                <Item Amount="6" TypeId="Component" SubtypeId="SiliconSheet" />
+            </Prerequisites>
+            <Result Amount="5" TypeId="Component" SubtypeId="SolarCell" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SolarCellEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_SolarCell</DisplayName>
+            <Icon>Textures\GUI\Icons\component\SolarCellComponent.dds</Icon>
+            <Prerequisites>
+                <Item Amount="5" TypeId="Ingot" SubtypeId="CopperWire" />
+                <Item Amount="10" TypeId="Component" SubtypeId="Glass" />
+                <Item Amount="6" TypeId="Component" SubtypeId="SiliconSheet" />
+            </Prerequisites>
+            <Result Amount="7" TypeId="Component" SubtypeId="SolarCell" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SolarCellProficient</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_SolarCell</DisplayName>
+            <Icon>Textures\GUI\Icons\component\SolarCellComponent.dds</Icon>
+            <Prerequisites>
+                <Item Amount="4.8" TypeId="Ingot" SubtypeId="CopperWire" />
+                <Item Amount="7" TypeId="Component" SubtypeId="Glass" />
+                <Item Amount="5" TypeId="Component" SubtypeId="SiliconSheet" />
+            </Prerequisites>
+            <Result Amount="9" TypeId="Component" SubtypeId="SolarCell" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SolarCellElite</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_SolarCell</DisplayName>
+            <Icon>Textures\GUI\Icons\component\SolarCellComponent.dds</Icon>
+            <Prerequisites>
+                <Item Amount="4.5" TypeId="Ingot" SubtypeId="CopperWire" />
+                <Item Amount="5" TypeId="Component" SubtypeId="Glass" />
+                <Item Amount="4" TypeId="Component" SubtypeId="SiliconSheet" />
+            </Prerequisites>
+            <Result Amount="15" TypeId="Component" SubtypeId="SolarCell" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>PowerCellBasic</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_PowerCell</DisplayName>
+            <Icon>Textures\GUI\Icons\component\BatteryComponent.dds</Icon>
+            <Prerequisites>
+                <Item Amount="8" TypeId="Ingot" SubtypeId="CopperWire" />
+                <Item Amount="4" TypeId="Ingot" SubtypeId="BatteryAlloy" />
+                <Item Amount="5" TypeId="Component" SubtypeId="SteelPlate" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="PowerCell" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>PowerCellEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_PowerCell</DisplayName>
+            <Icon>Textures\GUI\Icons\component\BatteryComponent.dds</Icon>
+            <Prerequisites>
+                <Item Amount="8" TypeId="Ingot" SubtypeId="CopperWire" />
+                <Item Amount="4" TypeId="Ingot" SubtypeId="BatteryAlloy" />
+                <Item Amount="5" TypeId="Component" SubtypeId="SteelPlate" />
+            </Prerequisites>
+            <Result Amount="2" TypeId="Component" SubtypeId="PowerCell" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>PowerCellProficient</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_PowerCell</DisplayName>
+            <Icon>Textures\GUI\Icons\component\BatteryComponent.dds</Icon>
+            <Prerequisites>
+                <Item Amount="7" TypeId="Ingot" SubtypeId="CopperWire" />
+                <Item Amount="4" TypeId="Ingot" SubtypeId="BatteryAlloy" />
+                <Item Amount="4" TypeId="Component" SubtypeId="SteelPlate" />
+            </Prerequisites>
+            <Result Amount="2" TypeId="Component" SubtypeId="PowerCell" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>PowerCellElite</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_PowerCell</DisplayName>
+            <Icon>Textures\GUI\Icons\component\BatteryComponent.dds</Icon>
+            <Prerequisites>
+                <Item Amount="6.5" TypeId="Ingot" SubtypeId="CopperWire" />
+                <Item Amount="4" TypeId="Ingot" SubtypeId="BatteryAlloy" />
+                <Item Amount="4" TypeId="Component" SubtypeId="SteelPlate" />
+            </Prerequisites>
+            <Result Amount="3" TypeId="Component" SubtypeId="PowerCell" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>DetectorComponentBasic</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_DetectorComponents</DisplayName>
+            <Icon>Textures\GUI\Icons\component\detector_components_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="5" TypeId="Ingot" SubtypeId="Kobold" />
+                <Item Amount="15" TypeId="Ingot" SubtypeId="BatteryAlloy" />
+                <Item Amount="4" TypeId="Component" SubtypeId="Heatsink" />
+                <Item Amount="2" TypeId="Component" SubtypeId="LED" />
+                <Item Amount="5" TypeId="Component" SubtypeId="CPU" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Detector" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>DetectorComponentEnhanced</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_DetectorComponents</DisplayName>
+            <Icon>Textures\GUI\Icons\component\detector_components_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="5" TypeId="Ingot" SubtypeId="Kobold" />
+                <Item Amount="15" TypeId="Ingot" SubtypeId="BatteryAlloy" />
+                <Item Amount="4" TypeId="Component" SubtypeId="Heatsink" />
+                <Item Amount="2" TypeId="Component" SubtypeId="LED" />
+                <Item Amount="5" TypeId="Component" SubtypeId="CPU" />
+            </Prerequisites>
+            <Result Amount="2" TypeId="Component" SubtypeId="Detector" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>DetectorComponentProficent</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_DetectorComponents</DisplayName>
+            <Icon>Textures\GUI\Icons\component\detector_components_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="4.8" TypeId="Ingot" SubtypeId="Kobold" />
+                <Item Amount="13.5" TypeId="Ingot" SubtypeId="BatteryAlloy" />
+                <Item Amount="4" TypeId="Component" SubtypeId="Heatsink" />
+                <Item Amount="2" TypeId="Component" SubtypeId="LED" />
+                <Item Amount="5" TypeId="Component" SubtypeId="CPU" />
+            </Prerequisites>
+            <Result Amount="2" TypeId="Component" SubtypeId="Detector" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>DetectorComponentElite</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_DetectorComponents</DisplayName>
+            <Icon>Textures\GUI\Icons\component\detector_components_component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="4.5" TypeId="Ingot" SubtypeId="Kobold" />
+                <Item Amount="12.7" TypeId="Ingot" SubtypeId="BatteryAlloy" />
+                <Item Amount="3" TypeId="Component" SubtypeId="Heatsink" />
+                <Item Amount="2" TypeId="Component" SubtypeId="LED" />
+                <Item Amount="4" TypeId="Component" SubtypeId="CPU" />
+            </Prerequisites>
+            <Result Amount="3" TypeId="Component" SubtypeId="Detector" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+        <!-- TIER: 0                                                  -->
+        <!-- TECH-COMPONENT DEFINITIONS                               -->
+        <!-- PURGE RELEVANT SECTION FROM:   2696554070/Blueprints.sbc -->
+		<Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>Tech2x</SubtypeId>
+            </Id>
+            <DisplayName>Common Tech</DisplayName>
+            <Icon>Textures\GUI\Icons\Component\tech2x.dds</Icon>
+            <Prerequisites>
+                <Item Amount="16" TypeId="Ingot" SubtypeId="CopperWire" />
+                <Item Amount="4" TypeId="Component" SubtypeId="Detector" />
+                <Item Amount="6" TypeId="Component" SubtypeId="PowerCell" />
+                <Item Amount="4" TypeId="Component" SubtypeId="Heatsink" />
+                <Item Amount="8" TypeId="Component" SubtypeId="Computer" />
+                <Item Amount="4" TypeId="Component" SubtypeId="LED" />
+                <Item Amount="32" TypeId="Component" SubtypeId="Girder" />
+                <Item Amount="16" TypeId="Component" SubtypeId="MetalGrid" />
+                <Item Amount="32" TypeId="Component" SubtypeId="SmallKoboldTube" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Tech2x"/>
+            <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+        </Blueprint>
+        <!-- TECH-COMPONENT DEFINITIONS     -->
+        <!-- COMPONENT DEFINITIONS          -->
+    </Blueprints>
+</Definitions>

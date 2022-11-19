@@ -1,0 +1,760 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <CubeBlocks>
+        <!-- LÖRG BLOKI      4x2x1          -->
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LargeBlockSolarPanel</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_SolarPanel</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+            <Description>Description_SolarPanel</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="4" y="2" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\SolarPanel.mwm</Model>
+            <Components>
+                <Component Subtype="KoboldPlate" Count="4" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="Girder" Count="12" />
+                <Component Subtype="SolarCell" Count="32" />
+                <Component Subtype="CPU" Count="4" />
+                <Component Subtype="Construction" Count="4" />
+                <Component Subtype="LED" Count="4" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <Center x="0" y="0" z="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="2" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="2" Default="true" />
+                <MountPoint Side="Top" StartX="3.8" StartY="0.9" EndX="4" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0.9" EndX="0.2" EndY="1" />
+                <MountPoint Side="Bottom" StartX="3.8" StartY="0" EndX="4" EndY="0.1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="0.1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.2" EndY="2" />
+                <MountPoint Side="Front" StartX="3.8" StartY="0" EndX="4" EndY="2" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SolarPanelConstruction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelConstruction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelConstruction3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>SolarPanel</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>30</BuildTimeSeconds>
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>0.2</MaxPowerOutput>
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <PanelOffset>1.0</PanelOffset>
+            <DamageEffectName>Damage_Electrical_Damaged_SolarPanels</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>55</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+        </Definition>
+        <!-- LÖRG BLOKI      4x2x1          -->
+        <!-- LÖRG BLOKI      4x1x1          -->
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LargeBlockSolarPanelMedium</SubtypeId>
+            </Id>
+            <DisplayName>Solar Panel Medium</DisplayName>
+            <Icon>Textures\GUI\Icons\SolarPanelMedium.dds</Icon>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="4" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Large\SolarPanelMedium.mwm</Model>
+            <Components>
+                <Component Subtype="KoboldPlate" Count="4" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="Girder" Count="12" />
+                <Component Subtype="SolarCell" Count="16" />
+                <Component Subtype="CPU" Count="4" />
+                <Component Subtype="Construction" Count="4" />
+                <Component Subtype="LED" Count="4" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="4" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="4" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.2" EndY="1" />
+                <MountPoint Side="Front" StartX="3.8" StartY="0" EndX="4" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.5" File="Models\Large\SolarPanelMediumConstruction1.mwm" />
+                <Model BuildPercentUpperBound="1.0" File="Models\Large\SolarPanelMediumConstruction2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>SolarPanelMedium</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <MaxPowerOutput>0.1</MaxPowerOutput>
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <PanelOffset>0.5</PanelOffset>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+              <TypeId>SolarPanel</TypeId>
+              <SubtypeId>LargeBlockSolarPanelMediumCentered</SubtypeId>
+            </Id>
+            <DisplayName>Solar Panel Medium Centered</DisplayName>
+            <Icon>Textures\GUI\Icons\SolarPanelMedium.dds</Icon>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="4" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="1" />
+            <Model>Models\Large\SolarPanelMedium.mwm</Model>
+            <Components>
+                <Component Subtype="KoboldPlate" Count="4" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="Girder" Count="12" />
+                <Component Subtype="SolarCell" Count="16" />
+                <Component Subtype="CPU" Count="4" />
+                <Component Subtype="Construction" Count="4" />
+                <Component Subtype="LED" Count="4" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="4" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="4" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.2" EndY="1" />
+                <MountPoint Side="Front" StartX="3.8" StartY="0" EndX="4" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.2" EndY="1" />
+                <MountPoint Side="Back" StartX="3.8" StartY="0" EndX="4" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.5" File="Models\Large\SolarPanelMediumConstruction1.mwm" />
+                <Model BuildPercentUpperBound="1.0" File="Models\Large\SolarPanelMediumConstruction2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>SolarPanelMediumCentered</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <MaxPowerOutput>0.1</MaxPowerOutput>
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <PanelOffset>0.5</PanelOffset>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+        </Definition>
+        <!-- LÖRG BLOKI      4x1x1          -->
+        <!-- LÖRG BLOKI      2x1x1          -->
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LargeBlockSolarPanelSmall</SubtypeId>
+            </Id>
+            <DisplayName>Solar Panel Small</DisplayName>
+            <Icon>Textures\GUI\Icons\SolarPanelSmall.dds</Icon>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Large\SolarPanelSmall.mwm</Model>
+            <Components>
+                <Component Subtype="KoboldPlate" Count="4" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="Girder" Count="12" />
+                <Component Subtype="SolarCell" Count="8" />
+                <Component Subtype="CPU" Count="4" />
+                <Component Subtype="Construction" Count="4" />
+                <Component Subtype="LED" Count="4" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.2" EndY="1" />
+                <MountPoint Side="Front" StartX="1.8" StartY="0" EndX="2" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.5" File="Models\Large\SolarPanelSmallConstruction1.mwm" />
+                <Model BuildPercentUpperBound="1.0" File="Models\Large\SolarPanelSmallConstruction2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>SolarPanelSmall</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <MaxPowerOutput>0.05</MaxPowerOutput>
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <PanelOffset>0.5</PanelOffset>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LargeBlockSolarPanelSmallCentered</SubtypeId>
+            </Id>
+            <DisplayName>Solar Panel Small Centered</DisplayName>
+            <Icon>Textures\GUI\Icons\SolarPanelSmall.dds</Icon>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="1" />
+            <Model>Models\Large\SolarPanelSmall.mwm</Model>
+            <Components>
+                <Component Subtype="KoboldPlate" Count="4" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="Girder" Count="12" />
+                <Component Subtype="SolarCell" Count="8" />
+                <Component Subtype="CPU" Count="4" />
+                <Component Subtype="Construction" Count="4" />
+                <Component Subtype="LED" Count="4" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.2" EndY="1" />
+                <MountPoint Side="Front" StartX="1.8" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.2" EndY="1" />
+                <MountPoint Side="Back" StartX="1.8" StartY="0" EndX="2" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.5" File="Models\Large\SolarPanelSmallConstruction1.mwm" />
+                <Model BuildPercentUpperBound="1.0" File="Models\Large\SolarPanelSmallConstruction2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>SolarPanelSmallCentered</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <MaxPowerOutput>0.05</MaxPowerOutput>
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <PanelOffset>0.5</PanelOffset>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+        </Definition>
+        <!-- LÖRG BLOKI      2x1x1          -->
+        <!-- LÖRG BLOKI      1x1x1          -->
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LargeBlockSolarPanelTiny</SubtypeId>
+            </Id>
+            <DisplayName>Solar Panel Tiny</DisplayName>
+            <Icon>Textures\GUI\Icons\SolarPanelTiny.dds</Icon>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Large\SolarPanelTiny.mwm</Model>
+            <Components>
+                <Component Subtype="KoboldPlate" Count="4" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="Girder" Count="12" />
+                <Component Subtype="SolarCell" Count="4" />
+                <Component Subtype="CPU" Count="4" />
+                <Component Subtype="Construction" Count="4" />
+                <Component Subtype="LED" Count="4" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.2" EndY="1" />
+                <MountPoint Side="Front" StartX="0.8" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.5" File="Models\Large\SolarPanelTinyConstruction1.mwm" />
+                <Model BuildPercentUpperBound="1.0" File="Models\Large\SolarPanelTinyConstruction2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>SolarPanelTiny</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>5</BuildTimeSeconds>
+            <MaxPowerOutput>0.025</MaxPowerOutput>
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <PanelOffset>0.5</PanelOffset>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LargeBlockSolarPanelTinyCentered</SubtypeId>
+            </Id>
+            <DisplayName>Solar Panel Tiny Centered</DisplayName>
+            <Icon>Textures\GUI\Icons\SolarPanelTiny.dds</Icon>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="1" />
+            <Model>Models\Large\SolarPanelTiny.mwm</Model>
+            <Components>
+                <Component Subtype="KoboldPlate" Count="4" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="Girder" Count="12" />
+                <Component Subtype="SolarCell" Count="4" />
+                <Component Subtype="CPU" Count="4" />
+                <Component Subtype="Construction" Count="4" />
+                <Component Subtype="LED" Count="4" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.2" EndY="1" />
+                <MountPoint Side="Front" StartX="0.8" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.2" EndY="1" />
+                <MountPoint Side="Back" StartX="0.8" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.5" File="Models\Large\SolarPanelTinyConstruction1.mwm" />
+                <Model BuildPercentUpperBound="1.0" File="Models\Large\SolarPanelTinyConstruction2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>SolarPanelTinyCentered</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>5</BuildTimeSeconds>
+            <MaxPowerOutput>0.025</MaxPowerOutput>
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <PanelOffset>0.5</PanelOffset>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+        </Definition>
+        <!-- LÖRG BLOKI      1x1x1          -->
+        <!-- SMOL BLOKI     10x5x1          -->
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>SmallBlockSolarPanel</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_SolarPanel</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+            <Description>Description_SolarPanel</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="10" y="5" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\SolarPanel.mwm</Model>
+            <Center x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="KoboldPlate" Count="2" />
+                <Component Subtype="Construction" Count="4" />
+                <Component Subtype="Girder" Count="4" />
+                <Component Subtype="SolarCell" Count="8" />
+                <Component Subtype="CPU" Count="1" />
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="LED" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="5" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="5" Default="true" />
+                <MountPoint Side="Top" StartX="9.8" StartY="0.9" EndX="10" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0.9" EndX="0.2" EndY="1" />
+                <MountPoint Side="Bottom" StartX="9.8" StartY="0" EndX="10" EndY="0.1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="0.1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.2" EndY="5" />
+                <MountPoint Side="Front" StartX="9.8" StartY="0" EndX="10" EndY="5" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\SolarPanelConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\SolarPanelConstruction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>SolarPanel</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>0.05</MaxPowerOutput>
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <PanelOffset>1.0</PanelOffset>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>55</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+        </Definition>
+        <!-- SMOL BLOKI     10x5x1          -->
+        <!-- SMOL BLOKI      8x2x1          -->
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>SmallBlockSolarPanelMedium</SubtypeId>
+            </Id>
+            <DisplayName>Solar Panel Medium</DisplayName>
+            <Icon>Textures\GUI\Icons\SolarPanelMedium.dds</Icon>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="8" y="2" z="1" />
+            <ModelOffset x="0" y="0" z="0.25" />
+            <Model>Models\Small\SolarPanelMedium.mwm</Model>
+            <Components>
+                <Component Subtype="KoboldPlate" Count="2" />
+                <Component Subtype="Construction" Count="4" />
+                <Component Subtype="Girder" Count="4" />
+                <Component Subtype="SolarCell" Count="4" />
+                <Component Subtype="CPU" Count="1" />
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="LED" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="2" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="2" />
+                <MountPoint Side="Top" StartX="7.8" StartY="0.9" EndX="8" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0.9" EndX="0.2" EndY="1" />
+                <MountPoint Side="Bottom" StartX="7.8" StartY="0" EndX="8" EndY="0.1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="0.1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.2" EndY="2" />
+                <MountPoint Side="Front" StartX="7.8" StartY="0" EndX="8" EndY="2" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.5" File="Models\Small\SolarPanelMediumConstruction1.mwm" />
+                <Model BuildPercentUpperBound="1.0" File="Models\Small\SolarPanelMediumConstruction2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>SolarPanelMedium</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>12</BuildTimeSeconds>
+            <MaxPowerOutput>0.025</MaxPowerOutput>
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <PanelOffset>0.5</PanelOffset>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>SmallBlockSolarPanelMediumCentered</SubtypeId>
+            </Id>
+            <DisplayName>Solar Panel Medium Centered</DisplayName>
+            <Icon>Textures\GUI\Icons\SolarPanelMedium.dds</Icon>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="8" y="2" z="1" />
+            <ModelOffset x="0" y="0" z="0.4" />
+            <Model>Models\Small\SolarPanelMedium.mwm</Model>
+            <Components>
+                <Component Subtype="KoboldPlate" Count="2" />
+                <Component Subtype="Construction" Count="4" />
+                <Component Subtype="Girder" Count="4" />
+                <Component Subtype="SolarCell" Count="4" />
+                <Component Subtype="CPU" Count="1" />
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="LED" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="2" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="2" />
+                <MountPoint Side="Top" StartX="7.8" StartY="0.9" EndX="8" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0.9" EndX="0.2" EndY="1" />
+                <MountPoint Side="Bottom" StartX="7.8" StartY="0" EndX="8" EndY="0.1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="0.1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.2" EndY="2" />
+                <MountPoint Side="Front" StartX="7.8" StartY="0" EndX="8" EndY="2" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.5" File="Models\Small\SolarPanelMediumConstruction1.mwm" />
+                <Model BuildPercentUpperBound="1.0" File="Models\Small\SolarPanelMediumConstruction2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>SolarPanelMediumCentered</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>12</BuildTimeSeconds>
+            <MaxPowerOutput>0.025</MaxPowerOutput>
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <PanelOffset>0.5</PanelOffset>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+        </Definition>
+        <!-- SMOL BLOKI      8x2x1          -->
+        <!-- SMOL BLOKI      4x2x1          -->
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>SmallBlockSolarPanelSmall</SubtypeId>
+            </Id>
+            <DisplayName>Solar Panel Small</DisplayName>
+            <Icon>Textures\GUI\Icons\SolarPanelSmall.dds</Icon>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="4" y="2" z="1" />
+            <ModelOffset x="0" y="0" z="0.25" />
+            <Model>Models\Small\SolarPanelSmall.mwm</Model>
+            <Components>
+                <Component Subtype="KoboldPlate" Count="2" />
+                <Component Subtype="Construction" Count="4" />
+                <Component Subtype="Girder" Count="4" />
+                <Component Subtype="SolarCell" Count="2" />
+                <Component Subtype="CPU" Count="1" />
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="LED" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="2" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="2" />
+                <MountPoint Side="Top" StartX="3.8" StartY="0.9" EndX="4" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0.9" EndX="0.2" EndY="1" />
+                <MountPoint Side="Bottom" StartX="3.8" StartY="0" EndX="4" EndY="0.1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="0.1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.2" EndY="2" />
+                <MountPoint Side="Front" StartX="3.8" StartY="0" EndX="4" EndY="2" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.5" File="Models\Small\SolarPanelSmallConstruction1.mwm" />
+                <Model BuildPercentUpperBound="1.0" File="Models\Small\SolarPanelSmallConstruction2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>SolarPanelSmall</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <MaxPowerOutput>0.0125</MaxPowerOutput>
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <PanelOffset>0.5</PanelOffset>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>SmallBlockSolarPanelSmallCentered</SubtypeId>
+            </Id>
+            <DisplayName>Solar Panel Small Centered</DisplayName>
+            <Icon>Textures\GUI\Icons\SolarPanelSmall.dds</Icon>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="4" y="2" z="1" />
+            <ModelOffset x="0" y="0" z="0.4" />
+            <Model>Models\Small\SolarPanelSmall.mwm</Model>
+            <Components>
+                <Component Subtype="KoboldPlate" Count="2" />
+                <Component Subtype="Construction" Count="4" />
+                <Component Subtype="Girder" Count="4" />
+                <Component Subtype="SolarCell" Count="2" />
+                <Component Subtype="CPU" Count="1" />
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="LED" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="2" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="2" />
+                <MountPoint Side="Top" StartX="3.8" StartY="0.9" EndX="4" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0.9" EndX="0.2" EndY="1" />
+                <MountPoint Side="Bottom" StartX="3.8" StartY="0" EndX="4" EndY="0.1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="0.1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.2" EndY="2" />
+                <MountPoint Side="Front" StartX="3.8" StartY="0" EndX="4" EndY="2" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.5" File="Models\Small\SolarPanelSmallConstruction1.mwm" />
+                <Model BuildPercentUpperBound="1.0" File="Models\Small\SolarPanelSmallConstruction2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>SolarPanelSmallCentered</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <MaxPowerOutput>0.0125</MaxPowerOutput>
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <PanelOffset>0.5</PanelOffset>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+        </Definition>
+        <!-- SMOL BLOKI      4x2x1          -->
+        <!-- SMOL BLOKI      2x2x1          -->
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>SmallBlockSolarPanelTiny</SubtypeId>
+            </Id>
+            <DisplayName>Solar Panel Tiny</DisplayName>
+            <Icon>Textures\GUI\Icons\SolarPanelTiny.dds</Icon>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="2" z="1" />
+            <ModelOffset x="0" y="0" z="0.25" />
+            <Model>Models\Small\SolarPanelTiny.mwm</Model>
+            <Components>
+                <Component Subtype="KoboldPlate" Count="2" />
+                <Component Subtype="Construction" Count="4" />
+                <Component Subtype="Girder" Count="4" />
+                <Component Subtype="SolarCell" Count="1" />
+                <Component Subtype="CPU" Count="1" />
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="LED" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="2" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="2" />
+                <MountPoint Side="Top" StartX="1.8" StartY="0.9" EndX="2" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0.9" EndX="0.2" EndY="1" />
+                <MountPoint Side="Bottom" StartX="1.8" StartY="0" EndX="2" EndY="0.1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="0.1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.2" EndY="2" />
+                <MountPoint Side="Front" StartX="1.8" StartY="0" EndX="2" EndY="2" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.5" File="Models\Small\SolarPanelTinyConstruction1.mwm" />
+                <Model BuildPercentUpperBound="1.0" File="Models\Small\SolarPanelTinyConstruction2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>SolarPanelTiny</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>3</BuildTimeSeconds>
+            <MaxPowerOutput>0.005</MaxPowerOutput>
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <PanelOffset>0.5</PanelOffset>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>SmallBlockSolarPanelTinyCentered</SubtypeId>
+            </Id>
+            <DisplayName>Solar Panel Tiny Centered</DisplayName>
+            <Icon>Textures\GUI\Icons\SolarPanelTiny.dds</Icon>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="2" z="1" />
+            <ModelOffset x="0" y="0" z="0.4" />
+            <Model>Models\Small\SolarPanelTiny.mwm</Model>
+            <Components>
+                <Component Subtype="KoboldPlate" Count="2" />
+                <Component Subtype="Construction" Count="4" />
+                <Component Subtype="Girder" Count="4" />
+                <Component Subtype="SolarCell" Count="1" />
+                <Component Subtype="CPU" Count="1" />
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="LED" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="2" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="2" />
+                <MountPoint Side="Top" StartX="1.8" StartY="0.9" EndX="2" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0.9" EndX="0.2" EndY="1" />
+                <MountPoint Side="Bottom" StartX="1.8" StartY="0" EndX="2" EndY="0.1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="0.1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.2" EndY="2" />
+                <MountPoint Side="Front" StartX="1.8" StartY="0" EndX="2" EndY="2" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.5" File="Models\Small\SolarPanelTinyConstruction1.mwm" />
+                <Model BuildPercentUpperBound="1.0" File="Models\Small\SolarPanelTinyConstruction2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>SolarPanelTinyCentered</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>3</BuildTimeSeconds>
+            <MaxPowerOutput>0.005</MaxPowerOutput>
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <PanelOffset>0.5</PanelOffset>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+        </Definition>
+        <!-- SMOL BLOKI      2x2x1          -->
+	</CubeBlocks>
+</Definitions>
