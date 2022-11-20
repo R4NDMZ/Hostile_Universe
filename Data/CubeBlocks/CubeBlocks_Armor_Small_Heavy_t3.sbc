@@ -4,12 +4,12 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeHeavyBlockArmorBlock</SubtypeId>
+                <SubtypeId>EliteSmallHeavyBlockArmorBlock</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorBlock</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\heavy_armor_cube.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\heavy_armor_cube8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
-            <CubeSize>Large</CubeSize>
+            <CubeSize>Small</CubeSize>
             <BlockTopology>Cube</BlockTopology>
             <Size x="1" y="1" z="1" />
             <ModelOffset x="0" y="0" z="0" />
@@ -17,20 +17,20 @@
                 <CubeTopology>Box</CubeTopology>
                 <ShowEdges>true</ShowEdges>
                 <Sides>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="KoboldPlate" Count="135" />
-                <Component Subtype="MetalGrid" Count="50" />
-                <Component Subtype="KoboldPlate" Count="15" />
+                <Component Subtype="KombositePlate" Count="4" />
+                <Component Subtype="EliteMetalGrid" Count="2" />
+                <Component Subtype="KombositePlate" Count="1" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="1" />
             <MountPoints>
                 <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -40,9 +40,8 @@
                 <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HeavySquarePlateConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HeavySquarePlateConstruction_2.mwm" RandomOrientation="true" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\HeavySquarePlateConstruction_3.mwm" RandomOrientation="true" />
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\Armor\HeavySquarePlateConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavySquarePlateConstruction_2.mwm" RandomOrientation="true" />
             </BuildProgressModels>
             <Skeleton>
                 <BoneInfo>
@@ -154,12 +153,11 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>HeavyArmorBlock</BlockPairName>
-            <DeformationRatio>0.4</DeformationRatio>
-            <EdgeType>Heavy</EdgeType>
-            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <BlockPairName>EliteHeavyArmorBlock</BlockPairName>
+            <DeformationRatio>0.16</DeformationRatio>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
             <DisassembleRatio>3</DisassembleRatio>
-            <!-- <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier> -->
+            <EdgeType>Heavy</EdgeType>
             <PCU>1</PCU>
             <PCUConsole>2</PCUConsole>
             <IsAirTight>true</IsAirTight>
@@ -168,12 +166,12 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeHeavyHalfArmorBlock</SubtypeId>
+                <SubtypeId>EliteHeavyHalfArmorBlock</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HalfHeavyArmorBlock</DisplayName>
-            <Icon>Textures/GUI/Icons/Cubes/HeavyArmorSquareSlab.dds</Icon>
+            <Icon>Textures/GUI/Icons/Cubes/HeavyArmorSquareSlab8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
-            <CubeSize>Large</CubeSize>
+            <CubeSize>Small</CubeSize>
             <BlockTopology>Cube</BlockTopology>
             <Size x="1" y="1" z="1" />
             <ModelOffset x="0" y="0" z="0" />
@@ -181,26 +179,26 @@
                 <CubeTopology>HalfBox</CubeTopology>
                 <ShowEdges>true</ShowEdges>
                 <Sides>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateCenter.mwm" PatternWidth="4" PatternHeight="2" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateCenter.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
                 </Sides>
             </CubeDefinition>
             <GuiVisible>false</GuiVisible>
             <PhysicsOption>Convex</PhysicsOption>
             <Components>
-                <Component Subtype="KoboldPlate" Count="65" />
-                <Component Subtype="MetalGrid" Count="25" />
-                <Component Subtype="KoboldPlate" Count="10" />
+                <Component Subtype="KombositePlate" Count="2" />
+                <Component Subtype="EliteMetalGrid" Count="1" />
+                <Component Subtype="KombositePlate" Count="1" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="1" />
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HeavySquarePlateSlabConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HeavySquarePlateSlabConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\HeavySquarePlateSlabConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HeavySquarePlateSlabConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HeavySquarePlateSlabConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavySquarePlateSlabConstruction_3.mwm" />
             </BuildProgressModels>
             <Skeleton>
                 <BoneInfo>
@@ -319,11 +317,11 @@
                 <MountPoint Side="Right" StartX="0.5" StartY="0" EndX="1" EndY="1" />
                 <MountPoint Side="Top" StartX="0" StartY="0.5" EndX="1" EndY="1" />
             </MountPoints>
+            <BlockPairName>EliteHalfHeavyArmorBlock</BlockPairName>
             <EdgeType>Heavy</EdgeType>
-            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <BuildTimeSeconds>3</BuildTimeSeconds>
             <DisassembleRatio>2.5</DisassembleRatio>
             <NavigationDefinition>Default</NavigationDefinition>
-            <BlockPairName>HalfHeavyArmorBlock</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <PCU>1</PCU>
@@ -333,13 +331,13 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeHeavyBlockArmorSlope</SubtypeId>
+                <SubtypeId>EliteSmallHeavyBlockArmorSlope</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorSlope</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\heavy_armor_slope.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\heavy_armor_slope8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
+            <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
-            <CubeSize>Large</CubeSize>
             <BlockTopology>Cube</BlockTopology>
             <Size x="1" y="1" z="1" />
             <ModelOffset x="0" y="0" z="0" />
@@ -347,19 +345,19 @@
                 <CubeTopology>Slope</CubeTopology>
                 <ShowEdges>true</ShowEdges>
                 <Sides>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySlopePlate.mwm" ScaleTileV = "3" PatternWidth="4" PatternHeight="4" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySlopePlate.mwm" ScaleTileV = "3" PatternWidth="4" PatternHeight="4" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="KoboldPlate" Count="65" />
-                <Component Subtype="MetalGrid" Count="25" />
-                <Component Subtype="KoboldPlate" Count="10" />
+                <Component Subtype="KombositePlate" Count="2" />
+                <Component Subtype="EliteMetalGrid" Count="1" />
+                <Component Subtype="KombositePlate" Count="1" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -370,9 +368,8 @@
             </MountPoints>
             <PhysicsOption>Convex</PhysicsOption>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HeavySlopePlateConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HeavySlopePlateConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\HeavySlopePlateConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\Armor\HeavySlopePlateConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavySlopePlateConstruction_2.mwm" />
             </BuildProgressModels>
             <Skeleton>
                 <BoneInfo>
@@ -448,13 +445,13 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>HeavyArmorSlope</BlockPairName>
+            <BlockPairName>EliteHeavyArmorSlope</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
-            <DeformationRatio>0.4</DeformationRatio>
-            <EdgeType>Heavy</EdgeType>
-            <BuildTimeSeconds>15</BuildTimeSeconds>
+            <DeformationRatio>0.16</DeformationRatio>
+            <BuildTimeSeconds>4</BuildTimeSeconds>
             <DisassembleRatio>3</DisassembleRatio>
+            <EdgeType>Heavy</EdgeType>
             <PCU>1</PCU>
             <PCUConsole>2</PCUConsole>
         </Definition>
@@ -462,12 +459,12 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeHeavyHalfSlopeArmorBlock</SubtypeId>
+                <SubtypeId>EliteHeavyHalfSlopeArmorBlock</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HalfSlopeHeavyArmorBlock</DisplayName>
-            <Icon>Textures/GUI/Icons/Cubes/HeavyArmorSlopeSlab.dds</Icon>
+            <Icon>Textures/GUI/Icons/Cubes/HeavyArmorSlopeSlab8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
-            <CubeSize>Large</CubeSize>
+            <CubeSize>Small</CubeSize>
             <BlockTopology>Cube</BlockTopology>
             <Size x="1" y="1" z="1" />
             <ModelOffset x="0" y="0" z="0" />
@@ -475,26 +472,32 @@
                 <CubeTopology>HalfSlopeBox</CubeTopology>
                 <ShowEdges>true</ShowEdges>
                 <Sides>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavySlopePlateSlab.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerTriangleLeftPlateCorner2TipFront.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerTriangleLeftPlateCorner2TipFront.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySlopePlateSlab.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerTriangleLeftPlateCorner2TipFront.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerTriangleLeftPlateCorner2TipFront.mwm" PatternWidth="1" PatternHeight="1" />
                 </Sides>
             </CubeDefinition>
             <GuiVisible>false</GuiVisible>
             <PhysicsOption>Convex</PhysicsOption>
             <Components>
-                <Component Subtype="KoboldPlate" Count="17" />
-                <Component Subtype="MetalGrid" Count="6" />
-                <Component Subtype="KoboldPlate" Count="2" />
+                <Component Subtype="KombositePlate" Count="1" />
+                <Component Subtype="EliteMetalGrid" Count="1" />
+                <Component Subtype="KombositePlate" Count="1" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="1" />
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HeavySquarePlateSlopeConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HeavySquarePlateSlopeConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\HeavySquarePlateSlopeConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HeavySquarePlateSlopeConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HeavySquarePlateSlopeConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavySquarePlateSlopeConstruction_3.mwm" />
             </BuildProgressModels>
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.5" />
+                <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.5" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.45" EndY="0.45" />
+                <MountPoint Side="Right" StartX="0.55" StartY="0" EndX="1.0" EndY="0.45" />
+            </MountPoints>
             <Skeleton>
                 <BoneInfo>
                     <BonePosition x="0" y="0" z="0" />
@@ -605,17 +608,11 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <MountPoints>
-                <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.5" />
-                <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.5" />
-                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.45" EndY="0.45" />
-                <MountPoint Side="Right" StartX="0.55" StartY="0" EndX="1.0" EndY="0.45" />
-            </MountPoints>
-            <BlockPairName>HalfSlopeHeavyArmorBlock</BlockPairName>
             <EdgeType>Heavy</EdgeType>
-            <BuildTimeSeconds>5</BuildTimeSeconds>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
             <DisassembleRatio>2.5</DisassembleRatio>
             <NavigationDefinition>Default</NavigationDefinition>
+            <BlockPairName>EliteHalfSlopeHeavyArmorBlock</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <PCU>1</PCU>
@@ -626,12 +623,12 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeHeavyBlockArmorRoundSlope</SubtypeId>
+                <SubtypeId>EliteSmallHeavyBlockArmorRoundSlope</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyRoundArmorSlope</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavyRoundArmorSlope.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyRoundArmorSlope8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
-            <CubeSize>Large</CubeSize>
+            <CubeSize>Small</CubeSize>
             <BlockTopology>Cube</BlockTopology>
             <Size x="1" y="1" z="1" />
             <ModelOffset x="0" y="0" z="0" />
@@ -639,19 +636,19 @@
                 <CubeTopology>RoundSlope</CubeTopology>
                 <ShowEdges>true</ShowEdges>
                 <Sides>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySlopeRoundPlate.mwm" PatternWidth="16" PatternHeight="8" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerRoundTriangleRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySlopeRoundPlate.mwm" PatternWidth="8" PatternHeight="4" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerRoundTriangleRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="KoboldPlate" Count="115" />
-                <Component Subtype="MetalGrid" Count="50" />
-                <Component Subtype="KoboldPlate" Count="15" />
+                <Component Subtype="KombositePlate" Count="2" />
+                <Component Subtype="EliteMetalGrid" Count="1" />
+                <Component Subtype="KombositePlate" Count="2" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -662,9 +659,8 @@
             </MountPoints>
             <PhysicsOption>Convex</PhysicsOption>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HeavySlopePlateRoundedConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HeavySlopePlateRoundedConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\HeavySlopePlateRoundedConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\Armor\HeavySlopePlateRoundedConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavySlopePlateRoundedConstruction_2.mwm" />
             </BuildProgressModels>
             <Skeleton>
                 <BoneInfo>
@@ -740,12 +736,12 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>HeavyArmorRoundSlope</BlockPairName>
+            <BlockPairName>EliteHeavyArmorRoundSlope</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
-            <DeformationRatio>0.4</DeformationRatio>
             <EdgeType>Heavy</EdgeType>
-            <BuildTimeSeconds>12</BuildTimeSeconds>
+            <DeformationRatio>0.16</DeformationRatio>
+            <BuildTimeSeconds>4</BuildTimeSeconds>
             <DisassembleRatio>3</DisassembleRatio>
             <PCU>1</PCU>
             <PCUConsole>2</PCUConsole>
@@ -754,13 +750,13 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeHeavyBlockArmorCornerInv</SubtypeId>
+                <SubtypeId>EliteSmallHeavyBlockArmorCornerInv</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorInvCorner</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\heavy_armor_inv_corner.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\heavy_armor_inv_corner8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
+            <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
-            <CubeSize>Large</CubeSize>
             <BlockTopology>Cube</BlockTopology>
             <Size x="1" y="1" z="1" />
             <ModelOffset x="0" y="0" z="0" />
@@ -768,21 +764,21 @@
                 <CubeTopology>InvCorner</CubeTopology>
                 <ShowEdges>true</ShowEdges>
                 <Sides>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyInvFacePlate.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavyInvFacePlate.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="KoboldPlate" Count="110" />
-                <Component Subtype="MetalGrid" Count="50" />
-                <Component Subtype="KoboldPlate" Count="15" />
+                <Component Subtype="KombositePlate" Count="2" />
+                <Component Subtype="EliteMetalGrid" Count="1" />
+                <Component Subtype="KombositePlate" Count="2" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -796,9 +792,8 @@
             </MountPoints>
             <PhysicsOption>Convex</PhysicsOption>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HeavyInvFacePlateConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HeavyInvFacePlateConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\HeavyInvFacePlateConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\Armor\HeavyInvFacePlateConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavyInvFacePlateConstruction_2.mwm" />
             </BuildProgressModels>
             <Skeleton>
                 <BoneInfo>
@@ -894,14 +889,14 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>HeavyArmorInvCorner</BlockPairName>
+            <BlockPairName>EliteHeavyArmorInvCorner</BlockPairName>
             <MirroringX>YHalfX</MirroringX>
             <MirroringY>ZHalfY</MirroringY>
             <MirroringZ>YHalfZ</MirroringZ>
-            <DeformationRatio>0.4</DeformationRatio>
-            <EdgeType>Heavy</EdgeType>
-            <BuildTimeSeconds>16</BuildTimeSeconds>
+            <DeformationRatio>0.16</DeformationRatio>
+            <BuildTimeSeconds>5</BuildTimeSeconds>
             <DisassembleRatio>3</DisassembleRatio>
+            <EdgeType>Heavy</EdgeType>
             <PCU>1</PCU>
             <PCUConsole>2</PCUConsole>
         </Definition>
@@ -909,13 +904,13 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeHeavyBlockArmorRoundCornerInv</SubtypeId>
+                <SubtypeId>EliteSmallHeavyBlockArmorRoundCornerInv</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyRoundArmorInvCorner</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavyRoundArmorInvCorner.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyRoundArmorInvCorner8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <GuiVisible>false</GuiVisible>
-            <CubeSize>Large</CubeSize>
+            <CubeSize>Small</CubeSize>
             <BlockTopology>Cube</BlockTopology>
             <Size x="1" y="1" z="1" />
             <ModelOffset x="0" y="0" z="0" />
@@ -923,21 +918,21 @@
                 <CubeTopology>RoundInvCorner</CubeTopology>
                 <ShowEdges>true</ShowEdges>
                 <Sides>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerRoundTriangleRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavyInvFaceRoundTrianglePlate.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerRoundTriangleRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavyInvFaceRoundTrianglePlate.mwm" PatternWidth="1" PatternHeight="1" />
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="KoboldPlate" Count="125" />
-                <Component Subtype="MetalGrid" Count="50" />
-                <Component Subtype="KoboldPlate" Count="15" />
+                <Component Subtype="KombositePlate" Count="3" />
+                <Component Subtype="EliteMetalGrid" Count="1" />
+                <Component Subtype="KombositePlate" Count="2" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -951,9 +946,8 @@
             </MountPoints>
             <PhysicsOption>Convex</PhysicsOption>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HeavyInvFacePlateConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HeavyInvFacePlateConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\HeavyInvFacePlateConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\Armor\HeavyInvFacePlateConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavyInvFacePlateConstruction_2.mwm" />
             </BuildProgressModels>
             <Skeleton>
                 <BoneInfo>
@@ -1049,13 +1043,13 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>HeavyArmorRoundCornerInv</BlockPairName>
+            <BlockPairName>EliteHeavyArmorRoundCornerInv</BlockPairName>
             <MirroringX>MinusHalfY</MirroringX>
             <MirroringY>ZHalfY</MirroringY>
             <MirroringZ>HalfY</MirroringZ>
-            <DeformationRatio>0.4</DeformationRatio>
             <EdgeType>Heavy</EdgeType>
-            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <DeformationRatio>0.16</DeformationRatio>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
             <DisassembleRatio>3</DisassembleRatio>
             <PCU>1</PCU>
             <PCUConsole>2</PCUConsole>
@@ -1064,13 +1058,13 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeHeavyBlockArmorCorner</SubtypeId>
+                <SubtypeId>EliteSmallHeavyBlockArmorCorner</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorCorner</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\heavy_armor_corner.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\heavy_armor_corner8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
+            <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
-            <CubeSize>Large</CubeSize>
             <BlockTopology>Cube</BlockTopology>
             <Size x="1" y="1" z="1" />
             <ModelOffset x="0" y="0" z="0" />
@@ -1078,18 +1072,18 @@
                 <CubeTopology>Corner</CubeTopology>
                 <ShowEdges>true</ShowEdges>
                 <Sides>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavyFacePlate.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavyFacePlate.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="KoboldPlate" Count="20" />
-                <Component Subtype="MetalGrid" Count="10" />
-                <Component Subtype="KoboldPlate" Count="5" />
+                <Component Subtype="KombositePlate" Count="1" />
+                <Component Subtype="EliteMetalGrid" Count="1" />
+                <Component Subtype="KombositePlate" Count="1" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="0.5" EndY="1.0" />
                 <MountPoint Side="Front" StartX="0.5" StartY="0.0" EndX="1.0" EndY="0.5" />
@@ -1100,9 +1094,8 @@
             </MountPoints>
             <PhysicsOption>Convex</PhysicsOption>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HeavyFacePlateConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HeavyFacePlateConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\HeavyFacePlateConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\Armor\HeavyFacePlateConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavyFacePlateConstruction_2.mwm" />
             </BuildProgressModels>
             <Skeleton>
                 <BoneInfo>
@@ -1146,14 +1139,14 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>HeavyArmorCorner</BlockPairName>
+            <BlockPairName>EliteHeavyArmorCorner</BlockPairName>
             <MirroringX>YHalfX</MirroringX>
             <MirroringY>ZHalfY</MirroringY>
             <MirroringZ>YHalfY</MirroringZ>
-            <DeformationRatio>0.4</DeformationRatio>
-            <EdgeType>Heavy</EdgeType>
-            <BuildTimeSeconds>8</BuildTimeSeconds>
+            <DeformationRatio>0.16</DeformationRatio>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
             <DisassembleRatio>3</DisassembleRatio>
+            <EdgeType>Heavy</EdgeType>
             <PCU>1</PCU>
             <PCUConsole>2</PCUConsole>
             <IsAirTight>false</IsAirTight>
@@ -1162,13 +1155,13 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeHeavyBlockArmorRoundCorner</SubtypeId>
+                <SubtypeId>EliteSmallHeavyBlockArmorRoundCorner</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyRoundArmorCorner</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavyRoundArmorCorner.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyRoundArmorCorner8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <GuiVisible>false</GuiVisible>
-            <CubeSize>Large</CubeSize>
+            <CubeSize>Small</CubeSize>
             <BlockTopology>Cube</BlockTopology>
             <Size x="1" y="1" z="1" />
             <ModelOffset x="0" y="0" z="0" />
@@ -1176,18 +1169,18 @@
                 <CubeTopology>RoundCorner</CubeTopology>
                 <ShowEdges>true</ShowEdges>
                 <Sides>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerRoundTriangleRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavyFaceRoundTrianglePlate.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerRoundTriangleRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavyFaceRoundTrianglePlate.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="KoboldPlate" Count="110" />
-                <Component Subtype="MetalGrid" Count="40" />
-                <Component Subtype="KoboldPlate" Count="15" />
+                <Component Subtype="KombositePlate" Count="2" />
+                <Component Subtype="EliteMetalGrid" Count="1" />
+                <Component Subtype="KombositePlate" Count="2" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="0.5" EndY="0.5" />
                 <MountPoint Side="Right" StartX="0.5" StartY="0.0" EndX="1.0" EndY="1.0" />
@@ -1198,9 +1191,8 @@
             </MountPoints>
             <PhysicsOption>Convex</PhysicsOption>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HeavyFaceTrianglePlateRoundedConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HeavyFaceTrianglePlateRoundedConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\HeavyFaceTrianglePlateRoundedConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\Armor\HeavyFaceTrianglePlateRoundedConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavyFaceTrianglePlateRoundedConstruction_2.mwm" />
             </BuildProgressModels>
             <Skeleton>
                 <BoneInfo>
@@ -1244,13 +1236,13 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>HeavyArmorRoundCorner</BlockPairName>
+            <BlockPairName>EliteHeavyArmorRoundCorner</BlockPairName>
             <MirroringX>YHalfX</MirroringX>
             <MirroringY>ZHalfY</MirroringY>
             <MirroringZ>YHalfY</MirroringZ>
-            <DeformationRatio>0.4</DeformationRatio>
             <EdgeType>Heavy</EdgeType>
-            <BuildTimeSeconds>8</BuildTimeSeconds>
+            <DeformationRatio>0.16</DeformationRatio>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
             <DisassembleRatio>3</DisassembleRatio>
             <PCU>1</PCU>
             <PCUConsole>2</PCUConsole>
@@ -1260,12 +1252,12 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorCornerSquare</SubtypeId>
+                <SubtypeId>EliteSmallBlockHeavyArmorCornerSquare</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorCornerSquare</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavyCornerSquare.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyCornerSquare8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
-            <CubeSize>Large</CubeSize>
+            <CubeSize>Small</CubeSize>
             <BlockTopology>Cube</BlockTopology>
             <Size x="1" y="1" z="1"/>
             <ModelOffset x="0.0" y="0.0" z="0.0"/>
@@ -1273,11 +1265,11 @@
                 <CubeTopology>CornerSquare</CubeTopology>
                 <ShowEdges>true</ShowEdges>
                 <Sides>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerTriangleLeftPlate.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerTriangleRightPlate.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyHalfCornerLeft.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyHalfCornerRight.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerTriangleLeftPlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerTriangleRightPlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyHalfCornerLeft.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyHalfCornerRight.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
                 </Sides>
             </CubeDefinition>
             <MountPoints>
@@ -1288,11 +1280,11 @@
                 <MountPoint EndX="0.0" EndY="0.0" Side="Bottom" StartX="1.0" StartY="1.0"/>
             </MountPoints>
             <Components>
-                <Component Count="25" Subtype="KoboldPlate"/>
-                <Component Count="15" Subtype="MetalGrid"/>
-                <Component Count="15" Subtype="KoboldPlate"/>
+                <Component Count="1" Subtype="KombositePlate"/>
+                <Component Count="1" Subtype="EliteMetalGrid"/>
+                <Component Count="1" Subtype="KombositePlate"/>
             </Components>
-            <CriticalComponent Index="0" Subtype="MetalGrid"/>
+            <CriticalComponent Index="0" Subtype="EliteMetalGrid"/>
             <Skeleton>
                 <BoneInfo>
                     <BonePosition x="0" y="1" z="0" />
@@ -1351,10 +1343,10 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>HeavyArmorCornerSquare</BlockPairName>
+            <BlockPairName>EliteHeavyArmorCornerSquare</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
-            <BuildTimeSeconds>8.0</BuildTimeSeconds>
+            <BuildTimeSeconds>2.0</BuildTimeSeconds>
             <DisassembleRatio>2.5</DisassembleRatio>
             <NavigationDefinition>Default</NavigationDefinition>
             <MirroringX>YHalfY</MirroringX>
@@ -1367,9 +1359,9 @@
             <DeformationRatio>0.16</DeformationRatio>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\CornerSquareConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\CornerSquareConstruction_2.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Armor\CornerSquareConstruction_3.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\CornerSquareConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\CornerSquareConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\CornerSquareConstruction_3.mwm"/>
             </BuildProgressModels>
             <UseModelIntersection>false</UseModelIntersection>
             <GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
@@ -1379,12 +1371,12 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorCornerSquareInverted</SubtypeId>
+                <SubtypeId>EliteSmallBlockHeavyArmorCornerSquareInverted</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorCornerSquareInverted</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavyCornerSquareInverted.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyCornerSquareInverted8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
-            <CubeSize>Large</CubeSize>
+            <CubeSize>Small</CubeSize>
             <BlockTopology>Cube</BlockTopology>
             <Size x="1" y="1" z="1"/>
             <ModelOffset x="0.0" y="0.0" z="0.0"/>
@@ -1392,13 +1384,13 @@
                 <CubeTopology>CornerSquareInverted</CubeTopology>
                 <ShowEdges>true</ShowEdges>
                 <Sides>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerSquareINVLeft.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerSquareINVRight.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerTriangleLeftPlate.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerTriangleRightPlate.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerSquareINVLeft.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerSquareINVRight.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerTriangleLeftPlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerTriangleRightPlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
                 </Sides>
             </CubeDefinition>
             <MountPoints>
@@ -1411,11 +1403,11 @@
                 <MountPoint EndX="0.0" EndY="0.0" Side="Bottom" StartX="1.0" StartY="1.0"/>
             </MountPoints>
             <Components>
-                <Component Count="100" Subtype="KoboldPlate"/>
-                <Component Count="40" Subtype="MetalGrid"/>
-                <Component Count="12" Subtype="KoboldPlate"/>
+                <Component Count="2" Subtype="KombositePlate"/>
+                <Component Count="1" Subtype="EliteMetalGrid"/>
+                <Component Count="2" Subtype="KombositePlate"/>
             </Components>
-            <CriticalComponent Index="0" Subtype="MetalGrid"/>
+            <CriticalComponent Index="0" Subtype="EliteMetalGrid"/>
             <Skeleton>
                 <BoneInfo>
                     <BonePosition x="0" y="1" z="0" />
@@ -1474,10 +1466,10 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>HeavyArmorCornerSquareInverted</BlockPairName>
+            <BlockPairName>EliteHeavyArmorCornerSquareInverted</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
-            <BuildTimeSeconds>16.0</BuildTimeSeconds>
+            <BuildTimeSeconds>5.0</BuildTimeSeconds>
             <DisassembleRatio>2.5</DisassembleRatio>
             <NavigationDefinition>Default</NavigationDefinition>
             <MirroringX>YHalfY</MirroringX>
@@ -1490,9 +1482,9 @@
             <DeformationRatio>0.32</DeformationRatio>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\CornerSquareInvertedConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\CornerSquareInvertedConstruction_2.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Armor\CornerSquareInvertedConstruction_3.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\CornerSquareInvertedConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\CornerSquareInvertedConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\CornerSquareInvertedConstruction_3.mwm"/>
             </BuildProgressModels>
             <UseModelIntersection>false</UseModelIntersection>
             <GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
@@ -1502,12 +1494,12 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorHalfCorner</SubtypeId>
+                <SubtypeId>EliteSmallBlockHeavyArmorHalfCorner</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorHalfCorner</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavyHalfCorner.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyHalfCorner8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
-            <CubeSize>Large</CubeSize>
+            <CubeSize>Small</CubeSize>
             <BlockTopology>Cube</BlockTopology>
             <Size x="1" y="1" z="1"/>
             <ModelOffset x="0.0" y="0.0" z="0.0"/>
@@ -1515,11 +1507,11 @@
                 <CubeTopology>HalfCorner</CubeTopology>
                 <ShowEdges>true</ShowEdges>
                 <Sides>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerTriangleLeftPlate.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyHalfCornerDiagonal.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyHalfSlopedCornerBaseTop.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerTriangleLeftPlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyHalfCornerDiagonal.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyHalfSlopedCornerBaseTop.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternHeight="2" PatternWidth="4"/>
                 </Sides>
             </CubeDefinition>
             <MountPoints>
@@ -1529,11 +1521,11 @@
                 <MountPoint EndX="1.0" EndY="0.5" Side="Front" StartX="0.0" StartY="0.0"/>
             </MountPoints>
             <Components>
-                <Component Count="35" Subtype="KoboldPlate"/>
-                <Component Count="12" Subtype="MetalGrid"/>
-                <Component Count="5" Subtype="KoboldPlate"/>
+                <Component Count="1" Subtype="KombositePlate"/>
+                <Component Count="1" Subtype="EliteMetalGrid"/>
+                <Component Count="1" Subtype="KombositePlate"/>
             </Components>
-            <CriticalComponent Index="0" Subtype="MetalGrid"/>
+            <CriticalComponent Index="0" Subtype="EliteMetalGrid"/>
             <Skeleton>
                 <BoneInfo>
                     <BonePosition x="0" y="1" z="2" />
@@ -1584,10 +1576,10 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>HeavyArmorHalfCorner</BlockPairName>
+            <BlockPairName>EliteHeavyArmorHalfCorner</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
-            <BuildTimeSeconds>5.0</BuildTimeSeconds>
+            <BuildTimeSeconds>2.0</BuildTimeSeconds>
             <DisassembleRatio>2.5</DisassembleRatio>
             <NavigationDefinition>Default</NavigationDefinition>
             <MirroringX>YHalfY</MirroringX>
@@ -1600,9 +1592,9 @@
             <DeformationRatio>0.16</DeformationRatio>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HalfCornerConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HalfCornerConstruction_2.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Armor\HalfCornerConstruction_3.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HalfCornerConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HalfCornerConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\HalfCornerConstruction_3.mwm"/>
             </BuildProgressModels>
             <UseModelIntersection>false</UseModelIntersection>
             <GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
@@ -1613,12 +1605,12 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorHalfSlopeCorner</SubtypeId>
+                <SubtypeId>EliteSmallBlockHeavyArmorHalfSlopeCorner</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorHalfSlopeCorner</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavyHalfSlopeCorner.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyHalfSlopeCorner8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
-            <CubeSize>Large</CubeSize>
+            <CubeSize>Small</CubeSize>
             <BlockTopology>Cube</BlockTopology>
             <Size x="1" y="1" z="1"/>
             <ModelOffset x="0.0" y="0.0" z="0.0"/>
@@ -1626,10 +1618,10 @@
                 <CubeTopology>HalfSlopeCorner</CubeTopology>
                 <ShowEdges>true</ShowEdges>
                 <Sides>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerTriangleLeftPlateCorner2TipFront.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerTriangleLeftPlateCorner2TipFront.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerTriangleLeftPlateCorner2TipFront.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyHalfSlopeCornerTriangle.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerTriangleLeftPlateCorner2TipFront.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerTriangleLeftPlateCorner2TipFront.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerTriangleLeftPlateCorner2TipFront.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyHalfSlopeCornerTriangle.mwm" PatternHeight="2" PatternWidth="4"/>
                 </Sides>
             </CubeDefinition>
             <MountPoints>
@@ -1638,11 +1630,11 @@
                 <MountPoint EndX="0.55" EndY="0.55" Side="Bottom" StartX="1.0" StartY="1.0"/>
             </MountPoints>
             <Components>
-                <Component Count="10" Subtype="KoboldPlate"/>
-                <Component Count="4" Subtype="MetalGrid"/>
-                <Component Count="2" Subtype="KoboldPlate"/>
+                <Component Count="1" Subtype="KombositePlate"/>
+                <Component Count="1" Subtype="EliteMetalGrid"/>
+                <Component Count="1" Subtype="KombositePlate"/>
             </Components>
-            <CriticalComponent Index="0" Subtype="MetalGrid"/>
+            <CriticalComponent Index="0" Subtype="EliteMetalGrid"/>
             <Skeleton>
                 <BoneInfo>
                     <BonePosition x="2" y="0" z="2" />
@@ -1673,10 +1665,10 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>HeavyArmorHalfSlopeCorner</BlockPairName>
+            <BlockPairName>EliteHeavyArmorHalfSlopeCorner</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
-            <BuildTimeSeconds>5.0</BuildTimeSeconds>
+            <BuildTimeSeconds>2.0</BuildTimeSeconds>
             <DisassembleRatio>2.5</DisassembleRatio>
             <NavigationDefinition>Default</NavigationDefinition>
             <MirroringX>YHalfY</MirroringX>
@@ -1688,9 +1680,9 @@
             <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HalfSlopeCornerConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HalfSlopeCornerConstruction_2.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Armor\HalfSlopeCornerConstruction_3.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HalfSlopeCornerConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HalfSlopeCornerConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\HalfSlopeCornerConstruction_3.mwm"/>
             </BuildProgressModels>
             <UseModelIntersection>false</UseModelIntersection>
             <GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
@@ -1701,12 +1693,12 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorHalfSlopeCornerInverted</SubtypeId>
+                <SubtypeId>EliteSmallBlockHeavyArmorHalfSlopeCornerInverted</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorHalfSlopeCornerInverted</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavyHalfSlopeCornerInverted.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyHalfSlopeCornerInverted8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
-            <CubeSize>Large</CubeSize>
+            <CubeSize>Small</CubeSize>
             <BlockTopology>Cube</BlockTopology>
             <Size x="1" y="1" z="1"/>
             <ModelOffset x="0.0" y="0.0" z="0.0"/>
@@ -1714,13 +1706,13 @@
                 <CubeTopology>HalfSlopeCornerInverted</CubeTopology>
                 <ShowEdges>true</ShowEdges>
                 <Sides>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyHalfSlopeCornerInvTriangle.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyHalfSlopeInvertedLeft_OtherBones.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyHalfSlopeInvertedLeft_OtherBones.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyHalfSlopeInvertedRight_OtherBones.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyHalfSlopeCornerInvTriangle.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyHalfSlopeInvertedLeft_OtherBones.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyHalfSlopeInvertedLeft_OtherBones.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyHalfSlopeInvertedRight_OtherBones.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
                 </Sides>
             </CubeDefinition>
             <MountPoints>
@@ -1738,11 +1730,11 @@
                 <MountPoint EndX="0.5" EndY="0.6" Side="Left" StartX="0.4" StartY="0.5"/>
             </MountPoints>
             <Components>
-                <Component Count="125" Subtype="KoboldPlate"/>
-                <Component Count="45" Subtype="MetalGrid"/>
-                <Component Count="14" Subtype="KoboldPlate"/>
+                <Component Count="3" Subtype="KombositePlate"/>
+                <Component Count="1" Subtype="EliteMetalGrid"/>
+                <Component Count="2" Subtype="KombositePlate"/>
             </Components>
-            <CriticalComponent Index="0" Subtype="MetalGrid"/>
+            <CriticalComponent Index="0" Subtype="KombositePlate"/>
             <Skeleton>
                 <BoneInfo>
                     <BonePosition x="0" y="2" z="1" />
@@ -1849,10 +1841,10 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>HeavyArmorHalfSlopeCornerInverted</BlockPairName>
+            <BlockPairName>EliteHeavyArmorHalfSlopeCornerInverted</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
-            <BuildTimeSeconds>20.0</BuildTimeSeconds>
+            <BuildTimeSeconds>6.0</BuildTimeSeconds>
             <DisassembleRatio>2.5</DisassembleRatio>
             <NavigationDefinition>Default</NavigationDefinition>
             <MirroringX>YHalfY</MirroringX>
@@ -1862,12 +1854,12 @@
             <Public>true</Public>
             <GuiVisible>false</GuiVisible>
             <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
-            <DeformationRatio>0.4</DeformationRatio>
+            <DeformationRatio>0.32</DeformationRatio>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HalfSlopeCornerInvertedConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HalfSlopeCornerInvertedConstruction_2.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Armor\HalfSlopeCornerInvertedConstruction_3.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HalfSlopeCornerInvertedConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HalfSlopeCornerInvertedConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\HalfSlopeCornerInvertedConstruction_3.mwm"/>
             </BuildProgressModels>
             <UseModelIntersection>false</UseModelIntersection>
             <GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
@@ -1877,12 +1869,12 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorHalfSlopedCorner</SubtypeId>
+                <SubtypeId>EliteSmallBlockHeavyArmorHalfSlopedCorner</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorHalfSlopedCorner</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavyHalfSlopedCorner.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyHalfSlopedCorner8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
-            <CubeSize>Large</CubeSize>
+            <CubeSize>Small</CubeSize>
             <BlockTopology>Cube</BlockTopology>
             <Size x="1" y="1" z="1"/>
             <ModelOffset x="0.0" y="0.0" z="0.0"/>
@@ -1890,11 +1882,11 @@
                 <CubeTopology>HalfSlopedCorner</CubeTopology>
                 <ShowEdges>true</ShowEdges>
                 <Sides>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerTriangleLeftPlate.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyHalfCornerDiagonal.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyHalfSlopedCornerTop.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2BaseLeft.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2BaseRight.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerTriangleLeftPlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyHalfCornerDiagonal.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyHalfSlopedCornerTop.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2BaseLeft.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2BaseRight.mwm" PatternHeight="2" PatternWidth="4"/>
                 </Sides>
             </CubeDefinition>
             <MountPoints>
@@ -1906,11 +1898,11 @@
                 <MountPoint EndX="1.0" EndY="0.5" Side="Bottom" StartX="0.5" StartY="0.0"/>
             </MountPoints>
             <Components>
-                <Component Count="40" Subtype="KoboldPlate"/>
-                <Component Count="5" Subtype="MetalGrid"/>
-                <Component Count="5" Subtype="KoboldPlate"/>
+                <Component Count="2" Subtype="KombositePlate"/>
+                <Component Count="1" Subtype="EliteMetalGrid"/>
+                <Component Count="1" Subtype="KombositePlate"/>
             </Components>
-            <CriticalComponent Index="0" Subtype="MetalGrid"/>
+            <CriticalComponent Index="0" Subtype="EliteMetalGrid"/>
             <Skeleton>
                 <BoneInfo>
                     <BonePosition x="0" y="0" z="1" />
@@ -1965,10 +1957,10 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>HeavyArmorHalfSlopedCorner</BlockPairName>
+            <BlockPairName>EliteHeavyArmorHalfSlopedCorner</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
-            <BuildTimeSeconds>8.0</BuildTimeSeconds>
+            <BuildTimeSeconds>2.0</BuildTimeSeconds>
             <DisassembleRatio>2.5</DisassembleRatio>
             <NavigationDefinition>Default</NavigationDefinition>
             <MirroringX>YHalfY</MirroringX>
@@ -1981,9 +1973,9 @@
             <DeformationRatio>0.16</DeformationRatio>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HalfSlopedCornerConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HalfSlopedCornerConstruction_2.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Armor\HalfSlopedCornerConstruction_3.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HalfSlopedCornerConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HalfSlopedCornerConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\HalfSlopedCornerConstruction_3.mwm"/>
             </BuildProgressModels>
             <UseModelIntersection>false</UseModelIntersection>
             <GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
@@ -1993,12 +1985,12 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorHalfSlopedCornerBase</SubtypeId>
+                <SubtypeId>EliteSmallBlockHeavyArmorHalfSlopedCornerBase</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorHalfSlopedCornerBase</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavyHalfSlopedCornerBase.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyHalfSlopedCornerBase8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
-            <CubeSize>Large</CubeSize>
+            <CubeSize>Small</CubeSize>
             <BlockTopology>Cube</BlockTopology>
             <Size x="1" y="1" z="1"/>
             <ModelOffset x="0.0" y="0.0" z="0.0"/>
@@ -2006,13 +1998,13 @@
                 <CubeTopology>HalfSlopedCornerBase</CubeTopology>
                 <ShowEdges>true</ShowEdges>
                 <Sides>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyHalfSlopedCornerBaseTop.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyHalfSlopedCornerBaseTriangle.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySlopedCornerTipLeft.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySlopedCornerTipRight.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyHalfSlopedCornerBaseTop.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyHalfSlopedCornerBaseTriangle.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySlopedCornerTipLeft.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySlopedCornerTipRight.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternHeight="2" PatternWidth="4"/>
                 </Sides>
             </CubeDefinition>
             <MountPoints>
@@ -2027,11 +2019,11 @@
                 <MountPoint EndX="1.0" EndY="0.5" Side="Left" StartX="0.0" StartY="0.0"/>
             </MountPoints>
             <Components>
-                <Component Count="40" Subtype="KoboldPlate"/>
-                <Component Count="15" Subtype="MetalGrid"/>
-                <Component Count="5" Subtype="KoboldPlate"/>
+                <Component Count="2" Subtype="KombositePlate"/>
+                <Component Count="1" Subtype="EliteMetalGrid"/>
+                <Component Count="1" Subtype="KombositePlate"/>
             </Components>
-            <CriticalComponent Index="0" Subtype="MetalGrid"/>
+            <CriticalComponent Index="0" Subtype="EliteMetalGrid"/>
             <Skeleton>
                 <BoneInfo>
                     <BonePosition x="0" y="1" z="0" />
@@ -2102,10 +2094,10 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>HeavyArmorHalfSlopedCornerBase</BlockPairName>
+            <BlockPairName>EliteHeavyArmorHalfSlopedCornerBase</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
-            <BuildTimeSeconds>10.0</BuildTimeSeconds>
+            <BuildTimeSeconds>3.0</BuildTimeSeconds>
             <DisassembleRatio>2.5</DisassembleRatio>
             <NavigationDefinition>Default</NavigationDefinition>
             <MirroringX>YHalfY</MirroringX>
@@ -2118,9 +2110,9 @@
             <DeformationRatio>0.16</DeformationRatio>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HalfSlopedCornerBaseConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HalfSlopedCornerBaseConstruction_2.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Armor\HalfSlopedCornerBaseConstruction_3.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HalfSlopedCornerBaseConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HalfSlopedCornerBaseConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\HalfSlopedCornerBaseConstruction_3.mwm"/>
             </BuildProgressModels>
             <UseModelIntersection>false</UseModelIntersection>
             <GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
@@ -2130,12 +2122,12 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorHalfSlopeInverted</SubtypeId>
+                <SubtypeId>EliteSmallBlockHeavyArmorHalfSlopeInverted</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorHalfSlopeInverted</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavyHalfSlopeInverted.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyHalfSlopeInverted8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
-            <CubeSize>Large</CubeSize>
+            <CubeSize>Small</CubeSize>
             <BlockTopology>Cube</BlockTopology>
             <Size x="1" y="1" z="1"/>
             <ModelOffset x="0.0" y="0.0" z="0.0"/>
@@ -2143,13 +2135,13 @@
                 <CubeTopology>HalfSlopeInverted</CubeTopology>
                 <ShowEdges>true</ShowEdges>
                 <Sides>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyHalfSlopeInvertedDiagonal.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyHalfSlopeInvertedLeft.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyHalfSlopeInvertedRight.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyHalfSlopeInvertedDiagonal.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyHalfSlopeInvertedLeft.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyHalfSlopeInvertedRight.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternHeight="2" PatternWidth="4"/>
                 </Sides>
             </CubeDefinition>
             <MountPoints>
@@ -2165,11 +2157,11 @@
                 <MountPoint EndX="0.0" EndY="0.0" Side="Bottom" StartX="1.0" StartY="1.0"/>
             </MountPoints>
             <Components>
-                <Component Count="120" Subtype="KoboldPlate"/>
-                <Component Count="45" Subtype="MetalGrid"/>
-                <Component Count="13" Subtype="KoboldPlate"/>
+                <Component Count="3" Subtype="KombositePlate"/>
+                <Component Count="1" Subtype="EliteMetalGrid"/>
+                <Component Count="2" Subtype="KombositePlate"/>
             </Components>
-            <CriticalComponent Index="0" Subtype="MetalGrid"/>
+            <CriticalComponent Index="0" Subtype="EliteMetalGrid"/>
             <Skeleton>
                 <BoneInfo>
                     <BonePosition x="2" y="1" z="1" />
@@ -2264,10 +2256,10 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>HeavyArmorHalfSlopeInverted</BlockPairName>
+            <BlockPairName>EliteHeavyArmorHalfSlopeInverted</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
-            <BuildTimeSeconds>20.0</BuildTimeSeconds>
+            <BuildTimeSeconds>6.0</BuildTimeSeconds>
             <DisassembleRatio>2.5</DisassembleRatio>
             <NavigationDefinition>Default</NavigationDefinition>
             <MirroringX>Y</MirroringX>
@@ -2277,12 +2269,12 @@
             <Public>true</Public>
             <GuiVisible>false</GuiVisible>
             <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
-            <DeformationRatio>0.32</DeformationRatio>
+            <DeformationRatio>0.16</DeformationRatio>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HalfSlopeInvertedConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HalfSlopeInvertedConstruction_2.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Armor\HalfSlopeInvertedConstruction_3.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HalfSlopeInvertedConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HalfSlopeInvertedConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\HalfSlopeInvertedConstruction_3.mwm"/>
             </BuildProgressModels>
             <UseModelIntersection>false</UseModelIntersection>
             <GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
@@ -2292,12 +2284,12 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorSlopedCorner</SubtypeId>
+                <SubtypeId>EliteSmallBlockHeavyArmorSlopedCorner</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorSlopedCorner</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavySlopedCorner.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavySlopedCorner8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
-            <CubeSize>Large</CubeSize>
+            <CubeSize>Small</CubeSize>
             <BlockTopology>Cube</BlockTopology>
             <Size x="1" y="1" z="1"/>
             <ModelOffset x="0.0" y="0.0" z="0.0"/>
@@ -2305,12 +2297,12 @@
                 <CubeTopology>SlopedCorner</CubeTopology>
                 <ShowEdges>true</ShowEdges>
                 <Sides>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySlopedCornerTipLeft_OtherBones.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySlopedCornerTipRight_OtherBones.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySlopedCornerTop.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2BaseLeft.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2BaseRight.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySlopedCornerTipLeft_OtherBones.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySlopedCornerTipRight_OtherBones.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySlopedCornerTop.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2BaseLeft.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2BaseRight.mwm" PatternHeight="2" PatternWidth="4"/>
                 </Sides>
             </CubeDefinition>
             <MountPoints>
@@ -2327,11 +2319,11 @@
                 <MountPoint EndX="1.0" EndY="0.5" Side="Left" StartX="0.5" StartY="0.0"/>
             </MountPoints>
             <Components>
-                <Component Count="65" Subtype="KoboldPlate"/>
-                <Component Count="25" Subtype="MetalGrid"/>
-                <Component Count="10" Subtype="KoboldPlate"/>
+                <Component Count="2" Subtype="KombositePlate"/>
+                <Component Count="1" Subtype="EliteMetalGrid"/>
+                <Component Count="1" Subtype="KombositePlate"/>
             </Components>
-            <CriticalComponent Index="0" Subtype="MetalGrid"/>
+            <CriticalComponent Index="0" Subtype="EliteMetalGrid"/>
             <Skeleton>
                 <BoneInfo>
                     <BonePosition x="0" y="1" z="2" />
@@ -2398,10 +2390,10 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>HeavyArmorSlopedCorner</BlockPairName>
+            <BlockPairName>EliteHeavyArmorSlopedCorner</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
-            <BuildTimeSeconds>10.0</BuildTimeSeconds>
+            <BuildTimeSeconds>4.0</BuildTimeSeconds>
             <DisassembleRatio>2.5</DisassembleRatio>
             <NavigationDefinition>Default</NavigationDefinition>
             <MirroringX>YHalfY</MirroringX>
@@ -2414,9 +2406,9 @@
             <DeformationRatio>0.16</DeformationRatio>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\SlopedCornerConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\SlopedCornerConstruction_2.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Armor\SlopedCornerConstruction_3.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\SlopedCornerConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\SlopedCornerConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\SlopedCornerConstruction_3.mwm"/>
             </BuildProgressModels>
             <UseModelIntersection>false</UseModelIntersection>
             <GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
@@ -2426,12 +2418,12 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorSlopedCornerBase</SubtypeId>
+                <SubtypeId>EliteSmallBlockHeavyArmorSlopedCornerBase</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorSlopedCornerBase</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavySlopedCornerBase.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavySlopedCornerBase8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
-            <CubeSize>Large</CubeSize>
+            <CubeSize>Small</CubeSize>
             <BlockTopology>Cube</BlockTopology>
             <Size x="1" y="1" z="1"/>
             <ModelOffset x="0.0" y="0.0" z="0.0"/>
@@ -2439,13 +2431,13 @@
                 <CubeTopology>SlopedCornerBase</CubeTopology>
                 <ShowEdges>true</ShowEdges>
                 <Sides>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerTriangleLeftPlate.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySlopedCornerBaseTriangle.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2BaseLeft.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2BaseRight.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerTriangleLeftPlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySlopedCornerBaseTriangle.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2BaseLeft.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2BaseRight.mwm" PatternHeight="2" PatternWidth="4"/>
                 </Sides>
             </CubeDefinition>
             <MountPoints>
@@ -2460,11 +2452,11 @@
                 <MountPoint EndX="1.0" EndY="1.0" Side="Top" StartX="0.5" StartY="0.0"/>
             </MountPoints>
             <Components>
-                <Component Count="115" Subtype="KoboldPlate"/>
-                <Component Count="40" Subtype="MetalGrid"/>
-                <Component Count="12" Subtype="KoboldPlate"/>
+                <Component Count="3" Subtype="KombositePlate"/>
+                <Component Count="1" Subtype="EliteMetalGrid"/>
+                <Component Count="2" Subtype="KombositePlate"/>
             </Components>
-            <CriticalComponent Index="0" Subtype="MetalGrid"/>
+            <CriticalComponent Index="0" Subtype="EliteMetalGrid"/>
             <Skeleton>
                 <BoneInfo>
                     <BonePosition x="2" y="2" z="1" />
@@ -2559,10 +2551,10 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>HeavyArmorSlopedCornerBase</BlockPairName>
+            <BlockPairName>EliteHeavyArmorSlopedCornerBase</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
-            <BuildTimeSeconds>16.0</BuildTimeSeconds>
+            <BuildTimeSeconds>5.0</BuildTimeSeconds>
             <DisassembleRatio>2.5</DisassembleRatio>
             <NavigationDefinition>Default</NavigationDefinition>
             <MirroringX>MinusHalfY</MirroringX>
@@ -2572,12 +2564,12 @@
             <Public>true</Public>
             <GuiVisible>false</GuiVisible>
             <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
-            <DeformationRatio>0.4</DeformationRatio>
+            <DeformationRatio>0.32</DeformationRatio>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\SlopedCornerBaseConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\SlopedCornerBaseConstruction_2.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Armor\SlopedCornerBaseConstruction_3.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\SlopedCornerBaseConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\SlopedCornerBaseConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\SlopedCornerBaseConstruction_3.mwm"/>
             </BuildProgressModels>
             <UseModelIntersection>false</UseModelIntersection>
             <GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
@@ -2587,12 +2579,12 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorSlopedCornerTip</SubtypeId>
+                <SubtypeId>EliteSmallBlockHeavyArmorSlopedCornerTip</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorSlopedCornerTip</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavySlopedCornerTip.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavySlopedCornerTip8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
-            <CubeSize>Large</CubeSize>
+            <CubeSize>Small</CubeSize>
             <BlockTopology>Cube</BlockTopology>
             <Size x="1" y="1" z="1"/>
             <ModelOffset x="0.0" y="0.0" z="0.0"/>
@@ -2600,10 +2592,10 @@
                 <CubeTopology>SlopedCornerTip</CubeTopology>
                 <ShowEdges>true</ShowEdges>
                 <Sides>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerTriangleLeftPlate.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySlopedCornerTipLeft.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySlopedCornerTipRight.mwm" PatternHeight="2" PatternWidth="4"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySlopedCornerTipTriangle.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerTriangleLeftPlate.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySlopedCornerTipLeft.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySlopedCornerTipRight.mwm" PatternHeight="2" PatternWidth="4"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySlopedCornerTipTriangle.mwm" PatternHeight="2" PatternWidth="4"/>
                 </Sides>
             </CubeDefinition>
             <MountPoints>
@@ -2617,11 +2609,11 @@
                 <MountPoint EndX="1.0" EndY="0.5" Side="Left" StartX="0.8" StartY="0.0"/>
             </MountPoints>
             <Components>
-                <Component Count="20" Subtype="KoboldPlate"/>
-                <Component Count="6" Subtype="MetalGrid"/>
-                <Component Count="3" Subtype="KoboldPlate"/>
+                <Component Count="1" Subtype="KombositePlate"/>
+                <Component Count="1" Subtype="EliteMetalGrid"/>
+                <Component Count="1" Subtype="KombositePlate"/>
             </Components>
-            <CriticalComponent Index="0" Subtype="MetalGrid"/>
+            <CriticalComponent Index="0" Subtype="EliteMetalGrid"/>
             <Skeleton>
                 <BoneInfo>
                     <BonePosition x="1" y="0" z="2" />
@@ -2660,10 +2652,10 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>HeavyArmorSlopedCornerTip</BlockPairName>
+            <BlockPairName>EliteHeavyArmorSlopedCornerTip</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
-            <BuildTimeSeconds>5.0</BuildTimeSeconds>
+            <BuildTimeSeconds>2.0</BuildTimeSeconds>
             <DisassembleRatio>2.5</DisassembleRatio>
             <NavigationDefinition>Default</NavigationDefinition>
             <MirroringX>MinusHalfY</MirroringX>
@@ -2675,9 +2667,9 @@
             <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
             <InventoryMaxVolume>1.0</InventoryMaxVolume>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\SlopedCornerTipConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\SlopedCornerTipConstruction_2.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Armor\SlopedCornerTipConstruction_3.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\SlopedCornerTipConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\SlopedCornerTipConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Armor\SlopedCornerTipConstruction_3.mwm"/>
             </BuildProgressModels>
             <UseModelIntersection>false</UseModelIntersection>
             <GeneralDamageMultiplier>1.0</GeneralDamageMultiplier>
@@ -2688,12 +2680,12 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeHeavyBlockArmorSlope2Base</SubtypeId>
+                <SubtypeId>EliteSmallHeavyBlockArmorSlope2Base</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorSlope2Base</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavySlope2x1x1Base.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavySlope2x1x1Base8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
-            <CubeSize>Large</CubeSize>
+            <CubeSize>Small</CubeSize>
             <BlockTopology>Cube</BlockTopology>
             <Size x="1" y="1" z="1" />
             <ModelOffset x="0" y="0" z="0" />
@@ -2701,24 +2693,33 @@
                 <CubeTopology>Slope2Base</CubeTopology>
                 <ShowEdges>true</ShowEdges>
                 <Sides>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2BaseTop.mwm" PatternWidth="4" PatternHeight="2" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2BaseRight.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2BaseLeft.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2BaseTop.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2BaseRight.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2BaseLeft.mwm" PatternWidth="1" PatternHeight="1" />
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="KoboldPlate" Count="100" />
-                <Component Subtype="MetalGrid" Count="40" />
-                <Component Subtype="KoboldPlate" Count="12" />
+                <Component Subtype="KombositePlate" Count="3" />
+                <Component Subtype="EliteMetalGrid" Count="2" />
+                <Component Subtype="KombositePlate" Count="1" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+                <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
+                <MountPoint Side="Right" StartX="0.5" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HeavySlope2BaseConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HeavySlope2BaseConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\HeavySlope2BaseConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HeavySlope2BaseConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HeavySlope2BaseConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavySlope2BaseConstruction_3.mwm" />
             </BuildProgressModels>
             <Skeleton>
                 <BoneInfo>
@@ -2830,21 +2831,12 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <MountPoints>
-                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
-                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
-                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.5" />
-                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.5" EndY="1" />
-                <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="0.5" />
-                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
-                <MountPoint Side="Right" StartX="0.5" StartY="0" EndX="1" EndY="1" />
-            </MountPoints>
             <PhysicsOption>Convex</PhysicsOption>
-            <BlockPairName>LargeHeavyBlockArmorSlope2Base</BlockPairName>
+            <BlockPairName>EliteLargeHeavyBlockArmorSlope2Base</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Heavy</EdgeType>
-            <BuildTimeSeconds>15</BuildTimeSeconds>
+            <BuildTimeSeconds>5</BuildTimeSeconds>
             <DisassembleRatio>2.5</DisassembleRatio>
             <PCU>1</PCU>
             <PCUConsole>2</PCUConsole>
@@ -2853,13 +2845,13 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeHeavyBlockArmorSlope2Tip</SubtypeId>
+                <SubtypeId>EliteSmallHeavyBlockArmorSlope2Tip</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorSlope2Tip</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavySlope2x1x1Tip.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavySlope2x1x1Tip8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <GuiVisible>false</GuiVisible>
-            <CubeSize>Large</CubeSize>
+            <CubeSize>Small</CubeSize>
             <BlockTopology>Cube</BlockTopology>
             <Size x="1" y="1" z="1" />
             <ModelOffset x="0" y="0" z="0" />
@@ -2867,19 +2859,19 @@
                 <CubeTopology>Slope2Tip</CubeTopology>
                 <ShowEdges>true</ShowEdges>
                 <Sides>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySlopePlateSlope2Tip.mwm" PatternWidth="4" PatternHeight="2" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerTriangleLeftPlateSlope2Tip.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerTriangleRightPlateSlope2Tip.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2TipBack.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySlopePlateSlope2Tip.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerTriangleLeftPlateSlope2Tip.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerTriangleRightPlateSlope2Tip.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2TipBack.mwm" PatternWidth="1" PatternHeight="1" />
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="KoboldPlate" Count="35" />
-                <Component Subtype="MetalGrid" Count="12" />
-                <Component Subtype="KoboldPlate" Count="5" />
+                <Component Subtype="KombositePlate" Count="1" />
+                <Component Subtype="EliteMetalGrid" Count="1" />
+                <Component Subtype="KombositePlate" Count="1" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="1" />
             <MountPoints>
                 <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.5" />
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -2892,9 +2884,9 @@
             </MountPoints>
             <PhysicsOption>Convex</PhysicsOption>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HeavySlope2TipConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HeavySlope2TipConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\HeavySlope2TipConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HeavySlope2TipConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HeavySlope2TipConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavySlope2TipConstruction_3.mwm" />
             </BuildProgressModels>
             <Skeleton>
                 <BoneInfo>
@@ -2970,11 +2962,11 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>LargeHeavyBlockArmorSlope2Tip</BlockPairName>
+            <BlockPairName>EliteLargeHeavyBlockArmorSlope2Tip</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Heavy</EdgeType>
-            <BuildTimeSeconds>5</BuildTimeSeconds>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
             <DisassembleRatio>2.5</DisassembleRatio>
             <PCU>1</PCU>
             <PCUConsole>2</PCUConsole>
@@ -2983,12 +2975,12 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeHeavyBlockArmorCorner2Base</SubtypeId>
+                <SubtypeId>EliteSmallHeavyBlockArmorCorner2Base</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorCorner2Base</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavyCorner2x1x1Base.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyCorner2x1x1Base8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
-            <CubeSize>Large</CubeSize>
+            <CubeSize>Small</CubeSize>
             <BlockTopology>Cube</BlockTopology>
             <Size x="1" y="1" z="1" />
             <ModelOffset x="0" y="0" z="0" />
@@ -2996,19 +2988,19 @@
                 <CubeTopology>Corner2Base</CubeTopology>
                 <ShowEdges>true</ShowEdges>
                 <Sides>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySlopePlateCorner2BaseTop.mwm" PatternWidth="4" PatternHeight="2" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerTriangleRightPlateCorner2Base.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateCorner2BaseBottom.mwm" PatternWidth="4" PatternHeight="2" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateCorner2BaseBack.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySlopePlateCorner2BaseTop.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerTriangleRightPlateCorner2Base.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateCorner2BaseBottom.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateCorner2BaseBack.mwm" PatternWidth="4" PatternHeight="2" />
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="KoboldPlate" Count="50" />
-                <Component Subtype="MetalGrid" Count="15" />
-                <Component Subtype="KoboldPlate" Count="5" />
+                <Component Subtype="KombositePlate" Count="2" />
+                <Component Subtype="EliteMetalGrid" Count="1" />
+                <Component Subtype="KombositePlate" Count="1" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Right" StartX="0.5" StartY="0" EndX="1" EndY="0.5" />
                 <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
@@ -3020,9 +3012,9 @@
             </MountPoints>
             <PhysicsOption>Convex</PhysicsOption>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\Corner2BaseConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\Corner2BaseConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\Corner2BaseConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\Corner2BaseConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\Corner2BaseConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\Corner2BaseConstruction_3.mwm" />
             </BuildProgressModels>
             <Skeleton>
                 <BoneInfo>
@@ -3098,12 +3090,12 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>LargeHeavyBlockArmorCorner2Base</BlockPairName>
+            <BlockPairName>EliteLargeHeavyBlockArmorCorner2Base</BlockPairName>
             <MirroringX>YHalfX</MirroringX>
             <MirroringY>MinusHalfX</MirroringY>
             <MirroringZ>HalfX</MirroringZ>
             <EdgeType>Heavy</EdgeType>
-            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <BuildTimeSeconds>3</BuildTimeSeconds>
             <DisassembleRatio>2.5</DisassembleRatio>
             <PCU>1</PCU>
             <PCUConsole>2</PCUConsole>
@@ -3113,13 +3105,13 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeHeavyBlockArmorCorner2Tip</SubtypeId>
+                <SubtypeId>EliteSmallHeavyBlockArmorCorner2Tip</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorCorner2Tip</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavyCorner2x1x1Tip.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyCorner2x1x1Tip8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <GuiVisible>false</GuiVisible>
-            <CubeSize>Large</CubeSize>
+            <CubeSize>Small</CubeSize>
             <BlockTopology>Cube</BlockTopology>
             <Size x="1" y="1" z="1" />
             <ModelOffset x="0" y="0" z="0" />
@@ -3127,18 +3119,18 @@
                 <CubeTopology>Corner2Tip</CubeTopology>
                 <ShowEdges>true</ShowEdges>
                 <Sides>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerTriangleLeftPlateCorner2TipFront.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerTriangleRightPlateCorner2TipRight.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavyFaceTrianglePlateCorner2Tip.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerTriangleLeftPlateCorner2TipBottom.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerTriangleLeftPlateCorner2TipFront.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerTriangleRightPlateCorner2TipRight.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavyFaceTrianglePlateCorner2Tip.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerTriangleLeftPlateCorner2TipBottom.mwm" PatternWidth="1" PatternHeight="1" />
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="KoboldPlate" Count="17" />
-                <Component Subtype="MetalGrid" Count="6" />
-                <Component Subtype="KoboldPlate" Count="2" />
+                <Component Subtype="KombositePlate" Count="1" />
+                <Component Subtype="EliteMetalGrid" Count="1" />
+                <Component Subtype="KombositePlate" Count="1" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0.9" StartY="0.8" EndX="1" EndY="1" />
                 <MountPoint Side="Bottom" StartX="0.6" StartY="0.2" EndX="1" EndY="0.8" />
@@ -3150,9 +3142,9 @@
             </MountPoints>
             <PhysicsOption>Convex</PhysicsOption>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HeavyCorner2TipConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HeavyCorner2TipConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\HeavyCorner2TipConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HeavyCorner2TipConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HeavyCorner2TipConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavyCorner2TipConstruction_3.mwm" />
             </BuildProgressModels>
             <Skeleton>
                 <BoneInfo>
@@ -3196,12 +3188,12 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>LargeHeavyBlockArmorCorner2Tip</BlockPairName>
+            <BlockPairName>EliteLargeHeavyBlockArmorCorner2Tip</BlockPairName>
             <MirroringX>HalfZ</MirroringX>
             <MirroringY>MinusHalfZ</MirroringY>
             <MirroringZ>XMinusHalfZ</MirroringZ>
             <EdgeType>Heavy</EdgeType>
-            <BuildTimeSeconds>5</BuildTimeSeconds>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
             <DisassembleRatio>2.5</DisassembleRatio>
             <PCU>1</PCU>
             <PCUConsole>2</PCUConsole>
@@ -3211,12 +3203,12 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeHeavyBlockArmorInvCorner2Base</SubtypeId>
+                <SubtypeId>EliteSmallHeavyBlockArmorInvCorner2Base</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorInvCorner2Base</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavyInvCorner2x1x1Base.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyInvCorner2x1x1Base8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
-            <CubeSize>Large</CubeSize>
+            <CubeSize>Small</CubeSize>
             <BlockTopology>Cube</BlockTopology>
             <Size x="1" y="1" z="1" />
             <ModelOffset x="0" y="0" z="0" />
@@ -3224,21 +3216,21 @@
                 <CubeTopology>InvCorner2Base</CubeTopology>
                 <ShowEdges>true</ShowEdges>
                 <Sides>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyInvFaceTrianglePlateInvCorner2Base.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerTriangleRightPlateInvCorner2BaseRight.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerTriangleLeftPlateInvCorner2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerTriangleLeftPlateInvCorner2BaseBottom.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavyInvFaceTrianglePlateInvCorner2Base.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerTriangleRightPlateInvCorner2BaseRight.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerTriangleLeftPlateInvCorner2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerTriangleLeftPlateInvCorner2BaseBottom.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="KoboldPlate" Count="120" />
-                <Component Subtype="MetalGrid" Count="45" />
-                <Component Subtype="KoboldPlate" Count="13" />
+                <Component Subtype="KombositePlate" Count="3" />
+                <Component Subtype="EliteMetalGrid" Count="1" />
+                <Component Subtype="KombositePlate" Count="2" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -3253,9 +3245,9 @@
             </MountPoints>
             <PhysicsOption>Convex</PhysicsOption>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HeavyInvCorner2BaseConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HeavyInvCorner2BaseConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\HeavyInvCorner2BaseConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HeavyInvCorner2BaseConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HeavyInvCorner2BaseConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavyInvCorner2BaseConstruction_3.mwm" />
             </BuildProgressModels>
             <Skeleton>
                 <BoneInfo>
@@ -3351,12 +3343,12 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>LargeHeavyBlockArmorInvCorner2Base</BlockPairName>
+            <BlockPairName>EliteLargeHeavyBlockArmorInvCorner2Base</BlockPairName>
             <MirroringX>HalfZ</MirroringX>
             <MirroringY>MinusHalfZ</MirroringY>
             <MirroringZ>XMinusHalfZ</MirroringZ>
             <EdgeType>Heavy</EdgeType>
-            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <BuildTimeSeconds>5</BuildTimeSeconds>
             <DisassembleRatio>2.5</DisassembleRatio>
             <PCU>1</PCU>
             <PCUConsole>2</PCUConsole>
@@ -3365,13 +3357,13 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeHeavyBlockArmorInvCorner2Tip</SubtypeId>
+                <SubtypeId>EliteSmallHeavyBlockArmorInvCorner2Tip</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorInvCorner2Tip</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavyInvCorner2x1x1Tip.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyInvCorner2x1x1Tip8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <GuiVisible>false</GuiVisible>
-            <CubeSize>Large</CubeSize>
+            <CubeSize>Small</CubeSize>
             <BlockTopology>Cube</BlockTopology>
             <Size x="1" y="1" z="1" />
             <ModelOffset x="0" y="0" z="0" />
@@ -3379,21 +3371,21 @@
                 <CubeTopology>InvCorner2Tip</CubeTopology>
                 <ShowEdges>true</ShowEdges>
                 <Sides>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyInvFaceTrianglePlateInvCorner2Tip.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerTriangleRightPlateInvCorner2TipRight.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerTriangleLeftPlateInvCorner2TipFront.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerTriangleLeftPlateInvCorner2TipBottom.mwm" PatternWidth="1" PatternHeight="1" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateInvCorner2TipBack.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavyInvFaceTrianglePlateInvCorner2Tip.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerTriangleRightPlateInvCorner2TipRight.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerTriangleLeftPlateInvCorner2TipFront.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerTriangleLeftPlateInvCorner2TipBottom.mwm" PatternWidth="1" PatternHeight="1" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateInvCorner2TipBack.mwm" PatternWidth="4" PatternHeight="2" />
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="KoboldPlate" Count="84" />
-                <Component Subtype="MetalGrid" Count="25" />
-                <Component Subtype="KoboldPlate" Count="10" />
+                <Component Subtype="KombositePlate" Count="3" />
+                <Component Subtype="EliteMetalGrid" Count="1" />
+                <Component Subtype="KombositePlate" Count="2" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.5" EndY="1" />
                 <MountPoint Side="Back" StartX="0.5" StartY="0.5" EndX="1" EndY="1" />
@@ -3411,9 +3403,9 @@
             </MountPoints>
             <PhysicsOption>Convex</PhysicsOption>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HeavyInvCorner2TipConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HeavyInvCorner2TipConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\HeavyInvCorner2TipConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HeavyInvCorner2TipConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HeavyInvCorner2TipConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavyInvCorner2TipConstruction_3.mwm" />
             </BuildProgressModels>
             <Skeleton>
                 <BoneInfo>
@@ -3509,12 +3501,12 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>LargeHeavyBlockArmorInvCorner2Tip</BlockPairName>
+            <BlockPairName>EliteLargeHeavyBlockArmorInvCorner2Tip</BlockPairName>
             <MirroringX>HalfZ</MirroringX>
             <MirroringY>MinusHalfZ</MirroringY>
             <MirroringZ>XMinusHalfZ</MirroringZ>
             <EdgeType>Heavy</EdgeType>
-            <BuildTimeSeconds>15</BuildTimeSeconds>
+            <BuildTimeSeconds>4</BuildTimeSeconds>
             <DisassembleRatio>2.5</DisassembleRatio>
             <PCU>1</PCU>
             <PCUConsole>2</PCUConsole>
@@ -3522,29 +3514,29 @@
 
         <Definition>
             <Id>
-                <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorRaisedSlopedCorner</SubtypeId>
+              <TypeId>CubeBlock</TypeId>
+              <SubtypeId>EliteSmallBlockHeavyArmorRaisedSlopedCorner</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorRaisedSlopedCorner</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavyRaisedSlopedCorner.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyRaisedSlopedCorner8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
-            <CubeSize>Large</CubeSize>
+            <CubeSize>Small</CubeSize>
             <BlockTopology>Cube</BlockTopology>
             <DeformationRatio>0.32</DeformationRatio>
             <Size x="1" y="1" z="1" />
             <ModelOffset x="0" y="0" z="0" />
             <CubeDefinition>
-                <CubeTopology>RaisedSlopedCorner</CubeTopology>
-                <ShowEdges>true</ShowEdges>
-                <Sides>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyHalfSlopedCornerBaseTop.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyHalfSlopedCornerTop.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2BaseLeft.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2BaseRight.mwm" PatternWidth ="4" PatternHeight="2"/>
-                </Sides>
+              <CubeTopology>RaisedSlopedCorner</CubeTopology>
+              <ShowEdges>true</ShowEdges>
+              <Sides>
+                <Side Model="Models\Cubes\Small\Armor\HeavyHalfSlopedCornerBaseTop.mwm" PatternWidth ="4" PatternHeight="2"/>
+                <Side Model="Models\Cubes\Small\Armor\HeavyHalfSlopedCornerTop.mwm" PatternWidth ="4" PatternHeight="2"/>
+                <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/>
+                <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/>
+                <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/>
+                <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2BaseLeft.mwm" PatternWidth ="4" PatternHeight="2"/>
+                <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2BaseRight.mwm" PatternWidth ="4" PatternHeight="2"/>
+              </Sides>
             </CubeDefinition>
             <Skeleton>
                 <BoneInfo>
@@ -3625,9 +3617,9 @@
                 </BoneInfo>
             </Skeleton>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\LightArmorRaisedSlopedCornerConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\LightArmorRaisedSlopedCornerConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\LightArmorRaisedSlopedCornerConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\LightArmorRaisedSlopedCornerConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\LightArmorRaisedSlopedCornerConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\LightArmorRaisedSlopedCornerConstruction_3.mwm" />
             </BuildProgressModels>
             <MountPoints>
                 <MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.5" />
@@ -3641,11 +3633,11 @@
                 <MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.5" />
             </MountPoints>
             <Components>
-                <Component Subtype="KoboldPlate" Count="80" />
-                <Component Subtype="MetalGrid" Count="30" />
-                <Component Subtype="KoboldPlate" Count="20" />
+                <Component Subtype="KombositePlate" Count="3" />
+                <Component Subtype="EliteMetalGrid" Count="2" />
+                <Component Subtype="KombositePlate" Count="1" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="1" />
             <Variants>
                 <Variant Color="Red" Suffix="_red" />
                 <Variant Color="Yellow" Suffix="_yellow" />
@@ -3654,10 +3646,10 @@
                 <Variant Color="Black" Suffix="_black" />
                 <Variant Color="White" Suffix="_white" />
             </Variants>
-            <BlockPairName>HeavyArmorRaisedSlopedCorner</BlockPairName>
+            <BlockPairName>EliteHeavyArmorRaisedSlopedCorner</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
-            <BuildTimeSeconds>15</BuildTimeSeconds>
+            <BuildTimeSeconds>5</BuildTimeSeconds>
             <DisassembleRatio>2.5</DisassembleRatio>
             <NavigationDefinition>Default</NavigationDefinition>
             <PCU>1</PCU>
@@ -3670,12 +3662,12 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorSlopeTransition</SubtypeId>
+                <SubtypeId>EliteSmallBlockHeavyArmorSlopeTransition</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorSlopeTransition</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransition.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransition8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
-            <CubeSize>Large</CubeSize>
+            <CubeSize>Small</CubeSize>
             <BlockTopology>Cube</BlockTopology>
             <DeformationRatio>0.16</DeformationRatio>
             <Size x="1" y="1" z="1" />
@@ -3684,12 +3676,12 @@
                 <CubeTopology>SlopeTransition</CubeTopology>
                 <ShowEdges>true</ShowEdges>
                 <Sides>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerSquareINVRight.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerTriangleLeftPlate.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerTriangleRightPlateCorner2TipRight.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyArmorSlopeTransitionTriangleTop.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2BaseRight.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerSquareINVRight.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerTriangleLeftPlate.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerTriangleRightPlateCorner2TipRight.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyArmorSlopeTransitionTriangleTop.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2BaseRight.mwm" PatternWidth ="4" PatternHeight="2"/>
                 </Sides>
             </CubeDefinition>
             <Skeleton>
@@ -3755,9 +3747,9 @@
                 </BoneInfo>
             </Skeleton>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\LightArmorSlopeTransitionConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\LightArmorSlopeTransitionConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\LightArmorSlopeTransitionConstruction_3.mwm" />
             </BuildProgressModels>
             <MountPoints>
                 <MountPoint EndX="0.0" EndY="0.0" Side="Bottom" StartX="1.0" StartY="1.0"/>
@@ -3770,11 +3762,11 @@
                 <MountPoint Side="Left" StartX="0.5" StartY="0.0" EndX="1.0" EndY="0.5" />
             </MountPoints>  
             <Components>
-                <Component Subtype="KoboldPlate" Count="48" />
-                <Component Subtype="MetalGrid" Count="18" />
-                <Component Subtype="KoboldPlate" Count="12" />
+                <Component Subtype="KombositePlate" Count="2" />
+                <Component Subtype="EliteMetalGrid" Count="1" />
+                <Component Subtype="KombositePlate" Count="1" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="1" />
             <Variants>
                 <Variant Color="Red" Suffix="_red" />
                 <Variant Color="Yellow" Suffix="_yellow" />
@@ -3783,28 +3775,28 @@
                 <Variant Color="Black" Suffix="_black" />
                 <Variant Color="White" Suffix="_white" />
             </Variants>
-            <BlockPairName>HeavyArmorSlopeTransition</BlockPairName>
+            <BlockPairName>EliteHeavyArmorSlopeTransition</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
-            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <BuildTimeSeconds>4</BuildTimeSeconds>
             <DisassembleRatio>2.5</DisassembleRatio>
             <NavigationDefinition>Default</NavigationDefinition>
             <PCU>1</PCU>
             <MirroringX>Y</MirroringX>
             <MirroringY>X</MirroringY>
-            <MirroringBlock>LargeBlockHeavyArmorSlopeTransitionMirrored</MirroringBlock>
+            <MirroringBlock>EliteSmallBlockHeavyArmorSlopeTransitionMirrored</MirroringBlock>
             <PCUConsole>2</PCUConsole>
         </Definition>
 
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorSlopeTransitionBase</SubtypeId>
+                <SubtypeId>EliteSmallBlockHeavyArmorSlopeTransitionBase</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorSlopeTransitionBase</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransitionBase.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransitionBase8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
-            <CubeSize>Large</CubeSize>
+            <CubeSize>Small</CubeSize>
             <BlockTopology>Cube</BlockTopology>
             <DeformationRatio>0.36</DeformationRatio>
             <Size x="1" y="1" z="1" />
@@ -3813,13 +3805,13 @@
                 <CubeTopology>SlopeTransitionBase</CubeTopology>
                 <ShowEdges>true</ShowEdges>
                 <Sides>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerTriangleLeftPlateCorner2TipBottom.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerTriangleRightPlate.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyArmorSlopeTransitionBaseTriangle.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyArmorSlopeTransitionBaseTriangleTop.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2BaseLeft.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerTriangleLeftPlateCorner2TipBottom.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerTriangleRightPlate.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyArmorSlopeTransitionBaseTriangle.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyArmorSlopeTransitionBaseTriangleTop.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2BaseLeft.mwm" PatternWidth ="4" PatternHeight="2"/>
                 </Sides>
             </CubeDefinition>
             <Skeleton>
@@ -3909,9 +3901,9 @@
                 </BoneInfo>
             </Skeleton>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionBaseConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionBaseConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionBaseConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\LightArmorSlopeTransitionBaseConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\LightArmorSlopeTransitionBaseConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\LightArmorSlopeTransitionBaseConstruction_3.mwm" />
             </BuildProgressModels>
             <MountPoints>
                 <MountPoint EndX="0.0" EndY="0.0" Side="Bottom" StartX="1.0" StartY="1.0"/>
@@ -3925,11 +3917,11 @@
                 <MountPoint Side="Left" StartX="0.5" StartY="0.0" EndX="1.0" EndY="0.5" />
             </MountPoints> 
             <Components>
-                <Component Subtype="KoboldPlate" Count="75" />
-                <Component Subtype="MetalGrid" Count="35" />
-                <Component Subtype="KoboldPlate" Count="20" />
+                <Component Subtype="KombositePlate" Count="3" />
+                <Component Subtype="EliteMetalGrid" Count="2" />
+                <Component Subtype="KombositePlate" Count="1" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="1" />
             <Variants>
                 <Variant Color="Red" Suffix="_red" />
                 <Variant Color="Yellow" Suffix="_yellow" />
@@ -3938,43 +3930,43 @@
                 <Variant Color="Black" Suffix="_black" />
                 <Variant Color="White" Suffix="_white" />
             </Variants>
-            <BlockPairName>HeavyArmorSlopeTransitionBase</BlockPairName>
+            <BlockPairName>EliteHeavyArmorSlopeTransitionBase</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
-            <BuildTimeSeconds>15</BuildTimeSeconds>
+            <BuildTimeSeconds>5</BuildTimeSeconds>
             <DisassembleRatio>2.5</DisassembleRatio>
             <NavigationDefinition>Default</NavigationDefinition>
             <PCU>1</PCU>
             <MirroringX>Y</MirroringX>
             <MirroringY>X</MirroringY>
-            <MirroringBlock>LargeBlockHeavyArmorSlopeTransitionBaseMirrored</MirroringBlock>
+            <MirroringBlock>EliteSmallBlockHeavyArmorSlopeTransitionBaseMirrored</MirroringBlock>
             <PCUConsole>2</PCUConsole>
         </Definition>
 
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorSlopeTransitionBaseMirrored</SubtypeId>
+                <SubtypeId>EliteSmallBlockHeavyArmorSlopeTransitionBaseMirrored</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorSlopeTransitionBaseMirrored</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransitionBaseMirrored.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransitionBaseMirrored8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
-            <CubeSize>Large</CubeSize>
+            <CubeSize>Small</CubeSize>
             <BlockTopology>Cube</BlockTopology>
-            <Size x="1" y="1" z="1" />
             <DeformationRatio>0.36</DeformationRatio>
+            <Size x="1" y="1" z="1" />
             <ModelOffset x="0" y="0" z="0" />
             <CubeDefinition>
                 <CubeTopology>SlopeTransitionBaseMirrored</CubeTopology>
                 <ShowEdges>true</ShowEdges>
                 <Sides>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerTriangleLeftPlate.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerTriangleRightPlateCorner2TipRight.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyArmorSlopeTransitionBaseMirroredTriangle.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyArmorSlopeTransitionBaseMirroredTriangleTop.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2BaseRight.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerTriangleLeftPlate.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerTriangleRightPlateCorner2TipRight.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyArmorSlopeTransitionBaseMirroredTriangle.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyArmorSlopeTransitionBaseMirroredTriangleTop.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2BaseRight.mwm" PatternWidth ="4" PatternHeight="2"/>
                 </Sides>
             </CubeDefinition>
             <Skeleton>
@@ -4064,9 +4056,9 @@
                 </BoneInfo>
             </Skeleton>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionBaseMirroredConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionBaseMirroredConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionBaseMirroredConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\LightArmorSlopeTransitionBaseMirroredConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\LightArmorSlopeTransitionBaseMirroredConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\LightArmorSlopeTransitionBaseMirroredConstruction_3.mwm" />
             </BuildProgressModels>
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0" />
@@ -4080,11 +4072,11 @@
                 <MountPoint Side="Left" StartX="0.5" StartY="0.5" EndX="1.0" EndY="1.0" />
             </MountPoints>  
             <Components>
-                <Component Subtype="KoboldPlate" Count="75" />
-                <Component Subtype="MetalGrid" Count="35" />
-                <Component Subtype="KoboldPlate" Count="20" />
+                <Component Subtype="KombositePlate" Count="3" />
+                <Component Subtype="EliteMetalGrid" Count="2" />
+                <Component Subtype="KombositePlate" Count="1" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="1" />
             <Variants>
                 <Variant Color="Red" Suffix="_red" />
                 <Variant Color="Yellow" Suffix="_yellow" />
@@ -4093,28 +4085,28 @@
                 <Variant Color="Black" Suffix="_black" />
                 <Variant Color="White" Suffix="_white" />
             </Variants>
-            <BlockPairName>HeavyArmorSlopeTransitionBaseMirrored</BlockPairName>
+            <BlockPairName>EliteHeavyArmorSlopeTransitionBaseMirrored</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
-            <BuildTimeSeconds>15</BuildTimeSeconds>
+            <BuildTimeSeconds>5</BuildTimeSeconds>
             <DisassembleRatio>2.5</DisassembleRatio>
             <NavigationDefinition>Default</NavigationDefinition>
             <PCU>1</PCU>
             <MirroringX>Y</MirroringX>
             <MirroringY>X</MirroringY>
-            <MirroringBlock>LargeBlockHeavyArmorSlopeTransitionBase</MirroringBlock>
+            <MirroringBlock>EliteSmallBlockHeavyArmorSlopeTransitionBase</MirroringBlock>
             <PCUConsole>2</PCUConsole>
         </Definition>
 
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorSlopeTransitionMirrored</SubtypeId>
+                <SubtypeId>EliteSmallBlockHeavyArmorSlopeTransitionMirrored</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorSlopeTransitionMirrored</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransitionMirrored.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransitionMirrored8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
-            <CubeSize>Large</CubeSize>
+            <CubeSize>Small</CubeSize>
             <BlockTopology>Cube</BlockTopology>
             <DeformationRatio>0.16</DeformationRatio>
             <Size x="1" y="1" z="1" />
@@ -4123,12 +4115,12 @@
                 <CubeTopology>SlopeTransitionMirrored</CubeTopology>
                 <ShowEdges>true</ShowEdges>
                 <Sides>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerSquareINVLeft.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerTriangleLeftPlateCorner2TipBottom.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerTriangleRightPlate.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyArmorSlopeTransitionMirroredTop.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2BaseLeft.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerSquareINVLeft.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerTriangleLeftPlateCorner2TipBottom.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerTriangleRightPlate.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyArmorSlopeTransitionMirroredTop.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2BaseLeft.mwm" PatternWidth ="4" PatternHeight="2"/>
                 </Sides>
             </CubeDefinition>
             <Skeleton>
@@ -4194,9 +4186,9 @@
                 </BoneInfo>
             </Skeleton>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionMirroredConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionMirroredConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionMirroredConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\LightArmorSlopeTransitionMirroredConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\LightArmorSlopeTransitionMirroredConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\LightArmorSlopeTransitionMirroredConstruction_3.mwm" />
             </BuildProgressModels>
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0" />
@@ -4209,11 +4201,11 @@
                 <MountPoint Side="Left" StartX="0.5" StartY="0.5" EndX="1.0" EndY="1.0" />
             </MountPoints>  
             <Components>
-                <Component Subtype="KoboldPlate" Count="48" />
-                <Component Subtype="MetalGrid" Count="18" />
-                <Component Subtype="KoboldPlate" Count="12" />
+                <Component Subtype="KombositePlate" Count="2" />
+                <Component Subtype="EliteMetalGrid" Count="1" />
+                <Component Subtype="KombositePlate" Count="1" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="1" />
             <Variants>
                 <Variant Color="Red" Suffix="_red" />
                 <Variant Color="Yellow" Suffix="_yellow" />
@@ -4222,28 +4214,28 @@
                 <Variant Color="Black" Suffix="_black" />
                 <Variant Color="White" Suffix="_white" />
             </Variants>
-            <BlockPairName>HeavyArmorSlopeTransitionMirrored</BlockPairName>
+            <BlockPairName>EliteHeavyArmorSlopeTransitionMirrored</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
-            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <BuildTimeSeconds>4</BuildTimeSeconds>
             <DisassembleRatio>2.5</DisassembleRatio>
             <NavigationDefinition>Default</NavigationDefinition>
             <PCU>1</PCU>
             <MirroringX>Y</MirroringX>
             <MirroringY>X</MirroringY>
-            <MirroringBlock>LargeBlockHeavyArmorSlopeTransition</MirroringBlock>
+            <MirroringBlock>EliteSmallBlockHeavyArmorSlopeTransition</MirroringBlock>
             <PCUConsole>2</PCUConsole>
         </Definition>
 
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorSlopeTransitionTip</SubtypeId>
+                <SubtypeId>EliteSmallBlockHeavyArmorSlopeTransitionTip</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorSlopeTransitionTip</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransitionTip.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransitionTip8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
-            <CubeSize>Large</CubeSize>
+            <CubeSize>Small</CubeSize>
             <BlockTopology>Cube</BlockTopology>
             <DeformationRatio>0.16</DeformationRatio>
             <Size x="1" y="1" z="1" />
@@ -4252,12 +4244,12 @@
                 <CubeTopology>SlopeTransitionTip</CubeTopology>
                 <ShowEdges>true</ShowEdges>
                 <Sides>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerTriangleLeftPlateCorner2TipBottom.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerTriangleRightPlateCorner2Base.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyArmorSlopeTransitionTipTriangleFront.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyArmorSlopeTransitionTipTriangleTop.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2BaseLeft.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerTriangleLeftPlateCorner2TipBottom.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerTriangleRightPlateCorner2Base.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyArmorSlopeTransitionTipTriangleFront.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyArmorSlopeTransitionTipTriangleTop.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2BaseLeft.mwm" PatternWidth ="4" PatternHeight="2"/>
                 </Sides>
             </CubeDefinition>
             <Skeleton>
@@ -4311,9 +4303,9 @@
                 </BoneInfo>
             </Skeleton>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionTipConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionTipConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionTipConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\LightArmorSlopeTransitionTipConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\LightArmorSlopeTransitionTipConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\LightArmorSlopeTransitionTipConstruction_3.mwm" />
             </BuildProgressModels>
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="0.5" EndY="1.0" />
@@ -4325,11 +4317,11 @@
                 <MountPoint Side="Left" StartX="0.8" StartY="0.0" EndX="1.0" EndY="0.1" />
             </MountPoints>  
             <Components>
-                <Component Subtype="KoboldPlate" Count="25" />
-                <Component Subtype="MetalGrid" Count="9" />
-                <Component Subtype="KoboldPlate" Count="5" />
+                <Component Subtype="KombositePlate" Count="1" />
+                <Component Subtype="EliteMetalGrid" Count="1" />
+                <Component Subtype="KombositePlate" Count="1" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="1" />
             <Variants>
                 <Variant Color="Red" Suffix="_red" />
                 <Variant Color="Yellow" Suffix="_yellow" />
@@ -4338,14 +4330,14 @@
                 <Variant Color="Black" Suffix="_black" />
                 <Variant Color="White" Suffix="_white" />
             </Variants>
-            <BlockPairName>HeavyArmorSlopeTransitionTip</BlockPairName>
+            <BlockPairName>EliteHeavyArmorSlopeTransitionTip</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
-            <BuildTimeSeconds>5</BuildTimeSeconds>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
             <DisassembleRatio>2.5</DisassembleRatio>
             <NavigationDefinition>Default</NavigationDefinition>
             <PCU>1</PCU>
-            <MirroringBlock>LargeBlockHeavyArmorSlopeTransitionTipMirrored</MirroringBlock>
+            <MirroringBlock>EliteSmallBlockHeavyArmorSlopeTransitionTipMirrored</MirroringBlock>
             <MirroringX>Y</MirroringX>
             <MirroringY>X</MirroringY>
             <PCUConsole>2</PCUConsole>
@@ -4355,12 +4347,12 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorSlopeTransitionTipMirrored</SubtypeId>
+                <SubtypeId>EliteSmallBlockHeavyArmorSlopeTransitionTipMirrored</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorSlopeTransitionTipMirrored</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransitionTipMirrored.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransitionTipMirrored8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
-            <CubeSize>Large</CubeSize>
+            <CubeSize>Small</CubeSize>
             <BlockTopology>Cube</BlockTopology>
             <DeformationRatio>0.16</DeformationRatio>
             <Size x="1" y="1" z="1" />
@@ -4369,12 +4361,12 @@
                 <CubeTopology>SlopeTransitionTipMirrored</CubeTopology>
                 <ShowEdges>true</ShowEdges>
                 <Sides>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerTriangleLeftPlateCorner2TipFront.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyCornerTriangleRightPlateCorner2TipRight.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyArmorSlopeTransitionTipMirroredTriangleFront.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyArmorSlopeTransitionTipMirroredTriangleTop.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2BaseRight.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerTriangleLeftPlateCorner2TipFront.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyCornerTriangleRightPlateCorner2TipRight.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyArmorSlopeTransitionTipMirroredTriangleFront.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyArmorSlopeTransitionTipMirroredTriangleTop.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2BaseRight.mwm" PatternWidth ="4" PatternHeight="2"/>
                 </Sides>
             </CubeDefinition>
             <Skeleton>
@@ -4428,9 +4420,9 @@
                 </BoneInfo>
             </Skeleton>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionTipMirroredConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionTipMirroredConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionTipMirroredConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\LightArmorSlopeTransitionTipMirroredConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\LightArmorSlopeTransitionTipMirroredConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\LightArmorSlopeTransitionTipMirroredConstruction_3.mwm" />
             </BuildProgressModels>
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="0.5" EndY="0.5" />
@@ -4440,13 +4432,13 @@
                 <MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="0.2" EndY="0.1" />
                 <MountPoint Side="Left" StartX="0.2" StartY="0.0" EndX="0.8" EndY="0.4" />
                 <MountPoint Side="Left" StartX="0.8" StartY="0.0" EndX="1.0" EndY="0.5" />
-            </MountPoints>    
+            </MountPoints>   
             <Components>
-                <Component Subtype="KoboldPlate" Count="25" />
-                <Component Subtype="MetalGrid" Count="9" />
-                <Component Subtype="KoboldPlate" Count="5" />
+                <Component Subtype="KombositePlate" Count="1" />
+                <Component Subtype="EliteMetalGrid" Count="1" />
+                <Component Subtype="KombositePlate" Count="1" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="1" />
             <Variants>
                 <Variant Color="Red" Suffix="_red" />
                 <Variant Color="Yellow" Suffix="_yellow" />
@@ -4455,14 +4447,14 @@
                 <Variant Color="Black" Suffix="_black" />
                 <Variant Color="White" Suffix="_white" />
             </Variants>
-            <BlockPairName>HeavyArmorSlopeTransitionTipMirrored</BlockPairName>
+            <BlockPairName>EliteHeavyArmorSlopeTransitionTipMirrored</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
-            <BuildTimeSeconds>5</BuildTimeSeconds>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
             <DisassembleRatio>2.5</DisassembleRatio>
             <NavigationDefinition>Default</NavigationDefinition>
             <PCU>1</PCU>
-            <MirroringBlock>LargeBlockHeavyArmorSlopeTransitionTip</MirroringBlock>
+            <MirroringBlock>EliteSmallBlockHeavyArmorSlopeTransitionTip</MirroringBlock>
             <MirroringX>Y</MirroringX>
             <MirroringY>X</MirroringY>
             <PCUConsole>2</PCUConsole>
@@ -4472,12 +4464,12 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorSquareSlopedCornerBase</SubtypeId>
+                <SubtypeId>EliteSmallBlockHeavyArmorSquareSlopedCornerBase</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorSquareSlopedCornerBase</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavySquareSlopedCornerBase.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavySquareSlopedCornerBase8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
-            <CubeSize>Large</CubeSize>
+            <CubeSize>Small</CubeSize>
             <BlockTopology>Cube</BlockTopology>
             <DeformationRatio>0.32</DeformationRatio>
             <Size x="1" y="1" z="1" />
@@ -4486,13 +4478,13 @@
                 <CubeTopology>SquareSlopedCornerBase</CubeTopology>
                 <ShowEdges>true</ShowEdges>
                 <Sides>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyArmorSquareSlopedCornerBaseTop.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyArmorSquareSlopedCornerBaseTopRight.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2BaseLeft.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2BaseRight.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyArmorSquareSlopedCornerBaseTop.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyArmorSquareSlopedCornerBaseTopRight.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2BaseLeft.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2BaseRight.mwm" PatternWidth ="4" PatternHeight="2"/>
                 </Sides>
             </CubeDefinition>
             <Skeleton>
@@ -4578,9 +4570,9 @@
                 </BoneInfo>
             </Skeleton>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\LightArmorSquareSlopedCornerBaseConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\LightArmorSquareSlopedCornerBaseConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\LightArmorSquareSlopedCornerBaseConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\LightArmorSquareSlopedCornerBaseConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\LightArmorSquareSlopedCornerBaseConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\LightArmorSquareSlopedCornerBaseConstruction_3.mwm" />
             </BuildProgressModels>
             <MountPoints>
                 <MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.5" />
@@ -4594,11 +4586,11 @@
                 <MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.5" />
             </MountPoints>
             <Components>
-                <Component Subtype="KoboldPlate" Count="85" />
-                <Component Subtype="MetalGrid" Count="35" />
-                <Component Subtype="KoboldPlate" Count="20" />
+                <Component Subtype="KombositePlate" Count="3" />
+                <Component Subtype="EliteMetalGrid" Count="2" />
+                <Component Subtype="KombositePlate" Count="1" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="1" />
             <Variants>
                 <Variant Color="Red" Suffix="_red" />
                 <Variant Color="Yellow" Suffix="_yellow" />
@@ -4607,10 +4599,10 @@
                 <Variant Color="Black" Suffix="_black" />
                 <Variant Color="White" Suffix="_white" />
             </Variants>
-            <BlockPairName>HeavyArmorSquareSlopedCornerBase</BlockPairName>
+            <BlockPairName>EliteHeavyArmorSquareSlopedCornerBase</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
-            <BuildTimeSeconds>15</BuildTimeSeconds>
+            <BuildTimeSeconds>5</BuildTimeSeconds>
             <DisassembleRatio>2.5</DisassembleRatio>
             <NavigationDefinition>Default</NavigationDefinition>
             <PCU>1</PCU>
@@ -4623,12 +4615,12 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorSquareSlopedCornerTip</SubtypeId>
+                <SubtypeId>EliteSmallBlockHeavyArmorSquareSlopedCornerTip</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorSquareSlopedCornerTip</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavySquareSlopedCornerTip.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavySquareSlopedCornerTip8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
-            <CubeSize>Large</CubeSize>
+            <CubeSize>Small</CubeSize>
             <BlockTopology>Cube</BlockTopology>
             <DeformationRatio>0.16</DeformationRatio>
             <Size x="1" y="1" z="1" />
@@ -4637,11 +4629,11 @@
                 <CubeTopology>SquareSlopedCornerTip</CubeTopology>
                 <ShowEdges>true</ShowEdges>
                 <Sides>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyArmorSquareSlopedCornerTipTop.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyArmorSquareSlopedCornerTipTopRight.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySlopedCornerTipLeft.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySlopedCornerTipRight.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyArmorSquareSlopedCornerTipTop.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyArmorSquareSlopedCornerTipTopRight.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySlopedCornerTipLeft.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySlopedCornerTipRight.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/>
                 </Sides>
             </CubeDefinition>
             <Skeleton>
@@ -4699,9 +4691,9 @@
                 </BoneInfo>
             </Skeleton>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\LightArmorSquareSlopedCornerTipConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\LightArmorSquareSlopedCornerTipConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\LightArmorSquareSlopedCornerTipConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\LightArmorSquareSlopedCornerTipConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\LightArmorSquareSlopedCornerTipConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\LightArmorSquareSlopedCornerTipConstruction_3.mwm" />
             </BuildProgressModels>
             <MountPoints>
                 <MountPoint EndX="0.0" EndY="0.0" Side="Bottom" StartX="1.0" StartY="1.0"/>
@@ -4713,11 +4705,11 @@
                 <MountPoint EndX="1.0" EndY="0.5" Side="Front" StartX="0.8" StartY="0.0"/>
             </MountPoints>    
             <Components>
-                <Component Subtype="KoboldPlate" Count="25" />
-                <Component Subtype="MetalGrid" Count="9" />
-                <Component Subtype="KoboldPlate" Count="5" />
+                <Component Subtype="KombositePlate" Count="1" />
+                <Component Subtype="EliteMetalGrid" Count="1" />
+                <Component Subtype="KombositePlate" Count="1" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="1" />
             <Variants>
                 <Variant Color="Red" Suffix="_red" />
                 <Variant Color="Yellow" Suffix="_yellow" />
@@ -4726,10 +4718,10 @@
                 <Variant Color="Black" Suffix="_black" />
                 <Variant Color="White" Suffix="_white" />
             </Variants>
-            <BlockPairName>HeavyArmorSquareSlopedCornerTip</BlockPairName>
+            <BlockPairName>EliteHeavyArmorSquareSlopedCornerTip</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
-            <BuildTimeSeconds>5</BuildTimeSeconds>
+            <BuildTimeSeconds>2</BuildTimeSeconds>
             <DisassembleRatio>2.5</DisassembleRatio>
             <NavigationDefinition>Default</NavigationDefinition>
             <PCU>1</PCU>
@@ -4742,12 +4734,12 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorSquareSlopedCornerTipInv</SubtypeId>
+                <SubtypeId>EliteSmallBlockHeavyArmorSquareSlopedCornerTipInv</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorSquareSlopedCornerTipInv</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavySquareSlopedCornerTipInv.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavySquareSlopedCornerTipInv8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
-            <CubeSize>Large</CubeSize>
+            <CubeSize>Small</CubeSize>
             <BlockTopology>Cube</BlockTopology>
             <DeformationRatio>0.16</DeformationRatio>
             <Size x="1" y="1" z="1" />
@@ -4756,13 +4748,13 @@
                 <CubeTopology>SquareSlopedCornerTipInv</CubeTopology>
                 <ShowEdges>true</ShowEdges>
                 <Sides>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyArmorSquareSlopedCornerTipInvTop.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavyArmorSquareSlopedCornerTipInvTopRight.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySlopedCornerTipLeft.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySlopedCornerTipRight.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/>
-                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyArmorSquareSlopedCornerTipInvTop.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavyArmorSquareSlopedCornerTipInvTopRight.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySlopedCornerTipLeft.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySlopedCornerTipRight.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/>
+                    <Side Model="Models\Cubes\Small\Armor\HeavySquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/>
                 </Sides>
             </CubeDefinition>
             <Skeleton>
@@ -4836,9 +4828,9 @@
                 </BoneInfo>
             </Skeleton>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\LightArmorSquareSlopedCornerTipInvConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\LightArmorSquareSlopedCornerTipInvConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\LightArmorSquareSlopedCornerTipInvConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\LightArmorSquareSlopedCornerTipInvConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\LightArmorSquareSlopedCornerTipInvConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\LightArmorSquareSlopedCornerTipInvConstruction_3.mwm" />
             </BuildProgressModels>
             <MountPoints>
                 <MountPoint EndX="0.0" EndY="0.0" Side="Bottom" StartX="1.0" StartY="1.0"/>
@@ -4852,11 +4844,11 @@
                 <MountPoint EndX="1.0" EndY="0.5" Side="Left" StartX="0.0" StartY="0.0"/>
             </MountPoints>
             <Components>
-                <Component Subtype="KoboldPlate" Count="45" />
-                <Component Subtype="MetalGrid" Count="18" />
-                <Component Subtype="KoboldPlate" Count="10" />
+                <Component Subtype="KombositePlate" Count="2" />
+                <Component Subtype="EliteMetalGrid" Count="1" />
+                <Component Subtype="KombositePlate" Count="1" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="1" />
             <Variants>
                 <Variant Color="Red" Suffix="_red" />
                 <Variant Color="Yellow" Suffix="_yellow" />
@@ -4865,10 +4857,10 @@
                 <Variant Color="Black" Suffix="_black" />
                 <Variant Color="White" Suffix="_white" />
             </Variants>
-            <BlockPairName>HeavyArmorSquareSlopedCornerTipInv</BlockPairName>
+            <BlockPairName>EliteHeavyArmorSquareSlopedCornerTipInv</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
-            <BuildTimeSeconds>8</BuildTimeSeconds>
+            <BuildTimeSeconds>4</BuildTimeSeconds>
             <DisassembleRatio>2.5</DisassembleRatio>
             <NavigationDefinition>Default</NavigationDefinition>
             <PCU>1</PCU>

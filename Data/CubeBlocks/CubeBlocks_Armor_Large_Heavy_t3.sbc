@@ -4,10 +4,10 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeHeavyBlockArmorBlock</SubtypeId>
+                <SubtypeId>EliteLargeHeavyBlockArmorBlock</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorBlock</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\heavy_armor_cube.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\heavy_armor_cube8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>Cube</BlockTopology>
@@ -26,11 +26,11 @@
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="KoboldPlate" Count="135" />
-                <Component Subtype="MetalGrid" Count="50" />
-                <Component Subtype="KoboldPlate" Count="15" />
+                <Component Subtype="KombositePlate" Count="135" />
+                <Component Subtype="EliteMetalGrid" Count="50" />
+                <Component Subtype="KombositePlate" Count="15" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -154,7 +154,7 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>HeavyArmorBlock</BlockPairName>
+            <BlockPairName>EliteHeavyArmorBlock</BlockPairName>
             <DeformationRatio>0.4</DeformationRatio>
             <EdgeType>Heavy</EdgeType>
             <BuildTimeSeconds>20</BuildTimeSeconds>
@@ -168,10 +168,10 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeHeavyHalfArmorBlock</SubtypeId>
+                <SubtypeId>EliteLargeHeavyHalfArmorBlock</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HalfHeavyArmorBlock</DisplayName>
-            <Icon>Textures/GUI/Icons/Cubes/HeavyArmorSquareSlab.dds</Icon>
+            <Icon>Textures/GUI/Icons/Cubes/HeavyArmorSquareSlab8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>Cube</BlockTopology>
@@ -192,11 +192,11 @@
             <GuiVisible>false</GuiVisible>
             <PhysicsOption>Convex</PhysicsOption>
             <Components>
-                <Component Subtype="KoboldPlate" Count="65" />
-                <Component Subtype="MetalGrid" Count="25" />
-                <Component Subtype="KoboldPlate" Count="10" />
+                <Component Subtype="KombositePlate" Count="65" />
+                <Component Subtype="EliteMetalGrid" Count="25" />
+                <Component Subtype="KombositePlate" Count="10" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="0" />
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HeavySquarePlateSlabConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HeavySquarePlateSlabConstruction_2.mwm" />
@@ -323,7 +323,7 @@
             <BuildTimeSeconds>10</BuildTimeSeconds>
             <DisassembleRatio>2.5</DisassembleRatio>
             <NavigationDefinition>Default</NavigationDefinition>
-            <BlockPairName>HalfHeavyArmorBlock</BlockPairName>
+            <BlockPairName>EliteHalfHeavyArmorBlock</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <PCU>1</PCU>
@@ -333,10 +333,10 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeHeavyBlockArmorSlope</SubtypeId>
+                <SubtypeId>EliteLargeHeavyBlockArmorSlope</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorSlope</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\heavy_armor_slope.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\heavy_armor_slope8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -355,11 +355,11 @@
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="KoboldPlate" Count="65" />
-                <Component Subtype="MetalGrid" Count="25" />
-                <Component Subtype="KoboldPlate" Count="10" />
+                <Component Subtype="KombositePlate" Count="65" />
+                <Component Subtype="EliteMetalGrid" Count="25" />
+                <Component Subtype="KombositePlate" Count="10" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -448,7 +448,7 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>HeavyArmorSlope</BlockPairName>
+            <BlockPairName>EliteHeavyArmorSlope</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <DeformationRatio>0.4</DeformationRatio>
@@ -462,10 +462,10 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeHeavyHalfSlopeArmorBlock</SubtypeId>
+                <SubtypeId>EliteLargeHeavyHalfSlopeArmorBlock</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HalfSlopeHeavyArmorBlock</DisplayName>
-            <Icon>Textures/GUI/Icons/Cubes/HeavyArmorSlopeSlab.dds</Icon>
+            <Icon>Textures/GUI/Icons/Cubes/HeavyArmorSlopeSlab8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>Cube</BlockTopology>
@@ -485,11 +485,11 @@
             <GuiVisible>false</GuiVisible>
             <PhysicsOption>Convex</PhysicsOption>
             <Components>
-                <Component Subtype="KoboldPlate" Count="17" />
-                <Component Subtype="MetalGrid" Count="6" />
-                <Component Subtype="KoboldPlate" Count="2" />
+                <Component Subtype="KombositePlate" Count="17" />
+                <Component Subtype="EliteMetalGrid" Count="6" />
+                <Component Subtype="KombositePlate" Count="2" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="0" />
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HeavySquarePlateSlopeConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HeavySquarePlateSlopeConstruction_2.mwm" />
@@ -611,7 +611,7 @@
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.45" EndY="0.45" />
                 <MountPoint Side="Right" StartX="0.55" StartY="0" EndX="1.0" EndY="0.45" />
             </MountPoints>
-            <BlockPairName>HalfSlopeHeavyArmorBlock</BlockPairName>
+            <BlockPairName>EliteHalfSlopeHeavyArmorBlock</BlockPairName>
             <EdgeType>Heavy</EdgeType>
             <BuildTimeSeconds>5</BuildTimeSeconds>
             <DisassembleRatio>2.5</DisassembleRatio>
@@ -626,10 +626,10 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeHeavyBlockArmorRoundSlope</SubtypeId>
+                <SubtypeId>EliteLargeHeavyBlockArmorRoundSlope</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyRoundArmorSlope</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavyRoundArmorSlope.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyRoundArmorSlope8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>Cube</BlockTopology>
@@ -647,11 +647,11 @@
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="KoboldPlate" Count="115" />
-                <Component Subtype="MetalGrid" Count="50" />
-                <Component Subtype="KoboldPlate" Count="15" />
+                <Component Subtype="KombositePlate" Count="115" />
+                <Component Subtype="EliteMetalGrid" Count="50" />
+                <Component Subtype="KombositePlate" Count="15" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -740,7 +740,7 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>HeavyArmorRoundSlope</BlockPairName>
+            <BlockPairName>EliteHeavyArmorRoundSlope</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <DeformationRatio>0.4</DeformationRatio>
@@ -754,10 +754,10 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeHeavyBlockArmorCornerInv</SubtypeId>
+                <SubtypeId>EliteLargeHeavyBlockArmorCornerInv</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorInvCorner</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\heavy_armor_inv_corner.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\heavy_armor_inv_corner8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -778,11 +778,11 @@
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="KoboldPlate" Count="110" />
-                <Component Subtype="MetalGrid" Count="50" />
-                <Component Subtype="KoboldPlate" Count="15" />
+                <Component Subtype="KombositePlate" Count="110" />
+                <Component Subtype="EliteMetalGrid" Count="50" />
+                <Component Subtype="KombositePlate" Count="15" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -894,7 +894,7 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>HeavyArmorInvCorner</BlockPairName>
+            <BlockPairName>EliteHeavyArmorInvCorner</BlockPairName>
             <MirroringX>YHalfX</MirroringX>
             <MirroringY>ZHalfY</MirroringY>
             <MirroringZ>YHalfZ</MirroringZ>
@@ -909,10 +909,10 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeHeavyBlockArmorRoundCornerInv</SubtypeId>
+                <SubtypeId>EliteLargeHeavyBlockArmorRoundCornerInv</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyRoundArmorInvCorner</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavyRoundArmorInvCorner.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyRoundArmorInvCorner8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -933,11 +933,11 @@
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="KoboldPlate" Count="125" />
-                <Component Subtype="MetalGrid" Count="50" />
-                <Component Subtype="KoboldPlate" Count="15" />
+                <Component Subtype="KombositePlate" Count="125" />
+                <Component Subtype="EliteMetalGrid" Count="50" />
+                <Component Subtype="KombositePlate" Count="15" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -1049,7 +1049,7 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>HeavyArmorRoundCornerInv</BlockPairName>
+            <BlockPairName>EliteHeavyArmorRoundCornerInv</BlockPairName>
             <MirroringX>MinusHalfY</MirroringX>
             <MirroringY>ZHalfY</MirroringY>
             <MirroringZ>HalfY</MirroringZ>
@@ -1064,10 +1064,10 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeHeavyBlockArmorCorner</SubtypeId>
+                <SubtypeId>EliteLargeHeavyBlockArmorCorner</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorCorner</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\heavy_armor_corner.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\heavy_armor_corner8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -1085,11 +1085,11 @@
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="KoboldPlate" Count="20" />
-                <Component Subtype="MetalGrid" Count="10" />
-                <Component Subtype="KoboldPlate" Count="5" />
+                <Component Subtype="KombositePlate" Count="20" />
+                <Component Subtype="EliteMetalGrid" Count="10" />
+                <Component Subtype="KombositePlate" Count="5" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="0.5" EndY="1.0" />
                 <MountPoint Side="Front" StartX="0.5" StartY="0.0" EndX="1.0" EndY="0.5" />
@@ -1146,7 +1146,7 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>HeavyArmorCorner</BlockPairName>
+            <BlockPairName>EliteHeavyArmorCorner</BlockPairName>
             <MirroringX>YHalfX</MirroringX>
             <MirroringY>ZHalfY</MirroringY>
             <MirroringZ>YHalfY</MirroringZ>
@@ -1162,10 +1162,10 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeHeavyBlockArmorRoundCorner</SubtypeId>
+                <SubtypeId>EliteLargeHeavyBlockArmorRoundCorner</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyRoundArmorCorner</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavyRoundArmorCorner.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyRoundArmorCorner8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -1183,11 +1183,11 @@
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="KoboldPlate" Count="110" />
-                <Component Subtype="MetalGrid" Count="40" />
-                <Component Subtype="KoboldPlate" Count="15" />
+                <Component Subtype="KombositePlate" Count="110" />
+                <Component Subtype="EliteMetalGrid" Count="40" />
+                <Component Subtype="KombositePlate" Count="15" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="0.5" EndY="0.5" />
                 <MountPoint Side="Right" StartX="0.5" StartY="0.0" EndX="1.0" EndY="1.0" />
@@ -1244,7 +1244,7 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>HeavyArmorRoundCorner</BlockPairName>
+            <BlockPairName>EliteHeavyArmorRoundCorner</BlockPairName>
             <MirroringX>YHalfX</MirroringX>
             <MirroringY>ZHalfY</MirroringY>
             <MirroringZ>YHalfY</MirroringZ>
@@ -1260,10 +1260,10 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorCornerSquare</SubtypeId>
+                <SubtypeId>EliteLargeBlockHeavyArmorCornerSquare</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorCornerSquare</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavyCornerSquare.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyCornerSquare8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>Cube</BlockTopology>
@@ -1288,11 +1288,11 @@
                 <MountPoint EndX="0.0" EndY="0.0" Side="Bottom" StartX="1.0" StartY="1.0"/>
             </MountPoints>
             <Components>
-                <Component Count="25" Subtype="KoboldPlate"/>
-                <Component Count="15" Subtype="MetalGrid"/>
-                <Component Count="15" Subtype="KoboldPlate"/>
+                <Component Count="25" Subtype="KombositePlate"/>
+                <Component Count="15" Subtype="EliteMetalGrid"/>
+                <Component Count="15" Subtype="KombositePlate"/>
             </Components>
-            <CriticalComponent Index="0" Subtype="MetalGrid"/>
+            <CriticalComponent Index="0" Subtype="EliteMetalGrid"/>
             <Skeleton>
                 <BoneInfo>
                     <BonePosition x="0" y="1" z="0" />
@@ -1351,7 +1351,7 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>HeavyArmorCornerSquare</BlockPairName>
+            <BlockPairName>EliteHeavyArmorCornerSquare</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
             <BuildTimeSeconds>8.0</BuildTimeSeconds>
@@ -1379,10 +1379,10 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorCornerSquareInverted</SubtypeId>
+                <SubtypeId>EliteLargeBlockHeavyArmorCornerSquareInverted</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorCornerSquareInverted</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavyCornerSquareInverted.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyCornerSquareInverted8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>Cube</BlockTopology>
@@ -1411,11 +1411,11 @@
                 <MountPoint EndX="0.0" EndY="0.0" Side="Bottom" StartX="1.0" StartY="1.0"/>
             </MountPoints>
             <Components>
-                <Component Count="100" Subtype="KoboldPlate"/>
-                <Component Count="40" Subtype="MetalGrid"/>
-                <Component Count="12" Subtype="KoboldPlate"/>
+                <Component Count="100" Subtype="KombositePlate"/>
+                <Component Count="40" Subtype="EliteMetalGrid"/>
+                <Component Count="12" Subtype="KombositePlate"/>
             </Components>
-            <CriticalComponent Index="0" Subtype="MetalGrid"/>
+            <CriticalComponent Index="0" Subtype="EliteMetalGrid"/>
             <Skeleton>
                 <BoneInfo>
                     <BonePosition x="0" y="1" z="0" />
@@ -1474,7 +1474,7 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>HeavyArmorCornerSquareInverted</BlockPairName>
+            <BlockPairName>EliteHeavyArmorCornerSquareInverted</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
             <BuildTimeSeconds>16.0</BuildTimeSeconds>
@@ -1502,10 +1502,10 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorHalfCorner</SubtypeId>
+                <SubtypeId>EliteLargeBlockHeavyArmorHalfCorner</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorHalfCorner</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavyHalfCorner.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyHalfCorner8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>Cube</BlockTopology>
@@ -1529,11 +1529,11 @@
                 <MountPoint EndX="1.0" EndY="0.5" Side="Front" StartX="0.0" StartY="0.0"/>
             </MountPoints>
             <Components>
-                <Component Count="35" Subtype="KoboldPlate"/>
-                <Component Count="12" Subtype="MetalGrid"/>
-                <Component Count="5" Subtype="KoboldPlate"/>
+                <Component Count="35" Subtype="KombositePlate"/>
+                <Component Count="12" Subtype="EliteMetalGrid"/>
+                <Component Count="5" Subtype="KombositePlate"/>
             </Components>
-            <CriticalComponent Index="0" Subtype="MetalGrid"/>
+            <CriticalComponent Index="0" Subtype="EliteMetalGrid"/>
             <Skeleton>
                 <BoneInfo>
                     <BonePosition x="0" y="1" z="2" />
@@ -1584,7 +1584,7 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>HeavyArmorHalfCorner</BlockPairName>
+            <BlockPairName>EliteHeavyArmorHalfCorner</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
             <BuildTimeSeconds>5.0</BuildTimeSeconds>
@@ -1613,10 +1613,10 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorHalfSlopeCorner</SubtypeId>
+                <SubtypeId>EliteLargeBlockHeavyArmorHalfSlopeCorner</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorHalfSlopeCorner</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavyHalfSlopeCorner.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyHalfSlopeCorner8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>Cube</BlockTopology>
@@ -1638,11 +1638,11 @@
                 <MountPoint EndX="0.55" EndY="0.55" Side="Bottom" StartX="1.0" StartY="1.0"/>
             </MountPoints>
             <Components>
-                <Component Count="10" Subtype="KoboldPlate"/>
-                <Component Count="4" Subtype="MetalGrid"/>
-                <Component Count="2" Subtype="KoboldPlate"/>
+                <Component Count="10" Subtype="KombositePlate"/>
+                <Component Count="4" Subtype="EliteMetalGrid"/>
+                <Component Count="2" Subtype="KombositePlate"/>
             </Components>
-            <CriticalComponent Index="0" Subtype="MetalGrid"/>
+            <CriticalComponent Index="0" Subtype="EliteMetalGrid"/>
             <Skeleton>
                 <BoneInfo>
                     <BonePosition x="2" y="0" z="2" />
@@ -1673,7 +1673,7 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>HeavyArmorHalfSlopeCorner</BlockPairName>
+            <BlockPairName>EliteHeavyArmorHalfSlopeCorner</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
             <BuildTimeSeconds>5.0</BuildTimeSeconds>
@@ -1701,10 +1701,10 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorHalfSlopeCornerInverted</SubtypeId>
+                <SubtypeId>EliteLargeBlockHeavyArmorHalfSlopeCornerInverted</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorHalfSlopeCornerInverted</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavyHalfSlopeCornerInverted.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyHalfSlopeCornerInverted8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>Cube</BlockTopology>
@@ -1738,11 +1738,11 @@
                 <MountPoint EndX="0.5" EndY="0.6" Side="Left" StartX="0.4" StartY="0.5"/>
             </MountPoints>
             <Components>
-                <Component Count="125" Subtype="KoboldPlate"/>
-                <Component Count="45" Subtype="MetalGrid"/>
-                <Component Count="14" Subtype="KoboldPlate"/>
+                <Component Count="125" Subtype="KombositePlate"/>
+                <Component Count="45" Subtype="EliteMetalGrid"/>
+                <Component Count="14" Subtype="KombositePlate"/>
             </Components>
-            <CriticalComponent Index="0" Subtype="MetalGrid"/>
+            <CriticalComponent Index="0" Subtype="EliteMetalGrid"/>
             <Skeleton>
                 <BoneInfo>
                     <BonePosition x="0" y="2" z="1" />
@@ -1849,7 +1849,7 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>HeavyArmorHalfSlopeCornerInverted</BlockPairName>
+            <BlockPairName>EliteHeavyArmorHalfSlopeCornerInverted</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
             <BuildTimeSeconds>20.0</BuildTimeSeconds>
@@ -1877,10 +1877,10 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorHalfSlopedCorner</SubtypeId>
+                <SubtypeId>EliteLargeBlockHeavyArmorHalfSlopedCorner</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorHalfSlopedCorner</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavyHalfSlopedCorner.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyHalfSlopedCorner8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>Cube</BlockTopology>
@@ -1906,11 +1906,11 @@
                 <MountPoint EndX="1.0" EndY="0.5" Side="Bottom" StartX="0.5" StartY="0.0"/>
             </MountPoints>
             <Components>
-                <Component Count="40" Subtype="KoboldPlate"/>
-                <Component Count="5" Subtype="MetalGrid"/>
-                <Component Count="5" Subtype="KoboldPlate"/>
+                <Component Count="40" Subtype="KombositePlate"/>
+                <Component Count="5" Subtype="EliteMetalGrid"/>
+                <Component Count="5" Subtype="KombositePlate"/>
             </Components>
-            <CriticalComponent Index="0" Subtype="MetalGrid"/>
+            <CriticalComponent Index="0" Subtype="EliteMetalGrid"/>
             <Skeleton>
                 <BoneInfo>
                     <BonePosition x="0" y="0" z="1" />
@@ -1965,7 +1965,7 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>HeavyArmorHalfSlopedCorner</BlockPairName>
+            <BlockPairName>EliteHeavyArmorHalfSlopedCorner</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
             <BuildTimeSeconds>8.0</BuildTimeSeconds>
@@ -1993,10 +1993,10 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorHalfSlopedCornerBase</SubtypeId>
+                <SubtypeId>EliteLargeBlockHeavyArmorHalfSlopedCornerBase</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorHalfSlopedCornerBase</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavyHalfSlopedCornerBase.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyHalfSlopedCornerBase8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>Cube</BlockTopology>
@@ -2027,11 +2027,11 @@
                 <MountPoint EndX="1.0" EndY="0.5" Side="Left" StartX="0.0" StartY="0.0"/>
             </MountPoints>
             <Components>
-                <Component Count="40" Subtype="KoboldPlate"/>
-                <Component Count="15" Subtype="MetalGrid"/>
-                <Component Count="5" Subtype="KoboldPlate"/>
+                <Component Count="40" Subtype="KombositePlate"/>
+                <Component Count="15" Subtype="EliteMetalGrid"/>
+                <Component Count="5" Subtype="KombositePlate"/>
             </Components>
-            <CriticalComponent Index="0" Subtype="MetalGrid"/>
+            <CriticalComponent Index="0" Subtype="EliteMetalGrid"/>
             <Skeleton>
                 <BoneInfo>
                     <BonePosition x="0" y="1" z="0" />
@@ -2102,7 +2102,7 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>HeavyArmorHalfSlopedCornerBase</BlockPairName>
+            <BlockPairName>EliteHeavyArmorHalfSlopedCornerBase</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
             <BuildTimeSeconds>10.0</BuildTimeSeconds>
@@ -2130,10 +2130,10 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorHalfSlopeInverted</SubtypeId>
+                <SubtypeId>EliteLargeBlockHeavyArmorHalfSlopeInverted</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorHalfSlopeInverted</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavyHalfSlopeInverted.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyHalfSlopeInverted8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>Cube</BlockTopology>
@@ -2165,11 +2165,11 @@
                 <MountPoint EndX="0.0" EndY="0.0" Side="Bottom" StartX="1.0" StartY="1.0"/>
             </MountPoints>
             <Components>
-                <Component Count="120" Subtype="KoboldPlate"/>
-                <Component Count="45" Subtype="MetalGrid"/>
-                <Component Count="13" Subtype="KoboldPlate"/>
+                <Component Count="120" Subtype="KombositePlate"/>
+                <Component Count="45" Subtype="EliteMetalGrid"/>
+                <Component Count="13" Subtype="KombositePlate"/>
             </Components>
-            <CriticalComponent Index="0" Subtype="MetalGrid"/>
+            <CriticalComponent Index="0" Subtype="EliteMetalGrid"/>
             <Skeleton>
                 <BoneInfo>
                     <BonePosition x="2" y="1" z="1" />
@@ -2264,7 +2264,7 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>HeavyArmorHalfSlopeInverted</BlockPairName>
+            <BlockPairName>EliteHeavyArmorHalfSlopeInverted</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
             <BuildTimeSeconds>20.0</BuildTimeSeconds>
@@ -2292,10 +2292,10 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorSlopedCorner</SubtypeId>
+                <SubtypeId>EliteLargeBlockHeavyArmorSlopedCorner</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorSlopedCorner</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavySlopedCorner.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavySlopedCorner8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>Cube</BlockTopology>
@@ -2327,11 +2327,11 @@
                 <MountPoint EndX="1.0" EndY="0.5" Side="Left" StartX="0.5" StartY="0.0"/>
             </MountPoints>
             <Components>
-                <Component Count="65" Subtype="KoboldPlate"/>
-                <Component Count="25" Subtype="MetalGrid"/>
-                <Component Count="10" Subtype="KoboldPlate"/>
+                <Component Count="65" Subtype="KombositePlate"/>
+                <Component Count="25" Subtype="EliteMetalGrid"/>
+                <Component Count="10" Subtype="KombositePlate"/>
             </Components>
-            <CriticalComponent Index="0" Subtype="MetalGrid"/>
+            <CriticalComponent Index="0" Subtype="EliteMetalGrid"/>
             <Skeleton>
                 <BoneInfo>
                     <BonePosition x="0" y="1" z="2" />
@@ -2398,7 +2398,7 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>HeavyArmorSlopedCorner</BlockPairName>
+            <BlockPairName>EliteHeavyArmorSlopedCorner</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
             <BuildTimeSeconds>10.0</BuildTimeSeconds>
@@ -2426,10 +2426,10 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorSlopedCornerBase</SubtypeId>
+                <SubtypeId>EliteLargeBlockHeavyArmorSlopedCornerBase</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorSlopedCornerBase</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavySlopedCornerBase.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavySlopedCornerBase8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>Cube</BlockTopology>
@@ -2460,11 +2460,11 @@
                 <MountPoint EndX="1.0" EndY="1.0" Side="Top" StartX="0.5" StartY="0.0"/>
             </MountPoints>
             <Components>
-                <Component Count="115" Subtype="KoboldPlate"/>
-                <Component Count="40" Subtype="MetalGrid"/>
-                <Component Count="12" Subtype="KoboldPlate"/>
+                <Component Count="115" Subtype="KombositePlate"/>
+                <Component Count="40" Subtype="EliteMetalGrid"/>
+                <Component Count="12" Subtype="KombositePlate"/>
             </Components>
-            <CriticalComponent Index="0" Subtype="MetalGrid"/>
+            <CriticalComponent Index="0" Subtype="EliteMetalGrid"/>
             <Skeleton>
                 <BoneInfo>
                     <BonePosition x="2" y="2" z="1" />
@@ -2559,7 +2559,7 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>HeavyArmorSlopedCornerBase</BlockPairName>
+            <BlockPairName>EliteHeavyArmorSlopedCornerBase</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
             <BuildTimeSeconds>16.0</BuildTimeSeconds>
@@ -2587,10 +2587,10 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorSlopedCornerTip</SubtypeId>
+                <SubtypeId>EliteLargeBlockHeavyArmorSlopedCornerTip</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorSlopedCornerTip</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavySlopedCornerTip.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavySlopedCornerTip8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>Cube</BlockTopology>
@@ -2617,11 +2617,11 @@
                 <MountPoint EndX="1.0" EndY="0.5" Side="Left" StartX="0.8" StartY="0.0"/>
             </MountPoints>
             <Components>
-                <Component Count="20" Subtype="KoboldPlate"/>
-                <Component Count="6" Subtype="MetalGrid"/>
-                <Component Count="3" Subtype="KoboldPlate"/>
+                <Component Count="20" Subtype="KombositePlate"/>
+                <Component Count="6" Subtype="EliteMetalGrid"/>
+                <Component Count="3" Subtype="KombositePlate"/>
             </Components>
-            <CriticalComponent Index="0" Subtype="MetalGrid"/>
+            <CriticalComponent Index="0" Subtype="EliteMetalGrid"/>
             <Skeleton>
                 <BoneInfo>
                     <BonePosition x="1" y="0" z="2" />
@@ -2660,7 +2660,7 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>HeavyArmorSlopedCornerTip</BlockPairName>
+            <BlockPairName>EliteHeavyArmorSlopedCornerTip</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
             <BuildTimeSeconds>5.0</BuildTimeSeconds>
@@ -2688,10 +2688,10 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeHeavyBlockArmorSlope2Base</SubtypeId>
+                <SubtypeId>EliteLargeHeavyBlockArmorSlope2Base</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorSlope2Base</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavySlope2x1x1Base.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavySlope2x1x1Base8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>Cube</BlockTopology>
@@ -2710,11 +2710,11 @@
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="KoboldPlate" Count="100" />
-                <Component Subtype="MetalGrid" Count="40" />
-                <Component Subtype="KoboldPlate" Count="12" />
+                <Component Subtype="KombositePlate" Count="100" />
+                <Component Subtype="EliteMetalGrid" Count="40" />
+                <Component Subtype="KombositePlate" Count="12" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="0" />
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HeavySlope2BaseConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HeavySlope2BaseConstruction_2.mwm" />
@@ -2840,7 +2840,7 @@
                 <MountPoint Side="Right" StartX="0.5" StartY="0" EndX="1" EndY="1" />
             </MountPoints>
             <PhysicsOption>Convex</PhysicsOption>
-            <BlockPairName>LargeHeavyBlockArmorSlope2Base</BlockPairName>
+            <BlockPairName>EliteLargeHeavyBlockArmorSlope2Base</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Heavy</EdgeType>
@@ -2853,10 +2853,10 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeHeavyBlockArmorSlope2Tip</SubtypeId>
+                <SubtypeId>EliteLargeHeavyBlockArmorSlope2Tip</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorSlope2Tip</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavySlope2x1x1Tip.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavySlope2x1x1Tip8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -2875,11 +2875,11 @@
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="KoboldPlate" Count="35" />
-                <Component Subtype="MetalGrid" Count="12" />
-                <Component Subtype="KoboldPlate" Count="5" />
+                <Component Subtype="KombositePlate" Count="35" />
+                <Component Subtype="EliteMetalGrid" Count="12" />
+                <Component Subtype="KombositePlate" Count="5" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.5" />
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -2970,7 +2970,7 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>LargeHeavyBlockArmorSlope2Tip</BlockPairName>
+            <BlockPairName>EliteLargeHeavyBlockArmorSlope2Tip</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Heavy</EdgeType>
@@ -2983,10 +2983,10 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeHeavyBlockArmorCorner2Base</SubtypeId>
+                <SubtypeId>EliteLargeHeavyBlockArmorCorner2Base</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorCorner2Base</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavyCorner2x1x1Base.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyCorner2x1x1Base8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>Cube</BlockTopology>
@@ -3004,11 +3004,11 @@
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="KoboldPlate" Count="50" />
-                <Component Subtype="MetalGrid" Count="15" />
-                <Component Subtype="KoboldPlate" Count="5" />
+                <Component Subtype="KombositePlate" Count="50" />
+                <Component Subtype="EliteMetalGrid" Count="15" />
+                <Component Subtype="KombositePlate" Count="5" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Right" StartX="0.5" StartY="0" EndX="1" EndY="0.5" />
                 <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
@@ -3098,7 +3098,7 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>LargeHeavyBlockArmorCorner2Base</BlockPairName>
+            <BlockPairName>EliteLargeHeavyBlockArmorCorner2Base</BlockPairName>
             <MirroringX>YHalfX</MirroringX>
             <MirroringY>MinusHalfX</MirroringY>
             <MirroringZ>HalfX</MirroringZ>
@@ -3113,10 +3113,10 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeHeavyBlockArmorCorner2Tip</SubtypeId>
+                <SubtypeId>EliteLargeHeavyBlockArmorCorner2Tip</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorCorner2Tip</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavyCorner2x1x1Tip.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyCorner2x1x1Tip8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -3134,11 +3134,11 @@
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="KoboldPlate" Count="17" />
-                <Component Subtype="MetalGrid" Count="6" />
-                <Component Subtype="KoboldPlate" Count="2" />
+                <Component Subtype="KombositePlate" Count="17" />
+                <Component Subtype="EliteMetalGrid" Count="6" />
+                <Component Subtype="KombositePlate" Count="2" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0.9" StartY="0.8" EndX="1" EndY="1" />
                 <MountPoint Side="Bottom" StartX="0.6" StartY="0.2" EndX="1" EndY="0.8" />
@@ -3196,7 +3196,7 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>LargeHeavyBlockArmorCorner2Tip</BlockPairName>
+            <BlockPairName>EliteLargeHeavyBlockArmorCorner2Tip</BlockPairName>
             <MirroringX>HalfZ</MirroringX>
             <MirroringY>MinusHalfZ</MirroringY>
             <MirroringZ>XMinusHalfZ</MirroringZ>
@@ -3211,10 +3211,10 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeHeavyBlockArmorInvCorner2Base</SubtypeId>
+                <SubtypeId>EliteLargeHeavyBlockArmorInvCorner2Base</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorInvCorner2Base</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavyInvCorner2x1x1Base.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyInvCorner2x1x1Base8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>Cube</BlockTopology>
@@ -3234,11 +3234,11 @@
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="KoboldPlate" Count="120" />
-                <Component Subtype="MetalGrid" Count="45" />
-                <Component Subtype="KoboldPlate" Count="13" />
+                <Component Subtype="KombositePlate" Count="120" />
+                <Component Subtype="EliteMetalGrid" Count="45" />
+                <Component Subtype="KombositePlate" Count="13" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -3351,7 +3351,7 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>LargeHeavyBlockArmorInvCorner2Base</BlockPairName>
+            <BlockPairName>EliteLargeHeavyBlockArmorInvCorner2Base</BlockPairName>
             <MirroringX>HalfZ</MirroringX>
             <MirroringY>MinusHalfZ</MirroringY>
             <MirroringZ>XMinusHalfZ</MirroringZ>
@@ -3365,10 +3365,10 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeHeavyBlockArmorInvCorner2Tip</SubtypeId>
+                <SubtypeId>EliteLargeHeavyBlockArmorInvCorner2Tip</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorInvCorner2Tip</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavyInvCorner2x1x1Tip.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyInvCorner2x1x1Tip8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -3389,11 +3389,11 @@
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="KoboldPlate" Count="84" />
-                <Component Subtype="MetalGrid" Count="25" />
-                <Component Subtype="KoboldPlate" Count="10" />
+                <Component Subtype="KombositePlate" Count="84" />
+                <Component Subtype="EliteMetalGrid" Count="25" />
+                <Component Subtype="KombositePlate" Count="10" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.5" EndY="1" />
                 <MountPoint Side="Back" StartX="0.5" StartY="0.5" EndX="1" EndY="1" />
@@ -3509,7 +3509,7 @@
                     <BoneOffset x="127" y="127" z="127" />
                 </BoneInfo>
             </Skeleton>
-            <BlockPairName>LargeHeavyBlockArmorInvCorner2Tip</BlockPairName>
+            <BlockPairName>EliteLargeHeavyBlockArmorInvCorner2Tip</BlockPairName>
             <MirroringX>HalfZ</MirroringX>
             <MirroringY>MinusHalfZ</MirroringY>
             <MirroringZ>XMinusHalfZ</MirroringZ>
@@ -3523,10 +3523,10 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorRaisedSlopedCorner</SubtypeId>
+                <SubtypeId>EliteLargeBlockHeavyArmorRaisedSlopedCorner</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorRaisedSlopedCorner</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavyRaisedSlopedCorner.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavyRaisedSlopedCorner8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>Cube</BlockTopology>
@@ -3641,11 +3641,11 @@
                 <MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.5" />
             </MountPoints>
             <Components>
-                <Component Subtype="KoboldPlate" Count="80" />
-                <Component Subtype="MetalGrid" Count="30" />
-                <Component Subtype="KoboldPlate" Count="20" />
+                <Component Subtype="KombositePlate" Count="80" />
+                <Component Subtype="EliteMetalGrid" Count="30" />
+                <Component Subtype="KombositePlate" Count="20" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="0" />
             <Variants>
                 <Variant Color="Red" Suffix="_red" />
                 <Variant Color="Yellow" Suffix="_yellow" />
@@ -3654,7 +3654,7 @@
                 <Variant Color="Black" Suffix="_black" />
                 <Variant Color="White" Suffix="_white" />
             </Variants>
-            <BlockPairName>HeavyArmorRaisedSlopedCorner</BlockPairName>
+            <BlockPairName>EliteHeavyArmorRaisedSlopedCorner</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
             <BuildTimeSeconds>15</BuildTimeSeconds>
@@ -3670,10 +3670,10 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorSlopeTransition</SubtypeId>
+                <SubtypeId>EliteLargeBlockHeavyArmorSlopeTransition</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorSlopeTransition</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransition.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransition8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>Cube</BlockTopology>
@@ -3770,11 +3770,11 @@
                 <MountPoint Side="Left" StartX="0.5" StartY="0.0" EndX="1.0" EndY="0.5" />
             </MountPoints>  
             <Components>
-                <Component Subtype="KoboldPlate" Count="48" />
-                <Component Subtype="MetalGrid" Count="18" />
-                <Component Subtype="KoboldPlate" Count="12" />
+                <Component Subtype="KombositePlate" Count="48" />
+                <Component Subtype="EliteMetalGrid" Count="18" />
+                <Component Subtype="KombositePlate" Count="12" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="0" />
             <Variants>
                 <Variant Color="Red" Suffix="_red" />
                 <Variant Color="Yellow" Suffix="_yellow" />
@@ -3783,7 +3783,7 @@
                 <Variant Color="Black" Suffix="_black" />
                 <Variant Color="White" Suffix="_white" />
             </Variants>
-            <BlockPairName>HeavyArmorSlopeTransition</BlockPairName>
+            <BlockPairName>EliteHeavyArmorSlopeTransition</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
             <BuildTimeSeconds>10</BuildTimeSeconds>
@@ -3792,17 +3792,17 @@
             <PCU>1</PCU>
             <MirroringX>Y</MirroringX>
             <MirroringY>X</MirroringY>
-            <MirroringBlock>LargeBlockHeavyArmorSlopeTransitionMirrored</MirroringBlock>
+            <MirroringBlock>EliteLargeBlockHeavyArmorSlopeTransitionMirrored</MirroringBlock>
             <PCUConsole>2</PCUConsole>
         </Definition>
 
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorSlopeTransitionBase</SubtypeId>
+                <SubtypeId>EliteLargeBlockHeavyArmorSlopeTransitionBase</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorSlopeTransitionBase</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransitionBase.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransitionBase8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>Cube</BlockTopology>
@@ -3925,11 +3925,11 @@
                 <MountPoint Side="Left" StartX="0.5" StartY="0.0" EndX="1.0" EndY="0.5" />
             </MountPoints> 
             <Components>
-                <Component Subtype="KoboldPlate" Count="75" />
-                <Component Subtype="MetalGrid" Count="35" />
-                <Component Subtype="KoboldPlate" Count="20" />
+                <Component Subtype="KombositePlate" Count="75" />
+                <Component Subtype="EliteMetalGrid" Count="35" />
+                <Component Subtype="KombositePlate" Count="20" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="0" />
             <Variants>
                 <Variant Color="Red" Suffix="_red" />
                 <Variant Color="Yellow" Suffix="_yellow" />
@@ -3938,7 +3938,7 @@
                 <Variant Color="Black" Suffix="_black" />
                 <Variant Color="White" Suffix="_white" />
             </Variants>
-            <BlockPairName>HeavyArmorSlopeTransitionBase</BlockPairName>
+            <BlockPairName>EliteHeavyArmorSlopeTransitionBase</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
             <BuildTimeSeconds>15</BuildTimeSeconds>
@@ -3947,17 +3947,17 @@
             <PCU>1</PCU>
             <MirroringX>Y</MirroringX>
             <MirroringY>X</MirroringY>
-            <MirroringBlock>LargeBlockHeavyArmorSlopeTransitionBaseMirrored</MirroringBlock>
+            <MirroringBlock>EliteLargeBlockHeavyArmorSlopeTransitionBaseMirrored</MirroringBlock>
             <PCUConsole>2</PCUConsole>
         </Definition>
 
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorSlopeTransitionBaseMirrored</SubtypeId>
+                <SubtypeId>EliteLargeBlockHeavyArmorSlopeTransitionBaseMirrored</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorSlopeTransitionBaseMirrored</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransitionBaseMirrored.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransitionBaseMirrored8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>Cube</BlockTopology>
@@ -4080,11 +4080,11 @@
                 <MountPoint Side="Left" StartX="0.5" StartY="0.5" EndX="1.0" EndY="1.0" />
             </MountPoints>  
             <Components>
-                <Component Subtype="KoboldPlate" Count="75" />
-                <Component Subtype="MetalGrid" Count="35" />
-                <Component Subtype="KoboldPlate" Count="20" />
+                <Component Subtype="KombositePlate" Count="75" />
+                <Component Subtype="EliteMetalGrid" Count="35" />
+                <Component Subtype="KombositePlate" Count="20" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="0" />
             <Variants>
                 <Variant Color="Red" Suffix="_red" />
                 <Variant Color="Yellow" Suffix="_yellow" />
@@ -4093,7 +4093,7 @@
                 <Variant Color="Black" Suffix="_black" />
                 <Variant Color="White" Suffix="_white" />
             </Variants>
-            <BlockPairName>HeavyArmorSlopeTransitionBaseMirrored</BlockPairName>
+            <BlockPairName>EliteHeavyArmorSlopeTransitionBaseMirrored</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
             <BuildTimeSeconds>15</BuildTimeSeconds>
@@ -4102,17 +4102,17 @@
             <PCU>1</PCU>
             <MirroringX>Y</MirroringX>
             <MirroringY>X</MirroringY>
-            <MirroringBlock>LargeBlockHeavyArmorSlopeTransitionBase</MirroringBlock>
+            <MirroringBlock>EliteLargeBlockHeavyArmorSlopeTransitionBase</MirroringBlock>
             <PCUConsole>2</PCUConsole>
         </Definition>
 
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorSlopeTransitionMirrored</SubtypeId>
+                <SubtypeId>EliteLargeBlockHeavyArmorSlopeTransitionMirrored</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorSlopeTransitionMirrored</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransitionMirrored.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransitionMirrored8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>Cube</BlockTopology>
@@ -4209,11 +4209,11 @@
                 <MountPoint Side="Left" StartX="0.5" StartY="0.5" EndX="1.0" EndY="1.0" />
             </MountPoints>  
             <Components>
-                <Component Subtype="KoboldPlate" Count="48" />
-                <Component Subtype="MetalGrid" Count="18" />
-                <Component Subtype="KoboldPlate" Count="12" />
+                <Component Subtype="KombositePlate" Count="48" />
+                <Component Subtype="EliteMetalGrid" Count="18" />
+                <Component Subtype="KombositePlate" Count="12" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="0" />
             <Variants>
                 <Variant Color="Red" Suffix="_red" />
                 <Variant Color="Yellow" Suffix="_yellow" />
@@ -4222,7 +4222,7 @@
                 <Variant Color="Black" Suffix="_black" />
                 <Variant Color="White" Suffix="_white" />
             </Variants>
-            <BlockPairName>HeavyArmorSlopeTransitionMirrored</BlockPairName>
+            <BlockPairName>EliteHeavyArmorSlopeTransitionMirrored</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
             <BuildTimeSeconds>10</BuildTimeSeconds>
@@ -4231,17 +4231,17 @@
             <PCU>1</PCU>
             <MirroringX>Y</MirroringX>
             <MirroringY>X</MirroringY>
-            <MirroringBlock>LargeBlockHeavyArmorSlopeTransition</MirroringBlock>
+            <MirroringBlock>EliteLargeBlockHeavyArmorSlopeTransition</MirroringBlock>
             <PCUConsole>2</PCUConsole>
         </Definition>
 
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorSlopeTransitionTip</SubtypeId>
+                <SubtypeId>EliteLargeBlockHeavyArmorSlopeTransitionTip</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorSlopeTransitionTip</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransitionTip.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransitionTip8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>Cube</BlockTopology>
@@ -4325,11 +4325,11 @@
                 <MountPoint Side="Left" StartX="0.8" StartY="0.0" EndX="1.0" EndY="0.1" />
             </MountPoints>  
             <Components>
-                <Component Subtype="KoboldPlate" Count="25" />
-                <Component Subtype="MetalGrid" Count="9" />
-                <Component Subtype="KoboldPlate" Count="5" />
+                <Component Subtype="KombositePlate" Count="25" />
+                <Component Subtype="EliteMetalGrid" Count="9" />
+                <Component Subtype="KombositePlate" Count="5" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="0" />
             <Variants>
                 <Variant Color="Red" Suffix="_red" />
                 <Variant Color="Yellow" Suffix="_yellow" />
@@ -4338,14 +4338,14 @@
                 <Variant Color="Black" Suffix="_black" />
                 <Variant Color="White" Suffix="_white" />
             </Variants>
-            <BlockPairName>HeavyArmorSlopeTransitionTip</BlockPairName>
+            <BlockPairName>EliteHeavyArmorSlopeTransitionTip</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
             <BuildTimeSeconds>5</BuildTimeSeconds>
             <DisassembleRatio>2.5</DisassembleRatio>
             <NavigationDefinition>Default</NavigationDefinition>
             <PCU>1</PCU>
-            <MirroringBlock>LargeBlockHeavyArmorSlopeTransitionTipMirrored</MirroringBlock>
+            <MirroringBlock>EliteLargeBlockHeavyArmorSlopeTransitionTipMirrored</MirroringBlock>
             <MirroringX>Y</MirroringX>
             <MirroringY>X</MirroringY>
             <PCUConsole>2</PCUConsole>
@@ -4355,10 +4355,10 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorSlopeTransitionTipMirrored</SubtypeId>
+                <SubtypeId>EliteLargeBlockHeavyArmorSlopeTransitionTipMirrored</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorSlopeTransitionTipMirrored</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransitionTipMirrored.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransitionTipMirrored8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>Cube</BlockTopology>
@@ -4442,11 +4442,11 @@
                 <MountPoint Side="Left" StartX="0.8" StartY="0.0" EndX="1.0" EndY="0.5" />
             </MountPoints>    
             <Components>
-                <Component Subtype="KoboldPlate" Count="25" />
-                <Component Subtype="MetalGrid" Count="9" />
-                <Component Subtype="KoboldPlate" Count="5" />
+                <Component Subtype="KombositePlate" Count="25" />
+                <Component Subtype="EliteMetalGrid" Count="9" />
+                <Component Subtype="KombositePlate" Count="5" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="0" />
             <Variants>
                 <Variant Color="Red" Suffix="_red" />
                 <Variant Color="Yellow" Suffix="_yellow" />
@@ -4455,14 +4455,14 @@
                 <Variant Color="Black" Suffix="_black" />
                 <Variant Color="White" Suffix="_white" />
             </Variants>
-            <BlockPairName>HeavyArmorSlopeTransitionTipMirrored</BlockPairName>
+            <BlockPairName>EliteHeavyArmorSlopeTransitionTipMirrored</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
             <BuildTimeSeconds>5</BuildTimeSeconds>
             <DisassembleRatio>2.5</DisassembleRatio>
             <NavigationDefinition>Default</NavigationDefinition>
             <PCU>1</PCU>
-            <MirroringBlock>LargeBlockHeavyArmorSlopeTransitionTip</MirroringBlock>
+            <MirroringBlock>EliteLargeBlockHeavyArmorSlopeTransitionTip</MirroringBlock>
             <MirroringX>Y</MirroringX>
             <MirroringY>X</MirroringY>
             <PCUConsole>2</PCUConsole>
@@ -4472,10 +4472,10 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorSquareSlopedCornerBase</SubtypeId>
+                <SubtypeId>EliteLargeBlockHeavyArmorSquareSlopedCornerBase</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorSquareSlopedCornerBase</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavySquareSlopedCornerBase.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavySquareSlopedCornerBase8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>Cube</BlockTopology>
@@ -4594,11 +4594,11 @@
                 <MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.5" />
             </MountPoints>
             <Components>
-                <Component Subtype="KoboldPlate" Count="85" />
-                <Component Subtype="MetalGrid" Count="35" />
-                <Component Subtype="KoboldPlate" Count="20" />
+                <Component Subtype="KombositePlate" Count="85" />
+                <Component Subtype="EliteMetalGrid" Count="35" />
+                <Component Subtype="KombositePlate" Count="20" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="0" />
             <Variants>
                 <Variant Color="Red" Suffix="_red" />
                 <Variant Color="Yellow" Suffix="_yellow" />
@@ -4607,7 +4607,7 @@
                 <Variant Color="Black" Suffix="_black" />
                 <Variant Color="White" Suffix="_white" />
             </Variants>
-            <BlockPairName>HeavyArmorSquareSlopedCornerBase</BlockPairName>
+            <BlockPairName>EliteHeavyArmorSquareSlopedCornerBase</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
             <BuildTimeSeconds>15</BuildTimeSeconds>
@@ -4623,10 +4623,10 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorSquareSlopedCornerTip</SubtypeId>
+                <SubtypeId>EliteLargeBlockHeavyArmorSquareSlopedCornerTip</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorSquareSlopedCornerTip</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavySquareSlopedCornerTip.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavySquareSlopedCornerTip8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>Cube</BlockTopology>
@@ -4713,11 +4713,11 @@
                 <MountPoint EndX="1.0" EndY="0.5" Side="Front" StartX="0.8" StartY="0.0"/>
             </MountPoints>    
             <Components>
-                <Component Subtype="KoboldPlate" Count="25" />
-                <Component Subtype="MetalGrid" Count="9" />
-                <Component Subtype="KoboldPlate" Count="5" />
+                <Component Subtype="KombositePlate" Count="25" />
+                <Component Subtype="EliteMetalGrid" Count="9" />
+                <Component Subtype="KombositePlate" Count="5" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="0" />
             <Variants>
                 <Variant Color="Red" Suffix="_red" />
                 <Variant Color="Yellow" Suffix="_yellow" />
@@ -4726,7 +4726,7 @@
                 <Variant Color="Black" Suffix="_black" />
                 <Variant Color="White" Suffix="_white" />
             </Variants>
-            <BlockPairName>HeavyArmorSquareSlopedCornerTip</BlockPairName>
+            <BlockPairName>EliteHeavyArmorSquareSlopedCornerTip</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
             <BuildTimeSeconds>5</BuildTimeSeconds>
@@ -4742,10 +4742,10 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>LargeBlockHeavyArmorSquareSlopedCornerTipInv</SubtypeId>
+                <SubtypeId>EliteLargeBlockHeavyArmorSquareSlopedCornerTipInv</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_HeavyArmorSquareSlopedCornerTipInv</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\HeavySquareSlopedCornerTipInv.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HeavySquareSlopedCornerTipInv8x.dds</Icon>
             <Description>Description_HeavyArmor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>Cube</BlockTopology>
@@ -4852,11 +4852,11 @@
                 <MountPoint EndX="1.0" EndY="0.5" Side="Left" StartX="0.0" StartY="0.0"/>
             </MountPoints>
             <Components>
-                <Component Subtype="KoboldPlate" Count="45" />
-                <Component Subtype="MetalGrid" Count="18" />
-                <Component Subtype="KoboldPlate" Count="10" />
+                <Component Subtype="KombositePlate" Count="45" />
+                <Component Subtype="EliteMetalGrid" Count="18" />
+                <Component Subtype="KombositePlate" Count="10" />
             </Components>
-            <CriticalComponent Subtype="KoboldPlate" Index="0" />
+            <CriticalComponent Subtype="KombositePlate" Index="0" />
             <Variants>
                 <Variant Color="Red" Suffix="_red" />
                 <Variant Color="Yellow" Suffix="_yellow" />
@@ -4865,7 +4865,7 @@
                 <Variant Color="Black" Suffix="_black" />
                 <Variant Color="White" Suffix="_white" />
             </Variants>
-            <BlockPairName>HeavyArmorSquareSlopedCornerTipInv</BlockPairName>
+            <BlockPairName>EliteHeavyArmorSquareSlopedCornerTipInv</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
             <BuildTimeSeconds>8</BuildTimeSeconds>

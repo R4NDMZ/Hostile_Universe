@@ -3892,8 +3892,8 @@
             <DisassembleRatio>2.5</DisassembleRatio>
             <NavigationDefinition>Default</NavigationDefinition>
             <PCU>1</PCU>
-                <MirroringX>Y</MirroringX>
-                <MirroringY>X</MirroringY>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
             <MirroringBlock>LargeBlockArmorSlopeTransitionBaseMirrored</MirroringBlock>
             <PCUConsole>2</PCUConsole>
         </Definition>
@@ -4046,8 +4046,8 @@
             <DisassembleRatio>2.5</DisassembleRatio>
             <NavigationDefinition>Default</NavigationDefinition>
             <PCU>1</PCU>
-                <MirroringX>Y</MirroringX>
-                <MirroringY>X</MirroringY>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
             <MirroringBlock>LargeBlockArmorSlopeTransitionBase</MirroringBlock>
             <PCUConsole>2</PCUConsole>
         </Definition>
@@ -4174,9 +4174,9 @@
             <DisassembleRatio>2.5</DisassembleRatio>
             <NavigationDefinition>Default</NavigationDefinition>
             <PCU>1</PCU>
-                <MirroringX>Y</MirroringX>
-                <MirroringY>X</MirroringY>
-                <MirroringBlock>LargeBlockArmorSlopeTransition</MirroringBlock>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <MirroringBlock>LargeBlockArmorSlopeTransition</MirroringBlock>
             <PCUConsole>2</PCUConsole>
         </Definition>
 
@@ -4289,9 +4289,9 @@
             <DisassembleRatio>2.5</DisassembleRatio>
             <NavigationDefinition>Default</NavigationDefinition>
             <PCU>1</PCU>
-                <MirroringBlock>LargeBlockArmorSlopeTransitionTipMirrored</MirroringBlock>
-                <MirroringX>Y</MirroringX>
-                <MirroringY>X</MirroringY>
+            <MirroringBlock>LargeBlockArmorSlopeTransitionTipMirrored</MirroringBlock>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
             <PCUConsole>2</PCUConsole>
             <IsAirTight>false</IsAirTight>
         </Definition>
@@ -4405,9 +4405,9 @@
             <DisassembleRatio>2.5</DisassembleRatio>
             <NavigationDefinition>Default</NavigationDefinition>
             <PCU>1</PCU>
-                <MirroringBlock>LargeBlockArmorSlopeTransitionTip</MirroringBlock>
-                <MirroringX>Y</MirroringX>
-                <MirroringY>X</MirroringY>
+            <MirroringBlock>LargeBlockArmorSlopeTransitionTip</MirroringBlock>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
             <PCUConsole>2</PCUConsole>
             <IsAirTight>false</IsAirTight>
         </Definition>
