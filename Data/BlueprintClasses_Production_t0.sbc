@@ -3,8 +3,8 @@
     <BlueprintClassEntries>
         <!-- PRODUCTION BUILDING RECIPES                                                            -->
         <!-- [ TIER: 0  ] BASIC PLANETARY RESOURCES                   
-             { Stone, [Iron, Nickel, Silicon, Copper], Cobalt, Shale, [Oil, [Crude Fuel]],       }
-             { Magnesium, Aluminium                                                              } !-->
+             { Stone, [Iron, Nickel, Silicon, Copper], Cobalt, Shale, [Oil]                      }
+             { Silver, Aluminium                                                                 } !-->
 
         <Entry Class="StoneProcessorSimpleBasic" BlueprintSubtypeId="SimpleStoneRefinementBasic" />
         <Entry Class="StoneProcessorSimpleEnhanced" BlueprintSubtypeId="SimpleStoneRefinementEnhanced" />
@@ -122,7 +122,6 @@
         <Entry Class="BasicRefinementProcessorBasic" BlueprintSubtypeId="BasicNickelRefinementBasic" />
         <Entry Class="BasicRefinementProcessorBasic" BlueprintSubtypeId="BasicCobaltRefinementBasic" />
         <Entry Class="BasicRefinementProcessorBasic" BlueprintSubtypeId="BasicShaleRefinementBasic" />
-        <Entry Class="BasicRefinementProcessorBasic" BlueprintSubtypeId="BasicNitreRefinementBasic" />
 
         <Entry Class="AdvancedComponentProcessorBasic" BlueprintSubtypeId="WheelBasic" />
         <Entry Class="AdvancedComponentProcessorBasic" BlueprintSubtypeId="ReinforcedWheelBasic" />
@@ -187,8 +186,6 @@
         <Entry Class="RefinementProcessorBasic" BlueprintSubtypeId="NickelRefinementBasic" />
         <Entry Class="RefinementProcessorBasic" BlueprintSubtypeId="CobaltRefinementBasic" />
         <Entry Class="RefinementProcessorBasic" BlueprintSubtypeId="ShaleRefinementBasic" />
-        <Entry Class="RefinementProcessorBasic" BlueprintSubtypeId="NitreRefinementBasic" />
-        <Entry Class="RefinementProcessorBasic" BlueprintSubtypeId="MagnesiumRefinementBasic" />
         <Entry Class="RefinementProcessorBasic" BlueprintSubtypeId="AluminiumRefinementBasic" />
         <Entry Class="RefinementProcessorBasic" BlueprintSubtypeId="SilverRefinementBasic" />
         <!-- PRODUCTION BUILDING RECIPES                                                            -->

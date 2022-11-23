@@ -8,6 +8,7 @@
             </Id>
             <EnergyDensity>0</EnergyDensity>
         </Gas>
+        
         <Gas>
             <Id>
                 <TypeId>MyObjectBuilder_GasProperties</TypeId>

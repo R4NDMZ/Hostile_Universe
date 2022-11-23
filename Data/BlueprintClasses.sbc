@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <!-- TIER 0 : BASIC PLANETARY RESOURCES : 
+                    Stone, [Iron, Nickel, Silicon, Copper], Cobalt, Shale, [Oil]                    -->
+    <!-- TIER 1 : ADVANCED PLANETARY RESOURCES :
+                    Aluminium, Silver, Lithium, Sulfur, Plastic, Petroleum, Magnesium               -->
+    <!-- TIER 2 : DEEP PLANETARY RESOURCES + ASTEROID BELTS :
+                    Platinum, Titanium, Rubber, Uranium, Gold                                       -->
+    <!-- TIER 3 : MOON :
+                    Plutonium, Luminite                                                             -->                   
 
     <!-- TIERED BLUEPRINT CLASSES                                                                   -->
     <BlueprintClasses>

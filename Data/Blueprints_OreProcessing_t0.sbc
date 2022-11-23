@@ -17,15 +17,13 @@
                 <Item Amount="1000" TypeId="Ore" SubtypeId="Stone" />
             </Prerequisites>
             <Results>
-                <Item Amount="40.0" TypeId="Ore" SubtypeId="Organic" />
+                <Item Amount="32.25" TypeId="Ore" SubtypeId="Organic" />
                 <Item Amount="10.0" TypeId="Ore" SubtypeId="Shale" />
-                <Item Amount="20.0" TypeId="Ore" SubtypeId="Cobalt" />
                 <Item Amount="75.0" TypeId="Ingot" SubtypeId="Stone" />
                 <Item Amount="70.0" TypeId="Ingot" SubtypeId="Iron" />
                 <Item Amount="15.0" TypeId="Ingot" SubtypeId="Silicon" />
                 <Item Amount="6.5" TypeId="Ingot" SubtypeId="Copper" />
-                <Item Amount="1.6" TypeId="Ingot" SubtypeId="Nickel" />
-                <Item Amount="0.01" TypeId="Ingot" SubtypeId="Magnesium" />
+                <Item Amount="1.5" TypeId="Ingot" SubtypeId="Nickel" />
             </Results>
             <Priority>1000</Priority>
             <BaseProductionTimeInSeconds>7.5</BaseProductionTimeInSeconds>
