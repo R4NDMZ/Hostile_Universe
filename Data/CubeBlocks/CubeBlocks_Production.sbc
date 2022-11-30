@@ -951,12 +951,12 @@
                 <SubtypeId>Extruder</SubtypeId> 
             </Id>      
             <DisplayName>Production Line</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Extruder.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\ProductionLineT0.dds</Icon>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="2" y="2" z="3" />
             <ModelOffset x="0" y="0" z="0" />
-            <Model>Models\Cubes\Large\AssemblyLine.mwm</Model>
+            <Model>Models\Cubes\Large\ProductionLineT0.mwm</Model>
             <Components>
                 <Component Subtype="SteelPlate" Count="120" />
                 <Component Subtype="InteriorPlate" Count="50" />
@@ -969,23 +969,19 @@
             </Components>      
             <CriticalComponent Subtype="Circuit" Index="0" />
             <MountPoints>
-                <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00" />
-                <MountPoint Side="Back" StartX="1.00" StartY="0.00" EndX="2.00" EndY="2.00" />
-                <MountPoint Side="Left" StartX="0.96" StartY="0.00" EndX="3.00" EndY="1.16" />
-                <MountPoint Side="Right" StartX="0.00" StartY="0.01" EndX="3.00" EndY="1.99" />
-                <MountPoint Side="Bottom" StartX="1.00" StartY="0.00" EndX="2.00" EndY="3.00" />
-                <MountPoint Side="Top" StartX="1.00" StartY="0.00" EndX="2.00" EndY="3.00" />
-                <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.16" />
-                <MountPoint Side="Bottom" StartX="0.00" StartY="0.95" EndX="1.00" EndY="3.00" />
-                <MountPoint Side="Bottom" StartX="0.76" StartY="0.41" EndX="0.92" EndY="0.58" />
-                <MountPoint Side="Bottom" StartX="0.18" StartY="0.46" EndX="0.33" EndY="0.63" />
-                <MountPoint Side="Bottom" StartX="0.36" StartY="0.78" EndX="0.68" EndY="0.95" />
-            </MountPoints>      
-            <BuildProgressModels>        
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AssemblyLine_Cons1.mwm" />        
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AssemblyLine_Cons2.mwm" />        
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\AssemblyLine_Cons3.mwm" />      
-            </BuildProgressModels>      
+				<MountPoint Side="Front" StartX="1.00" StartY="0.00" EndX="2.00" EndY="2.00"/>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="2.00"/>
+				<MountPoint Side="Right" StartX="1.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
+				<MountPoint Side="Bottom" StartX="1.00" StartY="0.00" EndX="2.00" EndY="2.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\large\ProductionLineT0_BS1.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\ProductionLineT0_BS2.mwm"/>
+			</BuildProgressModels>      
             <BlockPairName>ProductionBlocksBasic</BlockPairName>      
             <EdgeType>Light</EdgeType>      
             <BuildTimeSeconds>60</BuildTimeSeconds>      
@@ -1024,12 +1020,12 @@
                 <SubtypeId>Extruder2x</SubtypeId> 
             </Id>      
             <DisplayName>Production Line</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Extruder2x.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\ProductionLineT1.dds</Icon>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="2" y="2" z="3" />
             <ModelOffset x="0" y="0" z="0" />
-            <Model>Models\Cubes\Large\AssemblyLine.mwm</Model>
+            <Model>Models\Cubes\Large\ProductionLineT1.mwm</Model>
             <Components>
                 <Component Subtype="AluminiumPlate" Count="180" />
                 <Component Subtype="AluminiumInteriorPlate" Count="75" />
@@ -1043,23 +1039,19 @@
             </Components>      
             <CriticalComponent Subtype="Tech2x" Index="0" />
             <MountPoints>
-                <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00" />
-                <MountPoint Side="Back" StartX="1.00" StartY="0.00" EndX="2.00" EndY="2.00" />
-                <MountPoint Side="Left" StartX="0.96" StartY="0.00" EndX="3.00" EndY="1.16" />
-                <MountPoint Side="Right" StartX="0.00" StartY="0.01" EndX="3.00" EndY="1.99" />
-                <MountPoint Side="Bottom" StartX="1.00" StartY="0.00" EndX="2.00" EndY="3.00" />
-                <MountPoint Side="Top" StartX="1.00" StartY="0.00" EndX="2.00" EndY="3.00" />
-                <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.16" />
-                <MountPoint Side="Bottom" StartX="0.00" StartY="0.95" EndX="1.00" EndY="3.00" />
-                <MountPoint Side="Bottom" StartX="0.76" StartY="0.41" EndX="0.92" EndY="0.58" />
-                <MountPoint Side="Bottom" StartX="0.18" StartY="0.46" EndX="0.33" EndY="0.63" />
-                <MountPoint Side="Bottom" StartX="0.36" StartY="0.78" EndX="0.68" EndY="0.95" />
-            </MountPoints>      
-            <BuildProgressModels>        
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AssemblyLine_Cons1.mwm" />        
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AssemblyLine_Cons2.mwm" />        
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\AssemblyLine_Cons3.mwm" />      
-            </BuildProgressModels>      
+				<MountPoint Side="Front" StartX="1.00" StartY="0.00" EndX="2.00" EndY="2.00"/>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="2.00"/>
+				<MountPoint Side="Right" StartX="1.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
+				<MountPoint Side="Bottom" StartX="1.00" StartY="0.00" EndX="2.00" EndY="2.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\large\ProductionLineT0_BS1.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\ProductionLineT0_BS2.mwm"/>
+			</BuildProgressModels>      
             <BlockPairName>ProductionBlocksEnhanced</BlockPairName>      
             <EdgeType>Light</EdgeType>      
             <BuildTimeSeconds>75</BuildTimeSeconds>      
@@ -1099,12 +1091,12 @@
                 <SubtypeId>Extruder4x</SubtypeId> 
             </Id>      
             <DisplayName>Production Line</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Extruder4x.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\ProductionLineT2.dds</Icon>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="2" y="2" z="3" />
             <ModelOffset x="0" y="0" z="0" />
-            <Model>Models\Cubes\Large\AssemblyLine.mwm</Model>
+            <Model>Models\Cubes\Large\ProductionLineT2.mwm</Model>
             <Components>
                 <Component Subtype="TitaniumPlate" Count="230" />
                 <Component Subtype="TitaniumInteriorPlate" Count="115" />
@@ -1118,23 +1110,19 @@
             </Components>      
             <CriticalComponent Subtype="Tech4x" Index="0" />
             <MountPoints>
-                <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00" />
-                <MountPoint Side="Back" StartX="1.00" StartY="0.00" EndX="2.00" EndY="2.00" />
-                <MountPoint Side="Left" StartX="0.96" StartY="0.00" EndX="3.00" EndY="1.16" />
-                <MountPoint Side="Right" StartX="0.00" StartY="0.01" EndX="3.00" EndY="1.99" />
-                <MountPoint Side="Bottom" StartX="1.00" StartY="0.00" EndX="2.00" EndY="3.00" />
-                <MountPoint Side="Top" StartX="1.00" StartY="0.00" EndX="2.00" EndY="3.00" />
-                <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.16" />
-                <MountPoint Side="Bottom" StartX="0.00" StartY="0.95" EndX="1.00" EndY="3.00" />
-                <MountPoint Side="Bottom" StartX="0.76" StartY="0.41" EndX="0.92" EndY="0.58" />
-                <MountPoint Side="Bottom" StartX="0.18" StartY="0.46" EndX="0.33" EndY="0.63" />
-                <MountPoint Side="Bottom" StartX="0.36" StartY="0.78" EndX="0.68" EndY="0.95" />
-            </MountPoints>      
-            <BuildProgressModels>        
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AssemblyLine_Cons1.mwm" />        
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AssemblyLine_Cons2.mwm" />        
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\AssemblyLine_Cons3.mwm" />      
-            </BuildProgressModels>      
+				<MountPoint Side="Front" StartX="1.00" StartY="0.00" EndX="2.00" EndY="2.00"/>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="2.00"/>
+				<MountPoint Side="Right" StartX="1.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
+				<MountPoint Side="Bottom" StartX="1.00" StartY="0.00" EndX="2.00" EndY="2.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\large\ProductionLineT0_BS1.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\ProductionLineT0_BS2.mwm"/>
+			</BuildProgressModels>      
             <BlockPairName>ProductionBlocksProficient</BlockPairName>      
             <EdgeType>Light</EdgeType>      
             <BuildTimeSeconds>90</BuildTimeSeconds>      
@@ -1175,12 +1163,12 @@
                 <SubtypeId>Extruder8x</SubtypeId> 
             </Id>      
             <DisplayName>Production Line</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Extruder8x.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\ProductionLineT3.dds</Icon>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="2" y="2" z="3" />
             <ModelOffset x="0" y="0" z="0" />
-            <Model>Models\Cubes\Large\AssemblyLine.mwm</Model>
+            <Model>Models\Cubes\Large\ProductionLineT3.mwm</Model>
             <Components>
                 <Component Subtype="CompositePlate" Count="280" />
                 <Component Subtype="CompositeInteriorPlate" Count="155" />
@@ -1194,23 +1182,19 @@
             </Components>      
             <CriticalComponent Subtype="Tech8x" Index="0" />
             <MountPoints>
-                <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00" />
-                <MountPoint Side="Back" StartX="1.00" StartY="0.00" EndX="2.00" EndY="2.00" />
-                <MountPoint Side="Left" StartX="0.96" StartY="0.00" EndX="3.00" EndY="1.16" />
-                <MountPoint Side="Right" StartX="0.00" StartY="0.01" EndX="3.00" EndY="1.99" />
-                <MountPoint Side="Bottom" StartX="1.00" StartY="0.00" EndX="2.00" EndY="3.00" />
-                <MountPoint Side="Top" StartX="1.00" StartY="0.00" EndX="2.00" EndY="3.00" />
-                <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.16" />
-                <MountPoint Side="Bottom" StartX="0.00" StartY="0.95" EndX="1.00" EndY="3.00" />
-                <MountPoint Side="Bottom" StartX="0.76" StartY="0.41" EndX="0.92" EndY="0.58" />
-                <MountPoint Side="Bottom" StartX="0.18" StartY="0.46" EndX="0.33" EndY="0.63" />
-                <MountPoint Side="Bottom" StartX="0.36" StartY="0.78" EndX="0.68" EndY="0.95" />
-            </MountPoints>      
-            <BuildProgressModels>        
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AssemblyLine_Cons1.mwm" />        
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AssemblyLine_Cons2.mwm" />        
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\AssemblyLine_Cons3.mwm" />      
-            </BuildProgressModels>      
+				<MountPoint Side="Front" StartX="1.00" StartY="0.00" EndX="2.00" EndY="2.00"/>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="2.00"/>
+				<MountPoint Side="Right" StartX="1.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
+				<MountPoint Side="Bottom" StartX="1.00" StartY="0.00" EndX="2.00" EndY="2.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\large\ProductionLineT0_BS1.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\ProductionLineT0_BS2.mwm"/>
+			</BuildProgressModels>      
             <BlockPairName>ProductionBlocksElite</BlockPairName>      
             <EdgeType>Light</EdgeType>      
             <BuildTimeSeconds>105</BuildTimeSeconds>      
