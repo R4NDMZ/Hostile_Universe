@@ -2919,15 +2919,15 @@
                 <TypeId>Refinery</TypeId>
                 <SubtypeId>LargeOilRefinery</SubtypeId>
             </Id>
-            <DisplayName>Acient Oil Refinery</DisplayName>
+            <DisplayName>Oil Refinery</DisplayName>
             <GuiVisible>false</GuiVisible>
-            <Icon>Textures\GUI\Icons\Cubes\acientoilrefinery.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\OilRefineryT0.dds</Icon>
             <Description>{LOC:Description_OilRefinery}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="2" y="4" z="2"/>
+            <Size x="2" y="3" z="3"/>
             <ModelOffset x="0" y="0" z="0"/>
-            <Model>Models\Cubes\Large\OilRefinery.mwm</Model>
+            <Model>Models\Cubes\Large\OilRefineryT0.mwm</Model>
             <Components>
                 <Component Subtype="KoboldPlate" Count="750" />
                 <Component Subtype="InteriorPlate" Count="120" />
@@ -2943,19 +2943,16 @@
             <CriticalComponent Subtype="Computer" Index="0"/>
             <Center x="1" y="0" z="1"/>
             <MountPoints>
-                <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="4"/>
-                <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="2" EndY="2" Default="true"/>
-                <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="1"/>
-                <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="4"/>
-                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="4"/>
-            </MountPoints>
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.16" File="Models\Cubes\Large\RefineryConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\RefineryConstruction_2.mwm"/>
-                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\RefineryConstruction_3.mwm"/>
-                <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\RefineryConstruction_4.mwm"/>
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RefineryConstruction_5.mwm"/>
-            </BuildProgressModels>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\large\OilRefineryT0_BS1.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\OilRefineryT0_BS2.mwm"/>
+			</BuildProgressModels>
             <BlockPairName>ProductionBlocksBasic</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>150</BuildTimeSeconds>
@@ -2991,13 +2988,13 @@
                 <SubtypeId>LargeOilRefinery2x</SubtypeId>
             </Id>
             <DisplayName>Enhanced Oil Refinery</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\OilRefinery2x.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\OilRefineryT1.dds</Icon>
             <Description>{LOC:Description_OilRefinery}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="2" y="4" z="2" />
+            <Size x="2" y="3" z="3" />
             <ModelOffset x="0" y="0" z="0" />
-            <Model>Models\Cubes\Large\OilRefinery.mwm</Model>
+            <Model>Models\Cubes\Large\OilRefineryT1.mwm</Model>
             <Components>
                 <Component Subtype="KobAldPlate" Count="1000" />
                 <Component Subtype="AluminiumInteriorPlate" Count="120" />
@@ -3014,19 +3011,16 @@
             <CriticalComponent Subtype="Tech2x" Index="0" />
             <Center x="1" y="0" z="1" />
             <MountPoints>
-                <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="4" />
-                <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="2" EndY="2" Default="true" />
-                <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="1" />
-                <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="4" />
-                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="4" />
-            </MountPoints>
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.16" File="Models\Cubes\Large\RefineryConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\RefineryConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\RefineryConstruction_3.mwm" />
-                <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\RefineryConstruction_4.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RefineryConstruction_5.mwm" />
-            </BuildProgressModels>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\large\OilRefineryT0_BS1.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\OilRefineryT0_BS2.mwm"/>
+			</BuildProgressModels>
             <BlockPairName>ProductionBlocksEnhanced</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>180</BuildTimeSeconds>
@@ -3069,13 +3063,13 @@
                 <SubtypeId>LargeOilRefinery4x</SubtypeId>
             </Id>
             <DisplayName>Proficient Oil Refinery</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\OilRefinery4x.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\OilRefineryT2.dds</Icon>
             <Description>{LOC:Description_OilRefinery}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="2" y="4" z="2" />
+            <Size x="2" y="3" z="3" />
             <ModelOffset x="0" y="0" z="0" />
-            <Model>Models\Cubes\Large\OilRefinery.mwm</Model>
+            <Model>Models\Cubes\Large\OilRefineryT2.mwm</Model>
             <Components>
                 <Component Subtype="KobAlTitePlate" Count="1500" />
                 <Component Subtype="TitaniumInteriorPlate" Count="200" />
@@ -3092,19 +3086,16 @@
             <CriticalComponent Subtype="Tech4x" Index="0" />
             <Center x="1" y="0" z="1" />
             <MountPoints>
-                <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="4" />
-                <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="2" EndY="2" Default="true" />
-                <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="1" />
-                <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="4" />
-                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="4" />
-            </MountPoints>
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.16" File="Models\Cubes\Large\RefineryConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\RefineryConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\RefineryConstruction_3.mwm" />
-                <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\RefineryConstruction_4.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RefineryConstruction_5.mwm" />
-            </BuildProgressModels>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\large\OilRefineryT0_BS1.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\OilRefineryT0_BS2.mwm"/>
+			</BuildProgressModels>
             <BlockPairName>ProductionBlocksProficient</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>210</BuildTimeSeconds>
@@ -3147,13 +3138,13 @@
                 <SubtypeId>LargeOilRefinery8x</SubtypeId>
             </Id>
             <DisplayName>Elite Oil Refinery</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\OilRefinery8x.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\OilRefineryT3.dds</Icon>
             <Description>{LOC:Description_OilRefinery}</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="2" y="4" z="2" />
+            <Size x="2" y="3" z="3" />
             <ModelOffset x="0" y="0" z="0" />
-            <Model>Models\Cubes\Large\OilRefinery.mwm</Model>
+            <Model>Models\Cubes\Large\OilRefineryT3.mwm</Model>
             <Components>
                 <Component Subtype="KombositePlate" Count="2000" />
                 <Component Subtype="CompositeInteriorPlate" Count="250" />
@@ -3170,19 +3161,16 @@
             <CriticalComponent Subtype="Tech8x" Index="0" />
             <Center x="1" y="0" z="1" />
             <MountPoints>
-                <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="4" />
-                <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="2" EndY="2" Default="true" />
-                <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="1" />
-                <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="4" />
-                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="4" />
-            </MountPoints>
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.16" File="Models\Cubes\Large\RefineryConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\RefineryConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\RefineryConstruction_3.mwm" />
-                <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\RefineryConstruction_4.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RefineryConstruction_5.mwm" />
-            </BuildProgressModels>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\large\OilRefineryT0_BS1.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\OilRefineryT0_BS2.mwm"/>
+			</BuildProgressModels>
             <BlockPairName>ProductionBlocksElite</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>240</BuildTimeSeconds>
